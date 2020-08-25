@@ -1,0 +1,80 @@
+[
+	{
+		"name": "Clam",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		//"improvement": "Fishing Boats",
+		"improvementStats": {"food": 2 },
+	},
+	{
+		"name": "Crab",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		//"improvement": "Fishing Boats",
+		"improvementStats": {"food": 2 },
+	},
+	{
+		"name": "Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		//"improvement": "Fishing Boats",
+		"improvementStats": {"food": 2 },
+	},
+
+	{
+		"name": "Horses",
+		"resourceType": "Strategic",
+		"revealedBy": "Animal Husbandry",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert"],
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 2, "gold":1},
+	},
+	{
+		"name": "Copper",
+		"resourceType": "Strategic",
+		"revealedBy": "Bronze Working",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+	},
+	
+	{
+		"name": "Gold",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill"],
+		"gold": 1,
+		"improvement": "Mine",
+		"improvementStats": {"gold": 6, "production": -1, "happiness":1},
+		//"building": "Mint"
+	},
+	{
+		"name": "Silver",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill"],
+		"gold": 1,
+		"improvement": "Mine",
+		"improvementStats": {"gold": 4, "production": -1, "happiness":1},
+		//"building": "Mint"
+	},
+	{
+		"name": "Marble",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Hill","Grassland"],
+		"production": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"gold": 2,"production": 1},
+	},
+	{
+		"name": "Stone",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Snow"],
+		"production": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 2},
+	},
+]

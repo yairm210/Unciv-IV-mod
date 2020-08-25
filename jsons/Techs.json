@@ -1,0 +1,237 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Ancient",
+		"techCost": 40,
+		"techs": [
+			{
+				"name": "Fishing",
+				"row": 1,
+				"quote": "'Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.' - Lao Tzu"
+			},
+			{
+				"name": "The Wheel",
+				"row": 2,
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+			{
+				"name": "Agriculture",
+				"row": 3,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster"
+			},
+			{
+				"name": "Hunting",
+				"row": 4,
+				"quote": "'If you chase two rabbits, you will lose them both.' - Native American saying"
+			},
+			{
+				"name": "Mysticism",
+				"row": 6,
+				"cost": 50,
+				"quote": "'Nature herself has imprinted on the minds of all the idea of God.' - Cicero"
+			},
+			{
+				"name": "Mining",
+				"row": 8,
+				"cost": 50,
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			}
+			
+		]	
+	},
+	{
+		"columnNumber": 1,
+		"era": "Ancient",
+		"techCost": 80,
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Sailing",
+				"cost": 100,
+				"row": 1,
+				"prerequisites": ["Fishing"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "Pottery",
+				"cost":80,
+				"row": 2,
+				"prerequisites": ["Agriculture", "The Wheel"],
+				"quote": "'Hath not the potter power over the clay, to make one vessel unto honor and another unto dishonor?' - The Bible, Romans"
+			},
+			{
+				"name": "Animal Husbandry",
+				"cost": 100,
+				"row": 3,
+				"prerequisites": ["Agriculture","Hunting"],
+				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
+			},
+			{
+				"name": "Archery",
+				"row": 4,
+				"cost": 60,
+				"prerequisites": ["Hunting"],
+				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+			},
+			{
+				"name": "Masonry",
+				"row": 7,
+				"cost": 80,
+				"prerequisites": ["Mining", "Mysticism"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Ancient",
+		"techs": [
+			{
+				"name": "Horseback Riding",
+				"row": 3,
+				"cost": 250,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+			},
+			{
+				"name": "Priesthood",
+				"row": 5,
+				"cost": 60,
+				"prerequisites": ["Mysticism"],
+				"quote": "'The lord bless you and keep you. The Lord make his face to shine upon you and be gracious to you. The Lord lift up his countenance upon you and give you peace.' - The Bible, Numbers"
+			},
+			{
+				"name": "Bronze Working",
+				"cost": 120,
+				"row": 8,
+				"prerequisites": ["Mining"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			}	
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Ancient",
+		"techs": [
+			{
+				"name": "Horseback Riding",
+				"row": 3,
+				"cost": 250,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+			},
+			{
+				"name": "Priesthood",
+				"row": 5,
+				"cost": 60,
+				"prerequisites": ["Mysticism"],
+				"quote": "'The lord bless you and keep you. The Lord make his face to shine upon you and be gracious to you. The Lord lift up his countenance upon you and give you peace.' - The Bible, Numbers"
+			},
+			{
+				"name": "Bronze Working",
+				"cost": 120,
+				"row": 8,
+				"prerequisites": ["Mining"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			}	
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Ancient",
+		"techs": [
+			{
+				"name": "Writing",
+				"row": 2,
+				"prerequisites": ["Pottery","Animal Husbandry","Priesthood"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+			},
+		]
+	},
+
+
+
+
+
+/*  For reference only
+	{
+		"columnNumber": 1,
+		"era": "Ancient",
+		"techCost": 35, 
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Pottery",
+				"row": 2,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
+			},
+			{
+				"name": "Archery",
+				"row": 7,
+				"prerequisites": ["Agriculture"],
+				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+			},
+			{
+				"name": "Mining",
+				"row": 9,
+				"prerequisites": ["Agriculture"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			}
+			
+		]	
+	},
+
+	{
+		"columnNumber": 2,
+		"era": "Ancient",
+		"techCost": 55, 
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["Pottery"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "Calendar",
+				"row": 2,
+				"prerequisites": ["Pottery"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+			},
+			{
+				"name": "Writing",
+				"row": 3,
+				"prerequisites": ["Pottery"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+			},
+			{
+				"name": "Trapping",
+				"row": 5,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+			},
+			{
+				"name": "Masonry",
+				"row": 9,
+				"prerequisites": ["Mining"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+			{
+				"name": "Bronze Working",
+				"row": 10,
+				"prerequisites": ["Mining"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			}			
+		]	
+	},
+*/
+]

@@ -1,0 +1,104 @@
+
+game.png
+size: 2048,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/The Draconic Ones
+  rotate: false
+  xy: 1214, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Dwarves
+  rotate: false
+  xy: 1416, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Clam
+  rotate: false
+  xy: 2, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Copper
+  rotate: false
+  xy: 204, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Crab
+  rotate: false
+  xy: 406, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Fishing
+  rotate: false
+  xy: 1822, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Hunting
+  rotate: false
+  xy: 608, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Mysticism
+  rotate: false
+  xy: 810, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Priesthood
+  rotate: false
+  xy: 1012, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Axeman
+  rotate: false
+  xy: 1618, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Chariot
+  rotate: false
+  xy: 1720, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Galley
+  rotate: false
+  xy: 1924, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Horse Archer
+  rotate: false
+  xy: 1618, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Work Boat
+  rotate: false
+  xy: 1720, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,63 @@
+[
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"culture": 2,
+		"gold": 8,
+		"happiness": 1,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+	{
+		"name": "Granary", 
+		"cost": 60,
+		"uniques": ["[50]% of food is carried over after population increases"]
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Monument",
+		"culture": 1,
+		"cost": 30,
+		"requiredTech": "Mysticism"
+	},
+	{
+		"name": "Stonehenge",
+		"culture": 8,
+		"isWonder": true,
+		"greatPersonPoints": {"culture": 2},
+		"requiredTech": "Mysticism",
+		//"uniques": ["Free [Monument] in all cities"]
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
+	{
+		"name": "Lighthouse",
+		"cost": 60,
+		"resourceBonusStats": {"food": 1},
+		"uniques": ["Can only be built in coastal cities", "[+1 Food] from [Water] tiles in this city"],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Temple",
+		"culture": 1,
+		"happiness": 1,
+		"cost": 80,
+		"requiredTech": "Priesthood"
+	},
+	{
+		"name": "The Oracle",
+		"culture": 8,
+		"isWonder": true,
+		"cost": 150,
+		"uniques": ["Free Technology"],
+		"requiredTech": "Priesthood",
+		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing'  - Socrates"
+	},
+	{
+		"name": "Library",
+		"culture":2,
+		"percentStatBonus": {"science": 25},
+		"uniques": ["+1 Science Per 2 Population"],
+		"requiredTech": "Writing"
+	},
+
+]

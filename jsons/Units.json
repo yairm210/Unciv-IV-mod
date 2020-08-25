@@ -1,0 +1,107 @@
+[
+
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 100,
+		"uniques": ["Founds a new city"],
+	},
+
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Can build improvements on tiles"],
+		"cost": 50
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Melee",
+		"movement": 1,
+		"cost": 15,
+		"strength": 2,
+	},
+	{
+		"name": "Work Boat",
+		"unitType": "WaterCivilian",
+		"movement": 2,
+		"cost": 30,
+		"requiredTech": "Fishing",
+		"uniques": ["Cannot enter ocean tiles until Astronomy", "May create improvements on water resources"],
+	},
+
+	{
+		"name": "Chariot",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 4,
+		"cost": 30,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"uniques": ["No defensive terrain bonus","Penalty vs City 33%", "+[100]% Strength vs [Axeman]"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Spearman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 4,
+		"cost": 35,
+		"requiredTech": "Hunting",
+		//"upgradesTo": "Pikeman",
+		"requiredResource": "Copper",
+		"uniques": ["Bonus vs Mounted 100%"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Galley",
+		"unitType": "WaterMelee",
+		"movement": 2,
+		"strength": 2,
+		"cost": 80,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles"]
+		//"upgradesTo": "Trireme",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Archer",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 2,
+		"rangedStrength": 3,
+		"range": 1,
+		"cost": 40,
+		"uniques": ["+[25]% defence in [Hill] tiles"],
+		"requiredTech": "Archery",
+		//"obsoleteTech": "Machinery",
+		//"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Horse Archer",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 6,
+		"range": 1,
+		"cost": 50,
+		"uniques": ["No defensive terrain bonus", "+[50]% Strength vs [Catapult]"],
+		"requiredTech": "Horseback Riding",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Axeman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 5,
+		"cost": 35,
+		"requiredTech": "Bronze Working",
+		//"upgradesTo": "Pikeman",
+		"requiredResource": "Copper",
+		"uniques": ["Bonus vs Melee 50%"],
+		"attackSound": "metalhit"
+	},
+]

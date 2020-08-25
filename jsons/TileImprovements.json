@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Road",
+		"turnsToBuild": 4,
+		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert", "Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 8,
+		"techRequired": "Animal Husbandry",
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+	},
+]

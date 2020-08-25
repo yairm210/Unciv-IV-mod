@@ -1,0 +1,20 @@
+[
+	{
+		"name": "America",
+		"leaderName": "George Washington",
+		
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"uniques": [""]
+		"cities": ["A", "B"]
+	},
+	{
+		"name": "Arabia",
+		"leaderName": "Saladin",
+		
+		"outerColor": [ 114, 0, 0],
+		"innerColor": [255,255,255],
+		"uniques": [""]
+		"cities": ["A","B"]
+	}
+]
