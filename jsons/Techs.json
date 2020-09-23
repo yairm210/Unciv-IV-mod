@@ -114,38 +114,28 @@
 		"era": "Ancient",
 		"techs": [
 			{
-				"name": "Horseback Riding",
-				"row": 3,
-				"cost": 250,
-				"prerequisites": ["Animal Husbandry"],
-				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
-			},
-			{
-				"name": "Priesthood",
-				"row": 5,
-				"cost": 60,
-				"prerequisites": ["Mysticism"],
-				"quote": "'The lord bless you and keep you. The Lord make his face to shine upon you and be gracious to you. The Lord lift up his countenance upon you and give you peace.' - The Bible, Numbers"
-			},
-			{
-				"name": "Bronze Working",
-				"cost": 120,
-				"row": 8,
-				"prerequisites": ["Mining"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
-			}	
-		]
-	},
-	{
-		"columnNumber": 4,
-		"era": "Ancient",
-		"techs": [
-			{
 				"name": "Writing",
+				"cost": 120,
 				"row": 2,
 				"prerequisites": ["Pottery","Animal Husbandry","Priesthood"],
+				"uniques": ["Enables Open Borders agreements"],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
+			{
+				"name": "Metal Casting",
+				"cost": 450,
+				"row": 6,
+				"prerequisites": ["Pottery","Bronze Working"],
+				"quote": "'And them that take the sword, shall perish by the sword.' - New Testament, Matthew 26:52"
+			},
+			{
+				"name": "Iron Working",
+				"cost": 200,
+				"row": 8,
+				"prerequisites": ["Bronze Working"],
+				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+			},
+			
 		]
 	},
 

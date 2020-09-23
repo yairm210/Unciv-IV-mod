@@ -42,6 +42,15 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 	},
+	{
+		"name": "Iron",
+		"resourceType": "Strategic",
+		"revealedBy": "Iron Working",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
 	
 	{
 		"name": "Gold",
@@ -50,7 +59,6 @@
 		"gold": 1,
 		"improvement": "Mine",
 		"improvementStats": {"gold": 6, "production": -1, "happiness":1},
-		//"building": "Mint"
 	},
 	{
 		"name": "Silver",
@@ -59,7 +67,14 @@
 		"gold": 1,
 		"improvement": "Mine",
 		"improvementStats": {"gold": 4, "production": -1, "happiness":1},
-		//"building": "Mint"
+	},
+	{
+		"name": "Gems",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Grassland","Plains","Desert","Tundra","Hill"],
+		"gold": 1,
+		"improvement": "Mine",
+		"improvementStats": {"gold": 5, "production": -1, "happiness":1},
 	},
 	{
 		"name": "Marble",

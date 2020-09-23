@@ -63,7 +63,7 @@
 		"cost": 80,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles"]
-		//"upgradesTo": "Trireme",
+		//"upgradesTo": "Galleon",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -102,6 +102,29 @@
 		//"upgradesTo": "Pikeman",
 		"requiredResource": "Copper",
 		"uniques": ["Bonus vs Melee 50%"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Trireme",
+		"unitType": "WaterMelee",
+		"movement": 2,
+		"strength": 2,
+		"cost": 50,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "+[50]% Strength vs [Galley]"]
+		//"upgradesTo": "Trireme",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Swordsman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 6,
+		"cost": 40,
+		"requiredTech": "Iron Working",
+		//"upgradesTo": "Maceman",
+		"requiredResource": "Iron",
+		"uniques": ["Bonus vs City 10%"],
 		"attackSound": "metalhit"
 	},
 ]

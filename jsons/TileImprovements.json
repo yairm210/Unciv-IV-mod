@@ -34,4 +34,20 @@
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
 	},
+	{
+		"name":"Workshop",
+		"food":-1,
+		"production":1,
+		"turnsToBuild":7,
+		//"uniques":["[+1 Production] once [Guilds] is discovered","[+1 Production] once [Chemistry] is discovered"]
+	}
+	
+	
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"techRequired": "Iron Working",
+		"uniques": ["Can be built outside your borders"]
+	},
 ]

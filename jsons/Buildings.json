@@ -55,9 +55,31 @@
 	{
 		"name": "Library",
 		"culture":2,
+		"cost":90,
+		"specialistSlots": {"science": 2},
 		"percentStatBonus": {"science": 25},
-		"uniques": ["+1 Science Per 2 Population"],
 		"requiredTech": "Writing"
+	},
+	{
+		"name": "Forge",
+		"cost":120,
+		"specialistSlots": {"production": 1},
+		"percentStatBonus": {"science": 25},
+		"requiredTech": "Metal Casting",
+		"uniques": ["[+1 Happiness] from [Gold] tiles in this city", "[+1 Happiness] from [Silver] tiles in this city",
+			"[+1 Happiness] from [Gems] tiles in this city", ]
+	},
+	{
+		"name": "Colossus",
+		"cost":250,
+		"culture": 6,
+		"gold": 5,
+		"greatPersonPoints": {"gold": 2},
+		"isWonder": true,
+		"uniques": ["Can only be built in coastal cities", "[+1 Gold] from [Water] tiles in this city"],
+		"requiredBuilding": "Forge"
+		"requiredTech": "Metal Casting",
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 
 ]
