@@ -6,6 +6,7 @@
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
 		"uniques": [""]
+		"startingTechs": ["Agriculture", "Fishing"]
 		"cities": ["Washington", "New York", "Boston", "Philadelphia", "Atlanta", "Chicago", "Seattle", "San Francisco", "Los Angeles",
 		"Houston", "Portlnd", "St Louis", "Miami", "Buffalo", "Detroit", "New Orleans", "Baltimore", "Denver", "Cincinnati", "Dallas",
 		"Memphis", "Cleveland", "Kansas City", "San Diego", "Richmond", "Las Vegas", "Phoenix", "Albuquerque", "Minneapolis", "Pittsburgh",
@@ -20,6 +21,7 @@
 		"outerColor": [0,102,0],
 		"innerColor": [255,255,0],
 		"uniques": [""]
+		"startingTechs": ["Mysticism", "The Wheel"]
 		"cities": ["Mecca", "Medina", "Damascus", "Baghdad", "Najran", "Kufah", "Basra", "Khurasan", "Anjar", "Fustat", "Aden",
 		"Yamama", "Muscat", "Mansura", "Bukhara", "Fez", "Shiraz", "Merw", "Balkh", "Mosul", "Aydab", "Bayr Ras", "Suhar", "Taif",
 		"Hama", "Tabuk", "Sanaa", "Shihr"]
@@ -31,6 +33,7 @@
 		"outerColor": [204,0,102],
 		"innerColor": [255,255,153],
 		"uniques": [""]
+		"startingTechs": ["Hunting", "Mysticism"]
 		"cities": ["Tenochtitlan", "Teotihuacan", "Tlatelolco", "Texcoco", "Tlaxcala", "Calixtlahuaca", "Xochicalco", "Tlacopan",
 			   "Atzcapotzalco", "Tzintzuntzan", "Malinalco", "Tula", "Tamuin", "Teayo", "Cempoala", "Chalco", "Tlalmanalco",
 			   "Ixtapaluca", "Huexotla", "Tepexpan", "Tepetlaoxtoc", "Chiconautla", "Zitlaltepec", "Coyotepec", "Tequixquiac",
@@ -44,6 +47,7 @@
 		"outerColor": [204,0,102],
 		"innerColor": [255,255,153],
 		"uniques": [""]
+		"startingTechs": ["Agruculture", "Mining"]
 		"cities": ["Beijing", "Shanghai", "Guangzhou", "Nanjing", "Xian", "Chengdu", "Hangzhou", "Tianjin", "Macau", "Shangdong",
 			   "Kaifeng", "Ningbo", "Baoding", "Yangzhou", "Haerbin", "Chongqing", "Loyang", "Kunming", "Taipei", "Shenyang",
 			   "Taiyuan", "Tainan", "Dalian", "Lijiang", "Wuxi", "Suzhou", "Maoming", "Shaoguan", "Yangjiang", "Heyuan",
@@ -57,6 +61,7 @@
 		"outerColor": [255,255,0],
 		"innerColor": [0,0,204],
 		"uniques": [""]
+		"startingTechs": ["Agriculture", "The Wheel"]
 		"cities": ["Thebes", "Memphis", "Heliopolis", "Elephantine", "Alexandria", "Piramesses", "Giza", "Byblos", "Akhetaten",
 		"Hieraconpolis", "Abydos", "Asyut", "Avaris", "Lisht", "Buto", "Edfu", "Pithom", "Busiris", "Kahun", "Athribis", "Mendes",
 		"Elashmunein", "Tanis", "Bubastis", "Tihs", "ryx", "Sebennytus", "Akhmin", "Karnak", "Luxor", "Elkab", "Armant", "Balat",
@@ -70,6 +75,7 @@
 		"outerColor": [0,0,204],
 		"innerColor": [255,255,0],
 		"uniques": [""]
+		"startingTechs": ["Agriculture", "The Wheel"]
 		"cities": ["Paris", "Orleans", "Lyons", "Rheims", "Tours", "Marseilles", "Chartres", "Avignon", "Bensacon", "Rouen",
 		"Grenoble", "Dijon", "Amiens", "Cherbourg", "Poitiers", "Toulouse", "Bayonne", "Strasbourg", "Brest", "Bordeaux", "Rennes",
 		"Nice", "St. Etienne", "Nantes", "Reims", "Le Mans", "Montpellier", "Limoges", "Nancy", "Lille", "Caen", "Toulon", "Le Havre",
@@ -82,6 +88,7 @@
 		"outerColor": [255,0,0],
 		"innerColor": [255,255,255],
 		"uniques": [""]
+		"startingTechs": ["Fishing", "The Wheel"]
 		"cities": ["Kyoto", "Osaka", "Tokyo", "Satsuma", "Kagoshima", "Nara", "Nagoya", "Izumo", "Nagasaki", "Yokohama",
 		"Shimonoseki", "Matsuyama", "Sapporo", "Hakodate", "Ise", "Toyama", "Fukushima", "Suo", "Bizen", "Echizen", "Izumi",
 		"Omi", "Echigo", "Kozuke", "Sado", "Kobe", "Nagano", "Hiroshima", "Takayama", "Akita", "Fukuoka", "Aomori", "Kamakuro",
@@ -94,6 +101,7 @@
 		"outerColor": [102,0,51],
 		"innerColor": [255,255,0],
 		"uniques": [""]
+		"startingTechs": ["Fishing", "Mining"]
 		"cities": ["Rome", "Antium", "Cumae", "Neapolis", "Pisae", "Ravenna", "Arretium", "Mediolanum", "Arpinum", "Circei",
 		"Setia", "Satricum", "Ardea", "Ostia", "Velitrae", "Viroconium", "Tarentum", "Brundisium", "Caesaraugusta", "Caesarea",
 		"Palmyra", "Signia", "Aquileia", "Clusium", "Sutrium", "Cremona", "Placentia", "Hispalis", "Nicomedia", "Artaxata",
