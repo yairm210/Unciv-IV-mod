@@ -9,13 +9,26 @@
 		"uniques": ["Indicates the capital city"]
 	},
 	{
+		"name": "Barracks", 
+		"cost": 60,
+		"uniques": [+"[amount]% XP for land units"]
+	{
 		"name": "Granary", 
 		"cost": 60,
 		"uniques": ["[50]% of food is carried over after population increases"]
 		"requiredTech": "Pottery"
 	},
+	},
 	{
 		"name": "Monument",
+		"culture": 1,
+		"cost": 30,
+		"requiredTech": "Mysticism"
+	},
+	{
+		"name": "Obelisk",
+		"uniqueTo": "Egypt",
+		"replaces": "Monument",
 		"culture": 1,
 		"cost": 30,
 		"requiredTech": "Mysticism"
@@ -55,6 +68,16 @@
 	{
 		"name": "Library",
 		"culture":2,
+		"cost":90,
+		"specialistSlots": {"science": 2},
+		"percentStatBonus": {"science": 25},
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Madrassa",
+		"uniqueTo": "Arabia",
+		"replaces": "Library",
+		"culture":4,
 		"cost":90,
 		"specialistSlots": {"science": 2},
 		"percentStatBonus": {"science": 25},
