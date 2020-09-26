@@ -22,6 +22,7 @@
 		"movement": 1,
 		"cost": 15,
 		"strength": 2,
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Work Boat",
@@ -30,6 +31,16 @@
 		"cost": 30,
 		"requiredTech": "Fishing",
 		"uniques": ["Cannot enter ocean tiles until Astronomy", "May create improvements on water resources"],
+	},
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"cost": 25,
+		"strength": 1,
+		"requiredTech": "Hunting",
+		"uniques": ["Ignores terrain cost"],
+		"attackSound": "nonmetalhit"
 	},
 
 	{
