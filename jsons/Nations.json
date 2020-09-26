@@ -6,15 +6,49 @@
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
 		"uniques": [""]
-		"cities": ["A", "B"]
+		"cities": ["Washington", "New York", "Boston", "Philadelphia", "Atlanta", "Chicago", "Seattle", "San Francisco", "Los Angeles",
+		"Houston", "Portlnd", "St Louis", "Miami", "Buffalo", "Detroit", "New Orleans", "Baltimore", "Denver", "Cincinnati", "Dallas",
+		"Memphis", "Cleveland", "Kansas City", "San Diego", "Richmond", "Las Vegas", "Phoenix", "Albuquerque", "Minneapolis", "Pittsburgh",
+		"Oakland", "Tampa Bay", "Orlando", "Tacoma", "Santa Fe", "Olympia", "Hunt Valley", "Springfield", "Palo Alto", "Centralia", "Spokane",
+		"Jacksonville", "Savannah", "Charleston", "San Antonio", "Omaha", "Birmingham", "Honolulu", "Anchorage", "Sacramento", "Salt Lake City",
+		"Reno", "Boise", "Milwaukee", "Santa Cruz", "Monterey", "Santa Monica", "Little Rock", "Columbus", "Le Bam"]
 	},
 	{
 		"name": "Arabia",
 		"leaderName": "Saladin",
 		
-		"outerColor": [ 114, 0, 0],
+		"outerColor": [51,51,255],
 		"innerColor": [255,255,255],
 		"uniques": [""]
-		"cities": ["A","B"]
+		"cities": ["Mecca", "Medina", "Damascus", "Baghdad", "Najran", "Kufah", "Basra", "Khurasan", "Anjar", "Fustat", "Aden",
+		"Yamama", "Muscat", "Mansura", "Bukhara", "Fez", "Shiraz", "Merw", "Balkh", "Mosul", "Aydab", "Bayr Ras", "Suhar", "Taif",
+		"Hama", "Tabuk", "Sanaa", "Shihr"]
+	}
+	{
+		"name": "China",
+		"leaderName": "Mao Zedong",
+		
+		"outerColor": [204,0,102],
+		"innerColor": [255,255,153],
+		"uniques": [""]
+		"cities": ["Beijing", "Shanghai", "Guangzhou", "Nanjing", "Xian", "Chengdu", "Hangzhou", "Tianjin", "Macau", "Shangdong",
+			   "Kaifeng", "Ningbo", "Baoding", "Yangzhou", "Haerbin", "Chongqing", "Loyang", "Kunming", "Taipei", "Shenyang",
+			   "Taiyuan", "Tainan", "Dalian", "Lijiang", "Wuxi", "Suzhou", "Maoming", "Shaoguan", "Yangjiang", "Heyuan",
+			   "Liaoning", "Hubei", "Gansu", "Huangshi", "Yichang", "Yingtan", "Xinyu", "Xinzheng", "Handan", "Dunhuang",
+			   "Goayu", "Nantong", "Weifang", "Xikang"]
+	}
+	{
+		"name": "Rome",
+		"leaderName": "Augustus Caesar",
+		
+		"outerColor": [102,0,51],
+		"innerColor": [255,255,0],
+		"uniques": [""]
+		"cities": ["Rome", "Antium", "Cumae", "Neapolis", "Pisae", "Ravenna", "Arretium", "Mediolanum", "Arpinum", "Circei",
+		"Setia", "Satricum", "Ardea", "Ostia", "Velitrae", "Viroconium", "Tarentum", "Brundisium", "Caesaraugusta", "Caesarea",
+		"Palmyra", "Signia", "Aquileia", "Clusium", "Sutrium", "Cremona", "Placentia", "Hispalis", "Nicomedia", "Artaxata",
+		"Aurelianorum", "Nicopolis", "Londinium", "Eburacum", "Gordion", "Agrippina", "Lugdunum", "Verona", "Corfinium", "Treveri",
+		"Sirmium", "Augustadorum", "Bagacum", "Lauriacum", "Teurnia", "Curia", "Fregellae", "Albafucens", "Sora", "Interrama",
+		"Suessa", "Saticula", "Luceria", "Ariminium", "Senegllica", "Castrumnovum", "Hadris" ]
 	}
 ]
