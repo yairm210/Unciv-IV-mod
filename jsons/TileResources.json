@@ -4,7 +4,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		//"improvement": "Fishing Boats",
+		"improvement": "Work Boat",
 		"improvementStats": {"food": 2 },
 	},
 	{
@@ -12,7 +12,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		//"improvement": "Fishing Boats",
+		"improvement": "Work Boat",
 		"improvementStats": {"food": 2 },
 	},
 	{
@@ -20,7 +20,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		//"improvement": "Fishing Boats",
+		"improvement": "Work Boat",
 		"improvementStats": {"food": 2 },
 	},
 
