@@ -119,7 +119,7 @@
 				"row": 2,
 				"prerequisites": ["Pottery","Animal Husbandry","Priesthood"],
 				"uniques": ["Enables Open Borders agreements"],
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+				"quote": "'True glory consists in doing what deserves to be written, in writing what deserves to be read.' - Pliny the Elder"
 			},
 			{
 				"name": "Metal Casting",
@@ -133,7 +133,7 @@
 				"cost": 200,
 				"row": 8,
 				"prerequisites": ["Bronze Working"],
-				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+				"quote": "'You should hammer your iron when it is glowing hot.' - Publilius Syrus"
 			},
 			
 		]
@@ -147,7 +147,7 @@
 				"cost": 250,
 				"row": 3,
 				"prerequisites": ["Writing"],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"quote": "'If in other sciences we should arrive at certainty without doubt and truth without error, it behooves us to place the foundation of knowledge in mathematics.' - Roger Bacon"
 			},
 			{
 				"name": "Alphabet",
