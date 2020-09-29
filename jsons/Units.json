@@ -138,4 +138,15 @@
 		"uniques": ["Bonus vs City 10%"],
 		"attackSound": "metalhit"
 	},
+	
+	{
+		"name": "Explorer",
+		"unitType": "Scout",
+		"movement": 2,
+		"cost": 40,
+		"strength": 4,
+		"requiredTech": "Compass",
+		"uniques": ["Ignores terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
 ]
