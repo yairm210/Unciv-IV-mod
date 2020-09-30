@@ -145,7 +145,7 @@
 			{
 				"name": "Mathematics",
 				"cost": 250,
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Writing"],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
@@ -160,7 +160,7 @@
 			{
 				"name": "Monarchy",
 				"cost": 300,
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Priesthood"],
 				"quote": "'A multitude of rulers is not a good thing, let there be one ruler, one king.' - Herodotus"
 			},
