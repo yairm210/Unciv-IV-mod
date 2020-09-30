@@ -1,4 +1,6 @@
 [
+
+	// Ancient era
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -7,12 +9,6 @@
 		"happiness": 1,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
-	},
-	{
-		"name": "Granary", 
-		"cost": 60,
-		"uniques": ["[50]% of food is carried over after population increases"]
-		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Monument",
@@ -35,6 +31,21 @@
 		"resourceBonusStats": {"food": 1},
 		"uniques": ["Can only be built in coastal cities", "[+1 Food] from [Water] tiles in this city"],
 		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Granary", 
+		"cost": 60,
+		"uniques": ["[50]% of food is carried over after population increases"]
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Parthenon",
+		"culture": 10,
+		"isWonder": true,
+		"cost": 400,
+		"specialistSlots": {"culture": 2},
+		"uniques": ["+[50]% great person generation in all cities"],
+		"requiredTech": "Polytheism",
 	},
 	{
 		"name": "Temple",
@@ -65,6 +76,7 @@
 		"cost":120,
 		"specialistSlots": {"production": 1},
 		"percentStatBonus": {"science": 25},
+		"food": -1,
 		"requiredTech": "Metal Casting",
 		"uniques": ["[+1 Happiness] from [Gold] tiles in this city", "[+1 Happiness] from [Silver] tiles in this city",
 			"[+1 Happiness] from [Gems] tiles in this city", ]
@@ -80,6 +92,32 @@
 		"requiredBuilding": "Forge"
 		"requiredTech": "Metal Casting",
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
+	
+	
+	// Classical era
+	
+	{
+		"name": "Aqueduct",
+		"food":1,
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Hanging Gardens",
+		"culture": 6,
+		"isWonder": true,
+		"greatPersonPoints": {"production": 2},
+		"requiredTech": "Mathematics",
+		"uniques":["[+1 Food] in all cities"]
+		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
+	},
+	{
+		"name": "Lighthouse",
+		"cost": 80,
+		"resourceBonusStats": {"food": 1},
+		"uniques": ["Can only be built in coastal cities", "[+1 Food] from [Clam] tiles in this city",
+			"[+1 Food] from [Crab] tiles in this city", "[+1 Food] from [Fish] tiles in this city"],
+		"requiredTech": "Compass"
 	},
 
 ]

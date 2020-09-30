@@ -36,7 +36,7 @@
 		"name": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
-		"cost": 25,
+		"cost": 15,
 		"strength": 1,
 		"requiredTech": "Hunting",
 		"uniques": ["Ignores terrain cost"],
@@ -137,5 +137,16 @@
 		"requiredResource": "Iron",
 		"uniques": ["Bonus vs City 10%"],
 		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Explorer",
+		"unitType": "Scout",
+		"movement": 2,
+		"cost": 40,
+		"strength": 4,
+		"requiredTech": "Compass",
+		"uniques": ["Ignores terrain cost"],
+		"attackSound": "nonmetalhit"
 	},
 ]

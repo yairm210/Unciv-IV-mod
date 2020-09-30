@@ -92,4 +92,11 @@
 		"improvement": "Quarry",
 		"improvementStats": {"production": 2},
 	},
-]
+	{
+		"name": "Wine",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"gold": 1,
+		"improvement": "Winery",
+		"improvementStats": {"gold": 2, "food": 1}
+	},
