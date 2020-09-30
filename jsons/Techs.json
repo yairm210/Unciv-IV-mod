@@ -74,6 +74,13 @@
 				"quote": "'Do not throw the arrow which will return against you.' - Kurdish proverb"
 			},
 			{
+				"name": "Polytheism",
+				"row": 6,
+				"cost": 100,
+				"prerequisites": ["Mysticism"],
+				"quote": "'Not at all similar are the race of the immortal gods and the race of men who walk upon the Earth.' - Homer"
+			},
+			{
 				"name": "Masonry",
 				"row": 7,
 				"cost": 80,
@@ -97,7 +104,7 @@
 				"name": "Priesthood",
 				"row": 5,
 				"cost": 60,
-				"prerequisites": ["Mysticism"],
+				"prerequisites": ["Polytheism"],
 				"quote": "'The lord bless you and keep you. The Lord make his face to shine upon you and be gracious to you. The Lord lift up his countenance upon you and give you peace.' - The Bible, Numbers"
 			},
 			{
@@ -170,7 +177,7 @@
 				"row": 8,
 				"prerequisites": ["Sailing", "Iron Working"],
 				"quote": "'The wisest men follow their own direction.' - Euripides"
-			},
+			}
 			
 		]
 	},

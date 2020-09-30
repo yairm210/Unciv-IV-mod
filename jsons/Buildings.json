@@ -11,12 +11,6 @@
 		"uniques": ["Indicates the capital city"]
 	},
 	{
-		"name": "Granary", 
-		"cost": 60,
-		"uniques": ["[50]% of food is carried over after population increases"]
-		"requiredTech": "Pottery"
-	},
-	{
 		"name": "Monument",
 		"culture": 1,
 		"cost": 30,
@@ -37,6 +31,21 @@
 		"resourceBonusStats": {"food": 1},
 		"uniques": ["Can only be built in coastal cities", "[+1 Food] from [Water] tiles in this city"],
 		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Granary", 
+		"cost": 60,
+		"uniques": ["[50]% of food is carried over after population increases"]
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Parthenon",
+		"culture": 10,
+		"isWonder": true,
+		"cost": 400,
+		"specialistSlots": {"culture": 2},
+		"uniques": ["+[50]% great person generation in all cities"],
+		"requiredTech": "Polytheism",
 	},
 	{
 		"name": "Temple",
