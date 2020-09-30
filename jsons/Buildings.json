@@ -14,6 +14,7 @@
 		"name": "Monument",
 		"culture": 1,
 		"cost": 30,
+		"uniques": ["Obsolete with [Calendar]"]
 		"requiredTech": "Mysticism"
 	},
 	{
@@ -22,7 +23,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"culture": 2},
 		"requiredTech": "Mysticism",
-		//"uniques": ["Free [Monument] in all cities"]
+		"uniques": ["Obsolete with [Calendar]"]  //"Free [Monument] in all cities"]
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
 	{
@@ -118,6 +119,26 @@
 		"uniques": ["Can only be built in coastal cities", "[+1 Food] from [Clam] tiles in this city",
 			"[+1 Food] from [Crab] tiles in this city", "[+1 Food] from [Fish] tiles in this city"],
 		"requiredTech": "Compass"
+	},
+	{
+		"name": "Great Library",
+		"cost": 350,
+		"culture": 8,
+		"greatPersonPoints": {"science": 6},
+		"isWonder": true,
+		"requiredBuilding": "Library"
+		"requiredTech": "Literature",
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
+	{
+		"name": "National Epic",
+		"cost": 250,
+		"culture": 4,
+		"greatPersonPoints": {"culture": 1},
+		"uniques": ["+[100]% great person generation in this city"],
+		"isNationalWonder": true,
+		"requiredBuilding": "Library"
+		"requiredTech": "Literature"
 	},
 
 ]

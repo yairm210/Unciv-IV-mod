@@ -1,4 +1,10 @@
 [
+	
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"techRequired": "Fishing",
+	},
 	{
 		"name": "Road",
 		"turnsToBuild": 4,
@@ -52,6 +58,11 @@
 		"name": "Winery",
 		"turnsToBuild": 8,
 		"techRequired": "Monarchy",
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"techRequired": "Calendar",
 	},
 	
 	

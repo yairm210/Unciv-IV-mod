@@ -4,7 +4,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		//"improvement": "Fishing Boats",
+		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 2 },
 	},
 	{
@@ -12,7 +12,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		//"improvement": "Fishing Boats",
+		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 2 },
 	},
 	{
@@ -20,7 +20,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		//"improvement": "Fishing Boats",
+		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 2 },
 	},
 
@@ -99,5 +99,53 @@
 		"gold": 1,
 		"improvement": "Winery",
 		"improvementStats": {"gold": 2, "food": 1}
+	},
+	{
+		"name": "Bananas",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 2}
+	},
+	{
+		"name": "Incense",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert"],
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 5}
+	},
+	{
+		"name": "Dyes",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 4}
+	},
+	{
+		"name": "Spices",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 2, "food":1}
+	},
+	{
+		"name": "Sugar",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Grassland","Marsh"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1, "food":1}
+	},
+	{
+		"name": "Silk",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 3}
 	},
 ]

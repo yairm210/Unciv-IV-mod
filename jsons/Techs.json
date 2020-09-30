@@ -178,7 +178,26 @@
 				"prerequisites": ["Sailing", "Iron Working"],
 				"quote": "'The wisest men follow their own direction.' - Euripides"
 			}
-			
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Classical",
+		"techs": [
+			{
+				"name": "Literature",
+				"cost": 200,
+				"row": 1,
+				"prerequisites": ["Polytheism", "Alphabet"],
+				"quote": "'Some books are to be tasted, others to be swallowed and some few to be chewed and digested.' - Sir Francis Bacon"
+			},
+			{
+				"name": "Calendar",
+				"cost": 350,
+				"row": 2,
+				"prerequisites": ["Sailing", "Mathematics"],
+				"quote": "'For everything there is a season and a time for every purpose under heaven.' - Ecclesiastes"
+			},
 		]
 	},
 	
