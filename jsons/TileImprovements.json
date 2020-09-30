@@ -41,6 +41,18 @@
 		"turnsToBuild":7,
 		//"uniques":["[+1 Production] once [Guilds] is discovered","[+1 Production] once [Chemistry] is discovered"]
 	}
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 10,
+		"techRequired": "Mathematics",
+		"uniques": ["Gives a defensive bonus of [25]%", "Can be built outside your borders"]
+	},
+	{
+		"name": "Winery",
+		"turnsToBuild": 8,
+		"techRequired": "Monarchy",
+	},
 	
 	
 	{
