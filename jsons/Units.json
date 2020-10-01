@@ -55,10 +55,37 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "War Chariot",
+		"unitType": "Mounted",
+		"uniqueTo": "Egypt",
+		"replaces": "Chariot",
+		"movement": 2,
+		"strength": 5,
+		"cost": 30,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"uniques": ["No defensive terrain bonus", "+[100]% Strength vs [Axeman]", "Immune to first strikes", "Can withdraw from combat ([10]% chance)"],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Spearman",
 		"unitType": "Melee",
 		"movement": 1,
 		"strength": 4,
+		"cost": 35,
+		"requiredTech": "Hunting",
+		//"upgradesTo": "Pikeman",
+		"requiredResource": "Copper",
+		"uniques": ["Bonus vs Mounted 100%"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Phalanx",
+		"unitType": "Melee",
+		"uniqueTo": "Greece",
+		"replaces": "Spearman",
+		"movement": 1,
+		"strength": 5,
 		"cost": 35,
 		"requiredTech": "Hunting",
 		//"upgradesTo": "Pikeman",
@@ -116,6 +143,20 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Vulture",
+		"unitType": "Melee",
+		"uniqueTo": "Sumeria",
+		"replaces": "Axeman",
+		"movement": 1,
+		"strength": 6,
+		"cost": 35,
+		"requiredTech": "Bronze Working",
+		//"upgradesTo": "Pikeman",
+		"requiredResource": "Cooper",
+		"uniques": ["Bonus vs Melee 25%"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Trireme",
 		"unitType": "WaterMelee",
 		"movement": 2,
@@ -136,6 +177,35 @@
 		//"upgradesTo": "Maceman",
 		"requiredResource": "Iron",
 		"uniques": ["Bonus vs City 10%"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Jaguar",
+		"unitType": "Melee",
+		"uniqueTo": "Aztec",
+		"replaces": "Swordsman",
+		"movement": 1,
+		"strength": 5,
+		"cost": 35,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Metal Casting",
+		"uniques": ["+[10]% Strength vs [City]"],
+		//"upgradesTo": "Maceman",
+		"promotions": ["Woodsman"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Praetorian",
+		"unitType": "Melee",
+		"uniqueTo": "Aztecs",
+		"replaces": "Swordsman",
+		"movement": 1,
+		"strength": 8,
+		"cost": 45,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Maceman",
+		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
 	
