@@ -140,5 +140,11 @@
 		"requiredBuilding": "Library"
 		"requiredTech": "Literature"
 	},
+	{
+		"name": "Colloseum",
+		"cost": 80,
+		"happiness":1,
+		"requiredTech": "Construction"
+	},
 
 ]
