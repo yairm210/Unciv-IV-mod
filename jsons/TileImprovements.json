@@ -1,5 +1,4 @@
-[
-	
+[	
 	{
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
@@ -22,6 +21,11 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
+	},
+	{
+		"name": "Camp",
+		"turnsToBuild": 7,
+		"techRequired": "Hunting",
 	},
 	{
 		"name": "Pasture",

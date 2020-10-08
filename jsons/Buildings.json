@@ -44,7 +44,7 @@
 		"culture": 10,
 		"isWonder": true,
 		"cost": 400,
-		"specialistSlots": {"culture": 2},
+		"specialistSlots": {"Artist": 2},
 		"uniques": ["+[50]% great person generation in all cities"],
 		"requiredTech": "Polytheism",
 	},
@@ -68,14 +68,14 @@
 		"name": "Library",
 		"culture":2,
 		"cost":90,
-		"specialistSlots": {"science": 2},
+		"specialistSlots": {"Scientist": 2},
 		"percentStatBonus": {"science": 25},
 		"requiredTech": "Writing"
 	},
 	{
 		"name": "Forge",
 		"cost":120,
-		"specialistSlots": {"production": 1},
+		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"science": 25},
 		"food": -1,
 		"requiredTech": "Metal Casting",
@@ -121,7 +121,7 @@
 		"requiredTech": "Compass"
 	},
 	{
-		"name": "Great Library",
+		"name": "The Great Library",
 		"cost": 350,
 		"culture": 8,
 		"greatPersonPoints": {"science": 6},
@@ -145,6 +145,16 @@
 		"cost": 80,
 		"happiness":1,
 		"requiredTech": "Construction"
+	},
+	{
+		"name": "Market",
+		"cost": 150,
+		"specialistSlots": {"Merchant": 1},
+		"percentStatBonus": {"gold": 25},
+		"happiness":1,
+		"uniques": ["[+1 Happiness] with [Furs]", "[+1 Happiness] with [Ivory]",
+			"[+1 Happiness] with [Silk]", "[+1 Happiness] with [Whales]"]
+		"requiredTech": "Currency"
 	},
 
 ]

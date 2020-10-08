@@ -205,6 +205,13 @@
 				"prerequisites": ["Masonry", "Mathematics"],
 				"quote": "'And on the pedestal these words appear 'My name is Ozymandias, king of kings: Look on my works, ye Mighty and despair!' ' - Percy Bysshe Shelley"
 			},
+			{
+				"name": "Currency",
+				"cost": 400,
+				"row": 4,
+				"prerequisites": ["Mathematics"],
+				"quote": "'Everything is worth what its purchaser will pay for it.' - Publilius Syrus"
+			},
 				
 		]
 	},

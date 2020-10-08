@@ -148,4 +148,18 @@
 		"uniques": ["Ignores terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 8,
+		"cost": 50,
+		"requiredTech": "Construction",
+		//"obsoleteTech": "Physics",
+		//"upgradesTo": "Trebuchet",
+		"uniques": ["Bonus vs City 200%", "No defensive terrain bonus",
+			"Must set up to ranged attack", "Limited Visibility"],
+		"attackSound": "throw"
+	},
 ]
