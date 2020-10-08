@@ -19,7 +19,7 @@
 	{
 		"name": "Warrior",
 		"unitType": "Melee",
-		"movement": 1,
+		"movement": 2,
 		"cost": 15,
 		"strength": 8,
 		"attackSound": "nonmetalhit"
@@ -27,7 +27,7 @@
 	{
 		"name": "Work Boat",
 		"unitType": "WaterCivilian",
-		"movement": 2,
+		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Fishing",
 		"uniques": ["Cannot enter ocean tiles until Astronomy", "May create improvements on water resources"],
@@ -46,18 +46,18 @@
 	{
 		"name": "Chariot",
 		"unitType": "Mounted",
-		"movement": 2,
+		"movement": 4,
 		"strength": 11,
 		"cost": 30,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
-		"uniques": ["No defensive terrain bonus","Penalty vs City 33%", "+[100]% Strength vs [Axeman]"],
+		"uniques": ["No defensive terrain bonus","Penalty vs City 33%", "+[100]% Strength vs [Axeman]", "Rough terrain penalty"],
 		"attackSound": "horse"
 	},
 	{
 		"name": "Spearman",
 		"unitType": "Melee",
-		"movement": 1,
+		"movement": 2,
 		"strength": 11,
 		"cost": 35,
 		"requiredTech": "Hunting",
@@ -69,7 +69,7 @@
 	{
 		"name": "Galley",
 		"unitType": "WaterMelee",
-		"movement": 2,
+		"movement": 3,
 		"strength": 7,
 		"cost": 80,
 		"requiredTech": "Sailing",
@@ -80,10 +80,9 @@
 	{
 		"name": "Archer",
 		"unitType": "Ranged",
-		"movement": 1,
+		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
-		"range": 1,
 		"cost": 40,
 		"uniques": ["+[25]% defence in [Hill] tiles"],
 		"requiredTech": "Archery",
@@ -94,10 +93,10 @@
 	{
 		"name": "Horse Archer",
 		"unitType": "Ranged",
-		"movement": 2,
+		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
-		"range": 1,
+		"range": 2,
 		"cost": 50,
 		"uniques": ["No defensive terrain bonus", "+[50]% Strength vs [Catapult]"],
 		"requiredTech": "Horseback Riding",
@@ -106,7 +105,7 @@
 	{
 		"name": "Axeman",
 		"unitType": "Melee",
-		"movement": 1,
+		"movement": 2,
 		"strength": 11,
 		"cost": 35,
 		"requiredTech": "Bronze Working",
@@ -118,7 +117,7 @@
 	{
 		"name": "Trireme",
 		"unitType": "WaterMelee",
-		"movement": 2,
+		"movement": 4,
 		"strength": 11,
 		"cost": 50,
 		"requiredTech": "Sailing",
@@ -129,7 +128,7 @@
 	{
 		"name": "Swordsman",
 		"unitType": "Melee",
-		"movement": 1,
+		"movement": 2,
 		"strength": 14,
 		"cost": 40,
 		"requiredTech": "Iron Working",
@@ -142,7 +141,7 @@
 	{
 		"name": "Explorer",
 		"unitType": "Scout",
-		"movement": 2,
+		"movement": 3,
 		"cost": 40,
 		"strength": 10,
 		"requiredTech": "Compass",
