@@ -198,6 +198,21 @@
 				"prerequisites": ["Sailing", "Mathematics"],
 				"quote": "'For everything there is a season and a time for every purpose under heaven.' - Ecclesiastes"
 			},
+			{
+				"name": "Construction",
+				"cost": 350,
+				"row": 3,
+				"prerequisites": ["Masonry", "Mathematics"],
+				"quote": "'And on the pedestal these words appear 'My name is Ozymandias, king of kings: Look on my works, ye Mighty and despair!' ' - Percy Bysshe Shelley"
+			},
+			{
+				"name": "Currency",
+				"cost": 400,
+				"row": 4,
+				"prerequisites": ["Mathematics"],
+				"quote": "'Everything is worth what its purchaser will pay for it.' - Publilius Syrus"
+			},
+				
 		]
 	},
 	

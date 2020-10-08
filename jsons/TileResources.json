@@ -148,4 +148,28 @@
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 3}
 	},
+	{
+		"name": "Ivory",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"production": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production":1, "gold": 1}
+	},
+	{
+		"name": "Furs",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Tundra"],
+		"gold": 1,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 3}
+	},
+	{
+		"name": "Whales",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"gold": 2, "production":1}
+	},
 ]
