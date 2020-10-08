@@ -21,6 +21,7 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
+		"uniques":["[+1 Food] once [Biology] is discovered"]
 	},
 	{
 		"name": "Camp",
@@ -67,6 +68,25 @@
 		"name": "Plantation",
 		"turnsToBuild": 6,
 		"techRequired": "Calendar",
+	},
+	{
+		"name": "Windmill",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"gold":1,
+		"turnsToBuild": 7,
+		"techRequired": "Machinery",
+		"uniques":["[+1 Production] once [Replaceable Parts] is discovered", "[+1 Gold] once [Electricity] is discovered"]
+	},
+	{
+		"name": "Watermill",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"food": 1,
+		"gold":1,
+		"turnsToBuild": 7,
+		"techRequired": "Machinery",
+		"uniques":["Must be next to [River]", "[+1 Production] once [Replaceable Parts] is discovered",
+			"[+2 Gold] once [Electricity] is discovered"]
 	},
 	
 	

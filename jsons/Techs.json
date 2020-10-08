@@ -212,6 +212,13 @@
 				"prerequisites": ["Mathematics"],
 				"quote": "'Everything is worth what its purchaser will pay for it.' - Publilius Syrus"
 			},
+			{
+				"name": "Machinery",
+				"cost": 400,
+				"row": 4,
+				"prerequisites": ["Metal Casting"],
+				"quote": "'A god from the machine' - Menander"
+			},
 				
 		]
 	},

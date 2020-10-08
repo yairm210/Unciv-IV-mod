@@ -86,8 +86,8 @@
 		"cost": 40,
 		"uniques": ["+[25]% defence in [Hill] tiles"],
 		"requiredTech": "Archery",
-		//"obsoleteTech": "Machinery",
-		//"upgradesTo": "Crossbowman",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
 	{
@@ -161,5 +161,32 @@
 		"uniques": ["Bonus vs City 200%", "No defensive terrain bonus",
 			"Must set up to ranged attack", "Limited Visibility"],
 		"attackSound": "throw"
+	},
+	{
+		"name": "Crossbowman",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 60,
+		"requiredTech": "Machinery",
+		//"upgradesTo": "Rifleman",
+		//"obsoleteTech": "Industrialization",
+		"requiredResource": "Iron",
+		"uniques": ["Bonus vs Melee 50%"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Maceman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 18,
+		"cost": 70,
+		//"requiredTech": "Civil Service",
+		"upgradesTo": "Musketman",
+		//"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": ["Bonus vs Melee 50%"],
+		"attackSound": "metalhit"
 	},
 ]
