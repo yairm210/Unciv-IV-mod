@@ -215,9 +215,30 @@
 			{
 				"name": "Machinery",
 				"cost": 400,
-				"row": 4,
+				"row": 7,
 				"prerequisites": ["Metal Casting"],
 				"quote": "'A god from the machine' - Menander"
+			},
+				
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Classical",
+		"techs": [
+			{
+				"name": "Drama",
+				"cost": 300,
+				"row": 2,
+				"prerequisites": ["Alphabet"],
+				"quote": "'All the world's a stage, And all the men and women merely players: They have their exits and their entrances; And one man in his time plays many parts.' - William Shakespeare"
+			},
+			{
+				"name": "Engineering",
+				"cost": 1000,
+				"row": 4,
+				"prerequisites": ["Machinery", "Construction"],
+				"quote": "'A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.' - Antoine de Saint-Exupery"
 			},
 				
 		]

@@ -156,5 +156,14 @@
 			"[+1 Happiness] with [Silk]", "[+1 Happiness] with [Whales]"]
 		"requiredTech": "Currency"
 	},
+	{
+		"name": "Theatre",
+		"cost": 50,
+		"specialistSlots": {"Artist": 2},
+		"culture": 3,
+		"uniques": ["[+1 Happiness] with [Dyes]"]
+		"requiredTech": "Drama"
+	},
+	
 
 ]

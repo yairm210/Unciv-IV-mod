@@ -61,7 +61,7 @@
 		"strength": 11,
 		"cost": 35,
 		"requiredTech": "Hunting",
-		//"upgradesTo": "Pikeman",
+		"upgradesTo": "Pikeman",
 		"requiredResource": "Copper",
 		"uniques": ["Bonus vs Mounted 100%"],
 		"attackSound": "metalhit"
@@ -182,11 +182,38 @@
 		"movement": 2,
 		"strength": 18,
 		"cost": 70,
-		//"requiredTech": "Civil Service",
-		"upgradesTo": "Musketman",
+		"requiredTech": "Civil Service",
+		//"upgradesTo": "Musketman",
 		//"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": ["Bonus vs Melee 50%"],
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pikeman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 16,
+		"cost": 60,
+		"requiredTech": "Engineering",
+		"uniques": ["Bonus vs Mounted 100%"],
+		//"upgradesTo": "Musketman",
+		//"obsoleteTech": "Gunpowder",
+		"requiredResource": "Copper",
+		"attackSound": "metalhit"
+		//Pikeman should upgrade not only to Musketman but also to Lancer
+	},
+	{
+		"name": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 14,
+		"cost": 800,
+		"requiredTech": "Physics",
+		//"obsoleteTech": "Chemistry",
+		//"upgradesTo": "Cannon",
+		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
+		"attackSound": "throw"
 	},
 ]
