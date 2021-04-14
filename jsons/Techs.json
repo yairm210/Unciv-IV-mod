@@ -188,7 +188,7 @@
 				"name": "Literature",
 				"cost": 200,
 				"row": 1,
-				"prerequisites": ["Polytheism", "Alphabet"],
+				"prerequisites": ["Alphabet"],
 				"quote": "'Some books are to be tasted, others to be swallowed and some few to be chewed and digested.' - Sir Francis Bacon"
 			},
 			{
@@ -239,6 +239,13 @@
 				"row": 4,
 				"prerequisites": ["Machinery", "Construction"],
 				"quote": "'A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.' - Antoine de Saint-Exupery"
+			},
+			{
+				"name": "Code of Laws",
+				"cost": 350,
+				"row": 6,
+				"prerequisites": ["Currency"],
+				"quote": "'All the world's a stage, And all the men and women merely players: They have their exits and their entrances; And one man in his time plays many parts.' - William Shakespeare"
 			},
 				
 		]
