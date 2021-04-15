@@ -74,6 +74,13 @@
 				"quote": "'Do not throw the arrow which will return against you.' - Kurdish proverb"
 			},
 			{
+				"name": "Meditation",
+				"row": 5,
+				"cost": 100,
+				"prerequisites": ["Mysticism"],
+				"quote": "'Meditation brings wisdom, lack of wisdom leaves ignorance, know well what leads you forward and what holds you back.' – Buddha"
+			},
+			{
 				"name": "Polytheism",
 				"row": 6,
 				"cost": 100,
@@ -104,7 +111,7 @@
 				"name": "Priesthood",
 				"row": 5,
 				"cost": 60,
-				"prerequisites": ["Polytheism"],
+				"prerequisites": ["Polytheism", "Meditation"],
 				"quote": "'The lord bless you and keep you. The Lord make his face to shine upon you and be gracious to you. The Lord lift up his countenance upon you and give you peace.' - The Bible, Numbers"
 			},
 			{
@@ -245,7 +252,28 @@
 				"cost": 350,
 				"row": 6,
 				"prerequisites": ["Currency"],
-				"quote": "'All the world's a stage, And all the men and women merely players: They have their exits and their entrances; And one man in his time plays many parts.' - William Shakespeare"
+				"quote": "'To bring about the rule of righteousness in the land so that the strong shall not harm the weak.' – Hammurabi's Code, Prologue"
+			},
+			{
+				"name": "Feudalism",
+				"cost": 700,
+				"row": 8,
+				"prerequisites": ["Writing", "Monarchy"],
+				"quote": "'I will to my lord be true and faithful and love all which he loves and shun all which he shuns.' – Anglo-Saxon Oath of Fealty"
+			},
+				
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Medieval",
+		"techs": [
+			{
+				"name": "Philosophy",
+				"cost": 800,
+				"row": 2,
+				"prerequisites": ["Code of Laws"],
+				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
 			},
 				
 		]

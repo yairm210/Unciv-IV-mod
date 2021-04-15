@@ -24,4 +24,11 @@
 		"greatPersonPoints": {"production":3}
 		"color": [139,69,19]
 	}
+	{
+		"name":"Priest",
+		"production":1,
+		"gold":1,
+		//"greatPersonPoints": {"production":3}
+		"color": [255,255,255]
+	}
 ]

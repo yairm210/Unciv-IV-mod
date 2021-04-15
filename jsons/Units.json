@@ -63,7 +63,7 @@
 		"requiredTech": "Hunting",
 		"upgradesTo": "Pikeman",
 		"requiredResource": "Copper",
-		"uniques": ["Bonus vs Mounted 100%"],
+		"uniques": ["+[100]% Strength vs [Mounted]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -87,7 +87,7 @@
 		"uniques": ["+[25]% defence in [Hill] tiles"],
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
+		"upgradesTo": "Longbowman",
 		"attackSound": "arrow"
 	},
 	{
@@ -111,7 +111,7 @@
 		"requiredTech": "Bronze Working",
 		//"upgradesTo": "Pikeman",
 		"requiredResource": "Copper",
-		"uniques": ["Bonus vs Melee 50%"],
+		"uniques": ["+[50]% Strength vs [Melee]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -134,7 +134,7 @@
 		"requiredTech": "Iron Working",
 		//"upgradesTo": "Maceman",
 		"requiredResource": "Iron",
-		"uniques": ["Bonus vs City 10%"],
+		"uniques": ["+[10]% Strength vs [City]"],
 		"attackSound": "metalhit"
 	},
 	
@@ -158,7 +158,7 @@
 		"requiredTech": "Construction",
 		//"obsoleteTech": "Physics",
 		//"upgradesTo": "Trebuchet",
-		"uniques": ["Bonus vs City 200%", "No defensive terrain bonus",
+		"uniques": ["+[200]% Strength vs [City]", "No defensive terrain bonus",
 			"Must set up to ranged attack", "Limited Visibility"],
 		"attackSound": "throw"
 	},
@@ -173,7 +173,7 @@
 		//"upgradesTo": "Rifleman",
 		//"obsoleteTech": "Industrialization",
 		"requiredResource": "Iron",
-		"uniques": ["Bonus vs Melee 50%"],
+		"uniques": ["+[50]% Strength vs [Melee]"],
 		"attackSound": "arrow"
 	},
 	/*
@@ -187,7 +187,7 @@
 		//"upgradesTo": "Musketman",
 		//"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["Bonus vs Melee 50%"],
+		"uniques": ["+[100]% Strength vs [Melee]"],
 		"attackSound": "metalhit"
 	},
 	*/
@@ -198,7 +198,7 @@
 		"strength": 16,
 		"cost": 60,
 		"requiredTech": "Engineering",
-		"uniques": ["Bonus vs Mounted 100%"],
+		"uniques": ["+[100]% Strength vs [Mounted]"],
 		//"upgradesTo": "Musketman",
 		//"obsoleteTech": "Gunpowder",
 		"requiredResource": "Copper",
@@ -215,7 +215,21 @@
 		"requiredTech": "Engineering",
 		//"obsoleteTech": "Chemistry",
 		//"upgradesTo": "Cannon",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
 		"attackSound": "throw"
+	},
+	{
+		"name": "Longbowman",
+		"unitType": "Ranged",
+		"range": 2,
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Feudalism",
+		//"upgradesTo": "Gatling Gun",
+		//"obsoleteTech": "Industrialization",
+		"uniques": ["+[25]% defence in [Hill] tiles", "+[25]% defence in [City center] tiles"],
+		"attackSound": "arrow"
 	},
 ]
