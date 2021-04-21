@@ -275,6 +275,13 @@
 				"prerequisites": ["Code of Laws"],
 				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
 			},
+			{
+				"name": "Civil Service",
+				"cost": 350,
+				"row": 6,
+				"prerequisites": ["Code of Laws", "Feudalism"],
+				"quote": "'To bring about the rule of righteousness in the land so that the strong shall not harm the weak.' – Hammurabi's Code, Prologue"
+			},
 				
 		]
 	},

@@ -132,7 +132,7 @@
 		"strength": 14,
 		"cost": 40,
 		"requiredTech": "Iron Working",
-		//"upgradesTo": "Maceman",
+		"upgradesTo": "Maceman",
 		"requiredResource": "Iron",
 		"uniques": ["+[10]% Strength vs [City]"],
 		"attackSound": "metalhit"
@@ -176,21 +176,6 @@
 		"uniques": ["+[50]% Strength vs [Melee]"],
 		"attackSound": "arrow"
 	},
-	/*
-	{
-		"name": "Maceman",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 18,
-		"cost": 70,
-		"requiredTech": "Civil Service",
-		//"upgradesTo": "Musketman",
-		//"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"uniques": ["+[100]% Strength vs [Melee]"],
-		"attackSound": "metalhit"
-	},
-	*/
 	{
 		"name": "Pikeman",
 		"unitType": "Melee",
@@ -231,5 +216,18 @@
 		//"obsoleteTech": "Industrialization",
 		"uniques": ["+[25]% defence in [Hill] tiles", "+[25]% defence in [City center] tiles"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Maceman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 18,
+		"cost": 70,
+		"requiredTech": "Civil Service",
+		//"upgradesTo": "Musketman",
+		//"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": ["+[50]% Strength vs [Melee]"],
+		"attackSound": "metalhit"
 	},
 ]
