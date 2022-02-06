@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Ancient",
+		"era": "Ancient era",
 		"techCost": 40,
 		"techs": [
 			{
@@ -37,11 +37,11 @@
 				"quote": "'The man who moves a mountain begins by carrying away small stones.' - Confucius"
 			}
 			
-		]	
+		]
 	},
 	{
 		"columnNumber": 1,
-		"era": "Ancient",
+		"era": "Ancient era",
 		"techCost": 80,
 		"buildingCost": 60,
 		"techs": [
@@ -74,6 +74,13 @@
 				"quote": "'Do not throw the arrow which will return against you.' - Kurdish proverb"
 			},
 			{
+				"name": "Meditation",
+				"row": 5,
+				"cost": 100,
+				"prerequisites": ["Mysticism"],
+				"quote": "'Meditation brings wisdom, lack of wisdom leaves ignorance, know well what leads you forward and what holds you back.' – Buddha"
+			},
+			{
 				"name": "Polytheism",
 				"row": 6,
 				"cost": 100,
@@ -86,12 +93,12 @@
 				"cost": 80,
 				"prerequisites": ["Mining", "Mysticism"],
 				"quote": "'It is from their foes, not their friends, that cities learn the lesson of building high walls.' - Aristophanes"
-			},
+			}
 		]
 	},
 	{
 		"columnNumber": 2,
-		"era": "Ancient",
+		"era": "Ancient era",
 		"techs": [
 			{
 				"name": "Horseback Riding",
@@ -104,7 +111,7 @@
 				"name": "Priesthood",
 				"row": 5,
 				"cost": 60,
-				"prerequisites": ["Polytheism"],
+				"prerequisites": ["Polytheism", "Meditation"],
 				"quote": "'The lord bless you and keep you. The Lord make his face to shine upon you and be gracious to you. The Lord lift up his countenance upon you and give you peace.' - The Bible, Numbers"
 			},
 			{
@@ -118,7 +125,7 @@
 	},
 	{
 		"columnNumber": 3,
-		"era": "Ancient",
+		"era": "Ancient era",
 		"techs": [
 			{
 				"name": "Writing",
@@ -141,13 +148,13 @@
 				"row": 8,
 				"prerequisites": ["Bronze Working"],
 				"quote": "'You should hammer your iron when it is glowing hot.' - Publilius Syrus"
-			},
+			}
 			
 		]
 	},
 	{
 		"columnNumber": 4,
-		"era": "Classical",
+		"era": "Classical era",
 		"techs": [
 			{
 				"name": "Mathematics",
@@ -178,8 +185,164 @@
 				"prerequisites": ["Sailing", "Iron Working"],
 				"quote": "'The wisest men follow their own direction.' - Euripides"
 			}
-			
 		]
 	},
-	
+	{
+		"columnNumber": 5,
+		"era": "Classical era",
+		"techs": [
+			{
+				"name": "Literature",
+				"cost": 200,
+				"row": 1,
+				"prerequisites": ["Alphabet"],
+				"quote": "'Some books are to be tasted, others to be swallowed and some few to be chewed and digested.' - Sir Francis Bacon"
+			},
+			{
+				"name": "Calendar",
+				"cost": 350,
+				"row": 2,
+				"prerequisites": ["Sailing", "Mathematics"],
+				"quote": "'For everything there is a season and a time for every purpose under heaven.' - Ecclesiastes"
+			},
+			{
+				"name": "Construction",
+				"cost": 350,
+				"row": 3,
+				"prerequisites": ["Masonry", "Mathematics"],
+				"quote": "'And on the pedestal these words appear 'My name is Ozymandias, king of kings: Look on my works, ye Mighty and despair!' ' - Percy Bysshe Shelley"
+			},
+			{
+				"name": "Currency",
+				"cost": 400,
+				"row": 4,
+				"prerequisites": ["Mathematics"],
+				"quote": "'Everything is worth what its purchaser will pay for it.' - Publilius Syrus"
+			},
+			{
+				"name": "Machinery",
+				"cost": 400,
+				"row": 7,
+				"prerequisites": ["Metal Casting"],
+				"quote": "'A god from the machine' - Menander"
+			}
+				
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Classical era",
+		"techs": [
+			{
+				"name": "Drama",
+				"cost": 300,
+				"row": 2,
+				"prerequisites": ["Alphabet"],
+				"quote": "'All the world's a stage, And all the men and women merely players: They have their exits and their entrances; And one man in his time plays many parts.' - William Shakespeare"
+			},
+			{
+				"name": "Engineering",
+				"cost": 1000,
+				"row": 4,
+				"prerequisites": ["Machinery", "Construction"],
+				"quote": "'A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.' - Antoine de Saint-Exupery"
+			},
+			{
+				"name": "Code of Laws",
+				"cost": 350,
+				"row": 6,
+				"prerequisites": ["Currency"],
+				"quote": "'To bring about the rule of righteousness in the land so that the strong shall not harm the weak.' – Hammurabi's Code, Prologue"
+			},
+			{
+				"name": "Feudalism",
+				"cost": 700,
+				"row": 8,
+				"prerequisites": ["Writing", "Monarchy"],
+				"quote": "'I will to my lord be true and faithful and love all which he loves and shun all which he shuns.' – Anglo-Saxon Oath of Fealty"
+			}
+				
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Medieval era",
+		"techs": [
+			{
+				"name": "Philosophy",
+				"cost": 800,
+				"row": 2,
+				"prerequisites": ["Code of Laws"],
+				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
+			},
+			{
+				"name": "Civil Service",
+				"cost": 350,
+				"row": 6,
+				"prerequisites": ["Code of Laws", "Feudalism"],
+				"quote": "'To bring about the rule of righteousness in the land so that the strong shall not harm the weak.' – Hammurabi's Code, Prologue"
+			},
+			{
+				"name": "Theology",
+				"cost": 500,
+				"row": 8,
+				"prerequisites": ["Writing"],
+				"quote": "'Two cities have been formed by two loves: the earthly by the love of self, the heavenly by the love of God.'– St. Augustine"
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Medieval era",
+		"techs": [
+			{
+				"name": "Divine Right",
+				"cost": 1200,
+				"row": 5,
+				"prerequisites": ["Theology", "Monarchy"],
+				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
+			},
+			{
+				"name": "Paper",
+				"cost": 600,
+				"row": 8,
+				"prerequisites": ["Theology", "Civil Service"],
+				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
+			},
+			{
+				"name": "Guilds",
+				"cost": 1000,
+				"row": 7,
+				"prerequisites": ["Feudalism", "Machinery"],
+				"quote": "'People of the same trade seldom meet together even for merriment and diversion but the conversation ends at a conspiracy against the public.'– Adam Smith"
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Medieval era",
+		"techs": [
+			{
+				"name": "Nationalism",
+				"cost": 1800,
+				"row": 4,
+				"prerequisites": ["Currency", "Guilds"],
+				"quote": "'There is no wealth like knowledge, no poverty like ignorance.'– Ali Bin Abu-Thalib"
+			},
+			{
+				"name": "Education",
+				"cost": 1800,
+				"row": 6,
+				"prerequisites": ["Currency", "Guilds"],
+				"quote": "'There is no wealth like knowledge, no poverty like ignorance.'– Ali Bin Abu-Thalib"
+			},
+			{
+				"name": "Banking",
+				"cost": 600,
+				"row": 7,
+				"prerequisites": ["Currency", "Guilds"],
+				"quote": "'Banking establishments are more dangerous than standing armies.'– Thomas Jefferson"
+			}
+		]
+	}
 ]

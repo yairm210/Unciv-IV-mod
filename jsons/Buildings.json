@@ -25,7 +25,8 @@
 		"name": "Monument",
 		"culture": 1,
 		"cost": 30,
-		"requiredTech": "Mysticism"
+		"requiredTech": "Mysticism",
+		"uniques": ["Obsolete with [Calendar]"]
 	},
 	{
 		"name": "Obelisk",
@@ -41,7 +42,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"culture": 2},
 		"requiredTech": "Mysticism",
-		//"uniques": ["Free [Monument] in all cities"]
+		"uniques": ["Obsolete with [Calendar]"]  //"Free [Monument] in all cities"]
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
 	{
@@ -54,15 +55,23 @@
 	{
 		"name": "Granary", 
 		"cost": 60,
-		"uniques": ["[50]% of food is carried over after population increases"]
+		"uniques": ["[50]% Food is carried over after population increases [in this city]"]
 		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Monastery",
+		"culture": 2,
+		"percentStatBonus": {"science": 10},
+		"cost": 60,
+		"uniques":["Obsolete with [Scientific Method]"]
+		"requiredTech": "Meditation"
 	},
 	{
 		"name": "Parthenon",
 		"culture": 10,
 		"isWonder": true,
 		"cost": 400,
-		"specialistSlots": {"culture": 2},
+		"specialistSlots": {"Artist": 2},
 		"uniques": ["+[50]% great person generation in all cities"],
 		"requiredTech": "Polytheism",
 	},
@@ -70,6 +79,7 @@
 		"name": "Temple",
 		"culture": 1,
 		"happiness": 1,
+		"specialistSlots": {"Priest": 1},
 		"cost": 80,
 		"requiredTech": "Priesthood"
 	},
@@ -86,7 +96,7 @@
 		"name": "Library",
 		"culture":2,
 		"cost":90,
-		"specialistSlots": {"science": 2},
+		"specialistSlots": {"Scientist": 2},
 		"percentStatBonus": {"science": 25},
 		"requiredTech": "Writing"
 	},
@@ -103,7 +113,7 @@
 	{
 		"name": "Forge",
 		"cost":120,
-		"specialistSlots": {"production": 1},
+		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"science": 25},
 		"food": -1,
 		"requiredTech": "Metal Casting",
@@ -148,5 +158,168 @@
 			"[+1 Food] from [Crab] tiles in this city", "[+1 Food] from [Fish] tiles in this city"],
 		"requiredTech": "Compass"
 	},
-
+	{
+		"name": "The Great Library",
+		"cost": 350,
+		"culture": 8,
+		"greatPersonPoints": {"science": 6},
+		"isWonder": true,
+		"requiredBuilding": "Library"
+		"requiredTech": "Literature",
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
+	{
+		"name": "National Epic",
+		"cost": 250,
+		"culture": 4,
+		"greatPersonPoints": {"culture": 1},
+		"uniques": ["+[100]% great person generation in this city"],
+		"isNationalWonder": true,
+		"requiredBuilding": "Library"
+		"requiredTech": "Literature"
+	},
+	{
+		"name": "Colosseum",
+		"cost": 80,
+		"happiness":1,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Market",
+		"cost": 150,
+		"specialistSlots": {"Merchant": 1},
+		"percentStatBonus": {"gold": 25},
+		"happiness":1,
+		"uniques": ["[+1 Happiness] with [Furs]", "[+1 Happiness] with [Ivory]",
+			"[+1 Happiness] with [Silk]", "[+1 Happiness] with [Whales]"]
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Theatre",
+		"cost": 50,
+		"specialistSlots": {"Artist": 2},
+		"culture": 3,
+		"uniques": ["[+1 Happiness] with [Dyes]"]
+		"requiredTech": "Drama"
+	},
+	{
+		"name": "Courthouse",
+		"cost": 120,
+		"uniques": ["-[50]% building maintenance costs [in this city]"],
+		"requiredTech": "Code of Laws"
+	},
+	{
+		"name": "Chichen Itza",
+		"cost": 350,
+		"culture":6,
+		"isWonder": true,
+		"uniques": ["[+25]% City Strength from defensive buildings"]
+		"requiredTech": "Code of Laws",
+		"greatPersonPoints": {"science": 2},
+	},
+	{
+		"name": "Angkor Wat",
+		"cost": 500,
+		"culture": 8,
+		"isWonder": true,
+		//"greatPersonPoints": {"faith": 2},
+		"requiredTech": "Philosophy",
+		"specialistSlots": {"Priest": 3},
+		"uniques":["[+1 Production] from every [Priest]"]
+		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
+	},
+	{
+		"name": "Sistine Chapel",
+		"cost": 600,
+		"culture": 10,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["[+25]% [Culture] [in all cities]"],
+		"requiredTech": "Theology",
+		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+	},
+	{
+		"name": "Hagia Sophia",
+		"cost": 550,
+		"culture": 8,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"isWonder": true,
+		"uniques": ["[-33]% tile improvement construction time" /*, "Obsolete with [Steam Power]"*/],
+		"requiredTech": "Theology",
+		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+	{
+		"name": "Versailles",
+		"cost": 800,
+		"culture": 10,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isNationalWonder": true,
+		"uniques": ["[-25]% maintenance cost for buildings [in all cities]"/*, "Obsolete with [Steam Power]"*/],
+		"requiredTech": "Divine Right",
+//		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+	{
+		"name": "University of Sankore",
+		"cost": 550,
+		"culture": 8,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["[+2 Science] from [Science] buildings" /*, "Obsolete with [Computers]"*/],
+		"requiredTech": "Paper",
+//		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+	{
+		"name": "Grocer",
+		"cost": 150,
+		"specialistSlots": {"Merchant": 2},
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["[+1 Food] from [Sugar] tiles [in this city]", "[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Spices] tiles [in this city]", "[+1 Food] from [Wine] tiles [in this city]"
+		],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Hermitage",
+		"cost": 300,
+		"percentStatBonus": {"culture": 100},
+		"greatPersonPoints": {"Great Artist": 1},
+		"isNationalWonder": true,
+		"requiredTech": "Nationalism",
+	},
+	{
+		"name": "Taj Mahal",
+		"cost": 700,
+		"culture": 10,
+		"greatPersonPoints": {"Great Artist": 2},
+		"isWonder": true,
+		"uniques": ["Empire enters golden age"],
+		"requiredTech": "Nationalism",
+		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
+	},
+	{
+		"name": "University",
+		"culture": 3,
+		"cost": 200,
+		"requiredBuilding": "Library",
+		"specialistSlots": {"Scientist": 2},
+		"percentStatBonus": {"science": 25},
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Oxford University",
+		"cost": 400,
+		"requiredBuilding": "University",
+		"percentStatBonus": {"science": 100},
+		"culture": 4,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isNationalWonder": true,
+		"uniques": ["Requires a [University] in at least [6] cities"],
+		"requiredTech": "Education",
+	},
+	{
+		"name": "Bank",
+		"cost": 200,
+		"percentStatBonus": {"gold": 50},
+		"requiredTech": "Banking"
+	}
 ]
