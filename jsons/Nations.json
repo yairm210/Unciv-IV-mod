@@ -43,7 +43,7 @@
 		
 		"outerColor": [204,0,102],
 		"innerColor": [255,255,153],
-		"uniques": ["Starts with [Agruculture]", "Starts with [Mining]"]
+		"uniques": ["Starts with [Agriculture]", "Starts with [Mining]"]
 		"cities": ["Beijing", "Shanghai", "Guangzhou", "Nanjing", "Xian", "Chengdu", "Hangzhou", "Tianjin", "Macau", "Shangdong",
 			   "Kaifeng", "Ningbo", "Baoding", "Yangzhou", "Haerbin", "Chongqing", "Loyang", "Kunming", "Taipei", "Shenyang",
 			   "Taiyuan", "Tainan", "Dalian", "Lijiang", "Wuxi", "Suzhou", "Maoming", "Shaoguan", "Yangjiang", "Heyuan",

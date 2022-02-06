@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Ancient",
+		"era": "Ancient era",
 		"techCost": 40,
 		"techs": [
 			{
@@ -41,7 +41,7 @@
 	},
 	{
 		"columnNumber": 1,
-		"era": "Ancient",
+		"era": "Ancient era",
 		"techCost": 80,
 		"buildingCost": 60,
 		"techs": [
@@ -98,7 +98,7 @@
 	},
 	{
 		"columnNumber": 2,
-		"era": "Ancient",
+		"era": "Ancient era",
 		"techs": [
 			{
 				"name": "Horseback Riding",
@@ -125,7 +125,7 @@
 	},
 	{
 		"columnNumber": 3,
-		"era": "Ancient",
+		"era": "Ancient era",
 		"techs": [
 			{
 				"name": "Writing",
@@ -154,7 +154,7 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Classical",
+		"era": "Classical era",
 		"techs": [
 			{
 				"name": "Mathematics",
@@ -189,7 +189,7 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Classical",
+		"era": "Classical era",
 		"techs": [
 			{
 				"name": "Literature",
@@ -231,7 +231,7 @@
 	},
 	{
 		"columnNumber": 6,
-		"era": "Classical",
+		"era": "Classical era",
 		"techs": [
 			{
 				"name": "Drama",
@@ -266,7 +266,7 @@
 	},
 	{
 		"columnNumber": 7,
-		"era": "Medieval",
+		"era": "Medieval era",
 		"techs": [
 			{
 				"name": "Philosophy",

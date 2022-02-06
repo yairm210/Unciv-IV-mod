@@ -36,7 +36,7 @@
 	{
 		"name": "Granary", 
 		"cost": 60,
-		"uniques": ["[50]% of food is carried over after population increases"]
+		"uniques": ["[50]% Food is carried over after population increases [in this city]"]
 		"requiredTech": "Pottery"
 	},
 	{
@@ -184,7 +184,7 @@
 		"cost": 350,
 		"culture":6,
 		"isWonder": true,
-		"uniques": ["Defensive buildings in all cities are 25% more effective"]
+		"uniques": ["[+25]% City Strength from defensive buildings"]
 		"requiredTech": "Code of Laws",
 		"greatPersonPoints": {"science": 2},
 	},
