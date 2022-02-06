@@ -37,7 +37,7 @@
 				"quote": "'The man who moves a mountain begins by carrying away small stones.' - Confucius"
 			}
 			
-		]	
+		]
 	},
 	{
 		"columnNumber": 1,
@@ -93,7 +93,7 @@
 				"cost": 80,
 				"prerequisites": ["Mining", "Mysticism"],
 				"quote": "'It is from their foes, not their friends, that cities learn the lesson of building high walls.' - Aristophanes"
-			},
+			}
 		]
 	},
 	{
@@ -148,7 +148,7 @@
 				"row": 8,
 				"prerequisites": ["Bronze Working"],
 				"quote": "'You should hammer your iron when it is glowing hot.' - Publilius Syrus"
-			},
+			}
 			
 		]
 	},
@@ -225,7 +225,7 @@
 				"row": 7,
 				"prerequisites": ["Metal Casting"],
 				"quote": "'A god from the machine' - Menander"
-			},
+			}
 				
 		]
 	},
@@ -260,7 +260,7 @@
 				"row": 8,
 				"prerequisites": ["Writing", "Monarchy"],
 				"quote": "'I will to my lord be true and faithful and love all which he loves and shun all which he shuns.' – Anglo-Saxon Oath of Fealty"
-			},
+			}
 				
 		]
 	},
@@ -282,8 +282,33 @@
 				"prerequisites": ["Code of Laws", "Feudalism"],
 				"quote": "'To bring about the rule of righteousness in the land so that the strong shall not harm the weak.' – Hammurabi's Code, Prologue"
 			},
-				
+			{
+				"name": "Theology",
+				"cost": 500,
+				"row": 8,
+				"prerequisites": ["Writing"],
+				"quote": "'Two cities have been formed by two loves: the earthly by the love of self, the heavenly by the love of God.'– St. Augustine"
+			}
 		]
 	},
-	
+	{
+		"columnNumber": 8,
+		"era": "Medieval era",
+		"techs": [
+			{
+				"name": "Divine Right",
+				"cost": 1200,
+				"row": 5,
+				"prerequisites": ["Theology", "Monarchy"],
+				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
+			},
+			{
+				"name": "Paper",
+				"cost": 600,
+				"row": 8,
+				"prerequisites": ["Theology", "Civil Service"],
+				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
+			}
+		]
+	}
 ]

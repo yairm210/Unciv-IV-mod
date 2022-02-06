@@ -1,173 +1,180 @@
 
 game.png
-size: 2048, 512
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Parthenon
   rotate: false
-  xy: 810, 104
+  xy: 628, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/University of Sankore
+  rotate: false
+  xy: 420, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Watermill
   rotate: false
-  xy: 1416, 306
+  xy: 628, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Windmill
   rotate: false
-  xy: 1416, 104
+  xy: 836, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Winery
   rotate: false
-  xy: 1618, 306
+  xy: 1044, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/The Draconic Ones
   rotate: false
-  xy: 1214, 306
+  xy: 628, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/The Dwarves
   rotate: false
-  xy: 1214, 104
+  xy: 836, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Clam
   rotate: false
-  xy: 2, 104
+  xy: 4, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Copper
   rotate: false
-  xy: 204, 104
+  xy: 4, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Crab
   rotate: false
-  xy: 406, 306
+  xy: 212, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Alphabet
   rotate: false
-  xy: 2, 306
+  xy: 4, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Code of Laws
   rotate: false
-  xy: 204, 306
+  xy: 212, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Fishing
   rotate: false
-  xy: 104, 2
+  xy: 1044, 628
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Hunting
   rotate: false
-  xy: 406, 104
+  xy: 420, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Monarchy
   rotate: false
-  xy: 608, 104
+  xy: 212, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Mysticism
   rotate: false
-  xy: 810, 306
+  xy: 420, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Polytheism
   rotate: false
-  xy: 1012, 306
+  xy: 212, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Priesthood
   rotate: false
-  xy: 1012, 104
+  xy: 420, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Axeman
   rotate: false
-  xy: 2, 2
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Chariot
   rotate: false
-  xy: 1618, 204
+  xy: 628, 212
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Explorer
   rotate: false
-  xy: 1820, 406
+  xy: 836, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Galley
   rotate: false
-  xy: 1922, 406
+  xy: 1252, 836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Horse Archer
   rotate: false
-  xy: 206, 2
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Maceman
   rotate: false
-  xy: 608, 306
+  xy: 4, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Work Boat
   rotate: false
-  xy: 308, 2
+  xy: 1360, 836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
