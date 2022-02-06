@@ -190,6 +190,7 @@
 	},
 	{
 		"name": "Angkor Wat",
+		"cost": 500,
 		"culture": 8,
 		"isWonder": true,
 		//"greatPersonPoints": {"faith": 2},
@@ -200,6 +201,7 @@
 	},
 	{
 		"name": "Sistine Chapel",
+		"cost": 600,
 		"culture": 10,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
@@ -209,6 +211,7 @@
 	},
 	{
 		"name": "Hagia Sophia",
+		"cost": 550,
 		"culture": 8,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
@@ -218,6 +221,7 @@
 	},
 	{
 		"name": "Versailles",
+		"cost": 800,
 		"culture": 10,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isNationalWonder": true,
@@ -227,11 +231,23 @@
 	},
 	{
 		"name": "University of Sankore",
+		"cost": 550,
 		"culture": 8,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
 		"uniques": ["[+2 Science] from [Science] buildings" /*, "Obsolete with [Computers]"*/],
 		"requiredTech": "Paper",
 //		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
-	}
+	},
+	{
+		"name": "Grocer",
+		"cost": 150,
+		"specialistSlots": {"Merchant": 2},
+		"percentStatBonus": {"gold": 25},
+		"happiness":1,
+		"uniques": ["[+1 Food] from [Sugar] tiles [in this city]", "[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Spices] tiles [in this city]", "[+1 Food] from [Wine] tiles [in this city]"
+		],
+		"requiredTech": "Guilds"
+	},
 ]

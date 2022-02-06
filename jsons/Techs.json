@@ -308,6 +308,13 @@
 				"row": 8,
 				"prerequisites": ["Theology", "Civil Service"],
 				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
+			},
+			{
+				"name": "Guilds",
+				"cost": 1000,
+				"row": 10,
+				"prerequisites": ["Feudalism", "Machinery"],
+				"quote": "'People of the same trade seldom meet together even for merriment and diversion but the conversation ends at a conspiracy against the public.'– Adam Smith"
 			}
 		]
 	}

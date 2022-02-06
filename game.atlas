@@ -18,23 +18,30 @@ BuildingIcons/University of Sankore
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Watermill
+BuildingIcons/Versailles
   rotate: false
   xy: 628, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Windmill
+ImprovementIcons/Watermill
   rotate: false
   xy: 836, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Winery
+ImprovementIcons/Windmill
   rotate: false
   xy: 1044, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Winery
+  rotate: false
+  xy: 628, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -90,7 +97,7 @@ TechIcons/Code of Laws
   index: -1
 TechIcons/Fishing
   rotate: false
-  xy: 1044, 628
+  xy: 1252, 836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -139,28 +146,28 @@ UnitIcons/Axeman
   index: -1
 UnitIcons/Chariot
   rotate: false
-  xy: 628, 212
+  xy: 836, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Explorer
   rotate: false
-  xy: 836, 420
+  xy: 1044, 628
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Galley
   rotate: false
-  xy: 1252, 836
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Horse Archer
   rotate: false
-  xy: 112, 4
+  xy: 836, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

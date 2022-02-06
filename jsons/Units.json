@@ -51,7 +51,8 @@
 		"cost": 30,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
-		"uniques": ["No defensive terrain bonus","Penalty vs City 33%", "[100]% Strength <vs [Axeman] units>", "Rough terrain penalty"],
+		"upgradesTo": "Knight",
+		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>", "[+100]% Strength <vs [Axeman] units>", "Rough terrain penalty"],
 		"attackSound": "horse"
 	},
 	{
@@ -63,7 +64,7 @@
 		"requiredTech": "Hunting",
 		"upgradesTo": "Pikeman",
 		"requiredResource": "Copper",
-		"uniques": ["[100]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+100]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -84,7 +85,7 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
-		"uniques": ["[25]% Strength <when fighting in [Hill] tiles> <when defending>"],
+		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles> <when defending>"],
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Longbowman",
@@ -98,7 +99,8 @@
 		"rangedStrength": 10,
 		"range": 2,
 		"cost": 50,
-		"uniques": ["No defensive terrain bonus", "[50]% Strength <vs [Catapult] units>"],
+		"upgradesTo": "Knight",
+		"uniques": ["No defensive terrain bonus", "[+50]% Strength <vs [Catapult] units>"],
 		"requiredTech": "Horseback Riding",
 		"attackSound": "arrow"
 	},
@@ -111,7 +113,7 @@
 		"requiredTech": "Bronze Working",
 		//"upgradesTo": "Pikeman",
 		"requiredResource": "Copper",
-		"uniques": ["[50]% Strength <vs [Melee] units>"],
+		"uniques": ["[+50]% Strength <vs [Melee] units>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -121,7 +123,7 @@
 		"strength": 11,
 		"cost": 50,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "[50]% Strength <vs [Galley] units>"]
+		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Galley] units>"]
 		//"upgradesTo": "Trireme",
 		"attackSound": "nonmetalhit"
 	},
@@ -134,7 +136,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Maceman",
 		"requiredResource": "Iron",
-		"uniques": ["[10]% Strength <vs cities>"],
+		"uniques": ["[+10]% Strength <vs cities>"],
 		"attackSound": "metalhit"
 	},
 	
@@ -158,7 +160,7 @@
 		"requiredTech": "Construction",
 		//"obsoleteTech": "Physics",
 		//"upgradesTo": "Trebuchet",
-		"uniques": ["[200]% Strength <vs cities>", "No defensive terrain bonus",
+		"uniques": ["[+200]% Strength <vs cities>", "No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight"],
 		"attackSound": "throw"
 	},
@@ -173,7 +175,7 @@
 		//"upgradesTo": "Rifleman",
 		//"obsoleteTech": "Industrialization",
 		"requiredResource": "Iron",
-		"uniques": ["[50]% Strength <vs [Melee] units>"],
+		"uniques": ["[+50]% Strength <vs [Melee] units>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -183,7 +185,7 @@
 		"strength": 16,
 		"cost": 60,
 		"requiredTech": "Engineering",
-		"uniques": ["[100]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+100]% Strength <vs [Mounted] units>"],
 		//"upgradesTo": "Musketman",
 		//"obsoleteTech": "Gunpowder",
 		"requiredResource": "Copper",
@@ -200,7 +202,7 @@
 		"requiredTech": "Engineering",
 		//"obsoleteTech": "Chemistry",
 		//"upgradesTo": "Cannon",
-		"uniques": ["[200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
+		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
 		"attackSound": "throw"
 	},
 	{
@@ -214,7 +216,7 @@
 		"requiredTech": "Feudalism",
 		//"upgradesTo": "Gatling Gun",
 		//"obsoleteTech": "Industrialization",
-		"uniques": ["[25]% Strength <when fighting in [Hill] tiles> <when defending>", "[25]% Strength <when fighting in [City center] tiles> <when defending>"],
+		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles> <when defending>", "[+25]% Strength <when fighting in [City center] tiles> <when defending>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -227,7 +229,20 @@
 		//"upgradesTo": "Musketman",
 		//"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["[50]% Strength <vs [Melee] units>"],
+		"uniques": ["[+50]% Strength <vs [Melee] units>"],
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 90,
+		"requiredTech": "Guilds",
+//		"obsoleteTech": "Military Science",
+//		"upgradesTo": "Cavalry",
+		"uniques": ["Consumes [1] [Horses]", "Consumes [1] [Iron]",
+			"Can move after attacking", "No defensive terrain bonus","[+50]% Strength <vs [Siege] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	}
 ]
