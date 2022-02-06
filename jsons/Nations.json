@@ -3,8 +3,8 @@
 		"name": "America",
 		"leaderName": "George Washington",
 		
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
+		"outerColor": [0,0,255],
+		"innerColor": [255,255,255],
 		"uniques": ["Starts with [Agriculture]", "Starts with [Fishing]"]
 		"cities": ["Washington", "New York", "Boston", "Philadelphia", "Atlanta", "Chicago", "Seattle", "San Francisco", "Los Angeles",
 		"Houston", "Portlnd", "St Louis", "Miami", "Buffalo", "Detroit", "New Orleans", "Baltimore", "Denver", "Cincinnati", "Dallas",
@@ -18,7 +18,7 @@
 		"leaderName": "Saladin",
 		
 		"outerColor": [0,102,0],
-		"innerColor": [255,255,0],
+		"innerColor": [0,0,255],
 		"uniques": ["Starts with [Mysticism]", "Starts with [The Wheel]"]
 		"cities": ["Mecca", "Medina", "Damascus", "Baghdad", "Najran", "Kufah", "Basra", "Khurasan", "Anjar", "Fustat", "Aden",
 		"Yamama", "Muscat", "Mansura", "Bukhara", "Fez", "Shiraz", "Merw", "Balkh", "Mosul", "Aydab", "Bayr Ras", "Suhar", "Taif",
@@ -28,8 +28,8 @@
 		"name": "Aztec",
 		"leaderName": "Montezuma II",
 		
-		"outerColor": [204,0,102],
-		"innerColor": [255,255,153],
+		"outerColor": [0,102,0],
+		"innerColor": [255,255,0],
 		"uniques": ["Starts with [Hunting]", "Starts with [Mysticism]"]
 		"cities": ["Tenochtitlan", "Teotihuacan", "Tlatelolco", "Texcoco", "Tlaxcala", "Calixtlahuaca", "Xochicalco", "Tlacopan",
 			   "Atzcapotzalco", "Tzintzuntzan", "Malinalco", "Tula", "Tamuin", "Teayo", "Cempoala", "Chalco", "Tlalmanalco",
@@ -64,6 +64,18 @@
 		"Tasa", "Badari", "Ermopoli", "Amrah", "Negade", "Koptos", "Hermontis", "Ombos", "Aniba", "Soleb", "Semna", "Amara"]
 	}
 	{
+		"name": "England",
+		"leaderName": "Elizabeth",
+		
+		"outerColor": [255,0,0],
+		"innerColor": [255,255,255],
+		"uniques": ["Starts with [Fishing]", "Starts with [Mining]"]
+		"cities": ["London", "York", "Nottingham", "Hastings", "Canterbury", "Coventry", "Warwick", "Newcastle", "Oxford",
+		"Liverpool", "Dover", "Brighton", "Norwich", "Leeds", "Reading", "Birmingham", "Richmond", "Exeter", "Cambridge",
+		"Gloucester", "Manchester", "Bristol", "Leicester", "Carlisle", "Ipswich", "Porsmouth", "Berwick", "Bath", "Mumbles",
+		"Southampton", "Sheffield", "Salisbury", "Colchester", "Plymouth", "Lancaster", "Winchester", "Blackpool", "Hull"]
+	}
+	{
 		"name": "France",
 		"leaderName": "Napoleon",
 		
@@ -76,11 +88,23 @@
 		"Lourdes", "Cannes", "Aix-en-Province", "La Rochelle", "Bourges", "Calais"]
 	}
 	{
+		"name": "Germany",
+		"leaderName": "Otto von Bismarck",
+		
+		"outerColor": [128,128,128],
+		"innerColor": [0,0,0],
+		"uniques": ["Starts with [Hunting]", "Starts with [Mining]"]
+		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Essen", "Dortmund", "Stuttgart", "Dusseldorf", "Bremen",
+		"Hannover", "Duisburg", "Leipzig", "Nuremberg", "Dresden", "Bonn", "Bochum", "Magdeburg", "Bielefeld", "Mannheim", "Karlsruhe",
+		"Gelsenkirchen", "Wiesbaden", "Munster", "Rostock", "Augsburg", "Chemnitz", "Aachen", "Braunschweig", "Halle", "Monchengladbach",
+		"Kiel", "Lubeck", "Freiburg", "Heidelberg", "Kassel", "Mainz", "Saarbrucken", "Potsdam", "Leverkusen", "Oldenburg", "Neuss", "Trier"]
+	}
+	{
 		"name": "Greece",
 		"leaderName": "Alexander",
 		
 		"outerColor": [0,128,255],
-		"innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		"uniques": ["Starts with [Fishing]", "Starts with [Hunting]"]
 		"cities": ["Athens", "Sparta", "Corinth", "Thebes", "Argos", "Knossos", "Mycenae", "Pharsalos", "Ephesus", "Halicarnassus",
 		"Rhodes", "Eretria", "Pergamon", "Milteos", "Megara", "Phocaea", "Sicyon", "Tiryns", "Samos", "Mytilene", "Chios", "Paros",
@@ -88,16 +112,41 @@
 		"Messene", "Orchomenos", "Ambracia", "Kos", "Knidos", "Amphipolis", "Patras", "Lamia", "Nafplion", "Apolyotn"]
 	}
 	{
+		"name": "Inca",
+		"leaderName": "Huayna Capac",
+		
+		"outerColor": [255,255,0],
+		"innerColor": [255,0,0],
+		"uniques": ["Starts with [Agriculture]", "Starts with [Mysticism]"]
+		"cities": ["Cuzco", "Tiwanaku", "Machu Pichu", "Ollantaytambo", "Corihuayrachina", "Huamanga", "Vilcas", "Vilcabamba", "Vitcos",
+		"Andahuaylas", "Ica", "Arequipa", "Nasca", "Atico", "Juli", "Chuito", "Chuqulapo", "Huanucopampa", "Tamboccocha", "Huaras",
+		"Riobamba", "Caxamalca", "Sausa", "Tambocolorado", "Huaca", "Tumbes", "Chan Chan", "Sipan", "Pachacamap", "Llactapata", "Pisac",
+		"Kuelap", "Pajaten", "Limatambo", "Chucuito"]
+	}
+	{
 		"name": "Japan",
 		"leaderName": "Tokugawa Ieyasu",
 		
-		"outerColor": [255,0,0],
-		"innerColor": [255,255,255],
+		"outerColor": [255,255,255],
+		"innerColor": [255,0,0],
 		"uniques": ["Starts with [Fishing]", "Starts with [The Wheel]"]
 		"cities": ["Kyoto", "Osaka", "Tokyo", "Satsuma", "Kagoshima", "Nara", "Nagoya", "Izumo", "Nagasaki", "Yokohama",
 		"Shimonoseki", "Matsuyama", "Sapporo", "Hakodate", "Ise", "Toyama", "Fukushima", "Suo", "Bizen", "Echizen", "Izumi",
 		"Omi", "Echigo", "Kozuke", "Sado", "Kobe", "Nagano", "Hiroshima", "Takayama", "Akita", "Fukuoka", "Aomori", "Kamakuro",
 		"Kochi", "Naha"]
+	}
+	{
+		"name": "Persia",
+		"leaderName": "Cyrus II",
+		
+		"outerColor": [0,204,204],
+		"innerColor": [0,0,0],
+		"uniques": ["Starts with [Agriculture]", "Starts with [Hunting]"]
+		"cities": ["Persepolis", "Pasargadae", "Susa", "Ecbatana", "Arbela", "Tarsus", "Gordium", "Bactra", "Sardis", "Ergili",
+		"Dariushkabir", "Ghulaman", "Zohak", "Istakhr", "Jinjan", "Borazjan", "Herat", "Dakyanus", "Bampur", "Turengtepe", "Rey",
+		"Shiraz", "Tushpa", "Hasanlu", "Gabae", "Merv", "Behistun", "Kandahar", "Altintepe", "Bunyan", "Charsadda", "Dura Europos",
+		"Aleppo", "Qatna", "Kabul", "Capisa", "Marakanda", "Peshawar", "Taxila", "Van", "Arshada", "Ekatompylos", "Kapisa", "Karmana",
+		"Phrada" ]
 	}
 	{
 		"name": "Rome",
@@ -117,7 +166,7 @@
 		"name": "Russia",
 		"leaderName": "Peter",
 		
-		"outerColor": [102,0,51],
+		"outerColor": [255,0,0],
 		"innerColor": [255,255,0],
 		"uniques": ["Starts with [Hunting]", "Starts with [Mining]"]
 		"cities": ["Moskow", "St. Petersburg", "Novgorod", "Rostov", "Yaroslavi", "Yekaterinburg", "Yakutsk", "Vladivostok",
