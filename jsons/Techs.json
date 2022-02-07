@@ -435,5 +435,25 @@
 				"quote": "'Chemistry means the difference between poverty and starvation and the abundant life.' – Robert Brent"
 			}
 		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Industrial era",
+		"techs": [
+			{
+				"name": "Steam Power",
+				"cost": 3200,
+				"row": 7,
+				"prerequisites": ["Chemistry", "Replaceable Parts"],
+				"quote": "'You would make a ship sail against the winds and currents by lighting a bonfire under her deck? I have no time for such nonsense.\"\n– Napoleon on Robert Fulton's steamship"
+			},
+			{
+				"name": "Steel",
+				"cost": 2800,
+				"row": 8,
+				"prerequisites": ["Chemistry", "Iron Working"],
+				"quote": "'Before that steam drill shall beat me down, I’ll die with my hammer in my hand.' – John Henry, The Steel-Driving Man"
+			}
+		]
 	}
 ]

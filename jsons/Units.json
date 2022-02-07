@@ -304,5 +304,31 @@
 		//		"upgradesTo": "Infantry",
 		"uniques": ["[+50]% Strength <vs [Rifleman] units>"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 20,
+		"cost": 100,
+		"requiredTech": "Steel",
+//		"upgradesTo": "Artillery",
+//		"obsoleteTech": "Dynamite",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Ironclad",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 100,
+		"requiredTech": "Steam Power",
+//		"upgradesTo": "Destroyer",
+//		"obsoleteTech": "Combustion",
+		"uniques": ["Requires [1] [Coal]", "Requires [1] [Iron]",
+			"[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
 	}
 ]

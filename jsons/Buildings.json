@@ -89,7 +89,7 @@
 		"percentStatBonus": {"science": 25},
 		"food": -1,
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+1 Happiness] with [Gold ore]", "[+1 Happiness] with [Silver]", "[+1 Happiness] with [Gems]"]
+		"uniques": ["[+1 Happiness] <with [Gold ore]>", "[+1 Happiness] <with [Silver]>", "[+1 Happiness] <with [Gems]>"]
 	},
 	{
 		"name": "Colossus",
@@ -161,8 +161,8 @@
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"happiness":1,
-		"uniques": ["[+1 Happiness] with [Furs]", "[+1 Happiness] with [Ivory]",
-			"[+1 Happiness] with [Silk]", "[+1 Happiness] with [Whales]"]
+		"uniques": ["[+1 Happiness] <with [Furs]>", "[+1 Happiness] <with [Ivory]>",
+			"[+1 Happiness] <with [Silk]>", "[+1 Happiness] <with [Whales]>"]
 		"requiredTech": "Currency"
 	},
 	{
@@ -170,7 +170,7 @@
 		"cost": 50,
 		"specialistSlots": {"Artist": 2},
 		"culture": 3,
-		"uniques": ["[+1 Happiness] with [Dyes]"]
+		"uniques": ["[+1 Happiness] <with [Dyes]>"]
 		"requiredTech": "Drama"
 	},
 	{
@@ -194,7 +194,7 @@
 		"requiredBuilding": "Library",
 		"specialistSlots": {"Priest": 2},
 		// This unique uses Resource mechanics to limit 1 cathedral per 3 temples
-		"uniques": ["[+1 Happiness] with [Incense]", "Consumes [3] [Cathedral Followers]"],
+		"uniques": ["[+1 Happiness] <with [Incense]>", "Consumes [3] [Cathedral Followers]"],
 		"percentStatBonus": {"culture": 50},
 		"requiredTech": "Music"
 	},
@@ -225,7 +225,7 @@
 		"culture": 8,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[-33]% tile improvement construction time" /*, "Obsolete with [Steam Power]"*/],
+		"uniques": ["[-33]% tile improvement construction time" , "Obsolete with [Steam Power]"],
 		"requiredTech": "Theology",
 		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -235,7 +235,7 @@
 		"culture": 10,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isNationalWonder": true,
-		"uniques": ["[-25]% maintenance cost for buildings [in all cities]"/*, "Obsolete with [Steam Power]"*/],
+		"uniques": ["[-25]% maintenance cost for buildings [in all cities]"],
 		"requiredTech": "Divine Right",
 //		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -327,5 +327,27 @@
 		"specialistSlots": {"Scientist": 1},
 		"percentStatBonus": {"science": 25},
 		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Cathedral",
+		"cost": 300,
+		"requiredBuilding": "Library",
+		"specialistSlots": {"Priest": 2},
+		// This unique uses Resource mechanics to limit 1 cathedral per 3 temples
+		"uniques": ["[+1 Happiness] <with [Incense]>", "Consumes [3] [Cathedral Followers]"],
+		"percentStatBonus": {"culture": 50},
+		"requiredTech": "Music"
+	},
+	{
+		"name": "Ironworks",
+		"cost": 700,
+		"food": -2,
+		"requiredBuilding": "Forge",
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isNationalWonder": true,
+		"specialistSlots": {"Engineer": 3},
+		"uniques": ["Requires a [Forge] in at least [6] cities",
+			"[+50]% [Production] [in this city] <with [Iron]>", "[+50]% [Production] [in this city] <with [Coal]>", ],
+		"requiredTech": "Steel",
 	}
 ]

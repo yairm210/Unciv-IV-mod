@@ -51,6 +51,15 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
 	},
+	{
+		"name": "Coal",
+		"resourceType": "Strategic",
+		"revealedBy": "Steam Power",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
 	
 	{
 		"name": "Gold ore",
