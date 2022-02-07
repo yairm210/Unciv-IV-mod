@@ -71,7 +71,7 @@
 	},
 	
 	{
-		"name": "Gold ore",
+		"name": "Gold Ore",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill"],
 		"gold": 1,

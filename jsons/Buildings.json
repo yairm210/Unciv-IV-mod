@@ -89,7 +89,7 @@
 		"percentStatBonus": {"science": 25},
 		"food": -1,
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+1 Happiness] <with [Gold ore]>", "[+1 Happiness] <with [Silver]>", "[+1 Happiness] <with [Gems]>"]
+		"uniques": ["[+1 Happiness] <with [Gold Ore]>", "[+1 Happiness] <with [Silver]>", "[+1 Happiness] <with [Gems]>"]
 	},
 	{
 		"name": "Colossus",
