@@ -257,9 +257,17 @@
 			{
 				"name": "Feudalism",
 				"cost": 700,
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Writing", "Monarchy"],
 				"quote": "'I will to my lord be true and faithful and love all which he loves and shun all which he shuns.' – Anglo-Saxon Oath of Fealty"
+			},
+			{
+				"name": "Optics",
+				"cost": 600,
+				"row": 8,
+				"prerequisites": ["Compass", "Machinery"],
+				"uniques": ["[+1] Sight <for [Water] units>"],
+				"quote": "'One doesn't discover new lands without losing sight of the shore.'– Andre Gide"
 			}
 				
 		]
@@ -357,10 +365,10 @@
 		"era": "Renaissance era",
 		"techs": [
 			{
-				"name": "Replaceable Parts",
-				"cost": 1800,
-				"row": 4,
-				"prerequisites": ["Banking", "Paper"],
+				"name": "Military Tradition",
+				"cost": 2000,
+				"row": 3,
+				"prerequisites": ["Music", "Nationalism"],
 				"quote": "'The whole is more than the sum of its parts.'– Aristotle"
 			},
 			{
@@ -381,9 +389,50 @@
 			{
 				"name": "Gunpowder",
 				"cost": 1200,
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Education"],
 				"quote": "'You can get more of what you want with a kind word and a gun than you can with just a kind word.' - Al Capone"
+			},
+			{
+				"name": "Replaceable Parts",
+				"cost": 1800,
+				"row": 8,
+				"prerequisites": ["Banking", "Paper"],
+				"quote": "'The whole is more than the sum of its parts.'– Aristotle"
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Renaissance era",
+		"techs": [
+			{
+				"name": "Democracy",
+				"cost": 2800,
+				"row": 4,
+				"prerequisites": ["Nationalism", "Machinery", "Paper"],
+				"quote": "'It has been said that democracy is the worst form of government except all the others that have been tried.' – Winston Churchill"
+			},
+			{
+				"name": "Astronomy",
+				"cost": 2000,
+				"row": 5,
+				"prerequisites": ["Calendar", "Optics"],
+				"quote": "'Astronomy compels the soul to look upwards and leads us from this world to another.'– Plato"
+			},
+			{
+				"name": "Rifling",
+				"cost": 2800,
+				"row": 6,
+				"prerequisites": ["Gunpowder", "Replaceable Parts"],
+				"quote": "'Political power grows out of the barrel of a gun.' – Mao Zedong"
+			},
+			{
+				"name": "Chemistry",
+				"cost": 1800,
+				"row": 7,
+				"prerequisites": ["Engineering", "Gunpowder"],
+				"quote": "'Chemistry means the difference between poverty and starvation and the abundant life.' – Robert Brent"
 			}
 		]
 	}

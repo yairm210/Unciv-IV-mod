@@ -169,7 +169,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		"improvement": "Fishing Boats",
+		"improvement": "Whaling Boats",
 		"improvementStats": {"gold": 2, "production":1}
 	},
 

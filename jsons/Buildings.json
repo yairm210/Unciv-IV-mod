@@ -184,7 +184,7 @@
 		"cost": 350,
 		"culture":6,
 		"isWonder": true,
-		"uniques": ["[+25]% City Strength from defensive buildings"]
+		"uniques": ["[+25]% City Strength from defensive buildings", "Obsolete with [Rifling]"],
 		"requiredTech": "Code of Laws",
 		"greatPersonPoints": {"science": 2},
 	},
@@ -310,5 +310,22 @@
 		"gold": 2,
 		"uniques": ["Can only be built in coastal cities"],
 		"requiredTech": "Economics"
+	},
+	{
+		"name": "Statue of Liberty",
+		"culture": 6,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"uniques": ["[+1 Production] from every specialist [in all cities]"],
+		"requiredTech": "Democracy",
+		"requiredBuilding": "Forge",
+		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
+	},
+	{
+		"name": "Observatory",
+		"cost": 150,
+		"specialistSlots": {"Scientist": 1},
+		"percentStatBonus": {"science": 25},
+		"requiredTech": "Astronomy"
 	}
 ]

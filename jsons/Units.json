@@ -75,7 +75,7 @@
 		"cost": 80,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles"]
-		//"upgradesTo": "Galleon",
+		"upgradesTo": "Trireme",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -124,7 +124,7 @@
 		"cost": 50,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Galley] units>"]
-		//"upgradesTo": "Trireme",
+		"upgradesTo": "Frigate",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -227,7 +227,7 @@
 		"cost": 70,
 		"requiredTech": "Civil Service",
 		"upgradesTo": "Musketman",
-		//"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": ["[+50]% Strength <vs [Melee] units>"],
 		"attackSound": "metalhit"
@@ -239,10 +239,23 @@
 		"strength": 20,
 		"cost": 90,
 		"requiredTech": "Guilds",
-//		"obsoleteTech": "Military Science",
-//		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Tradition",
+		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Consumes [1] [Iron]",
-			"Can move after attacking", "No defensive terrain bonus","[+50]% Strength <vs [Siege] units>", "Never appears as a Barbarian unit"],
+			"No defensive terrain bonus","[+50]% Strength <vs [Siege] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 120,
+		"requiredTech": "Military Tradition",
+//		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+//		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Siege] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -252,8 +265,44 @@
 		"strength": 24,
 		"cost": 80,
 		"requiredTech": "Gunpowder",
-//		"upgradesTo": "Rifleman",
-//		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 110,
+		"requiredTech": "Rifling",
+//		"obsoleteTech": "???",
+//		"upgradesTo": "Infantry",
+		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Frigate",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 90,
+		"requiredResource": "Iron",
+		//		"obsoleteTech": "???",
+//		"upgradesTo": "Destroyer",
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Grenadier",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 30,
+		"cost": 100,
+		"requiredTech": "Chemistry",
+		//		"obsoleteTech": "???",
+		//		"upgradesTo": "Infantry",
+		"uniques": ["[+50]% Strength <vs [Rifleman] units>"],
 		"attackSound": "shot"
 	}
 ]
