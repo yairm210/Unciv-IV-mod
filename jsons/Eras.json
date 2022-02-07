@@ -86,4 +86,34 @@
         },
         "iconRGB": [157, 39, 176]
     },
+    {
+        "name": "Renaissance era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Pikeman",
+        "startingGold": 50,
+        "startingCulture": 300,
+        "settlerPopulation": 2,
+        "settlerBuildings": ["Temple","Monument","Granary","Lighthouse"],
+        "startingObsoleteWonders": [],
+        "baseUnitBuyCost": 300,
+        "startPercent": 37,
+        "friendBonus": {
+            "Cultured": ["Provides [+6 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+3] Happiness"],
+            "Religious": ["Provides [+6 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+12 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+            "Religious": ["Provides [+12 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },
+        "iconRGB": [104, 58, 183]
+    }
 ]

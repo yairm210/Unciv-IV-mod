@@ -326,14 +326,14 @@
 				"name": "Nationalism",
 				"cost": 1800,
 				"row": 4,
-				"prerequisites": ["Currency", "Guilds"],
+				"prerequisites": ["Civil Service", "Philosophy"],
 				"quote": "'There is no wealth like knowledge, no poverty like ignorance.'– Ali Bin Abu-Thalib"
 			},
 			{
 				"name": "Education",
 				"cost": 1800,
 				"row": 6,
-				"prerequisites": ["Currency", "Guilds"],
+				"prerequisites": ["Paper"],
 				"quote": "'There is no wealth like knowledge, no poverty like ignorance.'– Ali Bin Abu-Thalib"
 			},
 			{
@@ -341,7 +341,27 @@
 				"cost": 600,
 				"row": 7,
 				"prerequisites": ["Currency", "Guilds"],
-				"quote": "'Banking establishments are more dangerous than standing armies.'– Thomas Jefferson"
+				"quote": "'Banking establishments are more dangerous than standing armies.' – Thomas Jefferson"
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Renaissance era",
+		"techs": [
+			{
+				"name": "Replaceable Parts",
+				"cost": 1800,
+				"row": 4,
+				"prerequisites": ["Banking", "Paper"],
+				"quote": "'The whole is more than the sum of its parts.'– Aristotle"
+			},
+			{
+				"name": "Gunpowder",
+				"cost": 1200,
+				"row": 8,
+				"prerequisites": ["Education"],
+				"quote": "'You can get more of what you want with a kind word and a gun than you can with just a kind word.' - Al Capone"
 			}
 		]
 	}
