@@ -269,10 +269,17 @@
 		"era": "Medieval era",
 		"techs": [
 			{
+				"name": "Music",
+				"cost": 600,
+				"row": 3,
+				"prerequisites": ["Mathematics", "Drama"],
+				"quote": "'If music be the food of love, play on.' – William Shakespeare"
+			},
+			{
 				"name": "Philosophy",
 				"cost": 800,
-				"row": 2,
-				"prerequisites": ["Code of Laws"],
+				"row": 4,
+				"prerequisites": ["Code of Laws", "Drama"],
 				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
 			},
 			{
@@ -355,6 +362,21 @@
 				"row": 4,
 				"prerequisites": ["Banking", "Paper"],
 				"quote": "'The whole is more than the sum of its parts.'– Aristotle"
+			},
+			{
+				"name": "Liberalism",
+				"cost": 1400,
+				"row": 5,
+				"prerequisites": ["Education", "Philosophy"],
+				"uniques": ["Free Technology"],
+				"quote": "'Any society that would give up a little liberty to gain a little security will deserve neither and lose both.' – Benjamin Franklin"
+			},
+			{
+				"name": "Economics",
+				"cost": 1400,
+				"row": 6,
+				"prerequisites": ["Education"],
+				"quote": "'Compound interest is the most powerful force in the universe.'– Albert Einstein"
 			},
 			{
 				"name": "Gunpowder",

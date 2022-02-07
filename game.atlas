@@ -32,6 +32,13 @@ BuildingIcons/Versailles
   orig: 200, 200
   offset: 0, 0
   index: -1
+ImprovementIcons/Lumbermill
+  rotate: false
+  xy: 1360, 836
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Watermill
   rotate: false
   xy: 1044, 736
@@ -55,7 +62,7 @@ ImprovementIcons/Winery
   index: -1
 ImprovementIcons/Workshop
   rotate: false
-  xy: 220, 4
+  xy: 1044, 412
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -195,7 +202,7 @@ UnitIcons/Maceman
   index: -1
 UnitIcons/Work Boat
   rotate: false
-  xy: 1360, 836
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

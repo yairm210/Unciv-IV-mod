@@ -172,4 +172,11 @@
 		"improvement": "Fishing Boats",
 		"improvementStats": {"gold": 2, "production":1}
 	},
+
+	// Used as tokens to limit cathedrals
+	{
+		"name": "Cathedral Followers",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": []
+	}
 ]

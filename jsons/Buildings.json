@@ -62,6 +62,7 @@
 		"happiness": 1,
 		"specialistSlots": {"Priest": 1},
 		"cost": 80,
+		"uniques": ["Provides [1] [Cathedral Followers]"],
 		"requiredTech": "Priesthood"
 	},
 	{
@@ -88,8 +89,7 @@
 		"percentStatBonus": {"science": 25},
 		"food": -1,
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+1 Happiness] from [Gold] tiles in this city", "[+1 Happiness] from [Silver] tiles in this city",
-			"[+1 Happiness] from [Gems] tiles in this city", ]
+		"uniques": ["[+1 Happiness] with [Gold ore]", "[+1 Happiness] with [Silver]", "[+1 Happiness] with [Gems]"]
 	},
 	{
 		"name": "Colossus",
@@ -122,7 +122,7 @@
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
 	},
 	{
-		"name": "Lighthouse",
+		"name": "Harbor",
 		"cost": 80,
 		"resourceBonusStats": {"food": 1},
 		"uniques": ["Can only be built in coastal cities", "[+1 Food] from [Clam] tiles in this city",
@@ -189,6 +189,26 @@
 		"greatPersonPoints": {"science": 2},
 	},
 	{
+		"name": "Cathedral",
+		"cost": 300,
+		"requiredBuilding": "Library",
+		"specialistSlots": {"Priest": 2},
+		// This unique uses Resource mechanics to limit 1 cathedral per 3 temples
+		"uniques": ["[+1 Happiness] with [Incense]", "Consumes [3] [Cathedral Followers]"],
+		"percentStatBonus": {"culture": 50},
+		"requiredTech": "Music"
+	},
+	{
+		"name": "Sistine Chapel",
+		"cost": 600,
+		"culture": 10,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["[+25]% [Culture] [in all cities]"],
+		"requiredTech": "Music",
+		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+	},
+	{
 		"name": "Angkor Wat",
 		"cost": 500,
 		"culture": 8,
@@ -198,16 +218,6 @@
 		"specialistSlots": {"Priest": 3},
 		"uniques":["[+1 Production] from every [Priest]"]
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
-	},
-	{
-		"name": "Sistine Chapel",
-		"cost": 600,
-		"culture": 10,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[+25]% [Culture] [in all cities]"],
-		"requiredTech": "Theology",
-		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
 	},
 	{
 		"name": "Hagia Sophia",
@@ -292,5 +302,13 @@
 		"cost": 200,
 		"percentStatBonus": {"gold": 50},
 		"requiredTech": "Banking"
+	},
+	{
+		"name": "Customs House",
+		"requiredBuilding": "Harbor",
+		"cost": 180,
+		"gold": 2,
+		"uniques": ["Can only be built in coastal cities"],
+		"requiredTech": "Economics"
 	}
 ]
