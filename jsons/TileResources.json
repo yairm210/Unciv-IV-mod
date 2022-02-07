@@ -60,6 +60,15 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
 	},
+	{
+		"name": "Oil",
+		"resourceType": "Strategic",
+		"revealedBy": "Scientific Method",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"production": 1,
+		"improvement": "Oil Well",
+		"improvementStats": {"production": 2, "gold": 1}
+	},
 	
 	{
 		"name": "Gold ore",

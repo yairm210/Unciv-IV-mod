@@ -441,11 +441,18 @@
 		"era": "Industrial era",
 		"techs": [
 			{
+				"name": "Scientific Method",
+				"cost": 3200,
+				"row": 5,
+				"prerequisites": ["Astronomy", "Paper"],
+				"quote": "'I do not feel obliged to believe that the same God who has endowed us with sense, reason, and intellect has intended us to forgo their use.' – Galileo Galilei"
+			},
+			{
 				"name": "Steam Power",
 				"cost": 3200,
 				"row": 7,
 				"prerequisites": ["Chemistry", "Replaceable Parts"],
-				"quote": "'You would make a ship sail against the winds and currents by lighting a bonfire under her deck? I have no time for such nonsense.\"\n– Napoleon on Robert Fulton's steamship"
+				"quote": "'You would make a ship sail against the winds and currents by lighting a bonfire under her deck? I have no time for such nonsense.' – Napoleon on Robert Fulton's steamship"
 			},
 			{
 				"name": "Steel",
@@ -455,5 +462,18 @@
 				"quote": "'Before that steam drill shall beat me down, I’ll die with my hammer in my hand.' – John Henry, The Steel-Driving Man"
 			}
 		]
-	}
+	},
+//	{
+//		"columnNumber": 14,
+//		"era": "Industrial era",
+//		"techs": [
+//			{
+//				"name": "Assembly Line",
+//				"cost": 5000,
+//				"row": 5,
+//				"prerequisites": ["Astronomy", "Paper"],
+//				"quote": "'People can have the Model T in any color - so long as it's black.' – Henry Ford"
+//			},
+//		]
+//	}
 ]

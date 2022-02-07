@@ -44,7 +44,7 @@
 		"culture": 2,
 		"percentStatBonus": {"science": 10},
 		"cost": 60,
-		"uniques":["Obsolete with [Scientific Method]"]
+		"uniques":["Obsolete with [Scientific Method]"],
 		"requiredTech": "Meditation"
 	},
 	{
@@ -53,7 +53,7 @@
 		"isWonder": true,
 		"cost": 400,
 		"specialistSlots": {"Artist": 2},
-		"uniques": ["+[50]% great person generation in all cities"],
+		"uniques": ["+[50]% great person generation in all cities", "Obsolete with [Scientific Method]"],
 		"requiredTech": "Polytheism",
 	},
 	{
@@ -135,8 +135,9 @@
 		"culture": 8,
 		"greatPersonPoints": {"science": 6},
 		"isWonder": true,
-		"requiredBuilding": "Library"
+		"requiredBuilding": "Library",
 		"requiredTech": "Literature",
+		"uniques": ["Obsolete with [Scientific Method]"],
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 	{
@@ -349,5 +350,11 @@
 		"uniques": ["Requires a [Forge] in at least [6] cities",
 			"[+50]% [Production] [in this city] <with [Iron]>", "[+50]% [Production] [in this city] <with [Coal]>", ],
 		"requiredTech": "Steel",
+	},
+	{
+		"name": "Levee",
+		"cost": 180,
+		"uniques": ["[+1 Production] from [River] tiles in this city"],
+		"requiredTech": "Steam Power"
 	}
 ]
