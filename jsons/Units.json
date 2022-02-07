@@ -158,7 +158,7 @@
 		"rangedStrength": 8,
 		"cost": 50,
 		"requiredTech": "Construction",
-//		"obsoleteTech": "Physics",
+		"obsoleteTech": "Engineering",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities>", "No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight"],
@@ -172,8 +172,8 @@
 		"rangedStrength": 18,
 		"cost": 60,
 		"requiredTech": "Machinery",
-		//"upgradesTo": "Rifleman",
-		//"obsoleteTech": "Industrialization",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"uniques": ["[+50]% Strength <vs [Melee] units>"],
 		"attackSound": "arrow"
@@ -200,8 +200,8 @@
 		"rangedStrength": 14,
 		"cost": 800,
 		"requiredTech": "Engineering",
-		//"obsoleteTech": "Chemistry",
-		//"upgradesTo": "Cannon",
+		"obsoleteTech": "Chemistry",
+		"upgradesTo": "Cannon",
 		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
 		"attackSound": "throw"
 	},
@@ -276,8 +276,8 @@
 		"strength": 34,
 		"cost": 110,
 		"requiredTech": "Rifling",
-//		"obsoleteTech": "???",
-//		"upgradesTo": "Infantry",
+		"obsoleteTech": "Assembly Line",
+		"upgradesTo": "Infantry",
 		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
 		"attackSound": "shot"
 	},
@@ -300,8 +300,8 @@
 		"strength": 30,
 		"cost": 100,
 		"requiredTech": "Chemistry",
-		//		"obsoleteTech": "???",
-		//		"upgradesTo": "Infantry",
+		"obsoleteTech": "Assembly Line",
+		"upgradesTo": "Infantry",
 		"uniques": ["[+50]% Strength <vs [Rifleman] units>"],
 		"attackSound": "shot"
 	},
@@ -330,5 +330,32 @@
 		"uniques": ["Requires [1] [Coal]", "Requires [1] [Iron]",
 			"[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
+	},
+	{
+		"name": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 140,
+		"requiredTech": "Assembly Line",
+//		"upgradesTo": "Mechanized Infantry",
+//		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["[+25]% Strength <vs [Gunpowder] units>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Airship",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 80,
+		"requiredTech": "Physics",
+//		"upgradesTo": "Fighter",
+//		"obsoleteTech": "Radar",
+		"uniques": [ "6 tiles in every direction always visible"],
+		"attackSound": "bombing"
 	}
 ]

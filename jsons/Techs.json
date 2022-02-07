@@ -335,7 +335,7 @@
 	},
 	{
 		"columnNumber": 9,
-		"era": "Medieval era",
+		"era": "Renaissance era",
 		"techs": [
 			{
 				"name": "Nationalism",
@@ -403,7 +403,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 11,
 		"era": "Renaissance era",
 		"techs": [
 			{
@@ -437,7 +437,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 12,
 		"era": "Industrial era",
 		"techs": [
 			{
@@ -463,17 +463,38 @@
 			}
 		]
 	},
-//	{
-//		"columnNumber": 14,
-//		"era": "Industrial era",
-//		"techs": [
-//			{
-//				"name": "Assembly Line",
-//				"cost": 5000,
-//				"row": 5,
-//				"prerequisites": ["Astronomy", "Paper"],
-//				"quote": "'People can have the Model T in any color - so long as it's black.' – Henry Ford"
-//			},
-//		]
-//	}
+	{
+		"columnNumber": 13,
+		"era": "Industrial era",
+		"techs": [
+			{
+				"name": "Assembly Line",
+				"cost": 5000,
+				"row": 3,
+				"prerequisites": ["Steam Power", "Nationalism", "Economics"],
+				"quote": "'People can have the Model T in any color - so long as it's black.' – Henry Ford"
+			},
+			{
+				"name": "Physics",
+				"cost": 4000,
+				"row": 5,
+				"prerequisites": ["Scientific Method"],
+				"quote": "'To every action there is always opposed an equal reaction.' – Isaac Newton"
+			},
+			{
+				"name": "Biology",
+				"cost": 4000,
+				"row": 6,
+				"prerequisites": ["Chemistry", "Scientific Method"],
+				"quote": "'It is not the strongest of the species that survive but the one most responsive to change.' – Charles Darwin"
+			},
+			{
+				"name": "Railroads",
+				"cost": 4000,
+				"row": 8,
+				"prerequisites": ["Chemistry", "Scientific Method"],
+				"quote": "'I fooled you. I fooled you. I got pig iron. I got pig iron. I got all pig iron.' – Lonnie Donegan, \"Rock Island Line\""
+			}
+		]
+	}
 ]

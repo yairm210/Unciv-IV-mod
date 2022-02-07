@@ -6,8 +6,14 @@
 	},
 	{
 		"name": "Road",
-		"turnsToBuild": 4,
+		"turnsToBuild": 2,
 		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Railroad",
+		"turnsToBuild": 3,
+		"techRequired": "Railroads",
 		"uniques": ["Can be built outside your borders"]
 	},
 	{
@@ -21,7 +27,7 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
-		//"uniques":["[+1 Food] <after discovering [Biology]>"]
+		"uniques":["[+1 Food] <after discovering [Biology]>"]
 	},
 	{
 		"name": "Camp",
@@ -38,11 +44,13 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 2,
 		"turnsToBuild": 7,
+		"uniques": ["[+1 Production] <in [Railroad] tiles>"],
 		"techRequired": "Mining",
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
+		"uniques": ["[+1 Production] <in [Railroad] tiles>"],
 		"techRequired": "Masonry",
 	},
 	{
@@ -99,7 +107,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Replaceable Parts",
-//		"uniques": ["[+1 Production] <after discovering [Railroads]>"],
+		"uniques": ["[+1 Production] <in [Railroad] tiles>"],
 		"shortcutKey": "L"
 	},
 	{

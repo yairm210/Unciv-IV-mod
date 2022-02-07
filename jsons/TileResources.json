@@ -69,6 +69,14 @@
 		"improvement": "Oil Well",
 		"improvementStats": {"production": 2, "gold": 1}
 	},
+	{
+		"name": "Uranium",
+		"resourceType": "Strategic",
+		"revealedBy": "Physics",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"improvement": "Mine",
+		"improvementStats": { "gold": 3 }
+	},
 	
 	{
 		"name": "Gold Ore",
