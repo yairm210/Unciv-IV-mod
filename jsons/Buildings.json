@@ -419,7 +419,7 @@
 		"requiredResource": "Uranium",
 		"percentStatBonus": {"production": 50},
 		"uniques": ["Cannot be built with [Coal Plant]", "Cannot be built with [Hydro Plant]"],
-		"requiredTech": "Fission"
+		"requiredTech": "Nuclear Fission"
 	},
 	{
 		"name": "Eiffel Tower",

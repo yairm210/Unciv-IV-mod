@@ -6,21 +6,31 @@ A Civ IV mod for Unciv
 
 All images are from The Noun Project, Creative Commons, unless otherwise specified
 
+#### Buildings
 
 - [University](https://thenounproject.com/icon/university-2908697/) by MRK for University of Sankore
 - [Palace Of Versailles](https://thenounproject.com/icon/palace-of-versailles-2322278/) by Phạm Thanh Lộc from NounProject.com for Versailles
 - [Grocery store](https://thenounproject.com/icon/grocery-store-4116484/) by IcoLabs for Grocer
 - [Levees](https://thenounproject.com/icon/levees-2381597/) by coloripop for Levee
 - [Customs declaration](https://thenounproject.com/icon/customs-declaration-2002091/) by dDara for Customs House
-  
+- [Hollywood](https://thenounproject.com/icon/hollywood-4281633/) by Lars Meiertoberens
+- [Electric Guitar](https://thenounproject.com/icon/electric-guitar-1029522/) by Pedro Santos for Rock 'n' Roll
+- [Red Cross](https://thenounproject.com/icon/red-cross-2392034/) by Jordan Alfarishy
+- [Theater](https://thenounproject.com/icon/theater-3402158/) by Melvin Salas for Broadway
+- [power plant with coal](https://thenounproject.com/icon/power-plant-with-coal-2403687/) by Verry for Coal Plant
+
+#### Improvements  
 
 - [Harpoon](https://thenounproject.com/icon/harpoon-2152678/) by Deemak Daksina for Whaling Boats
 - [Oil Well](https://thenounproject.com/icon/oil-well-2052285/) by Vectors Market
 - [Forest](https://thenounproject.com/icon/forest-1335311/) by Aom Am for Forest Preserve
 
+#### Units
 
 - [Grenade](https://thenounproject.com/icon/grenade-1082454/) by Viktor Korobkov for Grenadier 
+- [Airship](https://thenounproject.com/icon/airship-1696860/) by Deemak Daksina
 
+#### Technologies
 
 - [Military](https://thenounproject.com/icon/military-3969040/) by Adrien Coquet for Military Tradition
 - [Music icon](https://thenounproject.com/icon/music-1735591/) by Daria Moskvina for Music
@@ -34,3 +44,12 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Democracy](https://thenounproject.com/icon/democracy-2680240/) by Fahmi
 - [Literature](https://thenounproject.com/icon/literature-1433796/) by iconesia
 - [Meditation](https://thenounproject.com/icon/meditation-2821197/) by Adrien Coquet
+- [Artillery Shell](https://thenounproject.com/icon/artillery-shell-827138/) by Artjom Korman for Artillery
+- [Fascism](https://thenounproject.com/icon/fascism-59303/) by Alexander James Wright
+- [Medicine](https://thenounproject.com/icon/medicine-11372/) by stephanie wauters
+- [Industry](https://thenounproject.com/icon/industry-1608799/) by Marco Livolsi for Industrialism
+- [Helicopter](https://thenounproject.com/icon/helicopter-1086351/) by DinosoftLab for Advanced Flight
+- [Divide](https://thenounproject.com/icon/divide-1953996/) by Timofei Rostilov for Composites
+- [Gene](https://thenounproject.com/icon/gene-4374639/) by Adrien Coquet for Genetics
+- [Fiber Cable](https://thenounproject.com/icon/fiber-cable-904029/) by Robert Bjurshagen for Fiber Optics
+- [Magnet](https://thenounproject.com/icon/magnet-2366943/) by Adrien Coquet for Superconductors

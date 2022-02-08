@@ -536,7 +536,7 @@
 		"rangedStrength": 60,
 		"range": 3,
 		"cost": 200,
-		"requiredTech": "Laser",
+		"requiredTech": "Lasers",
 		"requiredResource": "Oil",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[+50]% Strength <vs [Siege] units>", "Never appears as a Barbarian unit" ], // 'cannot attack amphibiously' isn't possible rn
@@ -550,7 +550,7 @@
 		"interceptRange": 2,
 		"strength": 65,
 		"cost": 220,
-		"requiredTech": "Laser",
+		"requiredTech": "Lasers",
 		"requiredResource": "Oil",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],

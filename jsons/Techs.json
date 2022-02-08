@@ -564,7 +564,7 @@
 				"quote": "'There is one rule for the industrialist and that is: Make the best quality of goods possible at the lowest cost possible, paying the highest wages possible.' – Henry Ford"
 			},
 			{
-				"name": "Fission",
+				"name": "Nuclear Fission",
 				"cost": 5500,
 				"row": 5,
 				"prerequisites": ["Electricity"],
@@ -619,7 +619,7 @@
 				"row": 7,
 				"prerequisites": ["Radio"],
 				"quote": "'The only thing worse than being talked about is not being talked about.' – Oscar Wilde"
-			},
+			}
 		]
 	},
 	{
@@ -641,7 +641,7 @@
 				"quote": "'The whole is greater than the sum of its parts.' – Aristotle"
 			},
 			{
-				"name": "Laser",
+				"name": "Lasers",
 				"cost": 7000,
 				"row": 4,
 				"prerequisites": ["Satellites"],
@@ -671,7 +671,7 @@
 				"name": "Fiber Optics",
 				"cost": 7500,
 				"row": 5,
-				"prerequisites": ["Computers", "Laser"],
+				"prerequisites": ["Computers", "Lasers"],
 				"quote": "'There is a single light of science and to brighten it anywhere is to brighten it everywhere.' – Isaac Asimov"
 			},
 			{
@@ -688,6 +688,27 @@
 				"prerequisites": ["Medicine", "Superconductors"],
 				"uniques": ["[+3 Food] [in all cities]"],
 				"quote": "'Soon it will be a sin for parents to have a child that carries the heavy burden of genetic disease.' – Bob Edwards"
+			}
+		]
+	},
+	{
+		"columnNumber": 19,
+		"era": "Future era",
+		"techs": [
+//			{
+//				"name": "Nuclear Fusion",
+//				"cost": 8000,
+//				"row": 2,
+//				"prerequisites": ["Nuclear Fission" ,"Fiber Optics"],
+//				"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' – Arthur C. Clarke"
+//			},
+			{
+				"name": "Future Tech",
+				"cost": 8000,
+				"row": 5,
+				"prerequisites": ["Stealth", "Genetics"],
+				"uniques": ["[+1 Food] [in all cities]", "[+1 Happiness] [in capital]"],
+				"quote": "'The future will be better tomorrow.' – Dan Quayle"
 			}
 		]
 	}

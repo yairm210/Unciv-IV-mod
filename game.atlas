@@ -4,331 +4,457 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Customs House
-  rotate: false
-  xy: 420, 1776
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Grocer
-  rotate: false
-  xy: 420, 1360
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Levee
-  rotate: false
-  xy: 836, 1776
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Parthenon
-  rotate: false
-  xy: 1044, 1568
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/University of Sankore
-  rotate: false
-  xy: 836, 1152
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Versailles
-  rotate: false
-  xy: 1044, 1360
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Forest Preserve
-  rotate: false
-  xy: 4, 944
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Lumbermill
-  rotate: false
-  xy: 1668, 1876
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Oil Well
-  rotate: false
-  xy: 628, 1152
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Watermill
-  rotate: false
-  xy: 1252, 1568
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Whaling Boats
-  rotate: false
-  xy: 1460, 1776
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Windmill
-  rotate: false
-  xy: 4, 112
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Winery
-  rotate: false
-  xy: 212, 320
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Workshop
-  rotate: false
-  xy: 212, 212
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/The Draconic Ones
-  rotate: false
-  xy: 420, 736
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/The Dwarves
-  rotate: false
-  xy: 628, 944
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Clam
-  rotate: false
-  xy: 4, 1568
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Copper
-  rotate: false
-  xy: 4, 1360
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Crab
+BuildingIcons/Broadway
   rotate: false
   xy: 212, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TechIcons/Alphabet
-  rotate: false
-  xy: 4, 1776
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Code of Laws
-  rotate: false
-  xy: 212, 1776
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Democracy
+BuildingIcons/Coal Plant
   rotate: false
   xy: 4, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TechIcons/Divine Right
-  rotate: false
-  xy: 212, 1360
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Drama
-  rotate: false
-  xy: 420, 1568
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Feudalism
-  rotate: false
-  xy: 628, 1776
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Fishing
-  rotate: false
-  xy: 1044, 1252
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Hunting
-  rotate: false
-  xy: 628, 1568
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Liberalism
-  rotate: false
-  xy: 4, 736
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Literature
-  rotate: false
-  xy: 212, 944
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Meditation
-  rotate: false
-  xy: 628, 1360
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Military Tradition
-  rotate: false
-  xy: 836, 1568
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Monarchy
-  rotate: false
-  xy: 1044, 1776
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Music
-  rotate: false
-  xy: 4, 528
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Mysticism
-  rotate: false
-  xy: 212, 736
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Nationalism
-  rotate: false
-  xy: 420, 944
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Paper
-  rotate: false
-  xy: 836, 1360
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Polytheism
-  rotate: false
-  xy: 1252, 1776
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Priesthood
-  rotate: false
-  xy: 4, 320
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Scientific Method
-  rotate: false
-  xy: 212, 528
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Axeman
-  rotate: false
-  xy: 420, 628
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Chariot
-  rotate: false
-  xy: 628, 836
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Explorer
-  rotate: false
-  xy: 836, 1044
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Galley
-  rotate: false
-  xy: 1252, 1460
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Grenadier
+BuildingIcons/Customs House
   rotate: false
   xy: 212, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Horse Archer
+BuildingIcons/Grocer
   rotate: false
-  xy: 1460, 1668
+  xy: 420, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hollywood
+  rotate: false
+  xy: 628, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Laboratory
+  rotate: false
+  xy: 1668, 1460
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Maceman
+BuildingIcons/Levee
+  rotate: false
+  xy: 1252, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Parthenon
+  rotate: false
+  xy: 836, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Red Cross
+  rotate: false
+  xy: 1460, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Rock 'n' Roll
+  rotate: false
+  xy: 1668, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/University of Sankore
+  rotate: false
+  xy: 1044, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Versailles
+  rotate: false
+  xy: 1252, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Forest Preserve
+  rotate: false
+  xy: 836, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Lumbermill
+  rotate: false
+  xy: 628, 212
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Oil Well
+  rotate: false
+  xy: 420, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Watermill
+  rotate: false
+  xy: 1460, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Whaling Boats
+  rotate: false
+  xy: 1668, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Windmill
+  rotate: false
+  xy: 420, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Winery
+  rotate: false
+  xy: 628, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Workshop
+  rotate: false
+  xy: 1876, 1768
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Draconic Ones
+  rotate: false
+  xy: 628, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Dwarves
+  rotate: false
+  xy: 836, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Clam
+  rotate: false
+  xy: 420, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Copper
+  rotate: false
+  xy: 628, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Crab
+  rotate: false
+  xy: 4, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Advanced Flight
+  rotate: false
+  xy: 4, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Alphabet
+  rotate: false
+  xy: 212, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Artillery
+  rotate: false
+  xy: 4, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Code of Laws
+  rotate: false
+  xy: 212, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Composites
+  rotate: false
+  xy: 420, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Democracy
+  rotate: false
+  xy: 420, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Divine Right
+  rotate: false
+  xy: 628, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Drama
+  rotate: false
+  xy: 836, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Fascism
+  rotate: false
+  xy: 4, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Feudalism
+  rotate: false
+  xy: 212, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Fiber Optics
   rotate: false
   xy: 420, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Work Boat
+TechIcons/Fishing
+  rotate: false
+  xy: 1044, 836
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Fission
+  rotate: false
+  xy: 628, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Fusion
+  rotate: false
+  xy: 1044, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Genetics
+  rotate: false
+  xy: 4, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Hunting
+  rotate: false
+  xy: 836, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Industrialism
+  rotate: false
+  xy: 1044, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Liberalism
+  rotate: false
+  xy: 4, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Literature
+  rotate: false
+  xy: 212, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Medicine
+  rotate: false
+  xy: 628, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Meditation
+  rotate: false
+  xy: 836, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Military Tradition
+  rotate: false
+  xy: 1044, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Monarchy
+  rotate: false
+  xy: 1252, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Music
+  rotate: false
+  xy: 1460, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Mysticism
+  rotate: false
+  xy: 4, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Nationalism
+  rotate: false
+  xy: 212, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Paper
+  rotate: false
+  xy: 628, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Polytheism
+  rotate: false
+  xy: 1044, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Priesthood
+  rotate: false
+  xy: 1252, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Scientific Method
+  rotate: false
+  xy: 212, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Superconductors
+  rotate: false
+  xy: 420, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Airship
+  rotate: false
+  xy: 4, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Axeman
   rotate: false
   xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Chariot
+  rotate: false
+  xy: 1876, 1876
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Explorer
+  rotate: false
+  xy: 836, 628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Galley
+  rotate: false
+  xy: 1252, 1044
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Grenadier
+  rotate: false
+  xy: 212, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Horse Archer
+  rotate: false
+  xy: 1460, 1252
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Maceman
+  rotate: false
+  xy: 420, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Work Boat
+  rotate: false
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
