@@ -376,10 +376,38 @@
 	},
 	{
 		"name": "Pentagon",
+		"cost": 1250,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["New [Military] units start with [15] Experience [in all cities]"],
 		"requiredTech": "Assembly Line",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
+	},
+	{
+		"name": "Broadway",
+		"cost": 800,
+		"happiness": 1,
+		"isWonder": true,
+		"percentStatBonus": {"culture": 50},
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["Provides [5] [Hit Musicals]"],
+		"requiredTech": "Electricity",
+	},
+	{
+		"name": "Hospital",
+		"cost": 200,
+		"food": 3,
+		"requiredTech": "Medicine"
+	},
+	{
+		"name": "Red Cross",
+		"cost": 600,
+		"requiredBuilding": "Hospital",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"culture": 2,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Hospital] in at least [6] cities"],
+//			"All newly-trained [non-air] units [in this city] receive the [Medic I] promotion"],
+		"requiredTech": "Medicine",
 	}
 ]

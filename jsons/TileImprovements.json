@@ -84,7 +84,7 @@
 		"gold":1,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
-		"uniques":["[+1 Production] <after discovering [Replaceable Parts]>" /*, "[+1 Gold] <after discovering [Electricity]>"*/ ]
+		"uniques":["[+1 Production] <after discovering [Replaceable Parts]>" , "[+1 Gold] <after discovering [Electricity]>" ]
 	},
 	{
 		"name": "Watermill",
@@ -93,8 +93,7 @@
 		"gold":1,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
-		"uniques":["Must be next to [River]", "[+1 Production] <after discovering [Replaceable Parts]>"]
-			//"[+2 Gold] <after discovering [Electricity]>"]
+		"uniques":["Must be next to [River]", "[+1 Production] <after discovering [Replaceable Parts]>", "[+2 Gold] <after discovering [Electricity]>"]
 	},
 	{
 		"name": "Whaling Boats",
@@ -114,7 +113,7 @@
 		"name": "Oil Well",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"turnsToBuild": 9,
-		"techRequired": "Scientific Method",
+		"techRequired": "Combustion",
 //		"uniques": ["Cannot be built on [Coast] tiles <before discovering [Plastics]>"],
 		"shortcutKey": "W"
 	},

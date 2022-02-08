@@ -496,5 +496,66 @@
 				"quote": "'I fooled you. I fooled you. I got pig iron. I got pig iron. I got all pig iron.' – Lonnie Donegan, \"Rock Island Line\""
 			}
 		]
-	}
+	},
+	{
+		"columnNumber": 14,
+		"era": "Modern era",
+		"techs": [
+			{
+				"name": "Flight",
+				"cost": 5000,
+				"row": 2,
+				"prerequisites": ["Physics", "Combustion"],
+				"quote": "'For once you have tasted flight, you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return.' – Leonardo da Vinci"
+			},
+			{
+				"name": "Artillery",
+				"cost": 4000,
+				"row": 3,
+				"prerequisites": ["Physics", "Steel", "Rifling"],
+				"quote": "'For once you have tasted flight, you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return.' – Leonardo da Vinci"
+			},
+			{
+				"name": "Fascism",
+				"cost": 2400,
+				"row": 4,
+				"prerequisites": ["Assembly Line"],
+				"quote": "'The great masses of the people will more easily fall victim to a big lie than to a small one.' – Adolf Hitler (\"a German Dictator\" in the German version)"
+			},
+			{
+				"name": "Electricity",
+				"cost": 4500,
+				"row": 6,
+				"prerequisites": ["Physics"],
+				"quote": "'We will make electricity so cheap that only the rich will burn candles.' – Thomas Edison"
+			},
+			{
+				"name": "Medicine",
+				"cost": 4500,
+				"row": 7,
+				"prerequisites": ["Biology"],
+				"quote": "'As to diseases, make a habit of two things - to help or at least to do no harm.' – Hippocrates"
+			},
+			{
+				"name": "Combustion",
+				"cost": 3600,
+				"row": 8,
+				"prerequisites": ["Railroads"],
+				"quote": "'Everything in life is somewhere else and you get there in a car.' - E. B. White"
+			}
+		]
+	},
+//	{
+//		"columnNumber": 15,
+//		"era": "Modern era",
+//		"techs": [
+//			{
+//				"name": "Rocketry",
+//				"cost": 5000,
+//				"row": 2,
+//				"prerequisites": ["Artillery", "Flight"],
+//				"quote": "'The Earth is the cradle of the mind, but one cannot eternally live in a cradle.' – Konstantin E. Tsiolkovsky"
+//			}
+//		]
+//	}
 ]

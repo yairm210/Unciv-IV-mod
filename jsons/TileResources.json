@@ -196,7 +196,12 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Whaling Boats",
+		"uniques": ["Obsolete with [Combustion]"],
 		"improvementStats": {"gold": 2, "production":1}
+	},
+	{ // Only provided by Broadway wonder
+		"name": "Hit Musicals",
+		"resourceType": "Luxury",
 	},
 
 	// Used as tokens to limit cathedrals
