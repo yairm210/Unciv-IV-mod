@@ -114,7 +114,7 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"turnsToBuild": 9,
 		"techRequired": "Combustion",
-//		"uniques": ["Cannot be built on [Coast] tiles <before discovering [Plastics]>"],
+		"uniques": ["Cannot be built on [Coast] tiles <before discovering [Plastics]>"],
 		"shortcutKey": "W"
 	},
 	{

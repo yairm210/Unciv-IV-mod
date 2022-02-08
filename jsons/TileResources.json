@@ -197,6 +197,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 1,
+		"uniques": ["Obsolete with [Plastics]"],
 		"improvement": "Camp",
 		"improvementStats": {"gold": 3}
 	},
@@ -205,8 +206,8 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		"improvement": "Whaling Boats",
 		"uniques": ["Obsolete with [Combustion]"],
+		"improvement": "Whaling Boats",
 		"improvementStats": {"gold": 2, "production":1}
 	},
 	{ // Only provided by Broadway wonder
@@ -215,6 +216,10 @@
 	},
 	{ // Only provided by Rock 'n' Roll wonder
 		"name": "Hit Singles",
+		"resourceType": "Luxury",
+	},
+	{ // Only provided by Hollywood wonder
+		"name": "Hit Movies",
 		"resourceType": "Luxury",
 	},
 

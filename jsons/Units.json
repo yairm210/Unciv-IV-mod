@@ -486,5 +486,16 @@
 		"requiredResource": "Oil",
 		//		"upgradesTo": "Stealth Bomber",
 		"attackSound": "bombing"
+	},
+	{
+		"name": "Modern Armor",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 100,
+		"cost": 240,
+		"requiredTech": "Computers",
+		//		"promotions": ["Blitz"],
+		"uniques": ["Requires [1] [Aluminum]", "Requires [1] [Oil]", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
 	}
 ]

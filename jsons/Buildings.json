@@ -217,7 +217,7 @@
 		//"greatPersonPoints": {"faith": 2},
 		"requiredTech": "Philosophy",
 		"specialistSlots": {"Priest": 3},
-		"uniques":["[+1 Production] from every [Priest]"]
+		"uniques":["[+1 Production] from every [Priest]", "Obsolete with [Computers]"]
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
 	},
 	{
@@ -246,7 +246,7 @@
 		"culture": 8,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["[+2 Science] from [Science] buildings" /*, "Obsolete with [Computers]"*/],
+		"uniques": ["[+2 Science] from [Science] buildings" , "Obsolete with [Computers]"],
 		"requiredTech": "Paper",
 //		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -354,7 +354,7 @@
 	{
 		"name": "Levee",
 		"cost": 180,
-		"uniques": ["[+1 Production] from [River] tiles in this city"],
+		"uniques": ["Must be on [River]", "[+1 Production] from [River] tiles in this city"],
 		"requiredTech": "Steam Power"
 	},
 	{
@@ -372,7 +372,7 @@
 		"requiredResource": "Coal",
 		"food": -4,
 		"percentStatBonus": {"production": 50},
-		"uniques": ["Cannot be built with [Nuclear Plant]"],
+		"uniques": ["Cannot be built with [Nuclear Plant]","Cannot be built with [Hydro Plant]"],
 		"requiredTech": "Assembly Line"
 	},
 	{
@@ -418,7 +418,7 @@
 		"requiredBuilding": "Factory",
 		"requiredResource": "Uranium",
 		"percentStatBonus": {"production": 50},
-		"uniques": ["Cannot be built with [Coal Plant]"],
+		"uniques": ["Cannot be built with [Coal Plant]", "Cannot be built with [Hydro Plant]"],
 		"requiredTech": "Fission"
 	},
 	{
@@ -427,7 +427,7 @@
 		"requiredBuilding": "Forge",
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-//		"uniques": ["Gain a free [Broadcast Tower] [in all cities]"],
+		"uniques": ["Gain a free [Broadcast Tower] [in all cities]"],
 		"requiredTech": "Radio",
 		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
 	},
@@ -449,5 +449,33 @@
 			"[+1 Food] from [Sheep] tiles [in this city]", "[+1 Food] from [Pig] tiles [in this city]"
 		],
 		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Hydro Plant",
+		"cost": 200,
+		"food": -2,
+		"requiredBuilding": "Factory",
+		"percentStatBonus": {"production": 50},
+		"uniques": ["Must be on [River]", "Cannot be built with [Coal Plant]", "Cannot be built with [Nuclear Plant]"],
+		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Broadcast Tower",
+		"cost": 175,
+		"requiredBuilding": "Factory",
+		"percentStatBonus": {"culture": 50},
+		"specialistSlots": {"Artist": 2},
+		"uniques": ["[+1 Happiness] <with [Hit Singles]>", "[+1 Happiness] <with [Hit Musicals]>", "[+1 Happiness] <with [Hit Movies]>"]
+		"requiredTech": "Plastics"
+	}
+	{
+		"name": "Hollywood",
+		"cost": 1000,
+		"happiness": 1,
+		"isWonder": true,
+		"percentStatBonus": {"culture": 50},
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["Provides [5] [Hit Movies]"],
+		"requiredTech": "Mass Media",
 	}
 ]

@@ -586,5 +586,40 @@
 				"quote": "'Tell me what you eat, and I will tell you what you are.' – Anthelme Brillat-Savarin"
 			}
 		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Modern era",
+		"techs": [
+			{
+				"name": "Satellites",
+				"cost": 6000,
+				"row": 3,
+				"prerequisites": ["Radio", "Rocketry", "Flight"],
+				"uniques": ["Reveals the entire map"],
+				"quote": "'Beep...Beep...Beep...Beep...' – Sputnik I"
+			},
+			{
+				"name": "Plastics",
+				"cost": 7000,
+				"row": 5,
+				"prerequisites": ["Combustion", "Industrialism"],
+				"quote": "'I just want to say one word to you, just one word: plastics.' – Calder Willingham, The Graduate"
+			},
+			{
+				"name": "Mass Media",
+				"cost": 3600,
+				"row": 7,
+				"prerequisites": ["Radio"],
+				"quote": "'The only thing worse than being talked about is not being talked about.' – Oscar Wilde"
+			},
+			{
+				"name": "Computers",
+				"cost": 6500,
+				"row": 8,
+				"prerequisites": ["Radio"],
+				"quote": "'Never trust a computer you can't throw out the window.' – Steve Wozniak"
+			}
+		]
 	}
 ]
