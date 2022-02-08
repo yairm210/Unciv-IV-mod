@@ -92,4 +92,20 @@
         "startPercent": 65,
         "iconRGB": [33, 150, 243],
     }
+    {
+        "name": "Future era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Marine",
+        "startingGold": 400,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": ["Monument","Granary","Lighthouse","Market","Temple","Library"],
+        "startingObsoleteWonders": [],
+        "baseUnitBuyCost": 600,
+        "startPercent": 65,
+        "iconRGB": [76, 176, 81]
+    }
 ]

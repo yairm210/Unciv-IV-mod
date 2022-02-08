@@ -484,6 +484,6 @@
 		"food": -1,
 		"specialistSlots": {"Scientist": 1},
 		"percentStatBonus": {"science": 25},
-		"requiredTech": "Astronomy"
+		"requiredTech": "Superconductors"
 	}
 ]

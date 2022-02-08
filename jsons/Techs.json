@@ -607,19 +607,19 @@
 				"quote": "'I just want to say one word to you, just one word: plastics.' – Calder Willingham, The Graduate"
 			},
 			{
+				"name": "Computers",
+				"cost": 6500,
+				"row": 6,
+				"prerequisites": ["Radio"],
+				"quote": "'Never trust a computer you can't throw out the window.' – Steve Wozniak"
+			},
+			{
 				"name": "Mass Media",
 				"cost": 3600,
 				"row": 7,
 				"prerequisites": ["Radio"],
 				"quote": "'The only thing worse than being talked about is not being talked about.' – Oscar Wilde"
 			},
-			{
-				"name": "Computers",
-				"cost": 6500,
-				"row": 8,
-				"prerequisites": ["Radio"],
-				"quote": "'Never trust a computer you can't throw out the window.' – Steve Wozniak"
-			}
 		]
 	},
 	{
@@ -634,18 +634,18 @@
 				"quote": "'Oh! I have slipped the surly bonds of Earth, put out my hand and touched the face of God.' – John Gillespie Magee"
 			},
 			{
-				"name": "Laser",
-				"cost": 7000,
-				"row": 3,
-				"prerequisites": ["Satellites"],
-				"quote": "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' – Douglas Adams"
-			},
-			{
 				"name": "Composites",
 				"cost": 5000,
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Satellites", "Plastics"],
 				"quote": "'The whole is greater than the sum of its parts.' – Aristotle"
+			},
+			{
+				"name": "Laser",
+				"cost": 7000,
+				"row": 4,
+				"prerequisites": ["Satellites"],
+				"quote": "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' – Douglas Adams"
 			},
 			{
 				"name": "Superconductors",
@@ -653,6 +653,41 @@
 				"row": 8,
 				"prerequisites": ["Computers"],
 				"quote": "'What is happiness? The feeling that power is growing, that resistance is overcome.' – Friedrich Nietzsche"
+			}
+		]
+	},
+	{
+		"columnNumber": 18,
+		"era": "Future era",
+		"techs": [
+			{
+				"name": "Stealth",
+				"cost": 8000,
+				"row": 2,
+				"prerequisites": ["Composites" ,"Advanced Flight"],
+				"quote": "'Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.' – Jean Racine"
+			},
+			{
+				"name": "Fiber Optics",
+				"cost": 7500,
+				"row": 5,
+				"prerequisites": ["Computers", "Laser"],
+				"quote": "'There is a single light of science and to brighten it anywhere is to brighten it everywhere.' – Isaac Asimov"
+			},
+			{
+				"name": "Robotics",
+				"cost": 7000,
+				"row": 6,
+				"prerequisites": ["Plastics" ,"Computers"],
+				"quote": "'The real problem is not whether machines think but whether men do.'– B. F. Skinner"
+			},
+			{
+				"name": "Genetics",
+				"cost": 7000,
+				"row": 8,
+				"prerequisites": ["Medicine", "Superconductors"],
+				"uniques": ["[+3 Food] [in all cities]"],
+				"quote": "'Soon it will be a sin for parents to have a child that carries the heavy burden of genetic disease.' – Bob Edwards"
 			}
 		]
 	}
