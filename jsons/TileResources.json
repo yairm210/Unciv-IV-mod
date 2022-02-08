@@ -77,6 +77,15 @@
 		"improvement": "Mine",
 		"improvementStats": { "gold": 3 }
 	},
+	{
+		"name": "Aluminum",
+		"resourceType": "Strategic",
+		"revealedBy": "Industrialism",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1, "gold": 1}
+	},
 	
 	{
 		"name": "Gold Ore",
@@ -180,6 +189,7 @@
 		"terrainsCanBeFoundOn": ["Plains"],
 		"production": 1,
 		"improvement": "Camp",
+		"uniques": ["Obsolete with [Industrialism]"],
 		"improvementStats": {"production":1, "gold": 1}
 	},
 	{
@@ -203,11 +213,16 @@
 		"name": "Hit Musicals",
 		"resourceType": "Luxury",
 	},
+	{ // Only provided by Rock 'n' Roll wonder
+		"name": "Hit Singles",
+		"resourceType": "Luxury",
+	},
 
 	// Used as tokens to limit cathedrals
 	{
 		"name": "Cathedral Followers",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": []
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Will not be displayed in Civilopedia"]
 	}
 ]

@@ -545,17 +545,46 @@
 			}
 		]
 	},
-//	{
-//		"columnNumber": 15,
-//		"era": "Modern era",
-//		"techs": [
-//			{
-//				"name": "Rocketry",
-//				"cost": 5000,
-//				"row": 2,
-//				"prerequisites": ["Artillery", "Flight"],
-//				"quote": "'The Earth is the cradle of the mind, but one cannot eternally live in a cradle.' – Konstantin E. Tsiolkovsky"
-//			}
-//		]
-//	}
+	{
+		"columnNumber": 15,
+		"era": "Modern era",
+		"techs": [
+			{
+				"name": "Rocketry",
+				"cost": 5000,
+				"row": 3,
+				"prerequisites": ["Artillery", "Combustion"],
+				"quote": "'The Earth is the cradle of the mind, but one cannot eternally live in a cradle.' – Konstantin E. Tsiolkovsky"
+			},
+			{
+				"name": "Industrialism",
+				"cost": 6500,
+				"row": 4,
+				"prerequisites": ["Electricity", "Assembly Line"],
+				"quote": "'There is one rule for the industrialist and that is: Make the best quality of goods possible at the lowest cost possible, paying the highest wages possible.' – Henry Ford"
+			},
+			{
+				"name": "Fission",
+				"cost": 5500,
+				"row": 5,
+				"prerequisites": ["Electricity"],
+				"quote": "'There is one rule for the industrialist and that is: Make the best quality of goods possible at the lowest cost possible, paying the highest wages possible.' – Henry Ford"
+			},
+			{
+				"name": "Radio",
+				"cost": 6000,
+				"row": 6,
+				"prerequisites": ["Electricity"],
+				"quote": "'Then one fine mornin' she puts on a New York Station. You know her life was saved by Rock 'n' Roll.'– The Velvet Underground, \"Rock and Roll\""
+			},
+			{
+				"name": "Refrigeration",
+				"cost": 4000,
+				"row": 7,
+				"prerequisites": ["Electricity", "Biology"],
+				"uniques": ["[+1] Movement <for [Water] units>"],
+				"quote": "'Tell me what you eat, and I will tell you what you are.' – Anthelme Brillat-Savarin"
+			}
+		]
+	}
 ]
