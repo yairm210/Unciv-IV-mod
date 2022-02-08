@@ -252,9 +252,9 @@
 		"strength": 34,
 		"cost": 120,
 		"requiredTech": "Military Tradition",
-//		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Industrialism",
 		"requiredResource": "Horses",
-//		"upgradesTo": "Landship",
+		"upgradesTo": "Tank",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Siege] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -325,8 +325,8 @@
 		"strength": 45,
 		"cost": 100,
 		"requiredTech": "Steam Power",
-//		"upgradesTo": "Destroyer",
-//		"obsoleteTech": "Combustion",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
 		"uniques": ["Requires [1] [Coal]", "Requires [1] [Iron]",
 			"[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
@@ -382,7 +382,7 @@
 		"cost": 100,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-//		"upgradesTo": "Jet Fighter",
+		"upgradesTo": "Jet Fighter",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>",
 			"6 tiles in every direction always visible", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
@@ -457,7 +457,7 @@
 		"cost": 180,
 		"requiredTech": "Industrialism",
 		"requiredResource": "Oil",
-//		"upgradesTo": "Modern Armor",
+		"upgradesTo": "Modern Armor",
 		//		"promotions": ["Blitz"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -497,5 +497,62 @@
 		//		"promotions": ["Blitz"],
 		"uniques": ["Requires [1] [Aluminum]", "Requires [1] [Oil]", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
+	},
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Helicopter Gunship",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 60,
+		"cost": 160,
+		"requiredTech": "Advanced Flight",
+		"requiredResource": "Oil",
+		"uniques": ["[+100]% Strength <vs [Armored] units>","[+50]% Strength <vs [Siege] units>", "No defensive terrain bonus", "May withdraw before melee ([25]%)",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Jet Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 150,
+		"requiredTech": "Composites",
+		"requiredResource": "Aluminum",
+		"uniques": ["Requires [1] [Aluminum]", "Requires [1] [Oil]",
+			"[100]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Rocket Artillery", // Called mobile artillery in Civ IV but this allows us to reuse the image
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 200,
+		"requiredTech": "Laser",
+		"requiredResource": "Oil",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[+50]% Strength <vs [Siege] units>", "Never appears as a Barbarian unit" ], // 'cannot attack amphibiously' isn't possible rn
+//		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Mobile SAM",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"interceptRange": 2,
+		"strength": 65,
+		"cost": 220,
+		"requiredTech": "Laser",
+		"requiredResource": "Oil",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "missile"
 	}
 ]

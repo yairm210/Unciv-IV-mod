@@ -621,5 +621,39 @@
 				"quote": "'Never trust a computer you can't throw out the window.' – Steve Wozniak"
 			}
 		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Modern era",
+		"techs": [
+			{
+				"name": "Advanced Flight",
+				"cost": 5000,
+				"row": 2,
+				"prerequisites": ["Satellites"],
+				"quote": "'Oh! I have slipped the surly bonds of Earth, put out my hand and touched the face of God.' – John Gillespie Magee"
+			},
+			{
+				"name": "Laser",
+				"cost": 7000,
+				"row": 3,
+				"prerequisites": ["Satellites"],
+				"quote": "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' – Douglas Adams"
+			},
+			{
+				"name": "Composites",
+				"cost": 5000,
+				"row": 4,
+				"prerequisites": ["Satellites", "Plastics"],
+				"quote": "'The whole is greater than the sum of its parts.' – Aristotle"
+			},
+			{
+				"name": "Superconductors",
+				"cost": 5500,
+				"row": 8,
+				"prerequisites": ["Computers"],
+				"quote": "'What is happiness? The feeling that power is growing, that resistance is overcome.' – Friedrich Nietzsche"
+			}
+		]
 	}
 ]

@@ -477,5 +477,13 @@
 		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": ["Provides [5] [Hit Movies]"],
 		"requiredTech": "Mass Media",
+	},
+	{
+		"name": "Laboratory",
+		"cost": 250,
+		"food": -1,
+		"specialistSlots": {"Scientist": 1},
+		"percentStatBonus": {"science": 25},
+		"requiredTech": "Astronomy"
 	}
 ]
