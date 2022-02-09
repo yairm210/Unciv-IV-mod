@@ -1,0 +1,173 @@
+[
+
+	{
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
+	},
+
+	// Ranged+Siege
+	{
+		"name": "Guerrilla I",
+		"uniques": ["[+20]% Strength <when fighting in [Hills] tiles> <when defending>"],
+		"unitTypes": ["Scout","Archery","Gunpowder"]
+	},
+	{
+		"name": "Guerrilla II",
+		"prerequisites": ["Guerrilla I"],
+		"uniques": ["[+30]% Strength <when fighting in [Hill] tiles> <when defending>", "Double movement in [Hill]"],
+		"unitTypes": ["Scout","Archery","Gunpowder", "Melee"] // Yes melee gets it even though they can't have the initial one, see https://civilization.fandom.com/wiki/Guerrilla_(Civ4)#Guerrilla_II
+	},
+	{
+		"name": "Guerrilla III",
+		"prerequisites": ["Guerrilla II"],
+		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles> <when attacking>", "Double movement in [Hill]", "May withdraw before melee ([+50]%)"],
+		"unitTypes": ["Scout","Archery","Gunpowder", "Melee"]
+	},
+	
+	{
+		"name": "Combat I",
+		"uniques": ["[+10]% Strength"],
+		"unitTypes": ["Scout","Archery","Gunpowder", "Melee", "Mounted", "Armored", "Helicopter", "Ranged Water", "Melee Water"]
+	},
+
+	{
+		"name": "Cover",
+		"prerequisites": ["Combat I"],
+		"uniques": ["[+25]% Strength <vs [Archery] units>"],
+		"unitTypes": ["Archery","Gunpowder", "Melee"]
+	},
+	{
+		"name": "Shock",
+		"prerequisites": ["Combat I"],
+		"uniques": ["[+25]% Strength <vs [Melee] units>"],
+		"unitTypes": ["Archery","Mounted", "Melee", "Siege"]
+	},
+	{
+		"name": "Pinch",
+		"prerequisites": ["Combat I"],
+		"uniques": ["[+25]% Strength <vs [Melee] units>", "Only available <after discovering [Gunpowder]>"],
+		"unitTypes": ["Gunpowder","Mounted", "Armored", "Helicopter", "Bomber"]
+	},
+	{
+		"name": "Medic I",
+		"prerequisites": ["Combat I"],
+		"uniques": ["All adjacent units heal [+10] HP when healing"],
+		"unitTypes": ["Scout","Mounted", "Melee", "Archery", "Gunpowder"]
+	},
+	{
+		"name": "Medic II",
+		"prerequisites": ["Medic I"],
+		"uniques": ["All adjacent units heal [+10] HP when healing"],
+		"unitTypes": ["Scout","Mounted", "Melee", "Archery", "Gunpowder"]
+	},
+	{
+		"name": "Charge",
+		"prerequisites": ["Combat I"],
+		"uniques": ["[+25]% Strength <vs [Siege] units>"],
+		"unitTypes": ["Melee","Mounted", "Armored", "Helicopter"]
+	},
+
+
+	{
+		"name": "Combat II",
+		"prerequisites": ["Combat I"],
+		"uniques": ["[+10]% Strength"],
+		"unitTypes": ["Scout","Archery","Gunpowder", "Melee", "Mounted", "Armored", "Helicopter", "Ranged Water", "Melee Water"]
+	},
+	{
+		"name": "Formation",
+		"prerequisites": ["Combat II"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Mounted", "Melee", "Archery", "Gunpowder"]
+	},
+	{
+		"name": "Ambush",
+		"prerequisites": ["Combat II"],
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Gunpowder", "Siege", "Armored", "Helicopter", "Bomber"]
+	},
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Combat II"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking from the sea"],
+		"unitTypes": ["Scout","Archery","Gunpowder", "Melee", "Mounted", "Siege"]
+	},
+	{
+		"name": "Extended Range",
+		"prerequisites": ["Combat II"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"]
+	},
+
+
+	{
+		"name": "Combat III",
+		"prerequisites": ["Combat II"],
+		"uniques": ["[+10]% Strength"],
+		"unitTypes": ["Scout","Archery","Gunpowder", "Melee", "Mounted", "Armored", "Helicopter", "Ranged Water", "Melee Water"]
+	},
+	{
+		"name": "March",
+		"prerequisites": ["Medic I","Combat III"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Melee", "Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted"]
+	},
+	{
+		"name": "Blitz",
+		"prerequisites": ["Combat III"],
+		"uniques": ["[1] additional attacks per turn", "Only available <after discovering [Military Tradition]>"],
+		"unitTypes": ["Mounted", "Armored", "Helicopter", "Melee Water"]
+	},
+	{
+		"name": "Sentry",
+		"prerequisites": ["Combat III"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Mounted", "Scout", "Helicopter", "Melee Water"]
+	},
+	{
+		"name": "Indirect Fire",
+		"prerequisites": ["Combat III"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water"]
+	},
+
+
+	{
+		"name": "Flanking I",
+		"uniques": ["[+1] Sight", "May withdraw before melee ([+10]%)"],
+		"unitTypes": ["Mounted", "Scout", "Helicopter", "Melee Water"]
+	},
+	{
+		"name": "Flanking II",
+		"prerequisites": ["Flanking I"],
+		"uniques": ["May withdraw before melee ([+20]%)"],
+		"unitTypes": ["Mounted", "Scout", "Helicopter", "Melee Water"]
+	},
+
+	{
+		"name": "Navigation I",
+		"prerequisites": ["Flanking I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Melee Water"]
+	},
+	{
+		"name": "Navigation II",
+		"prerequisites": ["Navigation I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Melee Water"]
+	},
+
+//	{
+//		"name": "Combat IV",
+//		"prerequisites": ["Combat III"],
+//		"uniques": ["[+10]% Strength", "[+10] HP when healing <in [Foreign Land] tiles>"],
+//		"unitTypes": ["Scout","Archery","Gunpowder", "Melee", "Mounted", "Armored", "Helicopter", "Ranged Water", "Melee Water"]
+//	},
+//	{
+//		"name": "Combat V",
+//		"prerequisites": ["Combat IV"],
+//		"uniques": ["[+10]% Strength", "[+10] HP when healing <in [Enemy Land] tiles>"],
+//		"unitTypes": ["Scout","Archery","Gunpowder", "Melee", "Mounted", "Armored", "Helicopter", "Ranged Water", "Melee Water"]
+//	}
+]

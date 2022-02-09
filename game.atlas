@@ -20,119 +20,119 @@ BuildingIcons/Coal Plant
   index: -1
 BuildingIcons/Customs House
   rotate: false
-  xy: 212, 1152
+  xy: 420, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Grocer
   rotate: false
-  xy: 420, 944
+  xy: 836, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Hollywood
   rotate: false
-  xy: 628, 1152
+  xy: 1252, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Laboratory
   rotate: false
-  xy: 1668, 1460
+  xy: 1460, 1044
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Levee
   rotate: false
-  xy: 1252, 1776
+  xy: 420, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Parthenon
   rotate: false
-  xy: 836, 944
+  xy: 1668, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Red Cross
   rotate: false
-  xy: 1460, 1568
+  xy: 836, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Rock 'n' Roll
   rotate: false
-  xy: 1668, 1776
+  xy: 1044, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/University of Sankore
   rotate: false
-  xy: 1044, 944
+  xy: 628, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Versailles
   rotate: false
-  xy: 1252, 1152
+  xy: 836, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Forest Preserve
   rotate: false
-  xy: 836, 1568
+  xy: 4, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Lumbermill
   rotate: false
-  xy: 628, 212
+  xy: 1668, 1252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Oil Well
   rotate: false
-  xy: 420, 528
+  xy: 1252, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Watermill
   rotate: false
-  xy: 1460, 1360
+  xy: 1044, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Whaling Boats
   rotate: false
-  xy: 1668, 1568
+  xy: 1252, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Windmill
   rotate: false
-  xy: 420, 112
+  xy: 1460, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Winery
   rotate: false
-  xy: 628, 320
+  xy: 1668, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -146,14 +146,14 @@ ImprovementIcons/Workshop
   index: -1
 NationIcons/The Draconic Ones
   rotate: false
-  xy: 628, 528
+  xy: 1668, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/The Dwarves
   rotate: false
-  xy: 836, 736
+  xy: 420, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -167,14 +167,14 @@ ResourceIcons/Clam
   index: -1
 ResourceIcons/Copper
   rotate: false
-  xy: 628, 1776
+  xy: 4, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Crab
   rotate: false
-  xy: 4, 944
+  xy: 212, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -209,189 +209,189 @@ TechIcons/Code of Laws
   index: -1
 TechIcons/Composites
   rotate: false
-  xy: 420, 1568
+  xy: 628, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Democracy
   rotate: false
-  xy: 420, 1360
+  xy: 628, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Divine Right
   rotate: false
-  xy: 628, 1568
+  xy: 836, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Drama
   rotate: false
-  xy: 836, 1776
+  xy: 4, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Fascism
   rotate: false
-  xy: 4, 736
+  xy: 212, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Feudalism
   rotate: false
-  xy: 212, 944
+  xy: 420, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Fiber Optics
   rotate: false
-  xy: 420, 1152
+  xy: 628, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Fishing
   rotate: false
-  xy: 1044, 836
+  xy: 836, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fission
   rotate: false
-  xy: 628, 1360
+  xy: 836, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Fusion
   rotate: false
-  xy: 1044, 1776
+  xy: 212, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Genetics
   rotate: false
-  xy: 4, 528
+  xy: 420, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Hunting
   rotate: false
-  xy: 836, 1360
+  xy: 4, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Industrialism
   rotate: false
-  xy: 1044, 1568
+  xy: 212, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Liberalism
   rotate: false
-  xy: 4, 320
+  xy: 628, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Literature
   rotate: false
-  xy: 212, 528
+  xy: 836, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Medicine
   rotate: false
-  xy: 628, 944
+  xy: 1252, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Meditation
   rotate: false
-  xy: 836, 1152
+  xy: 1460, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Military Tradition
   rotate: false
-  xy: 1044, 1360
+  xy: 4, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Monarchy
   rotate: false
-  xy: 1252, 1568
+  xy: 212, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Music
   rotate: false
-  xy: 1460, 1776
+  xy: 420, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Mysticism
   rotate: false
-  xy: 4, 112
+  xy: 628, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Nationalism
   rotate: false
-  xy: 212, 320
+  xy: 836, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Paper
   rotate: false
-  xy: 628, 736
+  xy: 1460, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Polytheism
   rotate: false
-  xy: 1044, 1152
+  xy: 420, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Priesthood
   rotate: false
-  xy: 1252, 1360
+  xy: 628, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Scientific Method
   rotate: false
-  xy: 212, 112
+  xy: 1252, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Superconductors
   rotate: false
-  xy: 420, 320
+  xy: 1460, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -419,35 +419,35 @@ UnitIcons/Chariot
   index: -1
 UnitIcons/Explorer
   rotate: false
-  xy: 836, 628
+  xy: 628, 212
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Galley
   rotate: false
-  xy: 1252, 1044
+  xy: 1044, 628
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Grenadier
   rotate: false
-  xy: 212, 736
+  xy: 628, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Horse Archer
   rotate: false
-  xy: 1460, 1252
+  xy: 1252, 836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Maceman
   rotate: false
-  xy: 420, 736
+  xy: 1044, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -457,5 +457,40 @@ UnitIcons/Work Boat
   xy: 112, 4
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Combat
+  rotate: false
+  xy: 420, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Flanking
+  rotate: false
+  xy: 1044, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Guerrilla
+  rotate: false
+  xy: 1044, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Navigation
+  rotate: false
+  xy: 1044, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pinch
+  rotate: false
+  xy: 212, 112
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1

@@ -26,7 +26,7 @@
 	},
 	{
 		"name": "Work Boat",
-		"unitType": "WaterCivilian",
+		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Fishing",
@@ -69,7 +69,7 @@
 	},
 	{
 		"name": "Galley",
-		"unitType": "WaterMelee",
+		"unitType": "Melee Water",
 		"movement": 3,
 		"strength": 7,
 		"cost": 80,
@@ -118,7 +118,7 @@
 	},
 	{
 		"name": "Trireme",
-		"unitType": "WaterMelee",
+		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 11,
 		"cost": 50,
@@ -399,7 +399,7 @@
 		"upgradesTo": "Rocket Artillery",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Siege] units>",
 			"No defensive terrain bonus", "Must set up to ranged attack", "Never appears as a Barbarian unit"],
-//		"promotions": ["Indirect Fire"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
 	{
@@ -410,7 +410,7 @@
 		"cost": 300,
 		"requiredTech": "Artillery",
 		"upgradesTo": "Mechanized Infantry",
-//		"promotions": ["Ambush"],
+		"promotions": ["Ambush"],
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
@@ -458,7 +458,7 @@
 		"requiredTech": "Industrialism",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		//		"promotions": ["Blitz"],
+				"promotions": ["Blitz"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -469,7 +469,7 @@
 		"strength": 65,
 		"cost": 160,
 		"requiredTech": "Industrialism",
-//		"promotions": ["Amphibious"],
+		"promotions": ["Amphibious"],
 		"uniques": ["Normal vision when embarked",
 			"[+50]% Strength <vs [Artillery] units>", "[+50]% Strength <vs [Machine Gun] units>"],
 		"attackSound": "shot"
@@ -495,7 +495,7 @@
 		"strength": 100,
 		"cost": 240,
 		"requiredTech": "Computers",
-		//		"promotions": ["Blitz"],
+		"promotions": ["Blitz"],
 		"uniques": ["Requires [1] [Aluminum]", "Requires [1] [Oil]", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -540,7 +540,7 @@
 		"requiredResource": "Oil",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[+50]% Strength <vs [Siege] units>", "Never appears as a Barbarian unit" ], // 'cannot attack amphibiously' isn't possible rn
-//		"promotions": ["Indirect Fire"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
 	{
@@ -564,7 +564,7 @@
 		"interceptRange": 2,
 		"cost": 200,
 		"requiredTech": "Robotics",
-		//		"promotions": ["March"],
+		"promotions": ["March"],
 		"uniques": ["[20]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},

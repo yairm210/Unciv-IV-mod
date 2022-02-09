@@ -53,3 +53,11 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Gene](https://thenounproject.com/icon/gene-4374639/) by Adrien Coquet for Genetics
 - [Fiber Cable](https://thenounproject.com/icon/fiber-cable-904029/) by Robert Bjurshagen for Fiber Optics
 - [Magnet](https://thenounproject.com/icon/magnet-2366943/) by Adrien Coquet for Superconductors
+
+## Promotions
+
+- [Combat swords](https://thenounproject.com/icon/combat-swords-3310797/) by Azam Ishaq for Combat
+- [Navigation](https://thenounproject.com/icon/navigation-1198606/) by Vectors Market
+- [Hills](https://thenounproject.com/icon/hills-1229071/) by Andrew Doane for Guerrilla
+- [U turn](https://thenounproject.com/icon/u-turn-472952/) by Yu luck for Flanking
+- [Pinch](https://thenounproject.com/icon/pinch-2583431/) by Bombasticon Studio
