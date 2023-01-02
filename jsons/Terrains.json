@@ -1,4 +1,4 @@
-[	
+[
 	// Base terrains
 	{
 		"name": "Ocean",
@@ -75,7 +75,7 @@
 		"defenceBonus": -0.1,
 		"RGB": [153, 255, 255]
 	},
-	
+
 	// Terrain features
 	{
 		"name": "Forest",
@@ -152,7 +152,7 @@
 		"production": 1,
 		"occursOn": ["Coast"]
 	},
- 
+
 	// Natural Wonders
 	{
 		"name": "Great Barrier Reef",
@@ -264,4 +264,4 @@
 		"unbuildable": true,
 		"weight": 10
 	}
-]	
+]

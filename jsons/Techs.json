@@ -169,7 +169,7 @@
 				"row": 4,
 				"prerequisites": ["Writing"],
 				"quote": "'Words have the power to both destroy and heal. When words are both true and kind, they can change our world.' - Buddha"
-				"uniques": ["Enables conversion of city production to science"]
+				"uniques": ["Enables conversion of city production to [Science]"]
 			},
 			{
 				"name": "Monarchy",

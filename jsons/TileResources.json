@@ -86,7 +86,7 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 1, "gold": 1}
 	},
-	
+
 	{
 		"name": "Gold Ore",
 		"resourceType": "Luxury",
@@ -135,14 +135,38 @@
 		"improvement": "Winery",
 		"improvementStats": {"gold": 2, "food": 1}
 	},
-	{
-		"name": "Bananas",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle"],
-		"food": 1,
-		"improvement": "Plantation",
-		"improvementStats": {"food": 2}
-	},
+    {
+        "name": "Bananas",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Jungle"],
+        "food": 1,
+        "improvement": "Plantation",
+        "improvementStats": {"food": 2}
+    },
+    {
+        "name": "Cow",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Grassland", "Plains"],
+        "food": 1,
+        "improvement": "Pasture",
+        "improvementStats": {"food": 1, "production": 2}
+    },
+    {
+        "name": "Sheep",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Grassland", "Hill"],
+        "food": 1,
+        "improvement": "Pasture",
+        "improvementStats": {"food": 2, "gold": 1}
+    },
+    {
+        "name": "Deer",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Tundra", "Plains"],
+        "food": 1,
+        "improvement": "Camp",
+        "improvementStats": {"food": 2}
+    },
 	{
 		"name": "Incense",
 		"resourceType": "Luxury",

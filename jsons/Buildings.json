@@ -372,7 +372,7 @@
 		"requiredResource": "Coal",
 		"food": -4,
 		"percentStatBonus": {"production": 50},
-		"uniques": ["Cannot be built with [Nuclear Plant]","Cannot be built with [Hydro Plant]"],
+		"uniques": ["Only available <in cities without a [Nuclear Plant]>","Only available <in cities without a [Hydro Plant]>"],
 		"requiredTech": "Assembly Line"
 	},
 	{
@@ -418,7 +418,7 @@
 		"requiredBuilding": "Factory",
 		"requiredResource": "Uranium",
 		"percentStatBonus": {"production": 50},
-		"uniques": ["Cannot be built with [Coal Plant]", "Cannot be built with [Hydro Plant]"],
+		"uniques": ["Only available <in cities without a [Coal Plant]>", "Only available <in cities without a [Hydro Plant]>"],
 		"requiredTech": "Nuclear Fission"
 	},
 	{
@@ -456,7 +456,7 @@
 		"food": -2,
 		"requiredBuilding": "Factory",
 		"percentStatBonus": {"production": 50},
-		"uniques": ["Must be on [River]", "Cannot be built with [Coal Plant]", "Cannot be built with [Nuclear Plant]"],
+		"uniques": ["Must be on [River]", "Only available <in cities without a [Coal Plant]>", "Only available <in cities without a [Nuclear Plant]>"],
 		"requiredTech": "Plastics"
 	},
 	{

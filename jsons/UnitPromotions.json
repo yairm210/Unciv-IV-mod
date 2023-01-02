@@ -9,7 +9,7 @@
 	// Ranged+Siege
 	{
 		"name": "Guerrilla I",
-		"uniques": ["[+20]% Strength <when fighting in [Hills] tiles> <when defending>"],
+		"uniques": ["[+20]% Strength <when fighting in [Hill] tiles> <when defending>"],
 		"unitTypes": ["Scout","Archery","Gunpowder"]
 	},
 	{
@@ -24,7 +24,7 @@
 		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles> <when attacking>", "Double movement in [Hill]", "May withdraw before melee ([+50]%)"],
 		"unitTypes": ["Scout","Archery","Gunpowder", "Melee"]
 	},
-	
+
 	{
 		"name": "Combat I",
 		"uniques": ["[+10]% Strength"],
@@ -90,7 +90,7 @@
 	{
 		"name": "Amphibious",
 		"prerequisites": ["Combat II"],
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking from the sea"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
 		"unitTypes": ["Scout","Archery","Gunpowder", "Melee", "Mounted", "Siege"]
 	},
 	{

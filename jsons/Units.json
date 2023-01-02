@@ -355,7 +355,7 @@
 		"requiredTech": "Physics",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Flight",
-		"uniques": [ "6 tiles in every direction always visible", "[-50]% Strength <vs [Water] units>"],
+		"uniques": [ "[+4] Sight", "Can see over obstacles", "[-50]% Strength <vs [Water] units>"],
 		"attackSound": "bombing"
 	},
 	{
@@ -384,7 +384,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>",
-			"6 tiles in every direction always visible", "[+150]% Strength <vs [Helicopter] units>"],
+			"[+4] Sight", "Can see over obstacles", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{

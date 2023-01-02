@@ -1,4 +1,4 @@
-[	
+[
 	{
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
@@ -8,12 +8,14 @@
 		"name": "Road",
 		"turnsToBuild": 2,
 		"techRequired": "The Wheel",
+        "terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Can be built outside your borders"]
 	},
 	{
 		"name": "Railroad",
 		"turnsToBuild": 3,
 		"techRequired": "Railroads",
+        "terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Can be built outside your borders"]
 	},
 	{
@@ -126,8 +128,8 @@
 		"uniques": ["[+1 Gold] for each adjacent [River]"],
 		"shortcutKey": "L"
 	},
-	
-	
+
+
 	{
 		"name": "Remove Jungle",
 		"turnsToBuild": 7,
@@ -135,4 +137,15 @@
 		"techRequired": "Iron Working",
 		"uniques": ["Can be built outside your borders"]
 	},
+
+
+    {
+        "name": "City center",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "uniques": ["Unpillagable", "Irremovable", "Unbuildable"],
+        "civilopediaText": [
+            {"text":"Marks the center of a city"},
+            {"text":"Appearance changes with the technological era of the owning civilization"}
+        ]
+    }
 ]
