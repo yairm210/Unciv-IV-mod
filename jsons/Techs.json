@@ -36,7 +36,7 @@
 				"cost": 50,
 				"quote": "'The man who moves a mountain begins by carrying away small stones.' - Confucius"
 			}
-			
+
 		]
 	},
 	{
@@ -120,7 +120,7 @@
 				"row": 8,
 				"prerequisites": ["Mining"],
 				"quote": "'It is entirely seemly for a young man killed in battle to lie mangled by the bronze spear. In his death all things appear fair.' - Homer"
-			}	
+			}
 		]
 	},
 	{
@@ -145,11 +145,11 @@
 			{
 				"name": "Iron Working",
 				"cost": 200,
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Bronze Working"],
 				"quote": "'You should hammer your iron when it is glowing hot.' - Publilius Syrus"
 			}
-			
+
 		]
 	},
 	{
@@ -182,6 +182,7 @@
 				"name": "Compass",
 				"cost": 400,
 				"row": 8,
+                "uniques": ["Enables embarkation for land units"],
 				"prerequisites": ["Sailing", "Iron Working"],
 				"quote": "'The wisest men follow their own direction.' - Euripides"
 			}
@@ -226,7 +227,7 @@
 				"prerequisites": ["Metal Casting"],
 				"quote": "'A god from the machine' - Menander"
 			}
-				
+
 		]
 	},
 	{
@@ -269,7 +270,7 @@
 				"uniques": ["[+1] Sight <for [Water] units>"],
 				"quote": "'One doesn't discover new lands without losing sight of the shore.'– Andre Gide"
 			}
-				
+
 		]
 	},
 	{
@@ -457,7 +458,7 @@
 			{
 				"name": "Steel",
 				"cost": 2800,
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Chemistry", "Iron Working"],
 				"quote": "'Before that steam drill shall beat me down, I’ll die with my hammer in my hand.' – John Henry, The Steel-Driving Man"
 			}

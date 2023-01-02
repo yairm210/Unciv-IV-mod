@@ -34,11 +34,13 @@
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
+        "uniques": ["Can only be built to improve a resource"],
 		"techRequired": "Hunting",
 	},
 	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
+        "uniques": ["Can only be built to improve a resource"],
 		"techRequired": "Animal Husbandry",
 	},
 	{
@@ -52,16 +54,17 @@
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
-		"uniques": ["[+1 Production] <in [Railroad] tiles>"],
+        "uniques": ["Can only be built to improve a resource", "[+1 Production] <in [Railroad] tiles>"],
 		"techRequired": "Masonry",
 	},
 	{
 		"name":"Workshop",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
 		"food":-1,
 		"production":1,
 		"turnsToBuild":7,
 		"uniques": ["[+1 Production] <after discovering [Guilds]>", "[+1 Production] <after discovering [Chemistry]>"]
-	}
+	},
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
@@ -72,11 +75,13 @@
 	{
 		"name": "Winery",
 		"turnsToBuild": 8,
+        "uniques": ["Can only be built to improve a resource"],
 		"techRequired": "Monarchy",
 	},
 	{
 		"name": "Plantation",
 		"turnsToBuild": 6,
+        "uniques": ["Can only be built to improve a resource"],
 		"techRequired": "Calendar",
 	},
 	{
@@ -147,5 +152,11 @@
             {"text":"Marks the center of a city"},
             {"text":"Appearance changes with the technological era of the owning civilization"}
         ]
+    },
+    {
+        "name": "Barbarian encampment",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
     }
 ]
