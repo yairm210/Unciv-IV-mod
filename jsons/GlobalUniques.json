@@ -1,6 +1,19 @@
 {
     "name": "Global uniques",
     "uniques": [
-        "[-1 Food] per [1] population [in all cities] <when below [0] [Health]>"
+        "[-1 Food] per [1] population [in all cities] <when below [0] [Health]>",
+        "Provides [5] [Health]", // Baseline
+
+        "Provides [-1] [Health] <in cities with at least [1] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [2] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [3] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [4] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [5] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [6] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [7] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [8] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [9] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [10] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [11] [Population]>"
     ]
 }

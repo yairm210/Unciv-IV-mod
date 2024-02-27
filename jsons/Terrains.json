@@ -190,17 +190,6 @@
 		"weight": 2
 	},
 	{
-		"name": "Fountain of Youth",
-		"type": "NaturalWonder",
-		"happiness": 10,
-		"occursOn": ["Plains"],
-		"turnsInto": "Plains",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Grants Rejuvenation (all healing effects doubled) to adjacent military land units for the rest of the game"],
-		"weight": 1
-	},
-	{
 		"name": "Grand Mesa",
 		"type": "NaturalWonder",
 		"production": 2,

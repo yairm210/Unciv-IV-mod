@@ -74,7 +74,7 @@
 		"strength": 7,
 		"cost": 80,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"]
+		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Trireme",
 		"attackSound": "nonmetalhit"
 	},
@@ -123,7 +123,7 @@
 		"strength": 11,
 		"cost": 50,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Galley] units>"]
+		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Galley] units>"],
 		"upgradesTo": "Frigate",
 		"attackSound": "nonmetalhit"
 	},

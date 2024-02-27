@@ -66,3 +66,6 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 ## Resources
 
 - [Pig](https://thenounproject.com/icon/pig-1021476/) by Bakunetsu Kaito
+- [Health](https://thenounproject.com/icon/health-1035603/) by Sean Maldjean
+- [Corn](https://thenounproject.com/icon/corn-1608785/) by Marco Livoski
+- [Rice](https://thenounproject.com/icon/rice-102154/) by Mourad Mokrane

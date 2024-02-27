@@ -5,7 +5,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-        "uniques": ["Provides [+1] [Health] <on [Fishing Boats] tiles>"],
+        "uniques": ["Provides [+1] [Health] <in [Fishing Boats] tiles>"],
 		"improvementStats": {"food": 2 },
 	},
 	{
@@ -14,7 +14,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-        "uniques": ["Provides [+1] [Health] <on [Fishing Boats] tiles>"],
+        "uniques": ["Provides [+1] [Health] <in [Fishing Boats] tiles>"],
 		"improvementStats": {"food": 2 },
 	},
     {
@@ -23,7 +23,7 @@
         "terrainsCanBeFoundOn": ["Coast"],
         "food": 1,
         "improvement": "Fishing Boats",
-        "uniques": ["Provides [+1] [Health] <on [Fishing Boats] tiles>"],
+        "uniques": ["Provides [+1] [Health] <in [Fishing Boats] tiles>"],
         "improvementStats": {"food": 2 },
     },
     {
@@ -32,7 +32,7 @@
         "terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
         "food": 1,
         "improvement": "Farm",
-        "uniques": ["Provides [+1] [Health] <on [Farm] tiles>"],
+        "uniques": ["Provides [+1] [Health] <in [Farm] tiles>"],
         "improvementStats": {"food": 2 },
     },
     {
@@ -41,7 +41,7 @@
         "terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
         "food": 1,
         "improvement": "Farm",
-        "uniques": ["Provides [+1] [Health] <on [Farm] tiles>"],
+        "uniques": ["Provides [+1] [Health] <in [Farm] tiles>"],
         "improvementStats": {"food": 1 },
     },
     {
@@ -50,7 +50,7 @@
         "terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
         "food": 1,
         "improvement": "Farm",
-        "uniques": ["Provides [+1] [Health] <on [Farm] tiles>"],
+        "uniques": ["Provides [+1] [Health] <in [Farm] tiles>"],
         "improvementStats": {"food": 2 },
     },
 
@@ -284,8 +284,15 @@
 		"name": "Hit Movies",
 		"resourceType": "Luxury",
 	},
+
+    // City-level resources
     {
         "name": "Health",
+        "resourceType": "Bonus",
+        "uniques": ["City-level resource"]
+    },
+    {
+        "name": "Power",
         "resourceType": "Bonus",
         "uniques": ["City-level resource"]
     },

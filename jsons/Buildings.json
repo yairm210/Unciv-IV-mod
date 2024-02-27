@@ -20,6 +20,7 @@
 	{
 		"name": "Stonehenge",
 		"culture": 8,
+        "cost": 120,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Prophet": 2},
 		"requiredTech": "Mysticism",
@@ -36,9 +37,9 @@
 		"name": "Granary",
 		"cost": 60,
 		"uniques": ["[50]% Food is carried over after population increases [in this city]",
-            "Provides [1] [Health] <with [Corn]>",
-            "Provides [1] [Health] <with [Rice]>",
-            "Provides [1] [Health] <with [Wheat]>"
+            "Provides [1] [Health] <in this city> <with [Corn]>",
+            "Provides [1] [Health] <in this city> <with [Rice]>",
+            "Provides [1] [Health] <in this city> <with [Wheat]>"
         ],
 		"requiredTech": "Pottery"
 	},
@@ -91,7 +92,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"science": 25},
 		"requiredTech": "Metal Casting",
-		"uniques": ["Provides [-1] [Health]",
+		"uniques": ["Provides [-1] [Health] <in this city>",
             "[+1 Happiness] <with [Gold Ore]>", "[+1 Happiness] <with [Silver]>", "[+1 Happiness] <with [Gems]>"]
 	},
 	{
@@ -116,16 +117,18 @@
 		"food":1,
 		"requiredTech": "Mathematics",
         "cost": 100,
-        "uniques": ["Provides [+2] [Health]", "Only available <after discovering [Masonry]>"]
+        "uniques": ["Provides [+2] [Health] <in this city>", "Only available <after discovering [Masonry]>"]
 	},
 	{
 		"name": "Hanging Gardens",
 		"culture": 6,
+        "cost": 300,
 		"isWonder": true,
-		"greatPersonPoints": {"production": 2},
+		"greatPersonPoints": {"Great Engineer": 2},
 		"requiredTech": "Mathematics",
         "requiredBuilding": "Aqueduct",
-		"uniques":["[+1 Food] in all cities", "[+1] population [in all cities]", "[-50]% production cost <with [Stone]>"], // Currently no way to provide +1 health in all cities
+		"uniques":["Provides [1] [Health]", // in all cities
+            "[+1] population [in all cities]", "[-50]% production cost <with [Stone]>"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
 	},
 	{
@@ -133,9 +136,9 @@
 		"cost": 80,
 		"uniques": ["Only available <in [Coastal] cities>",
             "[+25]% [Gold] from Trade Routes <in this city>",
-            "Provides [1] [Health] <with [Clam]>",
-            "Provides [1] [Health] <with [Crab]>",
-            "Provides [1] [Health] <with [Fish]>"],
+            "Provides [1] [Health] <in this city> <with [Clam]>",
+            "Provides [1] [Health] <in this city> <with [Crab]>",
+            "Provides [1] [Health] <in this city> <with [Fish]>"],
 		"requiredTech": "Compass"
 	},
 	{
@@ -186,7 +189,8 @@
 	{
 		"name": "Courthouse",
 		"cost": 120,
-		"uniques": ["-[50]% building maintenance costs [in this city]"],
+        // Currently pointless since no buildings have maintenance costs
+		"uniques": ["[-50]% maintenance cost for buildings [in this city]"],
 		"requiredTech": "Code of Laws"
 	},
 	{
@@ -257,18 +261,20 @@
 		"culture": 8,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["[+2 Science] from [Science] buildings" , "Obsolete with [Computers]", "[-50]% production cost <with [Stone]>"],
+		"uniques": ["[+2 Science] from all [Science] buildings" , "Obsolete with [Computers]", "[-50]% production cost <with [Stone]>"],
 		"requiredTech": "Paper"
 //		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
-    // TODO got this far
 	{
 		"name": "Grocer",
 		"cost": 150,
 		"specialistSlots": {"Merchant": 2},
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+1 Food] from [Sugar] tiles [in this city]", "[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Spices] tiles [in this city]", "[+1 Food] from [Wine] tiles [in this city]"
+		"uniques": [
+            "Provides [1] [Health] <in this city> <with [Sugar]>",
+            "Provides [1] [Health] <in this city> <with [Bananas]>",
+            "Provides [1] [Health] <in this city> <with [Spices]>",
+            "Provides [1] [Health] <in this city> <with [Wine]>",
 		],
 		"requiredTech": "Guilds"
 	},
@@ -278,6 +284,7 @@
 		"percentStatBonus": {"culture": 100},
 		"greatPersonPoints": {"Great Artist": 1},
 		"isNationalWonder": true,
+        "uniques": ["[-50]% production cost <with [Marble]>"],
 		"requiredTech": "Nationalism"
 	},
 	{
@@ -286,7 +293,7 @@
 		"culture": 10,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
-		"uniques": ["Empire enters golden age"],
+		"uniques": ["Empire enters golden age","[-50]% production cost <with [Marble]>"],
 		"requiredTech": "Nationalism",
 		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
 	},
@@ -295,7 +302,6 @@
 		"culture": 3,
 		"cost": 200,
 		"requiredBuilding": "Library",
-		"specialistSlots": {"Scientist": 2},
 		"percentStatBonus": {"science": 25},
 		"requiredTech": "Education"
 	},
@@ -305,9 +311,10 @@
 		"requiredBuilding": "University",
 		"percentStatBonus": {"science": 100},
 		"culture": 4,
+        "specialistSlots": {"Scientist": 2},
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [University] is constructed in at least [6] of [All] cities>"],
+		"uniques": ["Only available <if [University] is constructed in at least [6] of [All] cities>", "[-50]% production cost <with [Stone]>"],
 		"requiredTech": "Education"
 	},
 	{
@@ -321,15 +328,16 @@
 		"requiredBuilding": "Harbor",
 		"cost": 180,
 		"gold": 2,
-		"uniques": ["Can only be built in coastal cities"],
+		"uniques": ["Only available <in [Coastal] cities>"],
 		"requiredTech": "Economics"
 	},
 	{
 		"name": "Statue of Liberty",
 		"culture": 6,
+        "cost": 1500,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": ["[+1 Production] from every specialist [in all cities]"],
+		"uniques": ["[+1 Production] from every specialist [in all cities]"], // Civ IV has "+1 free specialist in all same-continental cities" - we don't have free specialists
 		"requiredTech": "Democracy",
 		"requiredBuilding": "Forge",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
@@ -359,22 +367,22 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,
 		"specialistSlots": {"Engineer": 3},
-		"uniques": ["Only available <if [Forge] is constructed in at least [6] of [All] cities>",
+		"uniques": ["Provides [-2] [Health] <in this city>", "Only available <if [Forge] is constructed in at least [6] of [All] cities>",
 			"[+50]% [Production] [in this city] <with [Iron]>", "[+50]% [Production] [in this city] <with [Coal]>" ],
 		"requiredTech": "Steel"
 	},
 	{
 		"name": "Levee",
 		"cost": 180,
-		"uniques": ["Must be on [River]", "[+1 Production] from [River] tiles in this city"],
+		"uniques": ["Must be on [River]", "[+1 Production] from [River] tiles [in this city]"],
 		"requiredTech": "Steam Power"
 	},
 	{
 		"name": "Factory",
 		"cost": 250,
-		"food": -1,
 		"percentStatBonus": {"production": 25},
 		"specialistSlots": {"Engineer": 2},
+        "uniques": ["Provides [-1] [Health] <in this city>", "[+25]% [Production] [in this city] <with [Power]>"],
 		"requiredTech": "Assembly Line"
 	},
 	{
@@ -382,9 +390,11 @@
 		"cost": 150,
 		"requiredBuilding": "Factory",
 		"requiredResource": "Coal",
-		"food": -4,
-		"percentStatBonus": {"production": 50},
-		"uniques": ["Only available <in cities without a [Nuclear Plant]>","Only available <in cities without a [Hydro Plant]>"],
+		"uniques": [
+            "Power Plant",
+            "Provides [-4] [Health] <in this city> <with [Coal]>",
+            "Provides [1] [Power] <in this city> <with [Coal]>",
+            "Only available <in cities without a [Power Plant]>"],
 		"requiredTech": "Assembly Line"
 	},
 	{
@@ -409,7 +419,7 @@
 	{
 		"name": "Hospital",
 		"cost": 200,
-		"food": 3,
+        "uniques": ["Provides [3] [Health] <in this city>"], // Units in city heal extra 10 hp/turn
 		"requiredTech": "Medicine"
 	},
 	{
@@ -419,27 +429,30 @@
 		"greatPersonPoints": {"Great Scientist": 1},
 		"culture": 2,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Hospital] is constructed in at least [6] of [All] cities>"],
-//			"All newly-trained [non-air] units [in this city] receive the [Medic I] promotion"],
+		"uniques": ["Only available <if [Hospital] is constructed in at least [6] of [All] cities>",
+			"All newly-trained [non-air] units [in this city] receive the [Medic I] promotion"],
 		"requiredTech": "Medicine"
 	},
 	{
 		"name": "Nuclear Plant",
 		"cost": 250,
-		"food": -2,
 		"requiredBuilding": "Factory",
 		"requiredResource": "Uranium",
-		"percentStatBonus": {"production": 50},
-		"uniques": ["Only available <in cities without a [Coal Plant]>", "Only available <in cities without a [Hydro Plant]>"],
+        "uniques": [
+            "Power Plant",
+            "Provides [-2] [Health] <in this city> <with [Uranium]>",
+            "Provides [1] [Power] <in this city> <with [Uranium]>",
+            "Only available <in cities without a [Power Plant]>"],
 		"requiredTech": "Nuclear Fission"
 	},
 	{
 		"name": "Eiffel Tower",
 		"culture": 6,
+        "cost": 1250,
 		"requiredBuilding": "Forge",
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-		"uniques": ["Gain a free [Broadcast Tower] [in all cities]"],
+		"uniques": ["Gain a free [Broadcast Tower] [in all cities]", "[-50]% production cost <with [Iron]>"],
 		"requiredTech": "Radio",
 		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
 	},
@@ -457,29 +470,36 @@
 		"name": "Supermarket",
 		"cost": 150,
 		"food": 1,
-		"uniques": ["[+1 Food] from [Cow] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Sheep] tiles [in this city]", "[+1 Food] from [Pig] tiles [in this city]"
+		"uniques": [
+            "Provides [1] [Health] <in this city> <with [Cow]>",
+            "Provides [1] [Health] <in this city> <with [Deer]>",
+            "Provides [1] [Health] <in this city> <with [Sheep]>",
+            "Provides [1] [Health] <in this city> <with [Pig]>"
 		],
+        "requiredBuilding": "Grocer",
 		"requiredTech": "Guilds"
 	},
 	{
 		"name": "Hydro Plant",
 		"cost": 200,
-		"food": -2,
 		"requiredBuilding": "Factory",
-		"percentStatBonus": {"production": 50},
-		"uniques": ["Must be on [River]", "Only available <in cities without a [Coal Plant]>", "Only available <in cities without a [Nuclear Plant]>"],
+		"uniques": [
+            "Must be on [River]",
+            "Power Plant",
+            "Provides [-2] [Health] <in this city> <with [Uranium]>",
+            "Provides [1] [Power] <in this city> <with [Uranium]>",
+            "Only available <in cities without a [Power Plant]>"
+        ],
 		"requiredTech": "Plastics"
 	},
 	{
 		"name": "Broadcast Tower",
 		"cost": 175,
-		"requiredBuilding": "Factory",
 		"percentStatBonus": {"culture": 50},
 		"specialistSlots": {"Artist": 2},
-		"uniques": ["[+1 Happiness] <with [Hit Singles]>", "[+1 Happiness] <with [Hit Musicals]>", "[+1 Happiness] <with [Hit Movies]>"]
+		"uniques": ["[+1 Happiness] <with [Hit Singles]>", "[+1 Happiness] <with [Hit Musicals]>", "[+1 Happiness] <with [Hit Movies]>"],
 		"requiredTech": "Plastics"
-	}
+	},
 	{
 		"name": "Hollywood",
 		"cost": 1000,
@@ -493,9 +513,11 @@
 	{
 		"name": "Laboratory",
 		"cost": 250,
-		"food": -1,
 		"specialistSlots": {"Scientist": 1},
 		"percentStatBonus": {"science": 25},
+        "uniques": [
+            "Provides [-1] [Health] <in this city>"
+        ],
 		"requiredTech": "Superconductors"
 	}
 ]
