@@ -5,6 +5,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
+        "uniques": ["Provides [+1] [Health] <on [Fishing Boats] tiles>"],
 		"improvementStats": {"food": 2 },
 	},
 	{
@@ -13,16 +14,45 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
+        "uniques": ["Provides [+1] [Health] <on [Fishing Boats] tiles>"],
 		"improvementStats": {"food": 2 },
 	},
-	{
-		"name": "Fish",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 1,
-		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 2 },
-	},
+    {
+        "name": "Fish",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Coast"],
+        "food": 1,
+        "improvement": "Fishing Boats",
+        "uniques": ["Provides [+1] [Health] <on [Fishing Boats] tiles>"],
+        "improvementStats": {"food": 2 },
+    },
+    {
+        "name": "Wheat",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
+        "food": 1,
+        "improvement": "Farm",
+        "uniques": ["Provides [+1] [Health] <on [Farm] tiles>"],
+        "improvementStats": {"food": 2 },
+    },
+    {
+        "name": "Rice",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
+        "food": 1,
+        "improvement": "Farm",
+        "uniques": ["Provides [+1] [Health] <on [Farm] tiles>"],
+        "improvementStats": {"food": 1 },
+    },
+    {
+        "name": "Corn",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
+        "food": 1,
+        "improvement": "Farm",
+        "uniques": ["Provides [+1] [Health] <on [Farm] tiles>"],
+        "improvementStats": {"food": 2 },
+    },
 
 	{
 		"name": "Horses",
@@ -254,6 +284,11 @@
 		"name": "Hit Movies",
 		"resourceType": "Luxury",
 	},
+    {
+        "name": "Health",
+        "resourceType": "Bonus",
+        "uniques": ["City-level resource"]
+    },
 
 	// Used as tokens to limit cathedrals
 	{

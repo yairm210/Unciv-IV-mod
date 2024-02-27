@@ -580,5 +580,41 @@
 		"uniques": ["Consumes [1] [Aluminum]", "Consumes [1] [Oil]",
 			"Damage taken from interception reduced by [50]%", "[-50]% Strength <vs [Water] units>"],
 		"attackSound": "bombing"
-	}
+	},
+    // Great people
+    // TODO - add free great person for first to tech
+    // TODO - super specialists
+    {
+        "name": "Great Prophet",
+        "unitType": "Civilian",
+        "movement": 2,
+        "uniques": ["Unbuildable", "Can hurry technology research"],
+    },
+    {
+        "name": "Great Scientist",
+        "unitType": "Civilian",
+        "movement": 2,
+        "uniques": ["Unbuildable", "Can hurry technology research",
+            // TODO can instantly construct academy *building*
+        ],
+    },
+    {
+        "name": "Great Merchant",
+        "unitType": "Civilian",
+        "movement": 2,
+        "uniques": ["Unbuildable", "May enter foreign tiles without open borders",
+            "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence"],
+    },
+    {
+        "name": "Great Artist",
+        "unitType": "Civilian",
+        "movement": 2,
+        "uniques": ["Unbuildable", "Gain [4000] [Culture] <by consuming this unit>"],
+    },
+    {
+        "name": "Great Engineer",
+        "unitType": "Civilian",
+        "movement": 2,
+        "uniques": ["Unbuildable", "Can speed up the construction of a wonder"],
+    }
 ]
