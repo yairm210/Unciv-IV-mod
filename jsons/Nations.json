@@ -124,6 +124,21 @@
 		"Kuelap", "Pajaten", "Limatambo", "Chucuito"]
 	},
 	{
+		"name": "India",
+		"leaderName": "Gandhi",
+
+		"outerColor": [212,116,245],
+		"innerColor": [255,255,255],
+		"uniques": ["Starts with [Mysticism]", "Starts with [Mining]"],
+		"cities": ["Delhi", "Bombay", "Madras", "Bangalore", "Calcutta", "Lahore", "Karachi", "Kolhapur", "Jaipur", "Hyderabad",
+		"Bengal", "Chittagong", "Punjab", "Dacca", "Indus", "Pune", "Lucknow", "Varanasi", "Bhopal", "Rajshahi", "Rangoon",
+		"Mandalay", "Peshawar", "Darjeeling", "Cochin", "Cuttack", "Goa", "Calicut", "Rawalpindi", "Quetta", "Howrah", 
+		"Triverapatnam", "Dakpathar", "Thanjavur", "Jaunpur", "Kodaikanal", "Vrindavan", "Guwahati", "Bhalukpong", "Sonepur",
+		"Vaishali", "Rewalsar", "Kurukshetra", "Subarnapur", "Wadhvan", "Narkanda", "Dhanaulti", "Chitradurga", "Srikakulam",
+		"Vijayaweda", "Banswara"]
+		
+	},
+	{
 		"name": "Japan",
 		"leaderName": "Tokugawa Ieyasu",
 		
@@ -134,6 +149,29 @@
 		"Shimonoseki", "Matsuyama", "Sapporo", "Hakodate", "Ise", "Toyama", "Fukushima", "Suo", "Bizen", "Echizen", "Izumi",
 		"Omi", "Echigo", "Kozuke", "Sado", "Kobe", "Nagano", "Hiroshima", "Takayama", "Akita", "Fukuoka", "Aomori", "Kamakuro",
 		"Kochi", "Naha"]
+	},
+	{
+		"name": "Mali",
+		"leaderName": "Mansa Musa",
+
+		"outerColor": [196,164,28],
+		"innerColor": [27,20,9],
+		"uniques": ["Starts with [Mining]", "Starts with [The Wheel]"],
+		"cities": ["Timbuktu", "Djenne", "Kumbi Saleh", "Gao", "Walata", "Niani", "Awdaghost", "Tadmekka", "Tekedda", "Awlil",
+		"Wadan", "Agades", "Teodeni", "Taghaza", "Katsina", "Kano", "Zaria", "Bilma", "Ngazargamu", "Kangaba", "Dia", "Tiraqqa",
+		"Awkar", "Kukiya", "Takrur", "Arawan", "Sya", "Taoudenni", "Bambouk", "Kirina"]
+	},
+	{
+		"name": "Mongolia",
+		"leaderName": "Genkhis Khan",
+
+		"outerColor": [121,82,3],
+		"innerColor": [228,188,8],
+		"uniques": ["Starts with [Hunting]", "Starts with [The Wheel]"],
+		"cities": ["Karakorum", "Beshbalik", "Turfan", "Ning-hsia", "Old Sarai", "New Sarai", "Samarqand", "Tabriz", "Tiflis",
+		"Otrar", "Sanchu", "Kazan", "Almarikh", "Ulaanbaatar", "Hovd", "Darhan", "Dalandzadgad", "Mandalgovi", "Choybalsan",
+		"Erdenet", "Tsetserleg", "Baruun-Urt", "Ereen", "Batshireet", "Choyr", "Ulaangom", "Tosontsengel", "Atlay", "Uliastay",
+		"Bayanhongor", "Har-Ayrag", "Nalayh", "Tes"]
 	},
 	{
 		"name": "Persia",
@@ -173,6 +211,18 @@
 		"Smolensk", "Orenburg", "Krasnoyarsk", "Khabarovsk", "Bryansk", "Tver", "Novosibirsk", "Magadan", "Murmansk", "Irkutsk",
 		"Chita", "Samara", "Arkhangel'sk", "Chelyabinsk", "Tobol'sk", "Vologda", "Omsk", "Astrakhan", "Kursk", "Saratov", "Tula",
 		"Vladimir", "Perm", "Voronezh", "Pskov", "Starayarussa", "Kostoma", "Nizhiynovgorod", "Sudzal", "Magnitogorsk"]
+	},
+	{
+		"name": "Spain", 
+		"leaderName": "Isabella",
+
+		"outerColor": [236,174,143],
+		"innerColor": [123,22,19],
+		"uniques": ["Starts with [Fishing]", "Starts with [Mysticism]"],
+		"cities": ["Madrid", "Barcelona", "Seville", "Cordoba", "Toledo", "Santiago", "Salamanca", "Murcia", "Valencia", "Zaragoza",
+		"Pamplona", "Vitoria", "Santander", "Asturias", "Jaen", "Logrono", "Valladolid", "Palma", "Teruel", "Almeria", "Leon",
+		"Zamora", "Mida", "Lugo", "Alicante", "Cadiz", "Elche", "Alcorcon", "Burgos", "Vigo", "Badajoz", "La Coruna", "Oviedo",
+		"Bilbao", "San Sebastian", "Granada", "Mérida", "Huelva", "Ibiza", "Las Palmas", "Tenerife"]
 	},
 	{
 		"name": "Sumeria",
