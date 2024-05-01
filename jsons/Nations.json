@@ -17,8 +17,8 @@
 		"name": "Arabia",
 		"leaderName": "Saladin",
 		
-		"outerColor": [0,102,0],
-		"innerColor": [0,0,255],
+		"outerColor": [139,214,59],
+		"innerColor": [33,48,176],
 		"uniques": ["Starts with [Mysticism]", "Starts with [The Wheel]"],
 		"cities": ["Mecca", "Medina", "Damascus", "Baghdad", "Najran", "Kufah", "Basra", "Khurasan", "Anjar", "Fustat", "Aden",
 		"Yamama", "Muscat", "Mansura", "Bukhara", "Fez", "Shiraz", "Merw", "Balkh", "Mosul", "Aydab", "Bayr Ras", "Suhar", "Taif",
