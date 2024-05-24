@@ -168,8 +168,11 @@
 				"cost": 300,
 				"row": 4,
 				"prerequisites": ["Writing"],
-				"quote": "'Words have the power to both destroy and heal. When words are both true and kind, they can change our world.' - Buddha"
-				"uniques": ["Enables conversion of city production to [Science]"]
+				"quote": "'Words have the power to both destroy and heal. When words are both true and kind, they can change our world.' - Buddha",
+				"uniques": [
+					"Enables conversion of city production to [Science]",
+					"Production to [Science] conversion in cities changed by [300]%"
+				]
 			},
 			{
 				"name": "Monarchy",
@@ -218,7 +221,11 @@
 				"cost": 400,
 				"row": 4,
 				"prerequisites": ["Mathematics"],
-				"quote": "'Everything is worth what its purchaser will pay for it.' - Publilius Syrus"
+				"quote": "'Everything is worth what its purchaser will pay for it.' - Publilius Syrus",
+				"uniques": [
+					"Enables conversion of city production to [Gold]",
+					"Production to [Gold] conversion in cities changed by [300]%"
+				]
 			},
 			{
 				"name": "Machinery",
@@ -282,7 +289,11 @@
 				"cost": 600,
 				"row": 3,
 				"prerequisites": ["Mathematics", "Drama"],
-				"quote": "'If music be the food of love, play on.' – William Shakespeare"
+				"quote": "'If music be the food of love, play on.' – William Shakespeare",
+				"uniques": [
+					"Enables conversion of city production to [Culture]",
+					"Production to [Culture] conversion in cities changed by [300]%"
+				]
 			},
 			{
 				"name": "Philosophy",
