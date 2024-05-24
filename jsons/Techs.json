@@ -292,7 +292,8 @@
 				"quote": "'If music be the food of love, play on.' – William Shakespeare",
 				"uniques": [
 					"Enables conversion of city production to [Culture]",
-					"Production to [Culture] conversion in cities changed by [300]%"
+					"Production to [Culture] conversion in cities changed by [300]%",
+					"Free [Great Artist] appears <if no other Civilization has researched this>"
 				]
 			},
 			{
@@ -396,7 +397,10 @@
 				"cost": 1400,
 				"row": 6,
 				"prerequisites": ["Education"],
-				"quote": "'Compound interest is the most powerful force in the universe.'– Albert Einstein"
+				"quote": "'Compound interest is the most powerful force in the universe.'– Albert Einstein",
+				"uniques": [
+					"Free [Great Merchant] appears <if no other Civilization has researched this>"
+				]
 			},
 			{
 				"name": "Gunpowder",
@@ -491,7 +495,10 @@
 				"cost": 4000,
 				"row": 5,
 				"prerequisites": ["Scientific Method"],
-				"quote": "'To every action there is always opposed an equal reaction.' – Isaac Newton"
+				"quote": "'To every action there is always opposed an equal reaction.' – Isaac Newton",
+				"uniques": [
+					"Free [Great Scientist] appears <if no other Civilization has researched this>"
+				]
 			},
 			{
 				"name": "Biology",
