@@ -18,7 +18,9 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Electric Guitar](https://thenounproject.com/icon/electric-guitar-1029522/) by Pedro Santos for Rock 'n' Roll
 - [Red Cross](https://thenounproject.com/icon/red-cross-2392034/) by Jordan Alfarishy
 - [Theater](https://thenounproject.com/icon/theater-3402158/) by Melvin Salas for Broadway
-- [power plant with coal](https://thenounproject.com/icon/power-plant-with-coal-2403687/) by Verry for Coal Plant
+- [Power Plant with Coal](https://thenounproject.com/icon/power-plant-with-coal-2403687/) by Verry for Coal Plant
+- [Supermarket](https://thenounproject.com/icon/supermarket-6441161/) by parnowowo for Supermarket
+- [Industrial Park](https://thenounproject.com/icon/industrial-park-5428946/) by Puspito for Industrial Park
 
 #### Improvements
 
@@ -69,3 +71,8 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Health](https://thenounproject.com/icon/health-1035603/) by Sean Maldjean
 - [Corn](https://thenounproject.com/icon/corn-1608785/) by Marco Livoski
 - [Rice](https://thenounproject.com/icon/rice-102154/) by Mourad Mokrane
+- [Movie Reel](https://thenounproject.com/icon/movie-reel-6613783/) by Suprihatin Ningsih for Hit Movies
+- [Musical](https://thenounproject.com/icon/musical-3406690/) by Alice Design for Hit Musicals
+- [Vinyl](https://thenounproject.com/icon/vinyl-5451222/) by Fabien for Hit Singles
+- [Energy](https://thenounproject.com/icon/energy-3922770/) by Royyan Wijaya for Power
+- [Specialist](https://thenounproject.com/icon/specialist-5469028/) by andika for 
