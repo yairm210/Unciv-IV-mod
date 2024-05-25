@@ -87,7 +87,8 @@
 		"cost": 150,
 		"uniques": [
 			"Free Technology",  
-			"[-50]% production cost <with [Marble]>"],
+			"[-50]% production cost <with [Marble]>"
+		],
 		"requiredTech": "Priesthood",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing'  - Socrates"
 	},
