@@ -469,6 +469,22 @@
 		"requiredTech": "Assembly Line"
 	},
 	{
+		"name": "Industrial Park",
+		"cost": 200,
+		"specialistSlots": {"Engineer": 2},
+		"production": 2,
+		"greatPersonPoints": {
+			"Great Engineer": 3
+		},
+		"requiredBuilding": "Factory",
+        "uniques": [
+			"Provides [-2] [Health] <in this city>", 
+			"Provides [-1] [Health] <in this city> <with [Coal]>",
+			"Provides [-1] [Health] <in this city> <with [Oil]>"
+		],
+		"requiredTech": "Industrialism"
+	}
+	{
 		"name": "Coal Plant",
 		"cost": 150,
 		"requiredBuilding": "Factory",
