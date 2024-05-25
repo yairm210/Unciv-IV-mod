@@ -24,19 +24,26 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Prophet": 2},
 		"requiredTech": "Mysticism",
-		"uniques": ["Obsolete with [Astronomy]", "Gain a free [Monument] [in all cities]"],
+		"uniques": [
+			"Obsolete with [Astronomy]", 
+			"Gain a free [Monument] [in all cities]"
+		],
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
 	{
 		"name": "Lighthouse",
 		"cost": 60,
-		"uniques": ["Only available <in [Coastal] cities>", "[+1 Food] from [Water] tiles [in this city]" ],
+		"uniques": [
+			"Only available <in [Coastal] cities>", 
+			"[+1 Food] from [Water] tiles [in this city]" 
+		],
 		"requiredTech": "Sailing"
 	},
 	{
 		"name": "Granary",
 		"cost": 60,
-		"uniques": ["[50]% Food is carried over after population increases [in this city]",
+		"uniques": [
+			"[50]% Food is carried over after population increases [in this city]",
             "Provides [1] [Health] <in this city> <with [Corn]>",
             "Provides [1] [Health] <in this city> <with [Rice]>",
             "Provides [1] [Health] <in this city> <with [Wheat]>"
@@ -57,7 +64,11 @@
 		"isWonder": true,
 		"cost": 400,
 		"specialistSlots": {"Artist": 2},
-		"uniques": ["[+50]% Great Person generation [in all cities]", "[-50]% production cost <with [Marble]>", "Obsolete with [Scientific Method]"],
+		"uniques": [
+			"[+50]% Great Person generation [in all cities]", 
+			"[-50]% production cost <with [Marble]>", 
+			"Obsolete with [Scientific Method]"
+		],
 		"requiredTech": "Polytheism"
 	},
 	{
@@ -74,7 +85,9 @@
 		"culture": 8,
 		"isWonder": true,
 		"cost": 150,
-		"uniques": ["Free Technology",  "[-50]% production cost <with [Marble]>"],
+		"uniques": [
+			"Free Technology",  
+			"[-50]% production cost <with [Marble]>"],
 		"requiredTech": "Priesthood",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing'  - Socrates"
 	},
@@ -92,8 +105,12 @@
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"science": 25},
 		"requiredTech": "Metal Casting",
-		"uniques": ["Provides [-1] [Health] <in this city>",
-            "[+1 Happiness] <with [Gold Ore]>", "[+1 Happiness] <with [Silver]>", "[+1 Happiness] <with [Gems]>"]
+		"uniques": [
+			"Provides [-1] [Health] <in this city>",
+            "[+1 Happiness] <with [Gold Ore]>", 
+			"[+1 Happiness] <with [Silver]>", 
+			"[+1 Happiness] <with [Gems]>"
+		]
 	},
 	{
 		"name": "Colossus",
@@ -102,8 +119,12 @@
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-		"uniques": ["Only available <in [Coastal] cities>", "[+1 Gold] from [Water] tiles [in all cities]",
-            "Obsolete with [Astronomy]", "[-50]% production cost <with [Copper]>"],
+		"uniques": [
+			"Only available <in [Coastal] cities>", 
+			"[+1 Gold] from [Water] tiles [in all cities]",
+            "Obsolete with [Astronomy]", 
+			"[-50]% production cost <with [Copper]>"
+		],
 		"requiredBuilding": "Forge",
 		"requiredTech": "Metal Casting",
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
@@ -117,7 +138,10 @@
 		"food": 1,
 		"requiredTech": "Mathematics",
         "cost": 100,
-        "uniques": ["Provides [+2] [Health] <in this city>", "Only available <after discovering [Masonry]>"]
+        "uniques": [
+			"Provides [+2] [Health] <in this city>", 
+			"Only available <after discovering [Masonry]>"
+		]
 	},
 	{
 		"name": "Hanging Gardens",
@@ -137,11 +161,13 @@
 	{
 		"name": "Harbor",
 		"cost": 80,
-		"uniques": ["Only available <in [Coastal] cities>",
+		"uniques": [
+			"Only available <in [Coastal] cities>",
             "[+25]% [Gold] from Trade Routes <in this city>",
             "Provides [1] [Health] <in this city> <with [Clam]>",
             "Provides [1] [Health] <in this city> <with [Crab]>",
-            "Provides [1] [Health] <in this city> <with [Fish]>"],
+            "Provides [1] [Health] <in this city> <with [Fish]>"
+		],
 		"requiredTech": "Compass"
 	},
 	{
@@ -152,7 +178,10 @@
 		"isWonder": true,
 		"requiredBuilding": "Library",
 		"requiredTech": "Literature",
-		"uniques": ["Obsolete with [Scientific Method]", "[-50]% production cost <with [Marble]>"],
+		"uniques": [
+			"Obsolete with [Scientific Method]", 
+			"[-50]% production cost <with [Marble]>"
+		],
         "quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
 	},
 	{
@@ -160,7 +189,10 @@
 		"cost": 250,
 		"culture": 4,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[+100]% Great Person generation [in this city]", "[-50]% production cost <with [Marble]>"],
+		"uniques": [
+			"[+100]% Great Person generation [in this city]", 
+			"[-50]% production cost <with [Marble]>"
+		],
 		"isNationalWonder": true,
 		"requiredBuilding": "Library",
 		"requiredTech": "Literature"
@@ -177,8 +209,12 @@
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"happiness": 1,
-		"uniques": ["[+1 Happiness] <with [Furs]>", "[+1 Happiness] <with [Ivory]>",
-			"[+1 Happiness] <with [Silk]>", "[+1 Happiness] <with [Whales]>"],
+		"uniques": [
+			"[+1 Happiness] <with [Furs]>", 
+			"[+1 Happiness] <with [Ivory]>",
+			"[+1 Happiness] <with [Silk]>",
+			"[+1 Happiness] <with [Whales]>"
+		],
 		"requiredTech": "Currency"
 	},
 	{
@@ -201,8 +237,11 @@
 		"cost": 500,
 		"culture": 6,
 		"isWonder": true,
-		"uniques": ["[+25]% City Strength from defensive buildings", "[-50]% production cost <with [Stone]>",
-            "Obsolete with [Rifling]"],
+		"uniques": [
+			"[+25]% City Strength from defensive buildings", 
+			"[-50]% production cost <with [Stone]>",
+            "Obsolete with [Rifling]"
+		],
 		"requiredTech": "Code of Laws",
 		"greatPersonPoints": {"Great Prophet": 2},
         "quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
@@ -213,7 +252,10 @@
 		"requiredBuilding": "Library",
 		"specialistSlots": {"Priest": 2},
 		// This unique uses Resource mechanics to limit 1 cathedral per 3 temples
-		"uniques": ["[+1 Happiness] <with [Incense]>", "Consumes [3] [Cathedral Followers]"],
+		"uniques": [
+			"[+1 Happiness] <with [Incense]>", 
+			"Consumes [3] [Cathedral Followers]"
+		],
 		"percentStatBonus": {"culture": 50},
 		"requiredTech": "Music"
 	},
@@ -223,7 +265,10 @@
 		"culture": 10,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[+2 Culture] from every specialist [in all cities]", "[-50]% production cost <with [Marble]>"],
+		"uniques": [
+			"[+2 Culture] from every specialist [in all cities]", 
+			"[-50]% production cost <with [Marble]>"
+		],
 		"requiredTech": "Music",
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
 	},
@@ -235,7 +280,10 @@
 		"greatPersonPoints": {"Great Prophet": 2},
 		"requiredTech": "Philosophy",
 		"specialistSlots": {"Priest": 3},
-		"uniques": ["[+1 Production] from every [Priest]", "Obsolete with [Computers]", "[-50]% production cost <with [Marble]>"],
+		"uniques": [
+			"[+1 Production] from every [Priest]", "Obsolete with [Computers]", 
+			"[-50]% production cost <with [Marble]>"
+		],
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
 	},
 	{
@@ -244,7 +292,11 @@
 		"culture": 8,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[-33]% construction time for [All] improvements" , "Obsolete with [Steam Power]", "[-50]% production cost <with [Marble]>"],
+		"uniques": [
+			"[-33]% construction time for [All] improvements", 
+			"Obsolete with [Steam Power]",
+			"[-50]% production cost <with [Marble]>"
+		],
 		"requiredTech": "Theology",
 		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -254,7 +306,10 @@
 		"culture": 10,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isNationalWonder": true,
-		"uniques": ["[-25]% maintenance cost for buildings [in all cities]", "[-50]% production cost <with [Marble]>"],
+		"uniques": [
+			"[-25]% maintenance cost for buildings [in all cities]", 
+			"[-50]% production cost <with [Marble]>"
+		],
 		"requiredTech": "Divine Right"
 //		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -264,7 +319,11 @@
 		"culture": 8,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["[+2 Science] from all [Science] buildings" , "Obsolete with [Computers]", "[-50]% production cost <with [Stone]>"],
+		"uniques": [
+			"[+2 Science] from all [Science] buildings", 
+			"Obsolete with [Computers]", 
+			"[-50]% production cost <with [Stone]>"
+		],
 		"requiredTech": "Paper"
 //		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -296,7 +355,10 @@
 		"culture": 10,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
-		"uniques": ["Empire enters golden age","[-50]% production cost <with [Marble]>"],
+		"uniques": [
+			"Empire enters golden age",
+			"[-50]% production cost <with [Marble]>"
+		],
 		"requiredTech": "Nationalism",
 		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
 	},
@@ -317,7 +379,10 @@
         "specialistSlots": {"Scientist": 2},
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [University] is constructed in at least [6] of [All] cities>", "[-50]% production cost <with [Stone]>"],
+		"uniques": [
+			"Only available <if [University] is constructed in at least [6] of [All] cities>", 
+			"[-50]% production cost <with [Stone]>"
+		],
 		"requiredTech": "Education"
 	},
 	{
@@ -358,7 +423,10 @@
 		"requiredBuilding": "Library",
 		"specialistSlots": {"Priest": 2},
 		// This unique uses Resource mechanics to limit 1 cathedral per 3 temples
-		"uniques": ["[+1 Happiness] <with [Incense]>", "Consumes [3] [Cathedral Followers]"],
+		"uniques": [
+			"[+1 Happiness] <with [Incense]>", 
+			"Consumes [3] [Cathedral Followers]"
+		],
 		"percentStatBonus": {"culture": 50},
 		"requiredTech": "Music"
 	},
@@ -370,14 +438,21 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,
 		"specialistSlots": {"Engineer": 3},
-		"uniques": ["Provides [-2] [Health] <in this city>", "Only available <if [Forge] is constructed in at least [6] of [All] cities>",
-			"[+50]% [Production] [in this city] <with [Iron]>", "[+50]% [Production] [in this city] <with [Coal]>" ],
+		"uniques": [
+			"Provides [-2] [Health] <in this city>", 
+			"Only available <if [Forge] is constructed in at least [6] of [All] cities>",
+			"[+50]% [Production] [in this city] <with [Iron]>", 
+			"[+50]% [Production] [in this city] <with [Coal]>"
+		],
 		"requiredTech": "Steel"
 	},
 	{
 		"name": "Levee",
 		"cost": 180,
-		"uniques": ["Must be on [River]", "[+1 Production] from [River] tiles [in this city]"],
+		"uniques": [
+			"Must be on [River]", 
+			"[+1 Production] from [River] tiles [in this city]"
+		],
 		"requiredTech": "Steam Power"
 	},
 	{
@@ -385,7 +460,10 @@
 		"cost": 250,
 		"percentStatBonus": {"production": 25},
 		"specialistSlots": {"Engineer": 2},
-        "uniques": ["Provides [-1] [Health] <in this city>", "[+25]% [Production] [in this city] <with [Power]>"],
+        "uniques": [
+			"Provides [-1] [Health] <in this city>", 
+			"[+25]% [Production] [in this city] <with [Power]>"
+		],
 		"requiredTech": "Assembly Line"
 	},
 	{
@@ -432,8 +510,10 @@
 		"greatPersonPoints": {"Great Scientist": 1},
 		"culture": 2,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Hospital] is constructed in at least [6] of [All] cities>",
-			"All newly-trained [non-air] units [in this city] receive the [Medic I] promotion"],
+		"uniques": [
+			"Only available <if [Hospital] is constructed in at least [6] of [All] cities>",
+			"All newly-trained [non-air] units [in this city] receive the [Medic I] promotion"
+		],
 		"requiredTech": "Medicine"
 	},
 	{
@@ -455,7 +535,10 @@
 		"requiredBuilding": "Forge",
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-		"uniques": ["Gain a free [Broadcast Tower] [in all cities]", "[-50]% production cost <with [Iron]>"],
+		"uniques": [
+			"Gain a free [Broadcast Tower] [in all cities]", 
+			"[-50]% production cost <with [Iron]>"
+		],
 		"requiredTech": "Radio",
 		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
 	},
@@ -500,7 +583,11 @@
 		"cost": 175,
 		"percentStatBonus": {"culture": 50},
 		"specialistSlots": {"Artist": 2},
-		"uniques": ["[+1 Happiness] <with [Hit Singles]>", "[+1 Happiness] <with [Hit Musicals]>", "[+1 Happiness] <with [Hit Movies]>"],
+		"uniques": [
+			"[+1 Happiness] <with [Hit Singles]>", 
+			"[+1 Happiness] <with [Hit Musicals]>", 
+			"[+1 Happiness] <with [Hit Movies]>"
+		],
 		"requiredTech": "Plastics"
 	},
 	{

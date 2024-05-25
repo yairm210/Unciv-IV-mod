@@ -1,4 +1,6 @@
 {
 	"isBaseRuleset": true,
-	"uniques": ["Can convert gold to science with sliders"],
+	"uniques": [
+		"Can convert gold to science with sliders"
+	]
 }

@@ -2,7 +2,10 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": [
+			"Heal this unit by [50] HP", 
+			"Doing so will consume this opportunity to choose a Promotion"
+		],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
 	},
 
@@ -15,13 +18,20 @@
 	{
 		"name": "Guerrilla II",
 		"prerequisites": ["Guerrilla I"],
-		"uniques": ["[+30]% Strength <when fighting in [Hill] tiles> <when defending>", "Double movement in [Hill]"],
+		"uniques": [
+			"[+30]% Strength <when fighting in [Hill] tiles> <when defending>", 
+			"Double movement in [Hill]"
+		],
 		"unitTypes": ["Scout","Archery","Gunpowder", "Melee"] // Yes melee gets it even though they can't have the initial one, see https://civilization.fandom.com/wiki/Guerrilla_(Civ4)#Guerrilla_II
 	},
 	{
 		"name": "Guerrilla III",
 		"prerequisites": ["Guerrilla II"],
-		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles> <when attacking>", "Double movement in [Hill]", "May withdraw before melee ([+50]%)"],
+		"uniques": [
+			"[+25]% Strength <when fighting in [Hill] tiles> <when attacking>", 
+			"Double movement in [Hill]", 
+			"May withdraw before melee ([+50]%)"
+		],
 		"unitTypes": ["Scout","Archery","Gunpowder", "Melee"]
 	},
 
@@ -46,7 +56,10 @@
 	{
 		"name": "Pinch",
 		"prerequisites": ["Combat I"],
-		"uniques": ["[+25]% Strength <vs [Melee] units>", "Only available <after discovering [Gunpowder]>"],
+		"uniques": [
+			"[+25]% Strength <vs [Melee] units>", 
+			"Only available <after discovering [Gunpowder]>"
+		],
 		"unitTypes": ["Gunpowder","Mounted", "Armored", "Helicopter", "Bomber"]
 	},
 	{
@@ -90,7 +103,10 @@
 	{
 		"name": "Amphibious",
 		"prerequisites": ["Combat II"],
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
+		"uniques": [
+			"Eliminates combat penalty for attacking over a river", 
+			"Eliminates combat penalty for attacking across a coast"
+		],
 		"unitTypes": ["Scout","Archery","Gunpowder", "Melee", "Mounted", "Siege"]
 	},
 	{
@@ -116,7 +132,10 @@
 	{
 		"name": "Blitz",
 		"prerequisites": ["Combat III"],
-		"uniques": ["[1] additional attacks per turn", "Only available <after discovering [Military Tradition]>"],
+		"uniques": [
+			"[1] additional attacks per turn", 
+			"Only available <after discovering [Military Tradition]>"
+		],
 		"unitTypes": ["Mounted", "Armored", "Helicopter", "Melee Water"]
 	},
 	{
@@ -135,7 +154,10 @@
 
 	{
 		"name": "Flanking I",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([+10]%)"],
+		"uniques": [
+			"[+1] Sight", 
+			"May withdraw before melee ([+10]%)"
+		],
 		"unitTypes": ["Mounted", "Scout", "Helicopter", "Melee Water"]
 	},
 	{

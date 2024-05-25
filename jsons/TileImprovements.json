@@ -54,7 +54,10 @@
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
-        "uniques": ["Can only be built to improve a resource", "[+1 Production] <in [Railroad] tiles>"],
+        "uniques": [
+			"Can only be built to improve a resource", 
+			"[+1 Production] <in [Railroad] tiles>"
+		],
 		"techRequired": "Masonry",
 	},
 	{
@@ -63,14 +66,20 @@
 		"food": -1,
 		"production": 1,
 		"turnsToBuild": 7,
-		"uniques": ["[+1 Production] <after discovering [Guilds]>", "[+1 Production] <after discovering [Chemistry]>"]
+		"uniques": [
+			"[+1 Production] <after discovering [Guilds]>", 
+			"[+1 Production] <after discovering [Chemistry]>"
+		]
 	},
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"turnsToBuild": 10,
 		"techRequired": "Mathematics",
-		"uniques": ["Gives a defensive bonus of [25]%", "Can be built outside your borders"]
+		"uniques": [
+			"Gives a defensive bonus of [25]%", 
+			"Can be built outside your borders"
+		]
 	},
 	{
 		"name": "Winery",
@@ -91,7 +100,10 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
-		"uniques":["[+1 Production] <after discovering [Replaceable Parts]>" , "[+1 Gold] <after discovering [Electricity]>" ]
+		"uniques": [
+			"[+1 Production] <after discovering [Replaceable Parts]>",
+			"[+1 Gold] <after discovering [Electricity]>"
+		]
 	},
 	{
 		"name": "Watermill",
@@ -100,7 +112,10 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
-		"uniques":["Must be next to [River]", "[+1 Production] <after discovering [Replaceable Parts]>", "[+2 Gold] <after discovering [Electricity]>"]
+		"uniques": [
+			"Must be next to [River]", 
+			"[+1 Production] <after discovering [Replaceable Parts]>", 
+			"[+2 Gold] <after discovering [Electricity]>"]
 	},
 	{
 		"name": "Whaling Boats",
@@ -146,7 +161,11 @@
     {
         "name": "City center",
         "terrainsCanBeBuiltOn": ["Land"],
-        "uniques": ["Unpillagable", "Irremovable", "Unbuildable"],
+        "uniques": [
+			"Unpillagable", 
+			"Irremovable", 
+			"Unbuildable"
+		],
         "civilopediaText": [
             {"text": "Marks the center of a city"},
             {"text": "Appearance changes with the technological era of the owning civilization"}
@@ -155,7 +174,10 @@
     {
         "name": "Barbarian encampment",
         "terrainsCanBeBuiltOn": ["Land"],
-        "uniques": ["Unpillagable", "Unbuildable"],
+        "uniques": [
+			"Unpillagable", 
+			"Unbuildable"
+		],
         "civilopediaText": [{"text": "Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
     }
 ]
