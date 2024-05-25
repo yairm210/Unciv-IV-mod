@@ -175,7 +175,8 @@
 		"name": "The Great Library", // Known as "Great Library" in Civ IV
 		"cost": 350,
 		"culture": 8,
-		"greatPersonPoints": {"Great Scientist": 6},
+		"science": 6,
+		"greatPersonPoints": {"Great Scientist": 8},
 		"isWonder": true,
 		"requiredBuilding": "Library",
 		"requiredTech": "Literature",
