@@ -296,6 +296,32 @@
         "resourceType": "Bonus",
         "uniques": ["City-level resource"]
     },
+	// City-level resources used for counting super specialists
+	{
+		"name": "Great Prophets",
+		"resourceType": "Bonus",
+		"uniques": ["City-level resource"]
+	},
+	{
+		"name": "Great Scientists",
+		"resourceType": "Bonus",
+		"uniques": ["City-level resource"]
+	},
+	{
+		"name": "Great Merchants",
+		"resourceType": "Bonus",
+		"uniques": ["City-level resource"]
+	},
+	{
+		"name": "Great Artists",
+		"resourceType": "Bonus",
+		"uniques": ["City-level resource"]
+	},
+	{
+		"name": "Great Engineers",
+		"resourceType": "Bonus",
+		"uniques": ["City-level resource"]
+	},
 
 	// Used as tokens to limit cathedrals
 	{

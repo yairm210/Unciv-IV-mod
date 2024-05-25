@@ -611,4 +611,66 @@
         ],
 		"requiredTech": "Superconductors"
 	}
+	// Great People Buildings
+	{
+		"name": "Great Prophet Specialist",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Provides [1] [Great Prophets] <for [9999] turns>",
+			"[+2 Production, +5 Gold] [in this city] <for [9999] turns>",
+			"Remove [Great Prophet Specialist] [in this city]"
+		]
+	},
+	{
+		"name": "Great Scientist Specialist",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Provides [1] [Great Scientists] <for [9999] turns>",
+			"[+1 Production, +6 Science] [in this city] <for [9999] turns>",
+			"Remove [Great Scientist Specialist] [in this city]"
+		]
+	},
+	{
+		"name": "Great Merchant Specialist",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Provides [1] [Great Merchants] <for [9999] turns>",
+			"[+1 Food, +6 Gold] [in this city] <for [9999] turns>",
+			"Remove [Great Merchant Specialist] [in this city]"
+		]
+	},
+	{
+		"name": "Great Artist Specialist",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Provides [1] [Great Artists] <for [9999] turns>",
+			"[+3 Gold, +12 Culture] [in this city] <for [9999] turns>",
+			"Remove [Great Artist Specialist] [in this city]"
+		]
+	},
+	{
+		"name": "Great Engineer Specialist",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Provides [1] [Great Engineers] <for [9999] turns>",
+			"[+3 Production, +3 Science] [in this city] <for [9999] turns>",
+			"Remove [Great Engineer Specialist] [in this city]"
+		]
+	},
+	{
+		"name": "Academy",
+		"culture": 4,
+		"percentStatBonus": {
+			"science": 50
+		},
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased"
+		]
+	}
 ]

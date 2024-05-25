@@ -690,15 +690,14 @@
 		"attackSound": "bombing"
 	},
     // Great people
-    // TODO - add free great person for first to tech
-    // TODO - super specialists
     {
         "name": "Great Prophet",
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
 			"Unbuildable", 
-			"Can hurry technology research"
+			"Can hurry technology research",
+			"Gain a free [Great Prophet Specialist] [in this city] <by consuming this unit>"
 		],
     },
     {
@@ -708,7 +707,8 @@
         "uniques": [
 			"Unbuildable", 
 			"Can hurry technology research",
-            // TODO can instantly construct academy *building*
+			"Gain a free [Great Scientist Specialist] [in this city] <by consuming this unit>",
+        	"Gain a free [Academy] [in this city] <by consuming this unit>"
         ],
     },
     {
@@ -718,6 +718,7 @@
         "uniques": [
 			"Unbuildable", 
 			"May enter foreign tiles without open borders",
+			"Gain a free [Great Merchant Specialist] [in this city] <by consuming this unit>"
             "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence"
 		],
     },
@@ -727,6 +728,7 @@
         "movement": 2,
         "uniques": [
 			"Unbuildable", 
+			"Gain a free [Great Artist Specialist] [in this city] <by consuming this unit>",
 			"Gain [4000] [Culture] <by consuming this unit>"
 		],
     },
@@ -736,6 +738,7 @@
         "movement": 2,
         "uniques": [
 			"Unbuildable", 
+			"Gain a free [Great Engineer Specialist] [in this city] <by consuming this unit>",
 			"Can speed up the construction of a wonder"
 		],
     }
