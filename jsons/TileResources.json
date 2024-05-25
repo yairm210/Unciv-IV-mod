@@ -61,7 +61,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert"],
 		"production": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 2, "gold":1},
+		"improvementStats": {"production": 2, "gold": 1}
 	},
 	{
 		"name": "Copper",
@@ -123,7 +123,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill"],
 		"gold": 1,
 		"improvement": "Mine",
-		"improvementStats": {"gold": 6, "production": -1, "happiness":1},
+		"improvementStats": {"gold": 6, "production": -1, "happiness": 1}
 	},
 	{
 		"name": "Silver",
@@ -131,7 +131,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill"],
 		"gold": 1,
 		"improvement": "Mine",
-		"improvementStats": {"gold": 4, "production": -1, "happiness":1},
+		"improvementStats": {"gold": 4, "production": -1, "happiness": 1},
 	},
 	{
 		"name": "Gems",
@@ -139,7 +139,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Grassland","Plains","Desert","Tundra","Hill"],
 		"gold": 1,
 		"improvement": "Mine",
-		"improvementStats": {"gold": 5, "production": -1, "happiness":1},
+		"improvementStats": {"gold": 5, "production": -1, "happiness": 1},
 	},
 	{
 		"name": "Marble",
@@ -227,7 +227,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 2, "food":1}
+		"improvementStats": {"gold": 2, "food": 1}
 	},
 	{
 		"name": "Sugar",
@@ -235,7 +235,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Grassland","Marsh"],
 		"food": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1, "food":1}
+		"improvementStats": {"gold": 1, "food": 1}
 	},
 	{
 		"name": "Silk",
@@ -252,7 +252,7 @@
 		"production": 1,
 		"improvement": "Camp",
 		"uniques": ["Obsolete with [Industrialism]"],
-		"improvementStats": {"production":1, "gold": 1}
+		"improvementStats": {"production": 1, "gold": 1}
 	},
 	{
 		"name": "Furs",
@@ -270,7 +270,7 @@
 		"food": 1,
 		"uniques": ["Obsolete with [Combustion]"],
 		"improvement": "Whaling Boats",
-		"improvementStats": {"gold": 2, "production":1}
+		"improvementStats": {"gold": 2, "production": 1}
 	},
 	{ // Only provided by Broadway wonder
 		"name": "Hit Musicals",

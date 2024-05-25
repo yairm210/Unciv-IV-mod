@@ -54,7 +54,7 @@
 			},
 			{
 				"name": "Pottery",
-				"cost":80,
+				"cost": 80,
 				"row": 2,
 				"prerequisites": ["Agriculture", "The Wheel"],
 				"quote": "'Hath not the potter power over the clay, to make one vessel unto honor and another unto dishonor?' - The Bible, Romans"

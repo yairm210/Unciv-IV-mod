@@ -48,7 +48,7 @@
 		"culture": 2,
 		"percentStatBonus": {"science": 10},
 		"cost": 60,
-		"uniques":["Obsolete with [Scientific Method]"],
+		"uniques": ["Obsolete with [Scientific Method]"],
 		"requiredTech": "Meditation"
 	},
 	{
@@ -80,15 +80,15 @@
 	},
 	{
 		"name": "Library",
-		"culture":2,
-		"cost":90,
+		"culture": 2,
+		"cost": 90,
 		"specialistSlots": {"Scientist": 2},
 		"percentStatBonus": {"science": 25},
 		"requiredTech": "Writing"
 	},
 	{
 		"name": "Forge",
-		"cost":120,
+		"cost": 120,
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"science": 25},
 		"requiredTech": "Metal Casting",
@@ -97,7 +97,7 @@
 	},
 	{
 		"name": "Colossus",
-		"cost":250,
+		"cost": 250,
 		"culture": 6,
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 2},
@@ -114,7 +114,7 @@
 
 	{
 		"name": "Aqueduct",
-		"food":1,
+		"food": 1,
 		"requiredTech": "Mathematics",
         "cost": 100,
         "uniques": ["Provides [+2] [Health] <in this city>", "Only available <after discovering [Masonry]>"]
@@ -127,8 +127,11 @@
 		"greatPersonPoints": {"Great Engineer": 2},
 		"requiredTech": "Mathematics",
         "requiredBuilding": "Aqueduct",
-		"uniques":["Provides [1] [Health]", // in all cities
-            "[+1] population [in all cities]", "[-50]% production cost <with [Stone]>"],
+		"uniques": [
+			"Provides [1] [Health]", // in all cities
+            "[+1] population [in all cities]", 
+			"[-50]% production cost <with [Stone]>"
+		],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
 	},
 	{
@@ -165,7 +168,7 @@
 	{
 		"name": "Colosseum",
 		"cost": 80,
-		"happiness":1, // Missing: +1 happiness per 20% culture rate, wontfix
+		"happiness": 1, // Missing: +1 happiness per 20% culture rate, wontfix
 		"requiredTech": "Construction"
 	},
 	{
@@ -173,7 +176,7 @@
 		"cost": 150,
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
-		"happiness":1,
+		"happiness": 1,
 		"uniques": ["[+1 Happiness] <with [Furs]>", "[+1 Happiness] <with [Ivory]>",
 			"[+1 Happiness] <with [Silk]>", "[+1 Happiness] <with [Whales]>"],
 		"requiredTech": "Currency"
@@ -196,7 +199,7 @@
 	{
 		"name": "Chichen Itza",
 		"cost": 500,
-		"culture":6,
+		"culture": 6,
 		"isWonder": true,
 		"uniques": ["[+25]% City Strength from defensive buildings", "[-50]% production cost <with [Stone]>",
             "Obsolete with [Rifling]"],
@@ -232,7 +235,7 @@
 		"greatPersonPoints": {"Great Prophet": 2},
 		"requiredTech": "Philosophy",
 		"specialistSlots": {"Priest": 3},
-		"uniques":["[+1 Production] from every [Priest]", "Obsolete with [Computers]", "[-50]% production cost <with [Marble]>"],
+		"uniques": ["[+1 Production] from every [Priest]", "Obsolete with [Computers]", "[-50]% production cost <with [Marble]>"],
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
 	},
 	{

@@ -29,7 +29,7 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
-		"uniques":["[+1 Food] <after discovering [Biology]>"]
+		"uniques": ["[+1 Food] <after discovering [Biology]>"]
 	},
 	{
 		"name": "Camp",
@@ -58,11 +58,11 @@
 		"techRequired": "Masonry",
 	},
 	{
-		"name":"Workshop",
+		"name": "Workshop",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
-		"food":-1,
-		"production":1,
-		"turnsToBuild":7,
+		"food": -1,
+		"production": 1,
+		"turnsToBuild": 7,
 		"uniques": ["[+1 Production] <after discovering [Guilds]>", "[+1 Production] <after discovering [Chemistry]>"]
 	},
 	{
@@ -88,7 +88,7 @@
 		"name": "Windmill",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
-		"gold":1,
+		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
 		"uniques":["[+1 Production] <after discovering [Replaceable Parts]>" , "[+1 Gold] <after discovering [Electricity]>" ]
@@ -97,7 +97,7 @@
 		"name": "Watermill",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
 		"food": 1,
-		"gold":1,
+		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
 		"uniques":["Must be next to [River]", "[+1 Production] <after discovering [Replaceable Parts]>", "[+2 Gold] <after discovering [Electricity]>"]
@@ -148,14 +148,14 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "uniques": ["Unpillagable", "Irremovable", "Unbuildable"],
         "civilopediaText": [
-            {"text":"Marks the center of a city"},
-            {"text":"Appearance changes with the technological era of the owning civilization"}
+            {"text": "Marks the center of a city"},
+            {"text": "Appearance changes with the technological era of the owning civilization"}
         ]
     },
     {
         "name": "Barbarian encampment",
         "terrainsCanBeBuiltOn": ["Land"],
         "uniques": ["Unpillagable", "Unbuildable"],
-        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+        "civilopediaText": [{"text": "Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
     }
 ]
