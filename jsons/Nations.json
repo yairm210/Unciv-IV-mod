@@ -32,10 +32,10 @@
 		"innerColor": [255,255,0],
 		"uniques": ["Starts with [Hunting]", "Starts with [Mysticism]"],
 		"cities": ["Tenochtitlan", "Teotihuacan", "Tlatelolco", "Texcoco", "Tlaxcala", "Calixtlahuaca", "Xochicalco", "Tlacopan",
-			   "Atzcapotzalco", "Tzintzuntzan", "Malinalco", "Tula", "Tamuin", "Teayo", "Cempoala", "Chalco", "Tlalmanalco",
-			   "Ixtapaluca", "Huexotla", "Tepexpan", "Tepetlaoxtoc", "Chiconautla", "Zitlaltepec", "Coyotepec", "Tequixquiac",
-			   "Jilotzingo", "Tlapanaloya", "Tultitan", "Ecatepec", "Coatepec", "Chalchiuites", "Chiauhita", "Chapultepec",
-			   "Itzapalapa", "Ayotzinco", "Iztapam"]
+		"Atzcapotzalco", "Tzintzuntzan", "Malinalco", "Tula", "Tamuin", "Teayo", "Cempoala", "Chalco", "Tlalmanalco",
+		"Ixtapaluca", "Huexotla", "Tepexpan", "Tepetlaoxtoc", "Chiconautla", "Zitlaltepec", "Coyotepec", "Tequixquiac",
+		"Jilotzingo", "Tlapanaloya", "Tultitan", "Ecatepec", "Coatepec", "Chalchiuites", "Chiauhita", "Chapultepec",
+		"Itzapalapa", "Ayotzinco", "Iztapam"]
 	},
 	{
 		"name": "China",
@@ -45,10 +45,10 @@
 		"innerColor": [255,255,153],
 		"uniques": ["Starts with [Agriculture]", "Starts with [Mining]"],
 		"cities": ["Beijing", "Shanghai", "Guangzhou", "Nanjing", "Xian", "Chengdu", "Hangzhou", "Tianjin", "Macau", "Shangdong",
-			   "Kaifeng", "Ningbo", "Baoding", "Yangzhou", "Haerbin", "Chongqing", "Loyang", "Kunming", "Taipei", "Shenyang",
-			   "Taiyuan", "Tainan", "Dalian", "Lijiang", "Wuxi", "Suzhou", "Maoming", "Shaoguan", "Yangjiang", "Heyuan",
-			   "Liaoning", "Hubei", "Gansu", "Huangshi", "Yichang", "Yingtan", "Xinyu", "Xinzheng", "Handan", "Dunhuang",
-			   "Goayu", "Nantong", "Weifang", "Xikang"]
+		"Kaifeng", "Ningbo", "Baoding", "Yangzhou", "Haerbin", "Chongqing", "Loyang", "Kunming", "Taipei", "Shenyang",
+		"Taiyuan", "Tainan", "Dalian", "Lijiang", "Wuxi", "Suzhou", "Maoming", "Shaoguan", "Yangjiang", "Heyuan",
+		"Liaoning", "Hubei", "Gansu", "Huangshi", "Yichang", "Yingtan", "Xinyu", "Xinzheng", "Handan", "Dunhuang",
+		"Goayu", "Nantong", "Weifang", "Xikang"]
 	},
 	{
 		"name": "Egypt",
