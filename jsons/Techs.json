@@ -131,7 +131,7 @@
 				"name": "Writing",
 				"cost": 120,
 				"row": 2,
-				"prerequisites": ["Pottery","Animal Husbandry","Priesthood"],
+				"prerequisites": ["Pottery", "Animal Husbandry", "Priesthood"],
 				"uniques": ["Enables Open Borders agreements"],
 				"quote": "'True glory consists in doing what deserves to be written, in writing what deserves to be read.' - Pliny the Elder"
 			},
@@ -139,7 +139,7 @@
 				"name": "Metal Casting",
 				"cost": 450,
 				"row": 6,
-				"prerequisites": ["Pottery","Bronze Working"],
+				"prerequisites": ["Pottery", "Bronze Working"],
 				"quote": "'And them that take the sword, shall perish by the sword.' - New Testament, Matthew 26:52"
 			},
 			{
@@ -440,8 +440,8 @@
 				"name": "Rifling",
 				"cost": 2800,
 				"row": 6,
-				"prerequisites": ["Gunpowder", "Replaceable Parts"],
 				"quote": "'Political power grows out of the barrel of a gun.' – Mao Zedong"
+				"prerequisites": ["Engineering", "Gunpowder"],
 			},
 			{
 				"name": "Chemistry",
@@ -467,8 +467,8 @@
 				"name": "Steam Power",
 				"cost": 3200,
 				"row": 7,
-				"prerequisites": ["Chemistry", "Replaceable Parts"],
 				"quote": "'You would make a ship sail against the winds and currents by lighting a bonfire under her deck? I have no time for such nonsense.' – Napoleon on Robert Fulton's steamship"
+				"prerequisites": ["Astronomy", "Paper"],
 			},
 			{
 				"name": "Steel",
@@ -663,8 +663,8 @@
 				"name": "Lasers",
 				"cost": 7000,
 				"row": 4,
-				"prerequisites": ["Satellites"],
 				"quote": "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' – Douglas Adams"
+				"prerequisites": ["Satellites", "Plastics"],
 			},
 			{
 				"name": "Superconductors",
@@ -683,7 +683,7 @@
 				"name": "Stealth",
 				"cost": 8000,
 				"row": 2,
-				"prerequisites": ["Composites" ,"Advanced Flight"],
+				"prerequisites": ["Composites", "Advanced Flight"],
 				"quote": "'Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.' – Jean Racine"
 			},
 			{
@@ -697,7 +697,7 @@
 				"name": "Robotics",
 				"cost": 7000,
 				"row": 6,
-				"prerequisites": ["Plastics" ,"Computers"],
+				"prerequisites": ["Plastics", "Computers"],
 				"quote": "'The real problem is not whether machines think but whether men do.'– B. F. Skinner"
 			},
 			{

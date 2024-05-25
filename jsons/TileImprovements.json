@@ -62,7 +62,7 @@
 	},
 	{
 		"name": "Workshop",
-        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+        "terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert"],
 		"food": -1,
 		"production": 1,
 		"turnsToBuild": 7,
@@ -73,7 +73,7 @@
 	},
 	{
 		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert", "Hill", "Tundra", "Snow", "Forest", "Jungle"],
 		"turnsToBuild": 10,
 		"techRequired": "Mathematics",
 		"uniques": [
@@ -107,7 +107,7 @@
 	},
 	{
 		"name": "Watermill",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert", "Tundra"],
 		"food": 1,
 		"gold": 1,
 		"turnsToBuild": 7,
