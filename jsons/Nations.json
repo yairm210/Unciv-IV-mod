@@ -127,7 +127,7 @@
 		"name": "India",
 		"leaderName": "Gandhi",
 
-		"outerColor": [212,116,245],
+		"outerColor": [199,104,220],
 		"innerColor": [255,255,255],
 		"uniques": ["Starts with [Mysticism]", "Starts with [Mining]"],
 		"cities": ["Delhi", "Bombay", "Madras", "Bangalore", "Calcutta", "Lahore", "Karachi", "Kolhapur", "Jaipur", "Hyderabad",
