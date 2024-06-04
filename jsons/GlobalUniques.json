@@ -28,6 +28,10 @@
         "Provides [-1] [Health] <in cities with at least [22] [Population]>",
         "Provides [-1] [Health] <in cities with at least [23] [Population]>",
         "Provides [-1] [Health] <in cities with at least [24] [Population]>",
-        "Provides [-1] [Health] <in cities with at least [25] [Population]>"
+        "Provides [-1] [Health] <in cities with at least [25] [Population]>",
+
+        // Speed Adjustments
+        
+        "[+25]% Production when constructing [All] units [in all cities] <on [Marathon] game speed>"
     ]
 }
