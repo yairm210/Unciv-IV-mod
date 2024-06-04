@@ -296,7 +296,7 @@
 				"cost": 350,
 				"row": 6,
 				"prerequisites": ["Code of Laws", "Feudalism"],
-				"quote": "'To bring about the rule of righteousness in the land so that the strong shall not harm the weak.' – Hammurabi's Code, Prologue"
+				"quote": "'The bureaucracy is expanding to meet the needs of the expanding breaucracy.' – Oscar Wilde"
 			},
 			{
 				"name": "Theology",
@@ -316,14 +316,14 @@
 				"cost": 1200,
 				"row": 5,
 				"prerequisites": ["Theology", "Monarchy"],
-				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
+				"quote": "'I am the state.' – Louis XIV"
 			},
 			{
 				"name": "Paper",
 				"cost": 600,
 				"row": 8,
 				"prerequisites": ["Theology", "Civil Service"],
-				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
+				"quote": "'I cannot live without books.' – Thomas Jefferson"
 			},
 			{
 				"name": "Guilds",
@@ -343,7 +343,7 @@
 				"cost": 1800,
 				"row": 4,
 				"prerequisites": ["Civil Service", "Philosophy"],
-				"quote": "'There is no wealth like knowledge, no poverty like ignorance.'– Ali Bin Abu-Thalib"
+				"quote": "'A man does not have himself killed for a half pence a day or for a petty distinction. You must speak to the soul in order to electrify him..'– Napoleon Bonaparte"
 			},
 			{
 				"name": "Education",
@@ -370,7 +370,7 @@
 				"cost": 2000,
 				"row": 3,
 				"prerequisites": ["Music", "Nationalism"],
-				"quote": "'The whole is more than the sum of its parts.'– Aristotle"
+				"quote": "'Victorious warriors win first and then go to war while defeated warriors go to war first and then seek to win.'– Sun-Tzu"
 			},
 			{
 				"name": "Liberalism",
@@ -514,7 +514,7 @@
 				"cost": 4000,
 				"row": 3,
 				"prerequisites": ["Physics", "Steel", "Rifling"],
-				"quote": "'For once you have tasted flight, you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return.' – Leonardo da Vinci"
+				"quote": "'Artillery adds dignity to what otherwise would be a vulgar brawl.' – Frederick the Great"
 			},
 			{
 				"name": "Fascism",
@@ -569,7 +569,7 @@
 				"cost": 5500,
 				"row": 5,
 				"prerequisites": ["Electricity"],
-				"quote": "'There is one rule for the industrialist and that is: Make the best quality of goods possible at the lowest cost possible, paying the highest wages possible.' – Henry Ford"
+				"quote": "'If the radiance of a thousand suns were to burst at once into the sky. That would be like the splendor of a mighty one. I have become death the shatterer of worlds.' – J. Robert Oppenheimer quoting the Bhagavad Gita"
 			},
 			{
 				"name": "Radio",
