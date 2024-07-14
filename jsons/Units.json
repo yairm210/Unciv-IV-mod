@@ -433,7 +433,7 @@
 		"cost": 200,
 		"requiredTech": "Combustion",
 		"uniques": ["Can see invisible [Submarine] units", "[30]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -509,7 +509,7 @@
 		"cost": 160,
 		"requiredTech": "Advanced Flight",
 		"requiredResource": "Oil",
-		"uniques": ["[+100]% Strength <vs [Armored] units>","[+50]% Strength <vs [Siege] units>", "No defensive terrain bonus", "May withdraw before melee ([25]%)",
+		"uniques": ["[+100]% Strength <vs [Armored] units>","[+50]% Strength <vs [Siege] units>", "No defensive terrain bonus", "Withdraws before melee combat <with [25]% chance>",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},

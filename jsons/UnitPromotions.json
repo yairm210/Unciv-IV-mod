@@ -21,7 +21,7 @@
 	{
 		"name": "Guerrilla III",
 		"prerequisites": ["Guerrilla II"],
-		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles> <when attacking>", "Double movement in [Hill]", "May withdraw before melee ([+50]%)"],
+		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles> <when attacking>", "Double movement in [Hill]", "Withdraws before melee combat <with [50]% chance>"],
 		"unitTypes": ["Scout","Archery","Gunpowder", "Melee"]
 	},
 
@@ -135,13 +135,13 @@
 
 	{
 		"name": "Flanking I",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([+10]%)"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [10]% chance>"],
 		"unitTypes": ["Mounted", "Scout", "Helicopter", "Melee Water"]
 	},
 	{
 		"name": "Flanking II",
 		"prerequisites": ["Flanking I"],
-		"uniques": ["May withdraw before melee ([+20]%)"],
+		"uniques": ["Withdraws before melee combat <with [20]% chance>"],
 		"unitTypes": ["Mounted", "Scout", "Helicopter", "Melee Water"]
 	},
 
