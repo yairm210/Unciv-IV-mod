@@ -186,7 +186,7 @@
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
-		"uniques": ["Grants 500 Gold to the first civilization to discover it"],
+		"uniques": ["Grants [+500 Gold] to the first civilization to discover it"],
 		"weight": 2
 	},
 	{

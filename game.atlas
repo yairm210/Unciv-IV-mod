@@ -41,7 +41,7 @@ BuildingIcons/Hollywood
   index: -1
 BuildingIcons/Laboratory
   rotate: false
-  xy: 1876, 1768
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -97,7 +97,7 @@ ImprovementIcons/Forest Preserve
   index: -1
 ImprovementIcons/Lumbermill
   rotate: false
-  xy: 1668, 1352
+  xy: 1876, 1768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -139,7 +139,14 @@ ImprovementIcons/Winery
   index: -1
 ImprovementIcons/Workshop
   rotate: false
-  xy: 1668, 1244
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Aztec
+  rotate: false
+  xy: 1876, 1876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -165,23 +172,9 @@ ResourceIcons/Clam
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Corn
-  rotate: false
-  xy: 1668, 1460
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 ResourceIcons/Cow
   rotate: false
   xy: 628, 212
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Health
-  rotate: false
-  xy: 1460, 1044
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -191,13 +184,6 @@ ResourceIcons/Pig
   xy: 1460, 1568
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Rice
-  rotate: false
-  xy: 220, 4
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Advanced Flight
@@ -433,7 +419,7 @@ UnitIcons/Axeman
   index: -1
 UnitIcons/Chariot
   rotate: false
-  xy: 1876, 1876
+  xy: 1668, 1460
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -461,7 +447,7 @@ UnitIcons/Grenadier
   index: -1
 UnitIcons/Horse Archer
   rotate: false
-  xy: 112, 4
+  xy: 1460, 1044
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -475,7 +461,7 @@ UnitIcons/Maceman
   index: -1
 UnitIcons/Work Boat
   rotate: false
-  xy: 1876, 1660
+  xy: 1668, 1352
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
