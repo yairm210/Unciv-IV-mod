@@ -472,7 +472,7 @@
 		"cost": 160,
 		"requiredTech": "Industrialism",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked",
+		"uniques": ["[+1] Sight <when [Embarked]>",
 			"[+50]% Strength <vs [Artillery] units>", "[+50]% Strength <vs [Machine Gun] units>"],
 		"attackSound": "shot"
 	},
