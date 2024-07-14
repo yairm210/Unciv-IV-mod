@@ -22,6 +22,7 @@
 		"movement": 2,
 		"cost": 15,
 		"strength": 8,
+		"uniques": ["Upgrades to [Spearman]", "Upgrades to [Axeman]"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -52,7 +53,9 @@
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
-		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>", "[+100]% Strength <vs [Axeman] units>", "Rough terrain penalty"],
+		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>",
+			"[+100]% Strength <vs [Axeman] units>", "Rough terrain penalty",
+			"Upgrades to [Horse Archer]"],
 		"attackSound": "horse"
 	},
 	{
@@ -111,7 +114,7 @@
 		"strength": 11,
 		"cost": 35,
 		"requiredTech": "Bronze Working",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "Maceman",
 		"requiredResource": "Copper",
 		"uniques": ["[+50]% Strength <vs [Melee] units>"],
 		"attackSound": "metalhit"
@@ -147,6 +150,7 @@
 		"cost": 40,
 		"strength": 10,
 		"requiredTech": "Compass",
+		"upgradesTo": "Explorer",
 		"uniques": ["Ignores terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -175,7 +179,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
-		"uniques": ["[+50]% Strength <vs [Melee] units>"],
+		"uniques": ["[+50]% Strength <vs [Melee] units>", "Upgrades to [Grenadier]"],
 		"attackSound": "arrow"
 	},
 	{
@@ -214,7 +218,7 @@
 		"rangedStrength": 18,
 		"cost": 120,
 		"requiredTech": "Feudalism",
-		//"upgradesTo": "Gatling Gun",
+		"upgradesTo": "Rifleman",
 		//"obsoleteTech": "Industrialization",
 		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles> <when defending>", "[+25]% Strength <when fighting in [City center] tiles> <when defending>"],
 		"attackSound": "arrow"
@@ -229,7 +233,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["[+50]% Strength <vs [Melee] units>"],
+		"uniques": ["[+50]% Strength <vs [Melee] units>", "Upgrades to [Grenadier]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -302,7 +306,7 @@
 		"requiredTech": "Chemistry",
 		"obsoleteTech": "Assembly Line",
 		"upgradesTo": "Infantry",
-		"uniques": ["[+50]% Strength <vs [Rifleman] units>"],
+		"uniques": ["[+50]% Strength <vs [Rifleman] units>", "Upgrades to [Machine Gun]"],
 		"attackSound": "shot"
 	},
 	{
@@ -340,7 +344,7 @@
 		"requiredTech": "Assembly Line",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Robotics",
-		"uniques": ["[+25]% Strength <vs [Gunpowder] units>"],
+		"uniques": ["[+25]% Strength <vs [Gunpowder] units>", "Upgrades to [SAM Infantry]"],
 		"attackSound": "shot"
 	},
 	{
@@ -445,7 +449,6 @@
 		"cost": 150,
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Mobile SAM",
-//		"obsoleteTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
@@ -458,7 +461,7 @@
 		"requiredTech": "Industrialism",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-				"promotions": ["Blitz"],
+		"promotions": ["Blitz"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
