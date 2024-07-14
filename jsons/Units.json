@@ -22,7 +22,7 @@
 		"movement": 2,
 		"cost": 15,
 		"strength": 8,
-		"uniques": ["Upgrades to [Spearman]", "Upgrades to [Axeman]"],
+		"uniques": ["Can upgrade to [Spearman]", "Can upgrade to [Axeman]"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -55,7 +55,7 @@
 		"upgradesTo": "Knight",
 		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>",
 			"[+100]% Strength <vs [Axeman] units>", "Rough terrain penalty",
-			"Upgrades to [Horse Archer]"],
+			"Can upgrade to [Horse Archer]"],
 		"attackSound": "horse"
 	},
 	{
@@ -179,7 +179,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
-		"uniques": ["[+50]% Strength <vs [Melee] units>", "Upgrades to [Grenadier]"],
+		"uniques": ["[+50]% Strength <vs [Melee] units>", "Can upgrade to [Grenadier]"],
 		"attackSound": "arrow"
 	},
 	{
@@ -233,7 +233,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["[+50]% Strength <vs [Melee] units>", "Upgrades to [Grenadier]"],
+		"uniques": ["[+50]% Strength <vs [Melee] units>", "Can upgrade to [Grenadier]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -306,7 +306,7 @@
 		"requiredTech": "Chemistry",
 		"obsoleteTech": "Assembly Line",
 		"upgradesTo": "Infantry",
-		"uniques": ["[+50]% Strength <vs [Rifleman] units>", "Upgrades to [Machine Gun]"],
+		"uniques": ["[+50]% Strength <vs [Rifleman] units>", "Can upgrade to [Machine Gun]"],
 		"attackSound": "shot"
 	},
 	{
@@ -344,7 +344,7 @@
 		"requiredTech": "Assembly Line",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Robotics",
-		"uniques": ["[+25]% Strength <vs [Gunpowder] units>", "Upgrades to [SAM Infantry]"],
+		"uniques": ["[+25]% Strength <vs [Gunpowder] units>", "Can upgrade to [SAM Infantry]"],
 		"attackSound": "shot"
 	},
 	{
