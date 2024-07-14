@@ -150,7 +150,6 @@
 		"cost": 40,
 		"strength": 10,
 		"requiredTech": "Compass",
-		"upgradesTo": "Explorer",
 		"uniques": ["Ignores terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
