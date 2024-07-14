@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Civilian",
+    "movementType": "Land"
+  },
+  {
+    "name": "Sword",
+    "movementType": "Land"
+  },
+  {
+    "name": "Gunpowder",
+    "movementType": "Land"
+  },
+  {
+    "name": "Archery",
+    "movementType": "Land"
+  },
+  {
+    "name": "Ranged Gunpowder",
+    "movementType": "Land"
+  },
+  {
+    "name": "Scout",
+    "movementType": "Land"
+  },
+  {
+    "name": "Mounted",
+    "movementType": "Land"
+  },
+  {
+    "name": "Armored",
+    "movementType": "Land"
+  },
+  {
+    "name": "Siege",
+    "movementType": "Land"
+  },
+  {
+    "name": "Civilian Water",
+    "movementType": "Water"
+  },
+  {
+    "name": "Melee Water",
+    "movementType": "Water"
+  },
+  {
+    "name": "Ranged Water",
+    "movementType": "Water"
+  },
+  {
+    "name": "Submarine",
+    "movementType": "Water",
+    "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+  },
+  {
+    "name": "Helicopter",
+    "movementType": "Land",
+    "uniques": ["Can pass through impassable tiles"]
+  }
+]
