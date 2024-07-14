@@ -18,7 +18,7 @@
 	},
 	{
 		"name": "Warrior",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"cost": 15,
 		"strength": 8,
@@ -60,7 +60,7 @@
 	},
 	{
 		"name": "Spearman",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
 		"cost": 35,
@@ -83,7 +83,7 @@
 	},
 	{
 		"name": "Archer",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
@@ -96,7 +96,7 @@
 	},
 	{
 		"name": "Horse Archer",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
@@ -109,7 +109,7 @@
 	},
 	{
 		"name": "Axeman",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
 		"cost": 35,
@@ -132,7 +132,7 @@
 	},
 	{
 		"name": "Swordsman",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
 		"cost": 40,
@@ -170,7 +170,7 @@
 	},
 	{
 		"name": "Crossbowman",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
@@ -184,7 +184,7 @@
 	},
 	{
 		"name": "Pikeman",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
 		"cost": 60,
@@ -211,7 +211,7 @@
 	},
 	{
 		"name": "Longbowman",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"range": 2,
 		"movement": 2,
 		"strength": 13,
@@ -225,7 +225,7 @@
 	},
 	{
 		"name": "Maceman",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 18,
 		"cost": 70,
