@@ -28,7 +28,9 @@ jobs:
           unciv_url=$(curl -s https://api.github.com/repos/yairm210/unciv/releases/latest | grep -o "http.*Unciv.jar")
           wget -q -O Unciv.jar $unciv_url
           java -jar Unciv.jar mod-ci
-          
+
+      - name: Remove Unciv executable
+        run: rm Unciv.jar
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
