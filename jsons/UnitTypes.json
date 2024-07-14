@@ -53,6 +53,14 @@
     "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
   },
   {
+    "name": "Fighter",
+    "movementType": "Air"
+  },
+  {
+    "name": "Bomber",
+    "movementType": "Air"
+  },
+  {
     "name": "Helicopter",
     "movementType": "Land",
     "uniques": ["Can pass through impassable tiles"]
