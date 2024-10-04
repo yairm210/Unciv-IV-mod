@@ -7,6 +7,13 @@
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
+        "name": "Diplomatic",
+        "victoryScreenHeader": "Win a United Nations election as world leader.",
+        "milestones": ["Win diplomatic vote"],
+        "victoryString": "Your ancient and eternal commitment to shared peace will be the foundation of the world of tomorrow.",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
         "name": "Time",
         "hiddenInVictoryScreen": true,
         "milestones": ["Have highest score after max turns"],
