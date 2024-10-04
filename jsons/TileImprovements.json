@@ -14,7 +14,7 @@
 	{
 		"name": "Railroad",
 		"turnsToBuild": 3,
-		"techRequired": "Railroads",
+		"techRequired": "Railroad",
         "terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Can be built outside your borders"]
 	},

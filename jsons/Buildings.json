@@ -551,19 +551,19 @@
             "Provides [-2] [Health] <in this city> <with [Uranium]>",
             "Provides [1] [Power] <in this city> <with [Uranium]>",
             "Only available <in cities without a [Power Plant]>"],
-		"requiredTech": "Nuclear Fission"
+		"requiredTech": "Fission"
 	},
 	
-	{
-		"name": "Public Transportation",
-		"cost": 150,
-        "uniques": [
-            "Provides [2] [Power] <in this city> <after discovering [Environmentalism]>",
-            "Provides [1] [Health] <in this city>",
-            "Provides [1] [Health] <in this city> <with [Oil]>"
-		],
-		"requiredTech": "Combustion"
-	},
+	// {
+	// 	"name": "Public Transportation",
+	// 	"cost": 150,
+    //     "uniques": [
+    //         "Provides [2] [Power] <in this city> <after discovering [Environmentalism]>",
+    //         "Provides [1] [Health] <in this city>",
+    //         "Provides [1] [Health] <in this city> <with [Oil]>"
+	// 	],
+	// 	"requiredTech": "Combustion"
+	// },
 	
 	{
 		"name": "Airport",
@@ -608,24 +608,24 @@
 		"requiredTech": "Plastics"
 	},
 
-	{
-		"name": "Laboratory",
-		"cost": 250,
-		"specialistSlots": {"Scientist": 1},
-		"percentStatBonus": {"science": 25},
-        "uniques": [
-            "Provides [-1] [Health] <in this city>",
-			"[+50]% Production when constructing [spaceship part] buildings [in this city]"
-        ],
-		"requiredTech": "Superconductors",
-		"requiredBuilding": "Observatory"
-	},
+	// {
+	// 	"name": "Laboratory",
+	// 	"cost": 250,
+	// 	"specialistSlots": {"Scientist": 1},
+	// 	"percentStatBonus": {"science": 25},
+    //     "uniques": [
+    //         "Provides [-1] [Health] <in this city>",
+	// 		"[+50]% Production when constructing [spaceship part] buildings [in this city]"
+    //     ],
+	// 	"requiredTech": "Superconductors",
+	// 	"requiredBuilding": "Observatory"
+	// },
 
 	{
 		"name": "Recycling Center",
 		"cost": 300,
         "uniques": [
-            "Nullifies [Health] [in this city]" // TODO: Is this right?
+            // TODO: No Health damage from buildings
         ],
 		"requiredTech": "Ecology"
 	},
