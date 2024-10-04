@@ -121,7 +121,7 @@
 	},
 	{
 		"name": "Sentry",
-		"prerequisites": ["Combat III"],
+		"prerequisites": ["Combat III", "Flanking I"],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Mounted", "Scout", "Helicopter", "Melee Water"]
 	},
