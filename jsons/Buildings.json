@@ -294,7 +294,8 @@
             "Power Plant",
             "Provides [-4] [Health] <in this city> <with [Coal]>",
             "Provides [1] [Power] <in this city> <with [Coal]>",
-            "Only available <in cities without a [Power Plant]>"],
+            "Only available <in cities without a [Power Plant]>"
+		],
 		"requiredTech": "Assembly Line"
 	},
 
@@ -991,5 +992,19 @@
 
 	// Shrines
 
+	{
+		"name": "Mahabodhi",
+		"cost": 150,
+		"isWonder": true,
+		"culture": 4,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"specialistSlots": {"Priest": 3},
+		"uniques": [
+			"[+1 Gold] [in cities following this religion]", // TODO: Only Buddhism
+			"Hidden when religion is disabled",
+			"Cannot be purchased",
+			"Unbuildable"
+		]
+	}
 
 ]

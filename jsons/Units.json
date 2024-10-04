@@ -813,8 +813,9 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
-			// Can build Religious shrine
-			"Unbuildable"
+			"Unbuildable",
+			"Gain a free [Mahabodhi] [in this city] <by consuming this unit>",
+			"Hidden when religion is disabled"
 		]
     },
     {
@@ -823,8 +824,9 @@
         "movement": 2,
         "uniques": [
 			"Unbuildable",
-			"Can hurry technology research"
-            // TODO can instantly construct academy *building*
+			"Can hurry technology research",
+			// "Gain a free [Great Scientist Specialist] [in this city] <by consuming this unit>",
+            "Gain a free [Academy] [in this city] <by consuming this unit>"
         ]
     }
 ]
