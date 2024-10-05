@@ -64,5 +64,9 @@
     "name": "Helicopter",
     "movementType": "Land",
     "uniques": ["Can pass through impassable tiles"]
+  },
+  {
+    "name": "Part of the Spaceship",
+    "movementType": "Land"
   }
 ]

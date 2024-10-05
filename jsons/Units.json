@@ -221,7 +221,6 @@
 
 	// Mounted
 
-
 	{
 		"name": "Chariot",
 		"unitType": "Mounted",
@@ -299,7 +298,7 @@
 		"movement": 4,
 		"strength": 24,
 		"cost": 160,
-		"requiredTech": "Advanced Flight",
+		"requiredTech": "Flight",
 		"requiredResource": "Oil",
 		"uniques": [
 			"[+100]% Strength <vs [Armored] units>",
@@ -324,7 +323,7 @@
 		"cost": 80,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles"],
-		"upgradesTo": "Trireme",
+		//"upgradesTo": "Trireme", // BTS
 		"attackSound": "nonmetalhit"
 	},
 
@@ -581,14 +580,14 @@
 		"cost": 50,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Engineering",
-		"upgradesTo": "Trebuchet",
+		// "upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities>", "No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight"],
 		"attackSound": "throw"
 	},
 
 	// {
-	// 	"name": "Trebuchet",
+	// 	"name": "Trebuchet", // BTS
 	// 	"unitType": "Siege",
 	// 	"movement": 2,
 	// 	"strength": 12,
@@ -829,4 +828,75 @@
             "Gain a free [Academy] [in this city] <by consuming this unit>"
         ]
     }
+
+	// Spaceship
+	// https://civilization.fandom.com/wiki/Spaceship_(Civ4)
+	{
+		"name": "SS Casing",
+		"unitType": "Part of the Spaceship",
+		"cost": 1200,
+		"uniques": [
+			"[-50]% production cost <with [Aluminum]>",
+			"Spaceship part"
+		],
+		"requiredTech": "Composites"
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Part of the Spaceship",
+		"cost": 1000,
+		"uniques": [
+			"[-50]% production cost <with [Copper]>",
+			"Spaceship part"
+		],
+		"requiredTech": "Fiber Optics"
+	},
+	{
+		"name": "SS Docking Bay",
+		"unitType": "Part of the Spaceship",
+		"cost": 2000,
+		"uniques": [
+			"[-50]% production cost <with [Aluminum]>",
+			"Spaceship part"
+		],
+		"requiredTech": "Satellites" // and Robotics
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Part of the Spaceship",
+		"cost": 1600,
+		"uniques": [
+			"Spaceship part"
+		],
+		"requiredTech": "Fusion"
+	},
+	{
+		"name": "SS Life Support",
+		"unitType": "Part of the Spaceship",
+		"cost": 1000,
+		"uniques": [
+			"[-50]% production cost <with [Copper]>",
+			"Spaceship part"
+		],
+		"requiredTech": "Ecology"
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Part of the Spaceship",
+		"cost": 1200,
+		"uniques": [
+			"Spaceship part"
+		],
+		"requiredTech": "Genetics"
+	},
+	{
+		"name": "SS Thrusters",
+		"unitType": "Part of the Spaceship",
+		"cost": 1200,
+		"uniques": [
+			"[-50]% production cost <with [Aluminum]>",
+			"Spaceship part"
+		],
+		"requiredTech": "Satellites"
+	}
 ]

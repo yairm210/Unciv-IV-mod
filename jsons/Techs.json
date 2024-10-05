@@ -410,7 +410,7 @@
 				"uniques": [
 					"[+1 Production] from every [Watermill]",
 					"[+1 Production] from every [Windmill]"
-				]
+				],
 				"quote": "'The whole is more than the sum of its parts.'– Aristotle"
 			}
 			{
@@ -466,8 +466,8 @@
 				"name": "Corporation",
 				"cost": 1600,
 				"row": 7,
-				"prerequisites": ["Economics", "Constitution"],
-				"quote": "'Astronomy compels the soul to look upwards and leads us from this world to another.'– Plato"
+				"prerequisites": ["Economics", "Constitution"]
+				//"quote": "'Astronomy compels the soul to look upwards and leads us from this world to another.'– Plato"
 			},
 			{
 				"name": "Chemistry",
@@ -523,8 +523,8 @@
 				"name": "Communism",
 				"cost": 5000,
 				"row": 3,
-				"prerequisites": ["Scientific Method"],
-				"quote": "'People can have the Model T in any color - so long as it's black.' – Henry Ford"
+				"prerequisites": ["Scientific Method"]
+				//"quote": "'People can have the Model T in any color - so long as it's black.' – Henry Ford"
 			},
 			{
 				"name": "Physics",

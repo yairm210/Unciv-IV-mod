@@ -11,7 +11,9 @@
 		"Memphis", "Cleveland", "Kansas City", "San Diego", "Richmond", "Las Vegas", "Phoenix", "Albuquerque", "Minneapolis", "Pittsburgh",
 		"Oakland", "Tampa Bay", "Orlando", "Tacoma", "Santa Fe", "Olympia", "Hunt Valley", "Springfield", "Palo Alto", "Centralia", "Spokane",
 		"Jacksonville", "Savannah", "Charleston", "San Antonio", "Omaha", "Birmingham", "Honolulu", "Anchorage", "Sacramento", "Salt Lake City",
-		"Reno", "Boise", "Milwaukee", "Santa Cruz", "Monterey", "Santa Monica", "Little Rock", "Columbus", "Le Bam"]
+		"Reno", "Boise", "Milwaukee", "Santa Cruz", "Monterey", "Santa Monica", "Little Rock", "Columbus", "Le Bam"],
+
+		"favoredReligion": "Christianity"
 	},
 	{
 		"name": "Arabia",

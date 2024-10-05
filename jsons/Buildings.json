@@ -1,19 +1,17 @@
 [
 
 	// Ancient era
+
 	{
-		"name": "Monument",
-		"culture": 1,
-		"cost": 30,
-		"requiredTech": "Mysticism",
-		"uniques": ["Obsolete with [Astronomy]"]
+		"name": "Barracks",
+		"cost": 50,
+		"uniques": [
+			// "Double production speed with Aggressive"
+			"New [Land] units start with [3] Experience [in this city]"
+			// TODO: "[+2 Happiness] <after adopting [Nationhood]>"
+		]
 	},
-	{
-		"name": "Lighthouse",
-		"cost": 60,
-		"uniques": ["Only available <in [Coastal] cities>", "[+1 Food] from [Water] tiles [in this city]" ],
-		"requiredTech": "Sailing"
-	},
+
 	{
 		"name": "Granary",
 		"cost": 60,
@@ -24,13 +22,41 @@
         ],
 		"requiredTech": "Pottery"
 	},
+
+	{
+		"name": "Library",
+		"culture":2,
+		"cost":90,
+		"specialistSlots": {"Scientist": 2},
+		"percentStatBonus": {"science": 25},
+		"requiredTech": "Writing"
+	},
+
+	{
+		"name": "Lighthouse",
+		"cost": 60,
+		"uniques": ["Only available <in [Coastal] cities>", "[+1 Food] from [Water] tiles [in this city]" ],
+		"requiredTech": "Sailing"
+	},
+
 	{
 		"name": "Monastery",
 		"culture": 2,
 		"percentStatBonus": {"science": 10},
 		"cost": 60,
-		"uniques":["Obsolete with [Scientific Method]"],
+		"uniques":[
+			"Obsolete with [Scientific Method]",
+
+		],
 		"requiredTech": "Meditation"
+	},
+
+	{
+		"name": "Monument",
+		"culture": 1,
+		"cost": 30,
+		"requiredTech": "Mysticism",
+		"uniques": ["Obsolete with [Astronomy]"]
 	},
 	{
 		"name": "Temple",
@@ -40,14 +66,6 @@
 		"cost": 80,
 		"uniques": ["Provides [1] [Cathedral Followers]"],
 		"requiredTech": "Priesthood"
-	},
-	{
-		"name": "Library",
-		"culture":2,
-		"cost":90,
-		"specialistSlots": {"Scientist": 2},
-		"percentStatBonus": {"science": 25},
-		"requiredTech": "Writing"
 	},
 
 	{
@@ -375,6 +393,8 @@
 	// 	],
 	// 	"requiredTech": "Combustion"
 	// },
+
+	// Modern era
 	
 	{
 		"name": "Airport",
@@ -789,7 +809,7 @@
 		"uniques": [
 			"Must be on [River]",
             "Provides [-2] [Health] <in this city>",
-            "Provides [1] [Power] <in all cities>" // all cities on the same continent 
+            "Provides [3] [Power]" // TODO: Provides power to all cities on the same continent 
 		],
 		"requiredTech": "Plastics"
 	},
@@ -971,7 +991,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[-50]% production cost <with [Stone]>",
-			"[-25% Happiness] [in all cities] <when at war>"
+			"[-25]% [Happiness] [in all cities] <when at war>"
 		],
 		"requiredTech": "Fascism"
 	},
@@ -1002,6 +1022,35 @@
 		"uniques": [
 			"[+1 Gold] [in cities following this religion]", // TODO: Only Buddhism
 			"Hidden when religion is disabled",
+			"Cannot be purchased",
+			"Unbuildable"
+		]
+	}
+
+	// World Projects
+
+	// National Projects
+
+	{
+		"name": "Apollo Program",
+		"cost": 1600,
+		"isNationalWonder": true,
+		"uniques": [
+			"[-50]% production cost <with [Aluminum]>",
+			"Hidden when [Space Race] Victory is disabled",
+			"Enables construction of Spaceship parts"
+		],
+		"requiredTech": "Rocketry"
+	}
+
+	// Other
+
+	{
+		"name": "Academy",
+		"cost": 0,
+		"culture": 4,
+		"percentStatBonus": {"science": 50},
+		"uniques": [
 			"Cannot be purchased",
 			"Unbuildable"
 		]
