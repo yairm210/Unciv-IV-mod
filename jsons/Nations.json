@@ -2,7 +2,7 @@
 	{
 		"name": "America",
 		"leaderName": "George Washington",
-		
+
 		"outerColor": [0,0,255],
 		"innerColor": [255,255,255],
 		"uniques": ["Starts with [Agriculture]", "Starts with [Fishing]"],
@@ -18,18 +18,20 @@
 	{
 		"name": "Arabia",
 		"leaderName": "Saladin",
-		
+
 		"outerColor": [139,214,59],
 		"innerColor": [33,48,176],
 		"uniques": ["Starts with [Mysticism]", "Starts with [The Wheel]"],
 		"cities": ["Mecca", "Medina", "Damascus", "Baghdad", "Najran", "Kufah", "Basra", "Khurasan", "Anjar", "Fustat", "Aden",
 		"Yamama", "Muscat", "Mansura", "Bukhara", "Fez", "Shiraz", "Merw", "Balkh", "Mosul", "Aydab", "Bayr Ras", "Suhar", "Taif",
-		"Hama", "Tabuk", "Sanaa", "Shihr"]
+		"Hama", "Tabuk", "Sanaa", "Shihr"],
+
+		"favoredReligion": "Islam"
 	},
 	{
 		"name": "Aztec",
 		"leaderName": "Montezuma II",
-		
+
 		"outerColor": [0,102,0],
 		"innerColor": [255,255,0],
 		"uniques": ["Starts with [Hunting]", "Starts with [Mysticism]"],
@@ -42,7 +44,7 @@
 	{
 		"name": "China",
 		"leaderName": "Mao Zedong",
-		
+
 		"outerColor": [204,0,102],
 		"innerColor": [255,255,153],
 		"uniques": ["Starts with [Agriculture]", "Starts with [Mining]"],
@@ -50,12 +52,14 @@
 			   "Kaifeng", "Ningbo", "Baoding", "Yangzhou", "Haerbin", "Chongqing", "Loyang", "Kunming", "Taipei", "Shenyang",
 			   "Taiyuan", "Tainan", "Dalian", "Lijiang", "Wuxi", "Suzhou", "Maoming", "Shaoguan", "Yangjiang", "Heyuan",
 			   "Liaoning", "Hubei", "Gansu", "Huangshi", "Yichang", "Yingtan", "Xinyu", "Xinzheng", "Handan", "Dunhuang",
-			   "Goayu", "Nantong", "Weifang", "Xikang"]
+			   "Goayu", "Nantong", "Weifang", "Xikang"],
+
+			   "favoredReligion": "Taoism"
 	},
 	{
 		"name": "Egypt",
 		"leaderName": "Ramesses II",
-		
+
 		"outerColor": [255,255,0],
 		"innerColor": [0,0,204],
 		"uniques": ["Starts with [Agriculture]", "Starts with [The Wheel]"],
@@ -68,43 +72,49 @@
 	{
 		"name": "England",
 		"leaderName": "Elizabeth",
-		
+
 		"outerColor": [255,0,0],
 		"innerColor": [255,255,255],
 		"uniques": ["Starts with [Fishing]", "Starts with [Mining]"],
 		"cities": ["London", "York", "Nottingham", "Hastings", "Canterbury", "Coventry", "Warwick", "Newcastle", "Oxford",
 		"Liverpool", "Dover", "Brighton", "Norwich", "Leeds", "Reading", "Birmingham", "Richmond", "Exeter", "Cambridge",
 		"Gloucester", "Manchester", "Bristol", "Leicester", "Carlisle", "Ipswich", "Porsmouth", "Berwick", "Bath", "Mumbles",
-		"Southampton", "Sheffield", "Salisbury", "Colchester", "Plymouth", "Lancaster", "Winchester", "Blackpool", "Hull"]
+		"Southampton", "Sheffield", "Salisbury", "Colchester", "Plymouth", "Lancaster", "Winchester", "Blackpool", "Hull"],
+
+		"favoredReligion": "Christianity"
 	},
 	{
 		"name": "France",
 		"leaderName": "Napoleon",
-		
+
 		"outerColor": [0,0,204],
 		"innerColor": [255,255,0],
 		"uniques": ["Starts with [Agriculture]", "Starts with [The Wheel]"],
 		"cities": ["Paris", "Orleans", "Lyons", "Rheims", "Tours", "Marseilles", "Chartres", "Avignon", "Bensacon", "Rouen",
 		"Grenoble", "Dijon", "Amiens", "Cherbourg", "Poitiers", "Toulouse", "Bayonne", "Strasbourg", "Brest", "Bordeaux", "Rennes",
 		"Nice", "St. Etienne", "Nantes", "Reims", "Le Mans", "Montpellier", "Limoges", "Nancy", "Lille", "Caen", "Toulon", "Le Havre",
-		"Lourdes", "Cannes", "Aix-en-Province", "La Rochelle", "Bourges", "Calais"]
+		"Lourdes", "Cannes", "Aix-en-Province", "La Rochelle", "Bourges", "Calais"],
+
+		"favoredReligion": "Christianity"
 	},
 	{
 		"name": "Germany",
 		"leaderName": "Otto von Bismarck",
-		
+
 		"outerColor": [128,128,128],
 		"innerColor": [0,0,0],
 		"uniques": ["Starts with [Hunting]", "Starts with [Mining]"],
 		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Essen", "Dortmund", "Stuttgart", "Dusseldorf", "Bremen",
 		"Hannover", "Duisburg", "Leipzig", "Nuremberg", "Dresden", "Bonn", "Bochum", "Magdeburg", "Bielefeld", "Mannheim", "Karlsruhe",
 		"Gelsenkirchen", "Wiesbaden", "Munster", "Rostock", "Augsburg", "Chemnitz", "Aachen", "Braunschweig", "Halle", "Monchengladbach",
-		"Kiel", "Lubeck", "Freiburg", "Heidelberg", "Kassel", "Mainz", "Saarbrucken", "Potsdam", "Leverkusen", "Oldenburg", "Neuss", "Trier"]
+		"Kiel", "Lubeck", "Freiburg", "Heidelberg", "Kassel", "Mainz", "Saarbrucken", "Potsdam", "Leverkusen", "Oldenburg", "Neuss", "Trier"],
+
+		"favoredReligion": "Christianity"
 	},
 	{
 		"name": "Greece",
 		"leaderName": "Alexander",
-		
+
 		"outerColor": [0,128,255],
 		"innerColor": [255,255,255],
 		"uniques": ["Starts with [Fishing]", "Starts with [Hunting]"],
@@ -116,7 +126,7 @@
 	{
 		"name": "Inca",
 		"leaderName": "Huayna Capac",
-		
+
 		"outerColor": [255,255,0],
 		"innerColor": [255,0,0],
 		"uniques": ["Starts with [Agriculture]", "Starts with [Mysticism]"],
@@ -134,23 +144,26 @@
 		"uniques": ["Starts with [Mysticism]", "Starts with [Mining]"],
 		"cities": ["Delhi", "Bombay", "Madras", "Bangalore", "Calcutta", "Lahore", "Karachi", "Kolhapur", "Jaipur", "Hyderabad",
 		"Bengal", "Chittagong", "Punjab", "Dacca", "Indus", "Pune", "Lucknow", "Varanasi", "Bhopal", "Rajshahi", "Rangoon",
-		"Mandalay", "Peshawar", "Darjeeling", "Cochin", "Cuttack", "Goa", "Calicut", "Rawalpindi", "Quetta", "Howrah", 
+		"Mandalay", "Peshawar", "Darjeeling", "Cochin", "Cuttack", "Goa", "Calicut", "Rawalpindi", "Quetta", "Howrah",
 		"Triverapatnam", "Dakpathar", "Thanjavur", "Jaunpur", "Kodaikanal", "Vrindavan", "Guwahati", "Bhalukpong", "Sonepur",
 		"Vaishali", "Rewalsar", "Kurukshetra", "Subarnapur", "Wadhvan", "Narkanda", "Dhanaulti", "Chitradurga", "Srikakulam",
-		"Vijayaweda", "Banswara"]
-		
+		"Vijayaweda", "Banswara"],
+
+		"favoredReligion": "Buddhism"
 	},
 	{
 		"name": "Japan",
 		"leaderName": "Tokugawa Ieyasu",
-		
+
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
 		"uniques": ["Starts with [Fishing]", "Starts with [The Wheel]"],
 		"cities": ["Kyoto", "Osaka", "Tokyo", "Satsuma", "Kagoshima", "Nara", "Nagoya", "Izumo", "Nagasaki", "Yokohama",
 		"Shimonoseki", "Matsuyama", "Sapporo", "Hakodate", "Ise", "Toyama", "Fukushima", "Suo", "Bizen", "Echizen", "Izumi",
 		"Omi", "Echigo", "Kozuke", "Sado", "Kobe", "Nagano", "Hiroshima", "Takayama", "Akita", "Fukuoka", "Aomori", "Kamakuro",
-		"Kochi", "Naha"]
+		"Kochi", "Naha"],
+
+		"favoredReligion": "Buddhism"
 	},
 	{
 		"name": "Mali",
@@ -161,7 +174,9 @@
 		"uniques": ["Starts with [Mining]", "Starts with [The Wheel]"],
 		"cities": ["Timbuktu", "Djenne", "Kumbi Saleh", "Gao", "Walata", "Niani", "Awdaghost", "Tadmekka", "Tekedda", "Awlil",
 		"Wadan", "Agades", "Teodeni", "Taghaza", "Katsina", "Kano", "Zaria", "Bilma", "Ngazargamu", "Kangaba", "Dia", "Tiraqqa",
-		"Awkar", "Kukiya", "Takrur", "Arawan", "Sya", "Taoudenni", "Bambouk", "Kirina"]
+		"Awkar", "Kukiya", "Takrur", "Arawan", "Sya", "Taoudenni", "Bambouk", "Kirina"],
+
+		"favoredReligion": "Islam"
 	},
 	{
 		"name": "Mongolia",
@@ -178,7 +193,7 @@
 	{
 		"name": "Persia",
 		"leaderName": "Cyrus II",
-		
+
 		"outerColor": [0,204,204],
 		"innerColor": [0,0,0],
 		"uniques": ["Starts with [Agriculture]", "Starts with [Hunting]"],
@@ -191,7 +206,7 @@
 	{
 		"name": "Rome",
 		"leaderName": "Augustus Caesar",
-		
+
 		"outerColor": [102,0,51],
 		"innerColor": [255,255,0],
 		"uniques": ["Starts with [Fishing]", "Starts with [Mining]"],
@@ -205,17 +220,19 @@
 	{
 		"name": "Russia",
 		"leaderName": "Peter",
-		
+
 		"outerColor": [255,0,0],
 		"innerColor": [255,255,0],
 		"uniques": ["Starts with [Hunting]", "Starts with [Mining]"],
 		"cities": ["Moskow", "St. Petersburg", "Novgorod", "Rostov", "Yaroslavi", "Yekaterinburg", "Yakutsk", "Vladivostok",
 		"Smolensk", "Orenburg", "Krasnoyarsk", "Khabarovsk", "Bryansk", "Tver", "Novosibirsk", "Magadan", "Murmansk", "Irkutsk",
 		"Chita", "Samara", "Arkhangel'sk", "Chelyabinsk", "Tobol'sk", "Vologda", "Omsk", "Astrakhan", "Kursk", "Saratov", "Tula",
-		"Vladimir", "Perm", "Voronezh", "Pskov", "Starayarussa", "Kostoma", "Nizhiynovgorod", "Sudzal", "Magnitogorsk"]
+		"Vladimir", "Perm", "Voronezh", "Pskov", "Starayarussa", "Kostoma", "Nizhiynovgorod", "Sudzal", "Magnitogorsk"],
+
+		"favoredReligion": "Christianity"
 	},
 	{
-		"name": "Spain", 
+		"name": "Spain",
 		"leaderName": "Isabella",
 
 		"outerColor": [236,174,143],
@@ -224,12 +241,14 @@
 		"cities": ["Madrid", "Barcelona", "Seville", "Cordoba", "Toledo", "Santiago", "Salamanca", "Murcia", "Valencia", "Zaragoza",
 		"Pamplona", "Vitoria", "Santander", "Asturias", "Jaen", "Logrono", "Valladolid", "Palma", "Teruel", "Almeria", "Leon",
 		"Zamora", "Mida", "Lugo", "Alicante", "Cadiz", "Elche", "Alcorcon", "Burgos", "Vigo", "Badajoz", "La Coruna", "Oviedo",
-		"Bilbao", "San Sebastian", "Granada", "Mérida", "Huelva", "Ibiza", "Las Palmas", "Tenerife"]
+		"Bilbao", "San Sebastian", "Granada", "Mérida", "Huelva", "Ibiza", "Las Palmas", "Tenerife"],
+
+		"favoredReligion": "Christianity"
 	},
 	{
 		"name": "Sumeria",
 		"leaderName": "Gilgamesh",
-		
+
 		"outerColor": [76,0,153],
 		"innerColor": [255,128,0],
 		"uniques": ["Starts with [Agriculture]", "Starts with [The Wheel]"],
@@ -241,7 +260,7 @@
 	{
 		"name": "Zulu",
 		"leaderName": "Shaka",
-		
+
 		"outerColor": [255,255,0],
 		"innerColor": [0,0,0],
 		"uniques": ["Starts with [Agriculture]", "Starts with [Hunting]"],
