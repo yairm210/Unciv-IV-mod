@@ -158,4 +158,88 @@
         "uniques": ["Unpillagable", "Unbuildable"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
     }
+
+	// Great Person improvements
+	{
+		"name": "Academy", // TODO: Academy should be a building, but how do we get Great Sciencist to build buildings?
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 4,
+		"science": 4, // TODO: "[+50]% [Science]"
+		"uniques": [
+			"Great Improvement",
+            "Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Great Artist Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 12,
+		"gold": 3,
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Great Engineer Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 3,
+		"science": 3,
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Great Merchant Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 6,
+		"food": 1,
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Great Prophet Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 5,
+		"production": 2,
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Great Scientist Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 6,
+		"production": 1,
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	}
 ]

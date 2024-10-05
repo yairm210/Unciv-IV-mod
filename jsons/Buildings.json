@@ -262,7 +262,7 @@
 		],
 		"requiredTech": "Guilds"
 	},
-	
+
 	// Renaissance era
 
 	{
@@ -382,7 +382,7 @@
             "Only available <in cities without a [Power Plant]>"],
 		"requiredTech": "Fission"
 	},
-	
+
 	// {
 	// 	"name": "Public Transportation",
 	// 	"cost": 150,
@@ -395,7 +395,7 @@
 	// },
 
 	// Modern era
-	
+
 	{
 		"name": "Airport",
 		"cost": 250,
@@ -409,7 +409,7 @@
 		],
 		"requiredTech": "Flight"
 	},
-	
+
 	{
 		"name": "Broadcast Tower",
 		"cost": 175,
@@ -809,7 +809,7 @@
 		"uniques": [
 			"Must be on [River]",
             "Provides [-2] [Health] <in this city>",
-            "Provides [3] [Power]" // TODO: Provides power to all cities on the same continent 
+            "Provides [3] [Power]" // TODO: Provides power to all cities on the same continent
 		],
 		"requiredTech": "Plastics"
 	},
@@ -1041,19 +1041,6 @@
 			"Enables construction of Spaceship parts"
 		],
 		"requiredTech": "Rocketry"
-	}
-
-	// Other
-
-	{
-		"name": "Academy",
-		"cost": 0,
-		"culture": 4,
-		"percentStatBonus": {"science": 50},
-		"uniques": [
-			"Cannot be purchased",
-			"Unbuildable"
-		]
 	}
 
 ]

@@ -1,3 +1,7 @@
+// TODO:
+// - Check the "upgradesTo"... "Can upgrade to [Grenadier]"
+// - Check the "attackSound" for each unit
+
 [
 	// Melee
 
@@ -20,7 +24,7 @@
 		"upgradesTo": "Pikeman",
 		"requiredResource": "Copper",
 		"uniques": ["[+100]% Strength <vs [Mounted] units>"],
-		"attackSound": "metalhit"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Axeman",
@@ -60,6 +64,7 @@
 		"attackSound": "metalhit"
 		//Pikeman should upgrade not only to Musketman but also to Lancer
 	},
+
 	{
 		"name": "Maceman",
 		"unitType": "Sword",
@@ -199,7 +204,7 @@
 		"movement": 2,
 		"strength": 65,
 		"cost": 160,
-		"requiredTech": "Industrialism",
+		"requiredTech": "Industrialism", // and Rifling
 		"promotions": ["Amphibious"],
 		"uniques": ["[+1] Sight <when [Embarked]>",
 			"[+50]% Strength <vs [Artillery] units>", "[+50]% Strength <vs [Machine Gun] units>"],
@@ -485,7 +490,7 @@
 		],
 		"attackSound": "metalhit"
 	},
-	
+
 	// Air
 
 	{
@@ -657,7 +662,7 @@
 		"attackSound": "tankshot"
 	},
 
-	// Recon	
+	// Recon
 
 	{
 		"name": "Scout",
@@ -746,8 +751,10 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"uniques": ["Can build [Land] improvements on tiles"],
-		"cost": 50
+		"uniques": [
+			"Can build [Land] improvements on tiles"
+		],
+		"cost": 60
 	},
 	{
 		"name": "Work Boat",
@@ -784,7 +791,11 @@
         "movement": 2,
         "uniques": [
 			"Unbuildable",
-			"Gain [4000] [Culture] <by consuming this unit>"
+			"Uncapturable",
+			"Cannot be purchased",
+			"Great Person - [Culture]",
+			"Gain [4000] [Culture] <by consuming this unit>",
+			"Can instantly construct a [Great Artist Specialist] improvement <by consuming this unit>"
 			// instantly ends resistance in a city
 		],
     },
@@ -794,7 +805,11 @@
         "movement": 2,
         "uniques": [
 			"Unbuildable",
-			"Can speed up the construction of a wonder"
+			"Uncapturable",
+			"Cannot be purchased",
+			"Great Person - [Production]",
+			"Can speed up the construction of a wonder",
+			"Can instantly construct a [Great Engineer Specialist] improvement <by consuming this unit>"
 		]
     },
     {
@@ -803,8 +818,12 @@
         "movement": 2,
         "uniques": [
 			"Unbuildable",
+			"Uncapturable",
+			"Cannot be purchased",
+			"Great Person - [Gold]",
 			"May enter foreign tiles without open borders",
-            "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence"
+            "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Great Merchant Specialist] improvement <by consuming this unit>"
 		]
     },
     {
@@ -813,8 +832,12 @@
         "movement": 2,
         "uniques": [
 			"Unbuildable",
+			"Uncapturable",
+			"Cannot be purchased",
+			"Great Person - [Faith]",
 			"Gain a free [Mahabodhi] [in this city] <by consuming this unit>",
-			"Hidden when religion is disabled"
+			"Hidden when religion is disabled",
+			"Can instantly construct a [Great Prophet Specialist] improvement <by consuming this unit>"
 		]
     },
     {
@@ -823,9 +846,13 @@
         "movement": 2,
         "uniques": [
 			"Unbuildable",
+			"Uncapturable",
+			"Cannot be purchased",
+			"Great Person - [Science]",
 			"Can hurry technology research",
 			// "Gain a free [Great Scientist Specialist] [in this city] <by consuming this unit>",
-            "Gain a free [Academy] [in this city] <by consuming this unit>"
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+			"Can instantly construct a [Great Scientist Specialist] improvement <by consuming this unit>"
         ]
     }
 
@@ -833,70 +860,406 @@
 	// https://civilization.fandom.com/wiki/Spaceship_(Civ4)
 	{
 		"name": "SS Casing",
-		"unitType": "Part of the Spaceship",
+		"unitType": "Civilian",
 		"cost": 1200,
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
-			"Spaceship part"
+			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [5] per Civilization"
 		],
 		"requiredTech": "Composites"
 	},
 	{
 		"name": "SS Cockpit",
-		"unitType": "Part of the Spaceship",
+		"unitType": "Civilian",
 		"cost": 1000,
 		"uniques": [
 			"[-50]% production cost <with [Copper]>",
-			"Spaceship part"
+			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
 		],
 		"requiredTech": "Fiber Optics"
 	},
 	{
 		"name": "SS Docking Bay",
-		"unitType": "Part of the Spaceship",
+		"unitType": "Civilian",
 		"cost": 2000,
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
-			"Spaceship part"
+			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
 		],
 		"requiredTech": "Satellites" // and Robotics
 	},
 	{
 		"name": "SS Engine",
-		"unitType": "Part of the Spaceship",
+		"unitType": "Civilian",
 		"cost": 1600,
 		"uniques": [
-			"Spaceship part"
+			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [2] per Civilization"
 		],
 		"requiredTech": "Fusion"
 	},
 	{
 		"name": "SS Life Support",
-		"unitType": "Part of the Spaceship",
+		"unitType": "Civilian",
 		"cost": 1000,
 		"uniques": [
 			"[-50]% production cost <with [Copper]>",
-			"Spaceship part"
+			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
 		],
 		"requiredTech": "Ecology"
 	},
 	{
 		"name": "SS Stasis Chamber",
-		"unitType": "Part of the Spaceship",
+		"unitType": "Civilian",
 		"cost": 1200,
 		"uniques": [
-			"Spaceship part"
+			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
 		],
 		"requiredTech": "Genetics"
 	},
 	{
 		"name": "SS Thrusters",
-		"unitType": "Part of the Spaceship",
+		"unitType": "Civilian",
 		"cost": 1200,
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
-			"Spaceship part"
+			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [5] per Civilization"
 		],
 		"requiredTech": "Satellites"
+	},
+
+	// Replacements
+	// https://civilization.fandom.com/wiki/List_of_units_in_Civ4#Replacements
+
+	{
+		"name": "Navy SEAL",
+		"replaces": "Marine",
+		"uniqueTo": "America",
+		"unitType": "Gunpowder",
+		"strength": 24,
+		"movement": 1,
+		"cost": 160,
+		"uniques": [
+			// TODO: 1-2 first strikes
+			"[+50]% Strength <vs [Machine Gun] units> <when attacking>",
+			"[+50]% Strength <vs [Artillery] units> <when attacking>",
+			"Only available <after discovering [Rifling]>"
+		],
+		"promotions": ["Amphibious", "March"],
+		"requiredTech": "Industrialism"
+	},
+
+	{
+		"name": "Camel Archer",
+		"replaces": "Knight",
+		"uniqueTo": "Arabia",
+		"unitType": "Mounted",
+		"strength": 10,
+		"movement": 2,
+		"cost": 90,
+		// "upgradesTo": "Cuirassier", // BTS
+		"uniques": [
+			// TODO: Immune to first strikes
+			"No defensive terrain bonus",
+			"Withdraws before melee combat <with [15]% chance>",
+			"[+20]% to Flank Attack bonuses <vs [Siege] units>", // Flank attack versus Catapults and Trebuchets
+			"Only available <after discovering [Horseback Riding]>",
+			"Only available <after discovering [Archery]>"
+		],
+		"promotions": ["Amphibious", "March"],
+		"requiredTech": "Guilds"
+	},
+
+	{
+		"name": "Jaguar",
+		"replaces": "Swordsman",
+		"uniqueTo": "Aztec",
+		"unitType": "Sword",
+		"strength": 5,
+		"movement": 1,
+		"cost": 35,
+		"upgradesTo": "Maceman",
+		"uniques": [
+			"[+10]% Strength <vs cities>",
+			"Only available <after discovering [Archery]>"
+		],
+		"promotions": ["Woodsman I"],
+		"requiredTech": "Iron Working"
+	},
+
+	{
+		"name": "Cho-Ko-Nu",
+		"replaces": "Crossbowman",
+		"uniqueTo": "China",
+		"unitType": "Archery",
+		"strength": 6,
+		"movement": 1,
+		"cost": 60,
+		"upgradesTo": "Rifleman", // or Grenadier
+		"uniques": [
+			// 2 first strikes
+			// Causes collateral damage
+			"[+50]% Strength <vs [Sword] units>",
+			"Only available <after discovering [Archery]>"
+		],
+		"requiredResource": "Iron",
+		"requiredTech": "Machinery"
+	},
+
+	{
+		"name": "War Chariot",
+		"replaces": "Chariot",
+		"uniqueTo": "Egypt",
+		"unitType": "Mounted",
+		"strength": 5,
+		"movement": 2,
+		"cost": 30,
+		"upgradesTo": "Horse Archer", // or Knight
+		"uniques": [
+			// Immune to first strike
+			// Causes collateral damage
+			"No defensive terrain bonus",
+			"Withdraws before melee combat <with [10]% chance>",
+			"[+100]% Strength <vs [Axeman] units>"
+		],
+		"requiredResource": "Horses",
+		"requiredTech": "The Wheel"
+	},
+
+	{
+		"name": "Redcoat",
+		"replaces": "Rifleman",
+		"uniqueTo": "England",
+		"unitType": "Gunpowder",
+		"strength": 14,
+		"movement": 1,
+		"cost": 110,
+		"upgradesTo": "Infantry",
+		"uniques": [
+			"Withdraws before melee combat <with [10]% chance>",
+			"[+25]% Strength <vs [Mounted] units>",
+			"[+25]% Strength <vs [Gunpowder] units>"
+		],
+		"requiredTech": "Rifling"
+	},
+
+	{
+		"name": "Musketeer",
+		"replaces": "Musketman",
+		"uniqueTo": "France",
+		"unitType": "Gunpowder",
+		"strength": 9,
+		"movement": 2,
+		"cost": 80,
+		"upgradesTo": "Rifleman",
+		"requiredTech": "Gunpowder"
+	},
+
+	{
+		"name": "Panzer",
+		"replaces": "Tank",
+		"uniqueTo": "Germany",
+		"unitType": "Armored",
+		"strength": 28,
+		"movement": 2,
+		"cost": 180,
+		"upgradesTo": "Modern Armor",
+		"uniques": [
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"Only available <after discovering [Rifling]>"
+		],
+		"promotions": ["Blitz"],
+		"requiredTech": "Industrialism"
+	},
+
+	{
+		"name": "Phalanx",
+		"replaces": "Spearman",
+		"uniqueTo": "Greece",
+		"unitType": "Sword",
+		"strength": 5,
+		"movement": 1,
+		"cost": 35,
+		"upgradesTo": "Pikeman",
+		"requiredResource": "Copper",
+		"uniques": [
+			"Consumes [1] [Iron]",
+			// "[+50]% Strength <vs [Sword] units> <when defending>", // BTS
+			// "[+100]% Strength <vs [Chariot] units> <when defending>", // BTS
+			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
+			"[+100]% Strength <vs [Mounted] units>"
+		],
+		"requiredTech": "Bronze Working"
+	},
+
+	{
+		"name": "Quechua",
+		"replaces": "Warrior",
+		"uniqueTo": "Inca",
+		"unitType": "Sword",
+		"strength": 2,
+		"movement": 1,
+		"cost": 15,
+		"upgradesTo": "Axeman", // or Spearman
+		"uniques": [
+			"[+25]% Strength <when fighting in [City center] tiles> <when defending>",
+			"[+100]% Strength <vs [Archery] units>"
+		]
+	},
+
+	{
+		"name": "Fast Worker",
+		"replaces": "Worker",
+		"uniqueTo": "India",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 60,
+		"uniques": [
+			"Can build [Land] improvements on tiles"
+		]
+	},
+
+	{
+		"name": "Samurai",
+		"replaces": "Maceman",
+		"uniqueTo": "Japan",
+		"unitType": "Sword",
+		"strength": 18,
+		"movement": 1,
+		"cost": 70,
+		"upgradesTo": "Rifleman",
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": [
+			// TODO: 2 first strikes
+			"[+50]% Strength <vs [Melee] units>",
+			"Can upgrade to [Grenadier]",
+			"Only available <after discovering [Machinery]>"
+		],
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Skirmisher",
+		"replaces": "Archer",
+		"uniqueTo": "Mali",
+		"unitType": "Archery",
+		"strength": 4,
+		"movement": 1,
+		"cost": 25,
+		"upgradesTo": "Longbowman",
+		"requiredTech": "Archery",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": [
+			// TODO: 1-2 first strikes
+			"[+50]% Strength <when fighting in [City center] tiles> <when defending>",
+			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
+			"Can upgrade to [Crossbowman]"
+		],
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Keshik",
+		"replaces": "Horse Archer",
+		"uniqueTo": "Mongolia",
+		"unitType": "Mounted",
+		"strength": 6,
+		"movement": 2,
+		"cost": 50,
+		"upgradesTo": "Knight",
+		"requiredTech": "Horseback Riding",
+		"uniques": [
+			// TODO: 1 first strikes
+			"No defensive terrain bonus",
+			"Withdraws before melee combat <with [20]% chance>",
+			"Ignores terrain cost",
+			"[+50]% Strength <vs [Siege] units> <when attacking>",
+			// Flank attack vs. Catapult and Trebuchet (BTS)
+			"Only available <after discovering [Archery]>"
+		],
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Immortal",
+		"unitType": "Mounted",
+		"replaces": "Chariot",
+		"uniqueTo": "Persia",
+		"strength": 4,
+		"movement": 2,
+		"cost": 30,
+		"upgradesTo": "Knight",
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can upgrade to [Horse Archer]",
+			"[+100]% Strength <vs [Axeman] units>",
+			"Withdraws before melee combat <with [10]% chance>",
+			"[+100]% Strength <vs [Archery] units>"
+		],
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Praetorian",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Rome",
+		"strength": 8,
+		"movement": 1,
+		"cost": 45,
+		"upgradesTo": "Maceman",
+		"requiredTech": "Iron Working",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Cossack",
+		"unitType": "Mounted",
+		"uniqueTo": "Russia",
+		"replaces": "Cavalry",
+		"strength": 15,
+		"movement": 2,
+		"cost": 120,
+		"upgradesTo": "Gunship",
+		"requiredTech": "Military Tradition",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Only available <after discovering [Rifling]>",
+			"Only available <after discovering [Horseback Riding]>",
+			"No defensive terrain bonus",
+			"Withdraws before melee combat <with [30]% chance>",
+			"[+50]% Strength <vs [Cannon] units>",
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+100]% to Flank Attack bonuses <vs [Cannon] units>" // Can flank attack against cannons
+		],
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Conquistador",
+		"unitType": "Mounted",
+		"uniqueTo": "Spain",
+		"replaces": "Knight", // BTS: Cuirassier
+		"strength": 12,
+		"movement": 2,
+		"cost": 100,
+		"upgradesTo": "Cavalry",
+		"requiredTech": "Gunpowder",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Only available <after discovering [Horseback Riding]>",
+			"Only available <after discovering [Military Tradition]>",
+			"Consumes [1] [Iron]",
+			// TODO: Immune to first strike
+			"Withdraws before melee combat <with [15]% chance>",
+			"[+50]% to Flank Attack bonuses <vs [Siege] units>", // Can flank attack Cannons, Trebuchets, and Catapults
+			"[+50]% Strength <vs [Sword] units>"
+		],
+		"attackSound": "metalhit"
 	}
 ]

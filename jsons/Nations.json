@@ -256,17 +256,17 @@
 		"Girsu", "Adab", "Zabalam", "Akshak", "Larak", "Kisiga", "Nina", "Dilbat", "Kutu", "Marad", "Enegi", "Abu Salabikh",
 		"Ki-an", "Pazurish-Dagan", "Dabrum", "Kissura", "Kutallu", "Nagsu", "Kesh", "Aratta", "Der", "Hamazi", "Apisada",
 		"Jemdet Nasr", "Ubaid"]
-	},
-	{
-		"name": "Zulu",
-		"leaderName": "Shaka",
-
-		"outerColor": [255,255,0],
-		"innerColor": [0,0,0],
-		"uniques": ["Starts with [Agriculture]", "Starts with [Hunting]"],
-		"cities": ["Ulundi", "Umgungundlovu", "Nobamba", "Bulawayo", "Kwadukuza", "Nongoma", "Ondini", "Nodwengu", "Ndondakusuka",
-		"Babanango", "Khangela", "Kwahlomendlini", "Hlobane", "Ethekwini", "Mlambongwenya", "Eziqwaqweni", "Emangweni", "Isiphezi",
-		"Masotsheni", "Mtunzini", "Nyakamubi", "Dumazulu", "Hlatikulu", "Mthonjaneni", "Empangeni", "Pongola", "Tungela", "Kwamashu",
-		"Ingwavuma", "Hluhluwe", "Mtubatuba", "Mhlahlandlela", "Mthatha", "Maseru", "Lobamba", "Qunu"]
 	}
+	// {
+	// 	"name": "Zulu", // Introduced in Warlords
+	// 	"leaderName": "Shaka",
+
+	// 	"outerColor": [255,255,0],
+	// 	"innerColor": [0,0,0],
+	// 	"uniques": ["Starts with [Agriculture]", "Starts with [Hunting]"],
+	// 	"cities": ["Ulundi", "Umgungundlovu", "Nobamba", "Bulawayo", "Kwadukuza", "Nongoma", "Ondini", "Nodwengu", "Ndondakusuka",
+	// 	"Babanango", "Khangela", "Kwahlomendlini", "Hlobane", "Ethekwini", "Mlambongwenya", "Eziqwaqweni", "Emangweni", "Isiphezi",
+	// 	"Masotsheni", "Mtunzini", "Nyakamubi", "Dumazulu", "Hlatikulu", "Mthonjaneni", "Empangeni", "Pongola", "Tungela", "Kwamashu",
+	// 	"Ingwavuma", "Hluhluwe", "Mtubatuba", "Mhlahlandlela", "Mthatha", "Maseru", "Lobamba", "Qunu"]
+	// }
 ]
