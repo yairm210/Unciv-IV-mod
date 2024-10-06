@@ -346,13 +346,5 @@
         "uniques": ["City-level resource"],
 		"production": 1,
 		"science": 6
-    },
-
-	// Used as tokens to limit cathedrals
-	{
-		"name": "Cathedral Followers",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": [],
-		"uniques": ["Will not be displayed in Civilopedia"]
-	}
+    }
 ]

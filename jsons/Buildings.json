@@ -15,7 +15,8 @@
 	{
 		"name": "Granary",
 		"cost": 60,
-		"uniques": ["[50]% Food is carried over after population increases [in this city]",
+		"uniques": [
+			"[50]% Food is carried over after population increases [in this city]",
             "Provides [1] [Health] <in this city> <with [Corn]>",
             "Provides [1] [Health] <in this city> <with [Rice]>",
             "Provides [1] [Health] <in this city> <with [Wheat]>"
@@ -64,7 +65,7 @@
 		"specialistSlots": {"Priest": 1},
 		"cost": 80,
 		"uniques": [
-			"Provides [1] [Cathedral Followers]",
+			// Double production speed with Spiritual
 			"Hidden when religion is disabled"
 		],
 		"requiredTech": "Priesthood"
@@ -107,7 +108,10 @@
 		"cost": 250,
 		"culture": 4,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[+100]% Great Person generation [in this city]", "[-50]% production cost <with [Marble]>"],
+		"uniques": [
+			"[+100]% Great Person generation [in this city]",
+			"[-50]% production cost <with [Marble]>"
+		],
 		"isNationalWonder": true,
 		"requiredBuilding": "Library",
 		"requiredTech": "Literature"
@@ -124,8 +128,12 @@
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"happiness":1,
-		"uniques": ["[+1 Happiness] <with [Furs]>", "[+1 Happiness] <with [Ivory]>",
-			"[+1 Happiness] <with [Silk]>", "[+1 Happiness] <with [Whales]>"],
+		"uniques": [
+			"[+1 Happiness] <with [Furs]>",
+			"[+1 Happiness] <with [Ivory]>",
+			"[+1 Happiness] <with [Silk]>",
+			"[+1 Happiness] <with [Whales]>"
+		],
 		"requiredTech": "Currency"
 	},
 	{
@@ -236,9 +244,9 @@
 		"specialistSlots": {"Priest": 2},
 		// This unique uses Resource mechanics to limit 1 cathedral per 3 temples
 		"uniques": [
+			"Only available <after founding a religion>",
 			"Hidden when religion is disabled",
 			"[+1 Happiness] <with [Incense]>",
-			"Consumes [3] [Cathedral Followers]",
 			"[-50]% production cost <with [Copper]>",
 			"[-50]% production cost <with [Marble]>",
 			"[-50]% production cost <with [Stone]>"
@@ -526,6 +534,25 @@
         "requiredBuilding": "Grocer",
 		"requiredTech": "Refrigeration"
 	},
+
+	// Religious buildings
+
+	{
+		"name": "Monastery",
+        "cost": 60,
+		"culture": 2,
+		"percentStatBonus": {"science": 10},
+		"requiredTech": "Meditation",
+		"uniques": [
+			"Only available <after founding a religion>",
+			"[+20]% Natural religion spread [in this city]",
+			"Obsolete with [Scientific Method]",
+			"Hidden when religion is disabled",
+			"Destroyed when the city is captured"
+		]
+	},
+
+	// TODO: Add Religious Shrines https://civilization.fandom.com/wiki/Religious_shrine_(Civ4)
 
 	// Wonders
 
@@ -1063,23 +1090,6 @@
 		"requiredTech": "Medicine"
 	},
 
-	// Shrines
-
-	{
-		"name": "Mahabodhi", // TODO: Implement all of the religious shrines
-		"cost": 150,
-		"isWonder": true,
-		"culture": 4,
-		"greatPersonPoints": {"Great Prophet": 1},
-		"specialistSlots": {"Priest": 3},
-		"uniques": [
-			"[+1 Gold] [in cities following this religion]", // TODO: Only Buddhism
-			"Hidden when religion is disabled",
-			"Cannot be purchased",
-			"Unbuildable"
-		]
-	},
-
 	// World Projects
 
 	{
@@ -1125,6 +1135,6 @@
 			// "[+100]% spy effectiveness [in all cities]" // BTS
 		],
 		"requiredTech": "Communism"
-	}
+	},
 
 ]

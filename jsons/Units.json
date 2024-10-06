@@ -922,21 +922,22 @@
 		]
 	},
 
-	// TODO: Missionaries
-
 	{
 		"name": "Missionary",
 		"unitType": "Civilian",
-		"uniques": [
-            "Can Spread Religion <for [2] movement> <[2] times> <after which this unit is consumed>",
-            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[-1] Sight",
-			"Unbuildable",
-			"Religious Unit",
-			"Hidden when religion is disabled"
-		],
 		"movement": 2,
+		"cost": 40,
+		"uniques": [
+			"Only available <after founding a religion>",
+			"Only available <if [Monastery] is constructed>",
+            "Can Spread Religion <for [2] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Cannot attack"
+		],
+		"requiredTech": "Meditation",
 		"religiousStrength": 1000
 	},
 
@@ -989,10 +990,10 @@
         "movement": 2,
         "uniques": [
 			"Unbuildable",
+			"May found a religion",
 			"Uncapturable",
 			"Cannot be purchased",
 			"Great Person - [Faith]",
-			"Gain a free [Mahabodhi] [in this city] <by consuming this unit>",
 			"Hidden when religion is disabled",
 			"Can instantly construct a [Great Prophet Specialist] improvement <by consuming this unit>"
 		]
@@ -1021,7 +1022,8 @@
 		"cost": 1200,
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
-			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [5] per Civilization"
+			"Spaceship part", "Cannot be purchased",
+			"Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [5] per Civilization"
 		],
 		"requiredTech": "Composites"
 	},

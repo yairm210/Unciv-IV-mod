@@ -1,3 +1,5 @@
+// https://civilization.fandom.com/wiki/Religion_(Civ4)
+
 [
     "Buddhism",
     "Christianity",
@@ -7,3 +9,5 @@
     "Judaism",
     "Taoism"
 ]
+
+// TODO: Figure out how to provide a Great Prophet on the first to discovery certain Tech
