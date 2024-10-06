@@ -460,9 +460,6 @@
 				"cost": 2000,
 				"row": 5,
 				"prerequisites": ["Calendar", "Optics"],
-				"uniques": [
-					"Enables [Work Boat] units to enter ocean tiles"
-				],
 				"quote": "'Astronomy compels the soul to look upwards and leads us from this world to another.'– Plato"
 			},
 			{

@@ -769,9 +769,13 @@
 		"cost": 30,
 		"requiredTech": "Fishing",
 		"uniques": [
-			"Cannot enter ocean tiles",
-			"May create improvements on water resources"
-		],
+			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"May create improvements on water resources" // TODO: By consuming this unit
+			// "Can instantly construct a [Fishing Boats] improvement <by consuming this unit>",
+			// "Can instantly construct a [Offshore Platform] improvement <by consuming this unit>",
+			// "Can instantly construct a [Oil Well] improvement <by consuming this unit>",
+			// "Can instantly construct a [Whaling Boats] improvement <by consuming this unit>"
+		]
 	},
 	{
 		"name": "Spy",
