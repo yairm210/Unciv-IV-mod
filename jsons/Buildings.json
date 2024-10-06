@@ -64,7 +64,10 @@
 		"happiness": 1,
 		"specialistSlots": {"Priest": 1},
 		"cost": 80,
-		"uniques": ["Provides [1] [Cathedral Followers]"],
+		"uniques": [
+			"Provides [1] [Cathedral Followers]",
+			"Hidden when religion is disabled"
+		],
 		"requiredTech": "Priesthood"
 	},
 
@@ -819,9 +822,7 @@
 		"cost": 1000,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": [
-            // Triggers voting for the Diplomatic Victory
-		],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
 		"requiredTech": "Mass Media"
 	},
 
@@ -1038,7 +1039,9 @@
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
 			"Hidden when [Space Race] Victory is disabled",
-			"Enables construction of Spaceship parts"
+			"Triggers a global alert upon completion",
+			"Enables construction of Spaceship parts",
+			"Cannot be hurried"
 		],
 		"requiredTech": "Rocketry"
 	}

@@ -1,15 +1,80 @@
 [
 	{
+		"name": "Camp",
+		"turnsToBuild": 4,
+        "uniques": [
+			"Can only be built to improve a resource",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+ 			"Pillaging this improvement yields approximately [+5 Gold]"
+		],
+		"techRequired": "Hunting",
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Cottage",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+        "uniques": [
+			"[+4 Gold]",
+ 			"Pillaging this improvement yields approximately [+10 Gold]"
+			// TODO: Add Hamlet upgrades https://civilization.fandom.com/wiki/Cottage_(Civ4)
+		],
+		"techRequired": "Pottery"
+	},
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert", "Flood plains"],
+		"food": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Agriculture",
+		"uniques":[
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles", // +1 with irrigation
+			"[+1 Food] <after discovering [Biology]>",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Fishing",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Forest Preserve",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"happiness": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Scientific Method",
+		"uniques": [
+			"[+1 Gold] for each adjacent [River]"
+			// TODO: +2 Coin (Civ4) with the Environmentalism civic
+		],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 10,
+		"techRequired": "Mathematics",
+		"uniques": [
+			"Gives a defensive bonus of [25]%",
+			"Can be built outside your borders"
+		]
 	},
 	{
 		"name": "Road",
 		"turnsToBuild": 2,
 		"techRequired": "The Wheel",
         "terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "R"
 	},
 	{
 		"name": "Railroad",
@@ -22,20 +87,6 @@
 		"name": "Remove Road",
 		"turnsToBuild": 2,
 		"uniques": ["Can be built outside your borders"]
-	},
-	{
-		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert", "Flood plains"],
-		"food": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Agriculture",
-		"uniques":["[+1 Food] <after discovering [Biology]>"]
-	},
-	{
-		"name": "Camp",
-		"turnsToBuild": 7,
-        "uniques": ["Can only be built to improve a resource"],
-		"techRequired": "Hunting",
 	},
 	{
 		"name": "Pasture",
@@ -64,13 +115,6 @@
 		"production":1,
 		"turnsToBuild":7,
 		"uniques": ["[+1 Production] <after discovering [Guilds]>", "[+1 Production] <after discovering [Chemistry]>"]
-	},
-	{
-		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
-		"turnsToBuild": 10,
-		"techRequired": "Mathematics",
-		"uniques": ["Gives a defensive bonus of [25]%", "Can be built outside your borders"]
 	},
 	{
 		"name": "Winery",
@@ -123,15 +167,6 @@
 		"techRequired": "Combustion",
 		"uniques": ["Cannot be built on [Coast] tiles <before discovering [Plastics]>"],
 		"shortcutKey": "W"
-	},
-	{
-		"name": "Forest Preserve",
-		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
-		"happiness": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Scientific Method",
-		"uniques": ["[+1 Gold] for each adjacent [River]"],
-		"shortcutKey": "L"
 	},
 
 	{
