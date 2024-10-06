@@ -743,7 +743,12 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 100,
-		"uniques": ["Founds a new city"],
+		"uniques": [
+			"Requires at least [2] population",
+			"Excess Food converted to Production when under construction",
+			"Founds a new city <by consuming this unit>"
+			// +50% production speed for Imperialistic leaders
+		]
 	},
 
 	{
@@ -752,17 +757,21 @@
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"uniques": [
-			"Can build [Land] improvements on tiles"
+			"Can build [Land] improvements on tiles",
+			"Automation is a primary action"
 		],
 		"cost": 60
 	},
 	{
 		"name": "Work Boat",
 		"unitType": "Civilian Water",
-		"movement": 4,
+		"movement": 2,
 		"cost": 30,
 		"requiredTech": "Fishing",
-		"uniques": ["Cannot enter ocean tiles", "May create improvements on water resources"],
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"May create improvements on water resources"
+		],
 	},
 	{
 		"name": "Spy",
@@ -775,13 +784,29 @@
 		],
 		"uniques": [
 			"Invisible to others",
-			"Can see invisible [Spy] units"
-			// Can explore rival territory
+			"Can see invisible [Spy] units",
+			"May enter foreign tiles without open borders"
 			// Espionage
 		]
 	},
 
 	// TODO: Missionaries
+
+	{
+		"name": "Missionary",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can Spread Religion <for [2] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
 
     // Great People
 

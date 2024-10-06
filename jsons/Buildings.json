@@ -40,13 +40,12 @@
 	},
 
 	{
-		"name": "Monastery",
+		"name": "Monastery", // TODO: Replace Monastery with religion specific?
 		"culture": 2,
 		"percentStatBonus": {"science": 10},
 		"cost": 60,
 		"uniques":[
-			"Obsolete with [Scientific Method]",
-
+			"Obsolete with [Scientific Method]"
 		],
 		"requiredTech": "Meditation"
 	},
@@ -1014,7 +1013,7 @@
 	// Shrines
 
 	{
-		"name": "Mahabodhi",
+		"name": "Mahabodhi", // TODO: Implement all of the religious shrines
 		"cost": 150,
 		"isWonder": true,
 		"culture": 4,
