@@ -31,7 +31,9 @@
         "Provides [-1] [Health] <in cities with at least [25] [Population]>",
 
         // Speed Adjustments
-        
-        "[+25]% Production when constructing [All] units [in all cities] <on [Marathon] game speed>"
+        "[+25]% Production when constructing [All] units [in all cities] <on [Marathon] game speed>",
+
+		// War Weariness
+		"[-25]% [Happiness] [in your cities] <when at war>"
     ]
 }

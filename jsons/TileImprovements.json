@@ -356,7 +356,10 @@
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
 		// Has no tech requirements as it can always be built
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"uniques": [
+			"Can be built outside your borders",
+			"Excluded from map editor"
+		],
 		"shortcutKey": "X"
 	},
 

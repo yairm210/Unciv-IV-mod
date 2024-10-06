@@ -1,3 +1,5 @@
+// https://civilization.fandom.com/wiki/List_of_units_in_Civ4
+
 // TODO:
 // - Check the "upgradesTo"... "Can upgrade to [Grenadier]"
 // - Check the "attackSound" for each unit
@@ -9,73 +11,89 @@
 		"name": "Warrior",
 		"unitType": "Sword",
 		"movement": 2,
-		"cost": 15,
 		"strength": 2,
-		"uniques": ["Can upgrade to [Spearman]", "Can upgrade to [Axeman]"],
+		"cost": 15,
+		"uniques": [
+			"Can upgrade to [Spearman]",
+			"Can upgrade to [Axeman]",
+			"[+25]% Strength <when fighting in [City center] tiles> <when defending>"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Spearman",
 		"unitType": "Sword",
-		"movement": 2,
-		"strength": 11,
+		"strength": 4,
+		"movement": 1,
 		"cost": 35,
 		"requiredTech": "Hunting",
 		"upgradesTo": "Pikeman",
 		"requiredResource": "Copper",
-		"uniques": ["[+100]% Strength <vs [Mounted] units>"],
+		"uniques": [
+			"Consumes [1] [Iron]",
+			"[+100]% Strength <vs [Mounted] units>"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Axeman",
 		"unitType": "Sword",
-		"movement": 2,
-		"strength": 11,
+		"strength": 5,
+		"movement": 1,
 		"cost": 35,
 		"requiredTech": "Bronze Working",
 		"upgradesTo": "Maceman",
 		"requiredResource": "Copper",
-		"uniques": ["[+50]% Strength <vs [Melee] units>"],
+		"uniques": [
+			"Consumes [1] [Iron]",
+			"[+50]% Strength <vs [Melee] units>"
+		],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Swordsman",
 		"unitType": "Sword",
-		"movement": 2,
-		"strength": 14,
+		"strength": 6,
+		"movement": 1,
 		"cost": 40,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Maceman",
 		"requiredResource": "Iron",
-		"uniques": ["[+10]% Strength <vs cities>"],
+		"uniques": [
+			"[+10]% Strength <vs cities> <when attacking>"
+		],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Pikeman",
 		"unitType": "Sword",
-		"movement": 2,
-		"strength": 16,
+		"strength": 6,
+		"movement": 1,
 		"cost": 60,
 		"requiredTech": "Engineering",
-		"uniques": ["[+100]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Copper",
+		"uniques": [
+			"Can upgrade to [Rifleman]",
+			"Can upgrade to [Grenadier]",
+			"[+100]% Strength <vs [Mounted] units>"
+		],
+		"requiredResource": "Iron",
 		"attackSound": "metalhit"
-		//Pikeman should upgrade not only to Musketman but also to Lancer
 	},
 
 	{
 		"name": "Maceman",
 		"unitType": "Sword",
-		"movement": 2,
-		"strength": 18,
+		"strength": 8,
+		"movement": 1,
 		"cost": 70,
 		"requiredTech": "Civil Service",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["[+50]% Strength <vs [Melee] units>", "Can upgrade to [Grenadier]"],
+		"uniques": [
+			"Consumes [1] [Copper]",
+			"[+50]% Strength <vs [Melee] units>",
+			"Can upgrade to [Grenadier]",
+			"Can upgrade to [Rifleman]"
+		],
 		"attackSound": "metalhit"
 	},
 
@@ -83,144 +101,176 @@
 	{
 		"name": "Archer",
 		"unitType": "Archery",
-		"movement": 2,
-		"strength": 5,
-		"rangedStrength": 7,
-		"cost": 40,
-		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles> <when defending>"],
+		"strength": 3,
+		"movement": 1,
+		"cost": 25,
+		"rangedStrength": 3,
+		"uniques": [
+			// TODO: +1 First Strike
+			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
+			"[+50]% Strength <when fighting in [City center] tiles> <when defending>",
+			"Can upgrade to [Longbowman]",
+			"Can upgrade to [Crossbowman]"
+		],
 		"requiredTech": "Archery",
-		"obsoleteTech": "Feudalism",
-		"upgradesTo": "Longbowman",
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Longbowman",
 		"unitType": "Archery",
-		"range": 2,
-		"movement": 2,
-		"strength": 13,
+		"strength": 6,
+		"movement": 1,
 		"rangedStrength": 18,
 		"cost": 120,
 		"requiredTech": "Feudalism",
 		"upgradesTo": "Rifleman",
-		//"obsoleteTech": "Industrialization",
-		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles> <when defending>", "[+25]% Strength <when fighting in [City center] tiles> <when defending>"],
+		"uniques": [
+			"Only available <after discovering [Archery]>",
+			// +1 First Strike
+			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
+			"[+25]% Strength <when fighting in [City center] tiles> <when defending>"
+		],
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Crossbowman",
 		"unitType": "Archery",
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 18,
+		"movement": 1,
+		"strength": 6,
 		"cost": 60,
 		"requiredTech": "Machinery",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
-		"uniques": ["[+50]% Strength <vs [Melee] units>", "Can upgrade to [Grenadier]"],
+		"uniques": [
+			// 1 First Strike
+			"[+50]% Strength <vs [Melee] units>",
+			"Can upgrade to [Grenadier]",
+			"Can upgrade to [Rifleman]"
+		],
 		"attackSound": "arrow"
 	},
 
 	// Gunpowder
-
 	{
 		"name": "Musketman",
 		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 24,
+		"strength": 9,
+		"movement": 1,
 		"cost": 80,
 		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Can upgrade to [Rifleman]"
+		],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Grenadier",
 		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 30,
+		"strength": 12,
+		"movement": 1,
 		"cost": 100,
 		"requiredTech": "Chemistry",
-		"obsoleteTech": "Assembly Line",
-		"upgradesTo": "Infantry",
-		"uniques": ["[+50]% Strength <vs [Rifleman] units>", "Can upgrade to [Machine Gun]"],
+		"uniques": [
+			"Only available <after discovering [Military Tradition]>",
+			"[+50]% Strength <vs [Rifleman] units> <when attacking>",
+			"Can upgrade to [Machine Gun]",
+			"Can upgrade to [Infantry]"
+		],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Rifleman",
 		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 34,
+		"strength": 14,
+		"movement": 1,
 		"cost": 110,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Assembly Line",
-		"upgradesTo": "Infantry",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
+		"uniques": [
+			"Can upgrade to [Infantry]",
+			"[+25]% Strength <vs [Mounted] units>"
+		],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Machine Gun",
 		"unitType": "Siege",
-		"movement": 2,
-		"strength": 60,
+		"strength": 18,
+		"movement": 1,
 		"cost": 125,
 		"interceptRange": 2,
 		"requiredTech": "Railroad",
-		"upgradesTo": "SAM Infantry",
-		"uniques": [ "Cannot attack", "[+25]% Strength <vs [Gunpowder] units>",
-			"[20]% chance to intercept air attacks"],
+		"uniques": [
+			"Cannot attack",
+			// 1 first strike
+			"[+50]% Strength <vs [Gunpowder] units>",
+			// Immune to collateral damage from Siege
+			"[20]% chance to intercept air attacks",
+			"Can upgrade to [SAM Infantry]"
+		],
 		"attackSound": "machinegun"
 	},
+
 	{
 		"name": "SAM Infantry",
 		"unitType": "Gunpowder",
-		"movement": 2,
 		"interceptRange": 2,
-		"strength": 50,
+		"strength": 18,
+		"movement": 1,
 		"cost": 150,
 		"requiredTech": "Rocketry",
-		//"upgradesTo": "Mobile SAM",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"uniques": [
+			// "Can upgrade to [Mobile SAM]", (BTS)
+			"[40]% chance to intercept air attacks",
+			"[+75]% Strength <vs [Helicopter] units>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "machinegun"
 	},
+
 	{
 		"name": "Infantry",
 		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 70,
+		"strength": 20,
+		"movement": 1,
 		"cost": 140,
 		"requiredTech": "Assembly Line",
-		"upgradesTo": "Mechanized Infantry",
-		"obsoleteTech": "Robotics",
-		"uniques": ["[+25]% Strength <vs [Gunpowder] units>", "Can upgrade to [SAM Infantry]"],
+		"uniques": [
+			"[+25]% Strength <vs [Gunpowder] units>",
+			"Can upgrade to [Mechanized Infantry]",
+			"Can upgrade to [SAM Infantry]"
+		],
 		"attackSound": "shot"
 	},
-
 
 	{
 		"name": "Marine",
 		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 65,
+		"strength": 24,
+		"movement": 1,
 		"cost": 160,
-		"requiredTech": "Industrialism", // and Rifling
+		"requiredTech": "Industrialism",
+		"uniques": [
+			"Only available <after discovering [Rifling]>",
+			"[+50]% Strength <vs [Machine Gun] units> <when attacking>",
+			"[+50]% Strength <vs [Artillery] units> <when attacking>"
+		],
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>",
-			"[+50]% Strength <vs [Artillery] units>", "[+50]% Strength <vs [Machine Gun] units>"],
 		"attackSound": "shot"
 	},
 
 	{
 		"name": "Mechanized Infantry",
 		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 90,
+		"strength": 32,
+		"movement": 2,
 		"interceptRange": 2,
 		"cost": 200,
 		"requiredTech": "Robotics",
+		"uniques": [
+			"Only available <after discovering [Rifling]>",
+			"[20]% chance to intercept air attacks",
+			"Never appears as a Barbarian unit"
+		],
 		"promotions": ["March"],
-		"uniques": ["[20]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
 
@@ -229,90 +279,116 @@
 	{
 		"name": "Chariot",
 		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 11,
+		"strength": 4,
+		"movement": 2,
 		"cost": 30,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>",
-			"[+100]% Strength <vs [Axeman] units>", "Rough terrain penalty",
-			"Can upgrade to [Horse Archer]"],
+		"uniques": [
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Axeman] units> <when attacking>",
+			"Withdraws before melee combat <with [10]% chance>",
+			"Can upgrade to [Horse Archer]",
+			"Can upgrade to [Knight]"
+		],
 		"attackSound": "horse"
 	},
 	{
 		"name": "Horse Archer",
 		"unitType": "Archery",
-		"movement": 4,
 		"strength": 6,
-		"rangedStrength": 10,
-		"range": 2,
+		"movement": 2,
 		"cost": 50,
-		"upgradesTo": "Knight",
-		"uniques": ["No defensive terrain bonus", "[+50]% Strength <vs [Catapult] units>"],
 		"requiredTech": "Horseback Riding",
-		"attackSound": "arrow"
+		"uniques": [
+			"Only available <after discovering [Archery]>",
+			"Can upgrade to [Knight]",
+			// Immune to first strikes
+			"No defensive terrain bonus",
+			"Withdraws before melee combat <with [20]% chance>",
+			"[+50]% Strength <vs [Siege] units> <when attacking>" // Catapult, Trebuchet
+			"[+20]% to Flank Attack bonuses <vs [Siege] units>" // Flank attack vs Catapults/Trebuchets
+		],
+		"attackSound": "horse"
 	},
 
 	{
 		"name": "War Elephant",
 		"unitType": "Mounted",
-		"movement": 1,
 		"strength": 8,
+		"movement": 1,
 		"cost": 60,
-		// "upgradesTo": "Cuirassier",
-		"uniques": ["No defensive terrain bonus", "[+50]% Strength <vs [Mounted] units>"],
 		"requiredTech": "Construction",
+		"uniques": [
+			"Only available <after discovering [Horseback Riding]>",
+			// "Can upgrade to [Cuirassier]", (BTS)
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Mounted] units>"
+		],
 		"attackSound": "elephant"
 	},
 
 	{
 		"name": "Knight",
 		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 20,
+		"strength": 10,
+		"movement": 2,
 		"cost": 90,
 		"requiredTech": "Guilds",
-		"obsoleteTech": "Military Tradition",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Consumes [1] [Horses]", "Consumes [1] [Iron]",
-			"No defensive terrain bonus","[+50]% Strength <vs [Siege] units>", "Never appears as a Barbarian unit"],
+		"requiredResource": "Horses",
+		"uniques": [
+			"Consumes [1] [Iron]",
+			// Immune to first strikes
+			"No defensive terrain bonus",
+			"[+100]% to Flank Attack bonuses <vs [Siege] units>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "horse"
 	},
 
 	{
 		"name": "Cavalry",
 		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 34,
+		"strength": 15,
+		"movement": 2,
 		"cost": 120,
 		"requiredTech": "Military Tradition",
-		"obsoleteTech": "Industrialism",
 		"requiredResource": "Horses",
-		"upgradesTo": "Tank",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Siege] units>", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can upgrade to [Gunship]",
+			"Only available <after discovering [Rifling]>",
+			"Only available <after discovering [Horseback Riding]>",
+			"No defensive terrain bonus",
+			"Withdraws before melee combat <with [30]% chance>",
+			"[+50]% Strength <vs [Cannon] units> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "horse"
 	},
 
 	// Hellicopter
+
 	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
 		"name": "Gunship",
 		"unitType": "Helicopter",
-		"movement": 4,
 		"strength": 24,
+		"movement": 4,
 		"cost": 160,
-		"requiredTech": "Flight",
+		"requiredTech": "Rocketry",
 		"requiredResource": "Oil",
 		"uniques": [
-			"[+100]% Strength <vs [Armored] units>",
-			"[+50]% Strength <vs [Siege] units>",
-			"No defensive terrain bonus",
+			"Only available <after discovering [Flight]>",
+			//"Only available <after discovering [Advanced Flight]>", (BTS)
 			"Withdraws before melee combat <with [25]% chance>",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+20]% to Flank Attack bonuses <vs [Siege] units>",
+			"Unable to capture cities",
+			"No defensive terrain bonus",
 			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
-			"Unable to capture cities",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun"
@@ -323,15 +399,19 @@
 	{
 		"name": "Galley",
 		"unitType": "Melee Water",
+		"strength": 2,
 		"movement": 3,
-		"strength": 7,
-		"cost": 80,
+		"cost": 50,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"],
-		//"upgradesTo": "Trireme", // BTS
+		"uniques": [
+			"Can upgrade to [Galleon]",
+			"Can carry [2] [Land] units"
+			"Cannot enter ocean tiles"
+		],
 		"attackSound": "nonmetalhit"
 	},
 
+	// Trireme (BTS)
 	// {
 	// 	"name": "Trireme",
 	// 	"unitType": "Melee Water",
@@ -347,92 +427,95 @@
 	{
 		"name": "Caravel",
 		"unitType": "Melee Water",
-		"movement": 3,
 		"strength": 3,
+		"movement": 3,
 		"cost": 60,
 		"requiredTech": "Optics",
 		"uniques": [
-			// Cargo Space: 1
-			// Can explore rival territory w/o triggering war
+			"Can upgrade to [Frigate]",
+			"Can upgrade to [Submarine]",
+			"Can carry [1] [Scout] units",
+			"May enter foreign tiles without open borders"
 		],
-		"upgradesTo": "Frigate",
 		"attackSound": "nonmetalhit"
 	},
 
 	{
 		"name": "Galleon",
 		"unitType": "Melee Water",
-		"movement": 4,
 		"strength": 4,
+		"movement": 4,
 		"cost": 80,
 		"requiredTech": "Astronomy",
 		"uniques": [
-			// TODO: Can explore rival territory w/o triggering war
-			"Can carry [4] [Land] units"
+			"Can upgrade to [Transport]",
+			"Can carry [3] [Land] units"
 		],
-		"upgradesTo": "Transport",
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Frigate",
 		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 28,
+		"strength": 8,
+		"movement": 4,
 		"cost": 90,
 		"requiredResource": "Iron",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Destroyer",
+		"requiredTech": "Chemistry",
+		"uniques": [
+			"Can upgrade to [Destroyer]",
+			"Only available <after discovering [Astronomy]>",
+			"[+25]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-8%/turn), ignores Walls and Castles
+		],
 		"attackSound": "cannon"
 	},
 	{
 		"name": "Ironclad",
 		"unitType": "Melee Water",
-		"movement": 2,
 		"strength": 12,
+		"movement": 2,
 		"cost": 100,
-		"requiredTech": "Steam Power",
-		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
+		"requiredTech": "Steel",
 		"uniques": [
+			"Can upgrade to [Destroyer]",
+			"Only available <after discovering [Steam Power]>",
 			"Consumes [1] [Coal]",
 			"Consumes [1] [Iron]",
-			"[+33]% Strength <vs cities>",
 			"Cannot enter ocean tiles",
-			"Never appears as a Barbarian unit"],
+			"[+33]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-12%/turn)
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shipguns"
 	},
 
 	{
 		"name": "Transport",
 		"unitType": "Melee Water",
-		"movement": 5,
 		"strength": 16,
+		"movement": 5,
 		"cost": 125,
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Can carry [4] [Land] units",
 			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]"
+			"Consumes [1] [Uranium]",
+			"Can upgrade to [Destroyer]"
 		],
-		"upgradesTo": "Destroyer",
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Destroyer",
 		"unitType": "Melee Water",
-		"movement": 6,
-		"strength": 55,
+		"strength": 30,
+		"movement": 8,
 		"interceptRange": 2,
 		"cost": 200,
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Can see invisible [Submarine] units",
 			"[30]% chance to intercept air attacks",
-			"Withdraws before melee combat <with [80]% chance>",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Uranium]",
-			"[+100]% Strength <vs [Submarine] units>"
+			"[+25]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-16%/turn)
 		],
 		"attackSound": "shipguns"
 	},
@@ -440,15 +523,15 @@
 	{
 		"name": "Battleship",
 		"unitType": "Ranged Water",
-		"movement": 6,
 		"strength": 40,
+		"movement": 6,
 		"cost": 225,
 		"requiredTech": "Industrialism",
 		"uniques": [
 			// Causes collateral damage
-			// Can bombard city defenses (-20%/turn)
 			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]"
+			"Consumes [1] [Uranium]",
+			"[+40]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-20%/turn)
 		],
 		"attackSound": "metalhit"
 	},
@@ -456,12 +539,12 @@
 	{
 		"name": "Carrier",
 		"unitType": "Melee Water",
-		"movement": 5,
 		"strength": 16,
+		"movement": 5,
 		"cost": 175,
-		"requiredTech": "Combustion",
+		"requiredTech": "Industrialism",
 		"uniques": [
-			"Can carry [3] [Air] units",
+			"Can carry [3] [Fighter] units",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Uranium]"
 		],
@@ -471,22 +554,19 @@
 	{
 		"name": "Submarine",
 		"unitType": "Melee Water",
-		"movement": 6,
 		"strength": 24,
+		"movement": 6,
 		"cost": 150,
 		"requiredTech": "Radio",
 		"uniques": [
+			"Consumes [1] [Oil]",
+			"Consumes [1] [Uranium]",
+			"Can carry [3] [Missile] units",
 			"Invisible to others",
 			"Can see invisible [Submarine] units",
-			"Can enter ice tiles",
-			// Cargo space for 3 Missiles
-			// Invisible to most units
-			// Can see submarines
-			// Can explore rival territory
+			"May enter foreign tiles without open borders",
 			// Can move through impassible terrain
-			// Can withdraw from combat (50% chance)
-			"Consumes [1] [Iron]",
-			"Consumes [1] [Uranium]"
+			"Withdraws before melee combat <with [50]% chance>"
 		],
 		"attackSound": "metalhit"
 	},
@@ -496,21 +576,19 @@
 	{
 		"name": "Fighter",
 		"unitType": "Fighter",
-		"movement": 6,
 		"strength": 12,
+		"movement": 6,
 		"rangedStrength": 12,
 		"range": 8,
 		"interceptRange": 5,
 		"cost": 100,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Jet Fighter",
 		"uniques": [
+			"Can upgrade to [Jet Fighter]",
 			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Bomber] units>",
-			"[+4] Sight",
 			"Can see over obstacles",
-			"[+150]% Strength <vs [Helicopter] units>"
+			"Destroys tile improvements when attacking"
 		],
 		"attackSound": "machinegun"
 	},
@@ -518,18 +596,20 @@
 	{
 		"name": "Bomber",
 		"unitType": "Bomber",
-		"movement": 1,
 		"strength": 16,
+		"movement": 8,
 		"rangedStrength": 16,
 		"range": 10,
 		"cost": 140,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Stealth Bomber",
 		"uniques": [
+			"Can upgrade to [Stealth Bomber]",
+			"Only available <after discovering [Radio]>",
 			// Causes collateral damage
-			// Can destroy tile improvements and bomb city defenses (-16%/turn)
-			"[-50]% Strength <vs [Water] units>"
+			"[-50]% Strength <vs [Water] units>", // -50% vs. Naval Units
+			"Destroys tile improvements when attacking",  // Can destroy tile improvements
+			"[+32]% Strength <vs cities> <when attacking>" // bomb city defenses (-16%/turn)
 		],
 		"attackSound": "bombing"
 	},
@@ -537,39 +617,62 @@
 	{
 		"name": "Jet Fighter",
 		"unitType": "Fighter",
-		"movement": 10,
 		"strength": 24,
+		"movement": 10,
 		"rangedStrength": 24,
-		"range": 8,
+		"range": 10,
 		"interceptRange": 8,
 		"cost": 150,
 		"requiredTech": "Composites",
-		"requiredResource": "Aluminum",
 		"uniques": [
+			"Only available <after discovering [Flight]>",
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Oil]",
+			"[+25]% Strength when performing Air Sweep",
 			"[100]% chance to intercept air attacks",
-			"[+100]% Strength <vs [Bomber] units>",
-			"[+100]% Strength <vs [Helicopter] units>"
+			"Destroys tile improvements when attacking",
+			"[+32]% Strength <vs cities> <when attacking>" // bomb city defenses (-16%/turn)
 		],
 		"attackSound": "jetgun"
 	},
 	{
 		"name": "Stealth Bomber",
 		"unitType": "Bomber",
-		"movement": 12,
 		"strength": 20,
+		"movement": 12,
 		"rangedStrength": 20,
 		"range": 20,
 		"cost": 200,
 		"requiredTech": "Stealth",
 		"uniques": [
+			"Only available <after discovering [Robotics]>",
 			// Causes collateral damage
-			// Can destroy tile improvements and bombard city defenses (-20% turn)
-			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Oil]",
-			"Damage taken from interception reduced by [50]%",
-			"[-50]% Strength <vs [Water] units>"
+			"Consumes [1] [Aluminum]",
+			"Damage taken from interception reduced by [50]%", // Can evade interception (50% chance)
+			"[-50]% Strength <vs [Water] units>",
+			"Destroys tile improvements when attacking",
+			"[40]% Strength <vs cities> <when attacking>" // bombard city defenses (-20% turn)
+		],
+		"attackSound": "bombing"
+	},
+
+	// Missles
+	{
+		"name": "ICBM",
+		"unitType": "Missle",
+		"strength": 300,
+		"movement": 1,
+		"rangedStrength": 300,
+		"range": 300,
+		"cost": 500,
+		"requiredTech": "Stealth",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"Only available <after discovering [Robotics]>",
+			"Nuclear weapon of Strength [2]",
+			"Only available <if [Manhattan Project] is constructed by anybody>",
+			"Blast radius [12]"
 		],
 		"attackSound": "bombing"
 	},
@@ -579,15 +682,19 @@
 	{
 		"name": "Catapult",
 		"unitType": "Siege",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 8,
+		"strength": 5,
+		"rangedStrength": 5,
+		"movement": 1,
 		"cost": 50,
 		"requiredTech": "Construction",
-		"obsoleteTech": "Engineering",
-		// "upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "[-1] Sight"],
+		"uniques": [
+			"Can upgrade to [Cannon]",
+			"No defensive terrain bonus",
+			// Causes collateral damage
+			"[+16]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-8%/turn)
+			"Must set up to ranged attack",
+			"Cannot attack <in [Water] tiles>" // Cannot attack amphibiously
+		],
 		"attackSound": "throw"
 	},
 
@@ -599,66 +706,94 @@
 	// 	"rangedStrength": 14,
 	// 	"cost": 800,
 	// 	"requiredTech": "Engineering",
-	// 	"obsoleteTech": "Steel",
 	// 	"upgradesTo": "Cannon",
 	// 	"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
 	// 	"attackSound": "throw"
 	// },
+
 	{
 		"name": "Cannon",
 		"unitType": "Siege",
-		"movement": 2,
 		"strength": 14,
-		"rangedStrength": 20,
+		"movement": 1,
+		"rangedStrength": 12,
 		"cost": 100,
 		"requiredTech": "Steel",
-		"upgradesTo": "Artillery",
-		"obsoleteTech": "Artillery",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"requiredResource": "Iron",
+		"uniques": [
+			"Can upgrade to [Artillery]",
+			"No defensive terrain bonus",
+			// Causes a maximum of 80% damage to enemy
+			// Immune to collateral damage from other Siege Weapons
+			// Causes collateral damage
+			"Must set up to ranged attack",
+			"[+24]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-12%/turn)
+			"Cannot attack <in [Water] tiles>", // Cannot attack amphibiously
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "cannon"
 	},
+
 	{
 		"name": "Artillery",
 		"unitType": "Siege",
-		"movement": 2,
-		"strength": 21,
-		"rangedStrength": 28,
-		"range": 3,
+		"strength": 18,
+		"movement": 1,
+		"rangedStrength": 18,
 		"cost": 150,
 		"requiredTech": "Artillery",
-		//"upgradesTo": "Rocket Artillery",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Siege] units>",
-			"No defensive terrain bonus", "Must set up to ranged attack", "Never appears as a Barbarian unit"],
+		"uniques": [
+			// "Can upgrade to [Mobile Artillery]", (BTS)
+			"No defensive terrain bonus",
+			// Causes collateral damage
+			// Causes a maximum of 85% damage to enemy
+			"[+50]% Strength <vs [Siege] units>",
+			"[+32]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-16%/turn)
+			"Ranged attacks may be performed over obstacles",
+			"Must set up to ranged attack",
+			"Cannot attack <in [Water] tiles>", // Cannot attack amphibiously
+			"Never appears as a Barbarian unit"
+		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
 
 	// Armored
 
-
 	{
 		"name": "Tank",
 		"unitType": "Armored",
-		"movement": 2,
 		"strength": 28,
+		"movement": 2,
 		"cost": 180,
 		"requiredTech": "Industrialism",
 		"requiredResource": "Oil",
-		"upgradesTo": "Modern Armor",
 		"promotions": ["Blitz"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"Only available <after discovering [Rifling]>",
+			"Can upgrade to [Modern Armor]",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "tankshot"
 	},
 
 	{
 		"name": "Modern Armor",
 		"unitType": "Armored",
-		"movement": 5,
-		"strength": 100,
+		"strength": 40,
+		"movement": 2,
 		"cost": 240,
 		"requiredTech": "Computers",
 		"promotions": ["Blitz"],
-		"uniques": ["Consumes [1] [Aluminum]", "Consumes [1] [Oil]", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": [
+			// 1 first strike
+			"Only available <after discovering [Composites]>",
+			"Consumes [1] [Aluminum]",
+			"Consumes [1] [Oil]",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "tankshot"
 	},
 
@@ -667,36 +802,35 @@
 	{
 		"name": "Scout",
 		"unitType": "Scout",
+		"strength": 1,
 		"movement": 2,
 		"cost": 15,
-		"strength": 5,
 		"requiredTech": "Hunting",
-		"uniques": ["Ignores terrain cost"],
+		"uniques": [
+			// Better results from huts
+			"Cannot attack",
+			"Can upgrade to [Explorer]",
+			"[+100]% Strength <vs [Animal] units>"
+		],
 		"attackSound": "nonmetalhit"
 	},
 
 	{
 		"name": "Explorer",
 		"unitType": "Scout",
-		"movement": 3,
+		"strength": 4,
+		"movement": 2,
 		"cost": 40,
-		"strength": 10,
 		"requiredTech": "Compass",
-		"uniques": ["Ignores terrain cost"],
+		"uniques": [
+			// Better results from huts
+			"Cannot attack",
+			"Ignores terrain cost"
+		],
+		"promotions": ["Guerrilla I", "Woodsman I"],
 		"attackSound": "nonmetalhit"
 	},
-	// {
-	// 	"name": "Anti-Tank Gun",
-	// 	"unitType": "Gunpowder",
-	// 	"movement": 2,
-	// 	"strength": 50,
-	// 	"cost": 300,
-	// 	"requiredTech": "Artillery",
-	// 	"upgradesTo": "Mechanized Infantry",
-	// 	"promotions": ["Ambush"],
-	// 	"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
-	// 	"attackSound": "machinegun"
-	// },
+
 	// {
 	// 	"name": "Paratrooper",
 	// 	"unitType": "Gunpowder",
@@ -707,21 +841,7 @@
 	// 	"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
 	// 	"attackSound": "shot"
 	// },
-	// {
-	// 	"name": "Rocket Artillery", // Called mobile artillery in Civ IV but this allows us to reuse the image
-	// 	"unitType": "Siege",
-	// 	"movement": 2,
-	// 	"strength": 45,
-	// 	"rangedStrength": 60,
-	// 	"range": 3,
-	// 	"cost": 200,
-	// 	"requiredTech": "Lasers",
-	// 	"requiredResource": "Oil",
-	// 	"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-	// 		"[+50]% Strength <vs [Siege] units>", "Never appears as a Barbarian unit" ], // 'cannot attack amphibiously' isn't possible rn
-	// 	"promotions": ["Indirect Fire"],
-	// 	"attackSound": "artillery"
-	// },
+
 	// {
 	// 	"name": "Mobile SAM",
 	// 	"unitType": "Gunpowder",
@@ -744,23 +864,27 @@
 		"movement": 2,
 		"cost": 100,
 		"uniques": [
+			"Cannot attack",
 			"Requires at least [2] population",
 			"Excess Food converted to Production when under construction",
 			"Founds a new city <by consuming this unit>"
-			// +50% production speed for Imperialistic leaders
-		]
+			// TODO: +50% production speed for Imperialistic leaders
+		],
+		"hurryCostModifier": 20
 	},
 
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"hurryCostModifier": 20,
+		"cost": 60,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
+			// Scrub fallout from tiles
+			// +25% production speed with Expansive leaders
 			"Automation is a primary action"
 		],
-		"cost": 60
+		"hurryCostModifier": 20
 	},
 	{
 		"name": "Work Boat",
@@ -784,12 +908,16 @@
 		"cost": 80, // BTS: 40
 		"requiredTech": "Communism",
 		"promotions": [
+			// "Commando" (BTS)
 			"Sentry"
 		],
 		"uniques": [
+			"Only available <if [Scotland Yard] is constructed> <in this city>", // Vanilla: Spies may be built only in a city with the Scotland Yard national wonder.
+			"Only available <after discovering [Alphabet]>",
 			"Invisible to others",
 			"Can see invisible [Spy] units",
-			"May enter foreign tiles without open borders"
+			"May enter foreign tiles without open borders",
+			"Cannot attack"
 			// Espionage
 		]
 	},
@@ -1008,7 +1136,7 @@
 		"cost": 35,
 		"upgradesTo": "Maceman",
 		"uniques": [
-			"[+10]% Strength <vs cities>",
+			"[+10]% Strength <vs cities> <when attacking>",
 			"Only available <after discovering [Archery]>"
 		],
 		"promotions": ["Woodsman I"],
@@ -1129,8 +1257,9 @@
 		"strength": 2,
 		"movement": 1,
 		"cost": 15,
-		"upgradesTo": "Axeman", // or Spearman
 		"uniques": [
+			"Can upgrade to [Axeman]",
+			"Can upgrade to [Spearman]",
 			"[+25]% Strength <when fighting in [City center] tiles> <when defending>",
 			"[+100]% Strength <vs [Archery] units>"
 		]
@@ -1158,7 +1287,6 @@
 		"cost": 70,
 		"upgradesTo": "Rifleman",
 		"requiredTech": "Civil Service",
-		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": [
 			// TODO: 2 first strikes
@@ -1179,7 +1307,6 @@
 		"cost": 25,
 		"upgradesTo": "Longbowman",
 		"requiredTech": "Archery",
-		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": [
 			// TODO: 1-2 first strikes
@@ -1291,4 +1418,9 @@
 		],
 		"attackSound": "metalhit"
 	}
+
+
+	// TODO: Animals (First Barbarians)
+	// https://civilization.fandom.com/wiki/Animal_(Civ4)
+
 ]

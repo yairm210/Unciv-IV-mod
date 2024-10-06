@@ -74,6 +74,7 @@
 		"name": "Walls",
 		"cost": 50,
 		"requiredTech": "Masonry",
+		"cityStrength": 1,
 		"uniques": [
 			// "+50% defense (except vs. Gunpowder Units)",
 			// "-50% damage from bombard (except from Gunpowder units)",
@@ -150,8 +151,10 @@
 	{
 		"name": "Courthouse",
 		"cost": 120,
-        // Currently pointless since no buildings have maintenance costs
-		"uniques": ["[-50]% maintenance cost for buildings [in this city]"],
+		"uniques": [
+			"[-50]% maintenance cost for buildings [in this city]"
+		],
+		"specialistSlots": {"Spy": 1},
 		"requiredTech": "Code of Laws"
 	},
 	{
@@ -172,14 +175,6 @@
 		"uniques": ["[+2 Science] from all [Science] buildings" , "Obsolete with [Computers]", "[-50]% production cost <with [Stone]>"],
 		"requiredTech": "Paper"
 //		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
-	},
-	{
-		"name": "Customs House",
-		"requiredBuilding": "Harbor",
-		"cost": 180,
-		"gold": 2,
-		"uniques": ["Only available <in [Coastal] cities>"],
-		"requiredTech": "Economics"
 	},
 	{
 		"name": "Pentagon",
@@ -225,6 +220,7 @@
 		"name": "Castle",
 		"cost": 100,
 		"culture": 1,
+		"cityStrength": 1,
 		"requiredTech": "Engineering",
 		"requiredBuilding": "Walls",
 		"uniques": [
@@ -268,11 +264,45 @@
 	// Renaissance era
 
 	{
+		"name": "Customs House",
+		"requiredBuilding": "Harbor",
+		"cost": 180,
+		"uniques": [
+			"[+1 Gold] from each Trade Route", // +100% commerce from intercontinental foreign trade routes
+			"Only available <in [Coastal] cities>"
+		],
+		"requiredTech": "Economics"
+	},
+
+	{
+		"name": "Jail",
+		"cost": 120,
+		"specialistSlots": {"Spy": 2},
+		"uniques": [
+			"[+7]% [Happiness] [in this city] <when at war>" // -25% war weariness
+			// +4 Espionage (BtS)
+			// +50% Espionage (BtS)
+		],
+		"requiredTech": "Economics"
+	},
+
+	{
 		"name": "Observatory",
 		"cost": 150,
-		"percentStatBonus": {"science": 20},
+		"percentStatBonus": {"science": 25},
 		"specialistSlots": {"Scientist": 1},
 		"requiredTech": "Astronomy"
+	},
+
+	{
+		"name": "Security Bureau",
+		"cost": 220,
+		"espianage": 8,
+		"specialistSlots": {"Spy": 2},
+		"uniques": [
+			"[-50]% enemy spy effectiveness [in this city]"
+		],
+		"requiredTech": "Democracy"
 	},
 
 	{
@@ -280,6 +310,9 @@
 		"cost": 200,
 		"culture": 3,
 		"percentStatBonus": {"science": 25},
+		"uniques": [
+			// TODO: "[-50]% production cost <with [Philosophical]>" https://civilization.fandom.com/wiki/Philosophical_(Civ4)
+		],
 		"requiredTech": "Education",
 		"requiredBuilding": "Library"
 	},
@@ -292,7 +325,8 @@
 		"requiredTech": "Electricity",
 		"uniques": [
 			"Population loss from nuclear attacks [-50]% [in this city]",
-			"Damage to garrison from nuclear attacks [-50]% [in this city]"
+			"Damage to garrison from nuclear attacks [-50]% [in this city]",
+			"Only available <if [Manhattan Project] is constructed by anybody>"
 		]
 	},
 
@@ -301,7 +335,7 @@
 		"cost": 100,
 		"requiredTech": "Electricity",
 		"uniques": [
-			//"-50% damage from air units"
+			"[+50]% City Strength from defensive buildings <vs [Air] units> <when defending>" // -50% damage from air units
 		]
 	},
 
@@ -331,6 +365,7 @@
 			"New [Ranged Water] units start with [4] Experience [in this city]",
 			"New [Submarine] units start with [4] Experience [in this city]",
             "Only available <in [Coastal] cities>"
+			// TODO: (Double production speed with Aggressive)
 		],
 		"requiredTech": "Steel"
 	},
@@ -340,35 +375,47 @@
 		"cost": 250,
 		"percentStatBonus": {"production": 25},
 		"specialistSlots": {"Engineer": 2},
-        "uniques": ["Provides [-1] [Health] <in this city>", "[+25]% [Production] [in this city] <with [Power]>"],
+        "uniques": [
+			"Provides [-1] [Health] <in this city>",
+			"Provides [-2] [Health] <in this city> <with [Oil]>",
+			"Provides [-2] [Health] <in this city> <with [Coal]>",
+			"[+25]% [Production] [in this city]",
+			"[+25]% [Production] [in this city] <with [Power]>"
+		],
 		"requiredTech": "Assembly Line"
 	},
 
 	{
 		"name": "Hospital",
 		"cost": 200,
-        "uniques": ["Provides [3] [Health] <in this city>"], // Units in city heal extra 10 hp/turn
+        "uniques": [
+			"Provides [3] [Health] <in this city>",
+			"[Wounded] Units adjacent to this city heal [2] HP per turn when healing" // Units in city heal extra 10 hp/turn
+		],
 		"requiredTech": "Medicine"
 	},
 
-	{
-		"name": "Industrial Park",
-		"cost": 200,
-		"production": 2, // +1 free Engineer
-		"specialistSlots": {"Engineer": 2},
-        "uniques": [
-			"Provides [-2] [Health] <in this city>",
-			"Provides [-1] [Health] <in this city> <with [Coal]>",
-			"Provides [-1] [Health] <in this city> <with [Oil]>"
-		],
-		"requiredTech": "Industrialism",
-		"requiredBuilding": "Factory"
-	},
+	// {
+	// 	"name": "Industrial Park", // BTS
+	// 	"cost": 200,
+	// 	"production": 2, // +1 free Engineer
+	// 	"specialistSlots": {"Engineer": 2},
+    //     "uniques": [
+	// 		"Provides [-2] [Health] <in this city>",
+	// 		"Provides [-1] [Health] <in this city> <with [Coal]>",
+	// 		"Provides [-1] [Health] <in this city> <with [Oil]>"
+	// 	],
+	// 	"requiredTech": "Industrialism",
+	// 	"requiredBuilding": "Factory"
+	// },
 
 	{
 		"name": "Levee",
 		"cost": 180,
-		"uniques": ["Must be on [River]", "[+1 Production] from [River] tiles [in this city]"],
+		"uniques": [
+			"Must be on [River]",
+			"[+1 Production] from [River] tiles [in this city]"
+		],
 		"requiredTech": "Steam Power"
 	},
 
@@ -381,12 +428,14 @@
             "Power Plant",
             "Provides [-2] [Health] <in this city> <with [Uranium]>",
             "Provides [1] [Power] <in this city> <with [Uranium]>",
-            "Only available <in cities without a [Power Plant]>"],
+            "Only available <in cities without a [Power Plant]>",
+			"Population loss from nuclear attacks [+20]% [in this city]" // Small chance of nuclear meltdown
+		],
 		"requiredTech": "Fission"
 	},
 
 	// {
-	// 	"name": "Public Transportation",
+	// 	"name": "Public Transportation", (BTS)
 	// 	"cost": 150,
     //     "uniques": [
     //         "Provides [2] [Power] <in this city> <after discovering [Environmentalism]>",
@@ -407,7 +456,8 @@
 			// Can airlift 1 land unit per turn
             "Provides [-1] [Health] <in this city>",
 			"New [Fighter] units start with [3] Experience [in this city]",
-			"New [Bomber] units start with [3] Experience [in this city]"
+			"New [Bomber] units start with [3] Experience [in this city]",
+			"New [Helicopter] units start with [3] Experience [in this city]"
 		],
 		"requiredTech": "Flight"
 	},
@@ -417,9 +467,9 @@
 		"cost": 175,
 		"percentStatBonus": {"culture": 50},
 		"specialistSlots": {"Artist": 2},
+		"happiness": 1, // +1 Happiness per 10% Culture rate
         "uniques": [
 			// +1 Happiness for Charismatic leaders
-			// +1 Happiness per 10% Culture
 			"[+1 Happiness] <with [Hit Singles]>",
 			"[+1 Happiness] <with [Hit Musicals]>",
 			"[+1 Happiness] <with [Hit Movies]>"
@@ -441,24 +491,24 @@
 		"requiredTech": "Plastics"
 	},
 
-	// {
-	// 	"name": "Laboratory",
-	// 	"cost": 250,
-	// 	"specialistSlots": {"Scientist": 1},
-	// 	"percentStatBonus": {"science": 25},
-    //     "uniques": [
-    //         "Provides [-1] [Health] <in this city>",
-	// 		"[+50]% Production when constructing [spaceship part] buildings [in this city]"
-    //     ],
-	// 	"requiredTech": "Superconductors",
-	// 	"requiredBuilding": "Observatory"
-	// },
+	{
+		"name": "Laboratory",
+		"cost": 250,
+		"specialistSlots": {"Scientist": 1},
+		"percentStatBonus": {"science": 25},
+        "uniques": [
+            "Provides [-1] [Health] <in this city>",
+			"[+50]% Production when constructing [spaceship part] buildings [in this city]"
+        ],
+		"requiredTech": "Computers", // Superconductors (BTS)
+		"requiredBuilding": "Observatory"
+	},
 
 	{
 		"name": "Recycling Center",
 		"cost": 300,
         "uniques": [
-            // TODO: No Health damage from buildings
+            "Provides [2] [Health] <in this city>" // TODO: No Health damage from buildings
         ],
 		"requiredTech": "Ecology"
 	},
@@ -741,13 +791,15 @@
 		"name": "Kremlin",
 		"cost": 800,
 		"isWonder": true,
-		// BTS: "greatPersonPoints": {"Great Spy": 2},
+		// "greatPersonPoints": {"Great Spy": 2}, (BTS)
 		"uniques": [
+			"[-50]% production cost <with [Stone]>",
 			"Hidden when espionage is disabled",
 			"Obsolete with [Fiber Optics]"
 			// -33% hurry production cost when using Universal Suffrage or Slavery
 			// Can turn 2 citizens into Spies
 		],
+		"specialistSlots": {"Spy": 2},
 		"requiredTech": "Communism"
 	},
 
@@ -846,6 +898,7 @@
 		"gold": 8,
 		"happiness": 1,
 		"cost": 1,
+		"cityStrength": 2,
 		"uniques": [
 			// Reduces maintenance CommerceRed4 in nearby cities
 			// BTS: +4 Espionage
@@ -892,7 +945,7 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
 			"[-50]% production cost <with [Marble]>",
-			"[+100]% Production when constructing [Military] units [in this cities]"
+			"[+100]% Production when constructing [Military] units [in this city]"
 			// requires control of a unit of Level 4 Experience at some point
 		],
 		"requiredTech": "Literature"
@@ -991,7 +1044,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[-50]% production cost <with [Stone]>",
-			"[-25]% [Happiness] [in all cities] <when at war>"
+			"[+7]% [Happiness] [in all cities] <when at war>" // -25% War Anger (Civ4) in all cities
 		],
 		"requiredTech": "Fascism"
 	},
@@ -1025,9 +1078,24 @@
 			"Cannot be purchased",
 			"Unbuildable"
 		]
-	}
+	},
 
 	// World Projects
+
+	{
+		"name": "The Manhattan Project",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": [
+			"[-50]% production cost <with [Uranium]>",
+			"Triggers a global alert upon completion",
+			"Cannot be hurried",
+			"Cannot be purchased",
+			"Enables nuclear weapon"
+			// It can be countered by passing the "No Nukes" resolution at the United Nations.
+		],
+		"requiredTech": "Fission"
+	},
 
 	// National Projects
 
@@ -1040,9 +1108,23 @@
 			"Hidden when [Space Race] Victory is disabled",
 			"Triggers a global alert upon completion",
 			"Enables construction of Spaceship parts",
-			"Cannot be hurried"
+			"Cannot be hurried",
+			"Cannot be purchased"
 		],
 		"requiredTech": "Rocketry"
+	},
+
+	{
+		"name": "Scotland Yard",
+		"cost": 500,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1}, // BTS: Removed
+		"uniques": [
+			"Hidden when espionage is disabled"
+			// 100% Espionage (BTS)
+			// "[+100]% spy effectiveness [in all cities]" // BTS
+		],
+		"requiredTech": "Communism"
 	}
 
 ]

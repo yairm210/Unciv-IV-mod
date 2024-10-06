@@ -28,7 +28,14 @@
 		"name":"Priest",
 		"production":1,
 		"gold":1,
-		"greatPersonPoints": {"Great Prophet":3},
+		"greatPersonPoints": {"Great Prophet": 3},
+		"color": [255,255,255]
+	},
+	{
+		"name":"Spy",
+		"espianage": 4,
+		"science": 1,
+		//"greatPersonPoints": {"Great Spy": 3}, // (BTS)
 		"color": [255,255,255]
 	}
 ]
