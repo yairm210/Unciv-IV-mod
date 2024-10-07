@@ -7,7 +7,7 @@
         "era": "Ancient era",
         "policies": [
             {
-                "name": "Depotism",
+                "name": "Despotism",
                 "uniques": [
                     "Only available <after discovering [Monarchy]>",
 					"Remove [Hereditary Rule]",
@@ -23,7 +23,7 @@
                 "uniques": [
                     "Only available <after discovering [Monarchy]>",
 					"[+1 Happiness] [in your cities] <with a garrison>", // +1 Happiness in city per military unit stationed in the city
-					"Remove [Depotism]",
+					"Remove [Despotism]",
 					"Remove [Police State]",
 					"Remove [Universal Suffrage]",
 					"Remove [Representation]"
@@ -37,7 +37,7 @@
                     "Only available <after discovering [Constitution]>",
 					"[+3 Science] from every [Scientist]",
 					"[+3 Happiness] <in cities with at least [6] [Population]>", // +3 Happiness (Civ4) in the 4-6 biggest cities
-					"Remove [Depotism]",
+					"Remove [Despotism]",
 					"Remove [Hereditary Rule]",
 					"Remove [Police State]",
 					"Remove [Universal Suffrage]"
@@ -51,7 +51,7 @@
                     "Only available <after discovering [Fascism]>",
 					"[+25]% Production when constructing [Military] units [in your cities]", // +25% military unit production
 					"[+12]% [Happiness] [in your cities] <when at war>", // -50% war weariness
-					"Remove [Depotism]",
+					"Remove [Despotism]",
 					"Remove [Hereditary Rule]",
 					"Remove [Universal Suffrage]",
 					"Remove [Representation]"
@@ -65,7 +65,7 @@
                     "Only available <after discovering [Democracy]>",
 					"[+1 Production] from [Town] tiles [in your cities]",
 					// Can spend Coins to hurry Hammer
-					"Remove [Depotism]",
+					"Remove [Despotism]",
 					"Remove [Hereditary Rule]",
 					"Remove [Representation]",
 					"Remove [Police State]",
