@@ -371,7 +371,8 @@
 				"row": 4,
 				"prerequisites": ["Paper", "Machinery", "Alphabet"],
 				"uniques": [
-					// +1 Coin (Civ4) from Villages and Towns
+					"[+1 Gold] from [Village] tiles [in your cities]",
+					"[+1 Gold] from [Town] tiles [in your cities]"
 				],
 				"quote": "'What gunpowder did for war, the printing press has done for the mind.' – Wendell Phillips"
 			},

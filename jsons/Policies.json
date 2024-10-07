@@ -12,7 +12,7 @@
                     "Only available <after discovering [Monarchy]>",
 					"Remove [Hereditary Rule]",
 					"Remove [Police State]",
-					"Remove [Universal Sufferage]",
+					"Remove [Universal Suffrage]",
 					"Remove [Representation]"
                 ],
                 "row": 1,
@@ -25,7 +25,7 @@
 					"[+1 Happiness] [in your cities] <with a garrison>", // +1 Happiness in city per military unit stationed in the city
 					"Remove [Depotism]",
 					"Remove [Police State]",
-					"Remove [Universal Sufferage]",
+					"Remove [Universal Suffrage]",
 					"Remove [Representation]"
                 ],
                 "row": 1,
@@ -40,7 +40,7 @@
 					"Remove [Depotism]",
 					"Remove [Hereditary Rule]",
 					"Remove [Police State]",
-					"Remove [Universal Sufferage]"
+					"Remove [Universal Suffrage]"
 				],
                 "row": 1,
                 "column": 5
@@ -53,17 +53,17 @@
 					"[+12]% [Happiness] [in your cities] <when at war>", // -50% war weariness
 					"Remove [Depotism]",
 					"Remove [Hereditary Rule]",
-					"Remove [Universal Sufferage]",
+					"Remove [Universal Suffrage]",
 					"Remove [Representation]"
                 ],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Universal Sufferage",
+                "name": "Universal Suffrage",
                 "uniques": [
                     "Only available <after discovering [Democracy]>",
-					"[+1 Production] from [Cottage] tiles [in your cities]", // 1 Hammer from Towns
+					"[+1 Production] from [Town] tiles [in your cities]",
 					// Can spend Coins to hurry Hammer
 					"Remove [Depotism]",
 					"Remove [Hereditary Rule]",

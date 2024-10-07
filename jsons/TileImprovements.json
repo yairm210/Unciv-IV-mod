@@ -11,6 +11,8 @@
 		"techRequired": "Hunting",
 		"shortcutKey": "C"
 	},
+
+	// TODO: Have Cottage/Hamlet/Village/Town auto-upgrade rather than requiring a Worker.
 	{
 		"name": "Cottage",
 		"turnsToBuild": 4,
@@ -18,11 +20,46 @@
 		"gold": 1,
         "uniques": [
  			"Pillaging this improvement yields approximately [+10 Gold]"
-			// TODO: Add Hamlet upgrades https://civilization.fandom.com/wiki/Cottage_(Civ4)
 		],
 		"techRequired": "Pottery"
 	},
-	// TODO: Add Hamlet, Village, Town https://civilization.fandom.com/wiki/Cottage_(Civ4)
+
+	{
+		"name": "Hamlet",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+		"gold": 2,
+        "uniques": [
+			"Can only be built on [Cottage] tiles",
+ 			"Pillaging this improvement yields approximately [+15 Gold]"
+		],
+		"techRequired": "Pottery"
+	},
+
+	{
+		"name": "Village",
+		"turnsToBuild": 10,
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+		"gold": 3,
+        "uniques": [
+			"Can only be built on [Hamlet] tiles",
+ 			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"techRequired": "Pottery"
+	},
+
+	{
+		"name": "Town",
+		"turnsToBuild": 20,
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+		"gold": 4,
+        "uniques": [
+			"Can only be built on [Village] tiles",
+ 			"Pillaging this improvement yields approximately [+25 Gold]"
+		],
+		"techRequired": "Pottery"
+	},
+
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert", "Flood plains"],
@@ -37,6 +74,7 @@
 		],
 		"shortcutKey": "F"
 	},
+
 	{
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
@@ -47,6 +85,7 @@
 		],
 		"shortcutKey": "F"
 	},
+
 	{
 		"name": "Forest Preserve",
 		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
@@ -59,6 +98,7 @@
 		],
 		"shortcutKey": "L"
 	},
+
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
@@ -70,6 +110,7 @@
 		],
 		"shortcutKey": "O"
 	},
+
 	{
 		"name": "Lumbermill",
 		"terrainsCanBeBuiltOn": ["Forest"],
@@ -83,6 +124,7 @@
 		],
 		"shortcutKey": "L"
 	},
+
 	{
 		"name": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
@@ -95,6 +137,7 @@
 		"techRequired": "Mining",
 		"shortcutKey": "M"
 	},
+
 	{
 		"name": "Offshore Platform",
 		"terrainsCanBeBuiltOn": ["Water"],
