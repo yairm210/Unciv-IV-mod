@@ -134,7 +134,7 @@
 				"cost": 120,
 				"prerequisites": ["Polytheism"],
 				"uniques": [
-					"Free [Great Prophet] appears <if no other Civilization has researched this>"
+					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
 				],
 				"quote": "'I am the Lord thy God. Thou shalt have no other gods before me.' - The Bible, Exodus"
 			},
