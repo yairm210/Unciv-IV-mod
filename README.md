@@ -31,6 +31,10 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Goat](https://thenounproject.com/icon/goat-2621727/) by tezar tantular for Sumeria
 - [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567331/) by Singlar for Mali
 
+#### Policies
+
+- [Fist](https://thenounproject.com/icon/fist-4850268/) by Sergiu GC for Despotism
+
 #### Units
 
 - [Grenade](https://thenounproject.com/icon/grenade-1082454/) by Viktor Korobkov for Grenadier

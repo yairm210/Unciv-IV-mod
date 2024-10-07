@@ -1,3 +1,7 @@
+// TODO:
+// - Fix the ordering of the technologies in the tech trees
+// - Fix when Great Prophets are awarded and founding religions https://civilization.fandom.com/wiki/Religion_(Civ4)
+
 [
 	{
 		"columnNumber": 0,
@@ -82,13 +86,19 @@
 				"row": 5,
 				"cost": 80,
 				"prerequisites": ["Mysticism"],
-				"quote": "'Meditation brings wisdom, lack of wisdom leaves ignorance, know well what leads you forward and what holds you back.' – Buddha"
+				"uniques": [
+					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+				],
+				"quote": "'Meditation brings wisdom, lack of wisdom leaves ignorance, know well what leads you forward and what holds you back.' - Buddha"
 			},
 			{
 				"name": "Polytheism",
 				"row": 6,
 				"cost": 100,
 				"prerequisites": ["Mysticism"],
+				"uniques": [
+					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+				],
 				"quote": "'Not at all similar are the race of the immortal gods and the race of men who walk upon the Earth.' - Homer"
 			},
 			{
@@ -124,9 +134,9 @@
 				"cost": 120,
 				"prerequisites": ["Polytheism"],
 				"uniques": [
-					// First to discover founds Judaism
+					"Free [Great Prophet] appears <if no other Civilization has researched this>"
 				],
-				"quote": "'The lord bless you and keep you. The Lord make his face to shine upon you and be gracious to you. The Lord lift up his countenance upon you and give you peace.' - The Bible, Numbers"
+				"quote": "'I am the Lord thy God. Thou shalt have no other gods before me.' - The Bible, Exodus"
 			},
 			{
 				"name": "Bronze Working",
@@ -152,7 +162,7 @@
 			{
 				"name": "Metal Casting",
 				"cost": 450,
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Pottery","Bronze Working"],
 				"quote": "'And them that take the sword, shall perish by the sword.' - New Testament, Matthew 26:52"
 			},
@@ -182,7 +192,7 @@
 				"cost": 300,
 				"row": 4,
 				"prerequisites": ["Writing"],
-				"quote": "'Words have the power to both destroy and heal. When words are both true and kind, they can change our world.' - Buddha"
+				"quote": "'Words have the power to both destroy and heal. When words are both true and kind, they can change our world.' - Buddha",
 				"uniques": ["Enables conversion of city production to [Science]"]
 			},
 			{
@@ -267,22 +277,22 @@
 				"cost": 350,
 				"row": 6,
 				"prerequisites": ["Currency"],
-				"quote": "'To bring about the rule of righteousness in the land so that the strong shall not harm the weak.' – Hammurabi's Code, Prologue"
+				"quote": "'To bring about the rule of righteousness in the land so that the strong shall not harm the weak.' - Hammurabi's Code, Prologue"
 			},
 			{
 				"name": "Feudalism",
 				"cost": 700,
 				"row": 7,
 				"prerequisites": ["Writing", "Monarchy"],
-				"quote": "'I will to my lord be true and faithful and love all which he loves and shun all which he shuns.' – Anglo-Saxon Oath of Fealty"
+				"quote": "'I will to my lord be true and faithful and love all which he loves and shun all which he shuns.' - Anglo-Saxon Oath of Fealty"
 			},
 			{
 				"name": "Optics",
 				"cost": 600,
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Compass", "Machinery"],
 				"uniques": ["[+1] Sight <for [Water] units>"],
-				"quote": "'One doesn't discover new lands without losing sight of the shore.'– Andre Gide"
+				"quote": "'One doesn't discover new lands without losing sight of the shore.'- Andre Gide"
 			}
 
 		]
@@ -294,37 +304,46 @@
 			{
 				"name": "Music",
 				"cost": 600,
-				"row": 2,
+				"row": 1,
 				"prerequisites": ["Mathematics", "Drama"],
-				"quote": "'If music be the food of love, play on.' – William Shakespeare"
+				"quote": "'If music be the food of love, play on.' - William Shakespeare"
 			},
 			{
 				"name": "Philosophy",
 				"cost": 800,
 				"row": 3,
 				"prerequisites": ["Code of Laws", "Drama"],
-				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' – Aristotle"
+				"uniques": [
+					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+				],
+				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' - Aristotle"
 			},
 			{
 				"name": "Civil Service",
 				"cost": 800,
 				"row": 5,
 				"prerequisites": ["Code of Laws", "Feudalism"],
-				"quote": "'The bureaucracy is expanding to meet the needs of the expanding breaucracy.' – Oscar Wilde"
+				"uniques": [
+					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+				],
+				"quote": "'The bureaucracy is expanding to meet the needs of the expanding breaucracy.' - Oscar Wilde"
 			},
 			{
 				"name": "Theology",
 				"cost": 500,
 				"row": 7,
 				"prerequisites": ["Writing"],
-				"quote": "'Two cities have been formed by two loves: the earthly by the love of self, the heavenly by the love of God.'– St. Augustine"
+				"uniques": [
+					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+				],
+				"quote": "'Two cities have been formed by two loves: the earthly by the love of self, the heavenly by the love of God.'- St. Augustine"
 			},
 			{
 				"name": "Guilds",
 				"cost": 1000,
 				"row": 8,
 				"prerequisites": ["Writing"],
-				"quote": "'Two cities have been formed by two loves: the earthly by the love of self, the heavenly by the love of God.'– St. Augustine"
+				"quote": "'Two cities have been formed by two loves: the earthly by the love of self, the heavenly by the love of God.'- St. Augustine"
 			}
 		]
 	},
@@ -337,14 +356,17 @@
 				"cost": 1200,
 				"row": 5,
 				"prerequisites": ["Theology", "Monarchy"],
-				"quote": "'I am the state.' – Louis XIV"
+				"uniques": [
+					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+				],
+				"quote": "'I am the state.' - Louis XIV"
 			},
 			{
 				"name": "Paper",
 				"cost": 600,
 				"row": 8,
 				"prerequisites": ["Theology", "Civil Service"],
-				"quote": "'I cannot live without books.' – Thomas Jefferson"
+				"quote": "'I cannot live without books.' - Thomas Jefferson"
 			},
 			{
 				"name": "Banking",
@@ -363,7 +385,7 @@
 				"cost": 1800,
 				"row": 2,
 				"prerequisites": ["Civil Service", "Philosophy"],
-				"quote": "'A man does not have himself killed for a half pence a day or for a petty distinction. You must speak to the soul in order to electrify him..'– Napoleon Bonaparte"
+				"quote": "'A man does not have himself killed for a half pence a day or for a petty distinction. You must speak to the soul in order to electrify him..'- Napoleon Bonaparte"
 			},
 			{
 				"name": "Printing Press",
@@ -374,14 +396,14 @@
 					"[+1 Gold] from [Village] tiles [in your cities]",
 					"[+1 Gold] from [Town] tiles [in your cities]"
 				],
-				"quote": "'What gunpowder did for war, the printing press has done for the mind.' – Wendell Phillips"
+				"quote": "'What gunpowder did for war, the printing press has done for the mind.' - Wendell Phillips"
 			},
 			{
 				"name": "Education",
 				"cost": 1800,
 				"row": 7,
 				"prerequisites": ["Currency", "Guilds"],
-				"quote": "'Banking establishments are more dangerous than standing armies.' – Thomas Jefferson"
+				"quote": "'Banking establishments are more dangerous than standing armies.' - Thomas Jefferson"
 			}
 		]
 	},
@@ -394,14 +416,14 @@
 				"cost": 2000,
 				"row": 1,
 				"prerequisites": ["Music", "Nationalism"],
-				"quote": "'Victorious warriors win first and then go to war while defeated warriors go to war first and then seek to win.'– Sun-Tzu"
+				"quote": "'Victorious warriors win first and then go to war while defeated warriors go to war first and then seek to win.'- Sun-Tzu"
 			},
 			{
 				"name": "Constitution",
 				"cost": 2000,
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Music", "Nationalism"],
-				"quote": "'Victorious warriors win first and then go to war while defeated warriors go to war first and then seek to win.'– Sun-Tzu"
+				"quote": "'Victorious warriors win first and then go to war while defeated warriors go to war first and then seek to win.'- Sun-Tzu"
 			},
 			{
 				"name": "Replaceable Parts",
@@ -412,7 +434,7 @@
 					"[+1 Production] from every [Watermill]",
 					"[+1 Production] from every [Windmill]"
 				],
-				"quote": "'The whole is more than the sum of its parts.'– Aristotle"
+				"quote": "'The whole is more than the sum of its parts.'- Aristotle"
 			}
 			{
 				"name": "Liberalism",
@@ -420,14 +442,14 @@
 				"row": 6,
 				"prerequisites": ["Education", "Philosophy"],
 				"uniques": ["Free Technology"],
-				"quote": "'Any society that would give up a little liberty to gain a little security will deserve neither and lose both.' – Benjamin Franklin"
+				"quote": "'Any society that would give up a little liberty to gain a little security will deserve neither and lose both.' - Benjamin Franklin"
 			},
 			{
 				"name": "Economics",
 				"cost": 1400,
 				"row": 7,
 				"prerequisites": ["Education"],
-				"quote": "'Compound interest is the most powerful force in the universe.'– Albert Einstein"
+				"quote": "'Compound interest is the most powerful force in the universe.'- Albert Einstein"
 			},
 			{
 				"name": "Gunpowder",
@@ -447,28 +469,28 @@
 				"cost": 2800,
 				"row": 2,
 				"prerequisites": ["Nationalism", "Machinery", "Paper"],
-				"quote": "'It has been said that democracy is the worst form of government except all the others that have been tried.' – Winston Churchill"
+				"quote": "'It has been said that democracy is the worst form of government except all the others that have been tried.' - Winston Churchill"
 			},
 			{
 				"name": "Rifling",
 				"cost": 2400,
 				"row": 4,
 				"prerequisites": ["Gunpowder", "Replaceable Parts"],
-				"quote": "'Political power grows out of the barrel of a gun.' – Mao Zedong"
+				"quote": "'Political power grows out of the barrel of a gun.' - Mao Zedong"
 			},
 			{
 				"name": "Astronomy",
 				"cost": 2000,
 				"row": 5,
 				"prerequisites": ["Calendar", "Optics"],
-				"quote": "'Astronomy compels the soul to look upwards and leads us from this world to another.'– Plato"
+				"quote": "'Astronomy compels the soul to look upwards and leads us from this world to another.'- Plato"
 			},
 			{
 				"name": "Corporation",
 				"cost": 1600,
 				"row": 7,
 				"prerequisites": ["Economics", "Constitution"]
-				//"quote": "'Astronomy compels the soul to look upwards and leads us from this world to another.'– Plato"
+				//"quote": "'Astronomy compels the soul to look upwards and leads us from this world to another.'- Plato"
 			},
 			{
 				"name": "Chemistry",
@@ -478,7 +500,7 @@
 				"uniques": [
 					"[+1 Production] from every [Workshop]"
 				],
-				"quote": "'Chemistry means the difference between poverty and starvation and the abundant life.' – Robert Brent"
+				"quote": "'Chemistry means the difference between poverty and starvation and the abundant life.' - Robert Brent"
 			}
 		]
 	},
@@ -489,23 +511,23 @@
 			{
 				"name": "Steam Power",
 				"cost": 3200,
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Chemistry", "Replaceable Parts"],
-				"quote": "'You would make a ship sail against the winds and currents by lighting a bonfire under her deck? I have no time for such nonsense.' – Napoleon on Robert Fulton's steamship"
+				"quote": "'You would make a ship sail against the winds and currents by lighting a bonfire under her deck? I have no time for such nonsense.' - Napoleon on Robert Fulton's steamship"
 			},
 			{
 				"name": "Scientific Method",
 				"cost": 2400,
-				"row": 7,
+				"row": 5,
 				"prerequisites": ["Astronomy", "Paper"],
-				"quote": "'I do not feel obliged to believe that the same God who has endowed us with sense, reason, and intellect has intended us to forgo their use.' – Galileo Galilei"
+				"quote": "'I do not feel obliged to believe that the same God who has endowed us with sense, reason, and intellect has intended us to forgo their use.' - Galileo Galilei"
 			},
 			{
 				"name": "Steel",
 				"cost": 2800,
 				"row": 9,
 				"prerequisites": ["Chemistry", "Iron Working"],
-				"quote": "'Before that steam drill shall beat me down, I’ll die with my hammer in my hand.' – John Henry, The Steel-Driving Man"
+				"quote": "'Before that steam drill shall beat me down, I’ll die with my hammer in my hand.' - John Henry, The Steel-Driving Man"
 			}
 		]
 	},
@@ -518,21 +540,21 @@
 				"cost": 5000,
 				"row": 2,
 				"prerequisites": ["Steam Power", "Nationalism", "Economics"],
-				"quote": "'People can have the Model T in any color - so long as it's black.' – Henry Ford"
+				"quote": "'People can have the Model T in any color - so long as it's black.' - Henry Ford"
 			},
 			{
 				"name": "Communism",
 				"cost": 5000,
 				"row": 3,
 				"prerequisites": ["Scientific Method"]
-				//"quote": "'People can have the Model T in any color - so long as it's black.' – Henry Ford"
+				"quote": "'When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist.' - Dom Helder Camara"
 			},
 			{
 				"name": "Physics",
 				"cost": 4000,
 				"row": 5,
 				"prerequisites": ["Scientific Method"],
-				"quote": "'To every action there is always opposed an equal reaction.' – Isaac Newton"
+				"quote": "'To every action there is always opposed an equal reaction.' - Isaac Newton"
 			},
 			{
 				"name": "Biology",
@@ -542,14 +564,14 @@
 				"uniques": [
 					"[+1 Production] from every [Farm]"
 				],
-				"quote": "'It is not the strongest of the species that survive but the one most responsive to change.' – Charles Darwin"
+				"quote": "'It is not the strongest of the species that survive but the one most responsive to change.' - Charles Darwin"
 			},
 			{
 				"name": "Railroad",
 				"cost": 4500,
 				"row": 8,
 				"prerequisites": ["Chemistry", "Scientific Method"],
-				"quote": "'I fooled you. I fooled you. I got pig iron. I got pig iron. I got all pig iron.' – Lonnie Donegan, \"Rock Island Line\""
+				"quote": "'I fooled you. I fooled you. I got pig iron. I got pig iron. I got all pig iron.' - Lonnie Donegan, \"Rock Island Line\""
 			}
 		]
 	},
@@ -562,35 +584,35 @@
 				"cost": 5000,
 				"row": 2,
 				"prerequisites": ["Physics", "Combustion"],
-				"quote": "'For once you have tasted flight, you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return.' – Leonardo da Vinci"
+				"quote": "'For once you have tasted flight, you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return.' - Leonardo da Vinci"
 			},
 			{
 				"name": "Artillery",
 				"cost": 4000,
 				"row": 3,
 				"prerequisites": ["Physics", "Steel", "Rifling"],
-				"quote": "'Artillery adds dignity to what otherwise would be a vulgar brawl.' – Frederick the Great"
+				"quote": "'Artillery adds dignity to what otherwise would be a vulgar brawl.' - Frederick the Great"
 			},
 			{
 				"name": "Fascism",
 				"cost": 2400,
 				"row": 4,
 				"prerequisites": ["Assembly Line"],
-				"quote": "'The great masses of the people will more easily fall victim to a big lie than to a small one.' – Adolf Hitler (\"a German Dictator\" in the German version)"
+				"quote": "'The great masses of the people will more easily fall victim to a big lie than to a small one.' - Adolf Hitler (\"a German Dictator\" in the German version)"
 			},
 			{
 				"name": "Electricity",
 				"cost": 4500,
 				"row": 6,
 				"prerequisites": ["Physics"],
-				"quote": "'We will make electricity so cheap that only the rich will burn candles.' – Thomas Edison"
+				"quote": "'We will make electricity so cheap that only the rich will burn candles.' - Thomas Edison"
 			},
 			{
 				"name": "Medicine",
 				"cost": 4500,
 				"row": 7,
 				"prerequisites": ["Biology"],
-				"quote": "'As to diseases, make a habit of two things - to help or at least to do no harm.' – Hippocrates"
+				"quote": "'As to diseases, make a habit of two things - to help or at least to do no harm.' - Hippocrates"
 			},
 			{
 				"name": "Combustion",
@@ -610,21 +632,21 @@
 				"cost": 5000,
 				"row": 3,
 				"prerequisites": ["Artillery", "Combustion"],
-				"quote": "'The Earth is the cradle of the mind, but one cannot eternally live in a cradle.' – Konstantin E. Tsiolkovsky"
+				"quote": "'The Earth is the cradle of the mind, but one cannot eternally live in a cradle.' - Konstantin E. Tsiolkovsky"
 			},
 			{
 				"name": "Industrialism",
 				"cost": 6500,
 				"row": 4,
 				"prerequisites": ["Electricity", "Assembly Line"],
-				"quote": "'There is one rule for the industrialist and that is: Make the best quality of goods possible at the lowest cost possible, paying the highest wages possible.' – Henry Ford"
+				"quote": "'There is one rule for the industrialist and that is: Make the best quality of goods possible at the lowest cost possible, paying the highest wages possible.' - Henry Ford"
 			},
 			{
 				"name": "Fission",
 				"cost": 5500,
 				"row": 5,
 				"prerequisites": ["Electricity"],
-				"quote": "'If the radiance of a thousand suns were to burst at once into the sky. That would be like the splendor of a mighty one. I have become death the shatterer of worlds.' – J. Robert Oppenheimer quoting the Bhagavad Gita"
+				"quote": "'If the radiance of a thousand suns were to burst at once into the sky. That would be like the splendor of a mighty one. I have become death the shatterer of worlds.' - J. Robert Oppenheimer quoting the Bhagavad Gita"
 			},
 			{
 				"name": "Refrigeration",
@@ -634,14 +656,14 @@
 				"uniques": [
 					"[+1] Movement <for [Water] units>"
 				],
-				"quote": "'Tell me what you eat, and I will tell you what you are.' – Anthelme Brillat-Savarin"
+				"quote": "'Tell me what you eat, and I will tell you what you are.' - Anthelme Brillat-Savarin"
 			},
 			{
 				"name": "Radio",
 				"cost": 6000,
 				"row": 7,
 				"prerequisites": ["Electricity"],
-				"quote": "'Then one fine mornin' she puts on a New York Station. You know her life was saved by Rock 'n' Roll.'– The Velvet Underground, \"Rock and Roll\""
+				"quote": "'Then one fine mornin' she puts on a New York Station. You know her life was saved by Rock 'n' Roll.'- The Velvet Underground, \"Rock and Roll\""
 			}
 		]
 	},
@@ -655,28 +677,28 @@
 				"row": 3,
 				"prerequisites": ["Radio", "Rocketry", "Flight"],
 				"uniques": ["Reveals the entire map"],
-				"quote": "'Beep...Beep...Beep...Beep...' – Sputnik I"
+				"quote": "'Beep...Beep...Beep...Beep...' - Sputnik I"
 			},
 			{
 				"name": "Plastics",
 				"cost": 7000,
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Combustion", "Industrialism"],
-				"quote": "'I just want to say one word to you, just one word: plastics.' – Calder Willingham, The Graduate"
+				"quote": "'I just want to say one word to you, just one word: plastics.' - Calder Willingham, The Graduate"
 			},
 			{
 				"name": "Computers",
 				"cost": 6500,
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Radio"],
-				"quote": "'Never trust a computer you can't throw out the window.' – Steve Wozniak"
+				"quote": "'Never trust a computer you can't throw out the window.' - Steve Wozniak"
 			},
 			{
 				"name": "Mass Media",
 				"cost": 3600,
-				"row": 7,
+				"row": 8,
 				"prerequisites": ["Radio"],
-				"quote": "'The only thing worse than being talked about is not being talked about.' – Oscar Wilde"
+				"quote": "'The only thing worse than being talked about is not being talked about.' - Oscar Wilde"
 			}
 		]
 	},
@@ -689,21 +711,21 @@
 				"cost": 7500,
 				"row": 3,
 				"prerequisites": ["Satellites", "Plastics"],
-				"quote": "'The whole is greater than the sum of its parts.' – Aristotle"
+				"quote": "'The whole is greater than the sum of its parts.' - Aristotle"
 			},
 			{
 				"name": "Fiber Optics",
 				"cost": 7500,
 				"row": 4,
 				"prerequisites": ["Computers"],
-				"quote": "'There is a single light of science and to brighten it anywhere is to brighten it everywhere.' – Isaac Asimov"
+				"quote": "'There is a single light of science and to brighten it anywhere is to brighten it everywhere.' - Isaac Asimov"
 			},
 			{
 				"name": "Ecology",
 				"cost": 5500,
 				"row": 5,
 				"prerequisites": ["Biology", "Plastics", "Fission"], // Plastics OR Fission
-				"quote": "'We do not inherit the earth from our ancestors, we borrow it from our children' – Native American proverb"
+				"quote": "'We do not inherit the earth from our ancestors, we borrow it from our children' - Native American proverb"
 			},
 			{
 				"name": "Genetics",
@@ -711,14 +733,14 @@
 				"row": 6,
 				"prerequisites": ["Medicine"],
 				"uniques": ["[+3 Food] [in all cities]"],
-				"quote": "'Soon it will be a sin for parents to have a child that carries the heavy burden of genetic disease.' – Bob Edwards"
+				"quote": "'Soon it will be a sin for parents to have a child that carries the heavy burden of genetic disease.' - Bob Edwards"
 			},
 			{
 				"name": "Robotics",
 				"cost": 8000,
 				"row": 8,
 				"prerequisites": ["Plastics" ,"Computers"],
-				"quote": "'The real problem is not whether machines think but whether men do.'– B. F. Skinner"
+				"quote": "'The real problem is not whether machines think but whether men do.'- B. F. Skinner"
 			}
 		]
 	},
@@ -731,7 +753,7 @@
 				"cost": 8000,
 				"row": 2,
 				"prerequisites": ["Composites"],
-				"quote": "'Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.' – Jean Racine"
+				"quote": "'Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.' - Jean Racine"
 			},
 		]
 	},
@@ -744,7 +766,7 @@
 				"cost": 8000,
 				"row": 2,
 				"prerequisites": ["Fission" ,"Fiber Optics"],
-				"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' – Arthur C. Clarke"
+				"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' - Arthur C. Clarke"
 			},
 			{
 				"name": "Future Tech",
@@ -756,7 +778,7 @@
 					"[+1 Food] [in all cities]",
 					"[+1 Happiness] [in capital]"
 				],
-				"quote": "'The future will be better tomorrow.' – Dan Quayle"
+				"quote": "'The future will be better tomorrow.' - Dan Quayle"
 			}
 		]
 	}
