@@ -26,6 +26,11 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Oil Well](https://thenounproject.com/icon/oil-well-2052285/) by Vectors Market
 - [Forest](https://thenounproject.com/icon/forest-1335311/) by Aom Am for Forest Preserve
 
+#### Nations
+
+- [Goat](https://thenounproject.com/icon/goat-2621727/) by tezar tantular for Sumeria
+- [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567331/) by Singlar for Mali
+
 #### Units
 
 - [Grenade](https://thenounproject.com/icon/grenade-1082454/) by Viktor Korobkov for Grenadier
@@ -69,3 +74,14 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Health](https://thenounproject.com/icon/health-1035603/) by Sean Maldjean
 - [Corn](https://thenounproject.com/icon/corn-1608785/) by Marco Livoski
 - [Rice](https://thenounproject.com/icon/rice-102154/) by Mourad Mokrane
+- [Corn](https://thenounproject.com/icon/corn-7271881/) by Rafi Al Hakim
+- [Health](https://thenounproject.com/icon/health-72938/) by Percy Batalier
+- [Movie](https://thenounproject.com/icon/movie-7103438/) by Debi Alpa Nugraha for Hit Movie
+- [Record](https://thenounproject.com/icon/record-119043/) by Ryan Spiering for Hit Single
+- [laughing mask](https://thenounproject.com/icon/laughing-mask-7233313/) by krisna arga muria for Hit Musical
+- [Rice](https://thenounproject.com/icon/rice-6096366/) by erifqizeicon
+- [small house](https://thenounproject.com/icon/small-house-5829947/) by Misru for Cottage
+- [small house](https://thenounproject.com/icon/small-house-5826677/) by Astima for Hamlet
+- [houses](https://thenounproject.com/icon/houses-3313083/) by Vector Point for Village
+- [Lightning Bolt](https://thenounproject.com/icon/lightning-bolt-258503/) by shashank singh for Power
+- [Town](https://thenounproject.com/icon/town-6621680/) by Imron Sadewo
