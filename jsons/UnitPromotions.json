@@ -84,7 +84,7 @@
 		"uniques": [
 			"[+30]% Strength <in [in all cities] cities> <when defending>", // +30% city Defense
 			"[+10]% Strength <vs [Melee] units>"
-		], 
+		],
 		"unitTypes": ["Archery", "Gunpowder", "Ranged Gunpowder"]
 	},
 	{
@@ -93,14 +93,14 @@
 		"uniques": [
 			"[+30]% Strength <in [in all cities] cities> <when defending>", // +30% city Defense
 			"[+10]% Strength <vs [Melee] units>"
-		], 
+		],
 		"unitTypes": ["Archery", "Gunpowder", "Ranged Gunpowder"]
 	},
 	{
 		"name": "City Raider I",
 		"uniques": [
 			"[+20]% Strength <vs cities>"
-		], 
+		],
 		"unitTypes": ["Melee Water", "Sword", "Scout", "Armored"]
 	},
 	{
@@ -108,7 +108,7 @@
 		"prerequisites": ["City Raider I"],
 		"uniques": [
 			"[+25]% Strength <vs cities>"
-		], 
+		],
 		"unitTypes": ["Melee Water", "Sword", "Scout", "Armored"]
 	},
 	{
@@ -118,14 +118,14 @@
 			"[+30]% Strength <vs cities>",
 			"[+10]% Strength <vs [Ranged Gunpowder] units>",
 			"[+10]% Strength <vs [Gunpowder] units>"
-		], 
+		],
 		"unitTypes": ["Melee Water", "Sword", "Scout", "Armored"]
 	},
 	{
 		"name": "Combat I",
 		"uniques": [
 			"[+10]% Strength"
-		], 
+		],
 		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored", "Melee Water", "Ranged Water", "Submarine", "Fighter", "Helicopter", "Bomber"]
 	},
 	{
@@ -133,7 +133,7 @@
 		"prerequisites": ["Combat I"],
 		"uniques": [
 			"[+10]% Strength"
-		], 
+		],
 		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored", "Melee Water", "Ranged Water", "Submarine", "Fighter", "Helicopter", "Bomber"]
 	},
 	{
@@ -141,7 +141,7 @@
 		"prerequisites": ["Combat II"],
 		"uniques": [
 			"[+10]% Strength"
-		], 
+		],
 		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored", "Melee Water", "Ranged Water", "Submarine", "Fighter", "Helicopter", "Bomber"]
 	},
 	{
@@ -150,7 +150,7 @@
 		"uniques": [
 			"[+10]% Strength",
 			"May heal outside of friendly territory" // Heals extra 10% damage per turn in neutral lands
-		], 
+		],
 		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored", "Melee Water", "Ranged Water", "Submarine", "Fighter", "Helicopter", "Bomber"]
 	},
 	{
@@ -159,7 +159,7 @@
 		"uniques": [
 			"[+10]% Strength",
 			"Unit will heal every turn, even if it performs an action" // Heals extra 10% damage per turn in enemy lands
-		], 
+		],
 		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored", "Melee Water", "Ranged Water", "Submarine", "Fighter", "Helicopter", "Bomber"]
 	},
 	{
@@ -167,17 +167,19 @@
 		"prerequisites": ["Combat V"],
 		"uniques": [
 			"[+25]% Strength"
-		], 
+		],
 		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored", "Melee Water", "Ranged Water", "Submarine", "Fighter", "Helicopter", "Bomber"]
 	},
-	// {
-	// 	"name": "Commando",
-	// 	"prerequisites": ["Combat V"],
-	// 	"uniques": [
-	// 		// Can use enemy roads and railroads
-	// 	], 
-	// 	"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored"]
-	// },
+	{
+		"name": "Commando",
+		"prerequisites": ["Combat V"],
+		"uniques": [
+			// Can use enemy roads and railroads
+			"[1] Movement <in [Road] tiles> <on foreign continents>",
+			"[2] Movement <in [Railroad] tiles> <on foreign continents>"
+		],
+		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored"]
+	},
 	{
 		"name": "Cover",
 		"prerequisites": ["Combat I"],
@@ -188,7 +190,7 @@
 		"name": "Drill I",
 		"uniques": [
 			"[+10]% to Flank Attack bonuses" // +1 first strike chance
-		], 
+		],
 		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder"]
 	},
 	{
@@ -197,14 +199,14 @@
 		"uniques": [
 			"[+15]% to Flank Attack bonuses" // +1 first strike chance
 			// Suffers 20% less collateral damage
-		], 
+		],
 		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder"]
 	},
 	{
 		"name": "Flanking I",
 		"uniques": [
 			"Withdraws before melee combat <with [10]% chance>"
-		], 
+		],
 		"unitTypes": ["Mounted", "Armored", "Submarine", "Ranged Water", "Melee Water", "Helicopter"]
 	},
 	{
@@ -213,7 +215,7 @@
 		"uniques": [
 			// Immune to first strikes
 			"Withdraws before melee combat <with [20]% chance>"
-		], 
+		],
 		"unitTypes": ["Mounted", "Armored", "Submarine", "Ranged Water", "Melee Water", "Helicopter"]
 	},
 	{
@@ -222,7 +224,7 @@
 		"uniques": [
 			// Immune to first strikes
 			"[+25]% Strength <vs [Mounted] units>"
-		], 
+		],
 		"unitTypes": ["Archery", "Mounted", "Sword", "Gunpowder", "Ranged Gunpowder"]
 	},
 	{
