@@ -69,6 +69,29 @@
 		"clearBarbarianCampReward": 30
 	},
 	{
+		"name": "Noble",
+		"baseHappiness": 10,
+		"extraHappinessPerLuxury": 0,
+		"researchCostModifier": 1,
+		"unitCostModifier": 0.92,
+		"buildingCostModifier": 0.92,
+		"policyCostModifier": 0.92,
+		"unhappinessModifier": 0.83,
+		"barbarianBonus": 0.38,
+		"aiCityGrowthModifier": 1.05,
+		"aiUnitCostModifier": 1.05,
+		"aiBuildingCostModifier": 1.05,
+		"aiWonderCostModifier": 1.05,
+		"aiBuildingMaintenanceModifier": 1,
+		"aiUnitMaintenanceModifier": 1,
+		"aiFreeTechs": [],
+		"aiFreeUnits": [],
+		"aiUnhappinessModifier": 1,
+		"aisExchangeTechs": false,
+		"turnBarbariansCanEnterPlayerTiles": 10,
+		"clearBarbarianCampReward": 28
+	},
+	{
 		"name": "Prince",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
@@ -92,7 +115,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "King",
+		"name": "Monarch",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
