@@ -15,13 +15,14 @@
 		"name": "Cottage",
 		"turnsToBuild": 4,
 		"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+		"gold": 1,
         "uniques": [
-			"[+4 Gold]",
  			"Pillaging this improvement yields approximately [+10 Gold]"
 			// TODO: Add Hamlet upgrades https://civilization.fandom.com/wiki/Cottage_(Civ4)
 		],
 		"techRequired": "Pottery"
 	},
+	// TODO: Add Hamlet, Village, Town https://civilization.fandom.com/wiki/Cottage_(Civ4)
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert", "Flood plains"],

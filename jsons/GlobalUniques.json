@@ -34,6 +34,18 @@
         "[+25]% Production when constructing [All] units [in all cities] <on [Marathon] game speed>",
 
 		// War Weariness
-		"[-25]% [Happiness] [in your cities] <when at war>"
+		"[-25]% [Happiness] [in your cities] <when at war>",
+
+		// Initial Policies/Civics
+		"Adopt [Government]",
+		"Adopt [Legal]",
+		"Adopt [Labor]",
+		"Adopt [Economy]",
+		"Adopt [Religion]",
+		"Adopt [Depotism]",
+		"Adopt [Barbarism]",
+		"Adopt [Tribalism]",
+		"Adopt [Decentralization]",
+		"Adopt [Paganism]"
     ]
 }

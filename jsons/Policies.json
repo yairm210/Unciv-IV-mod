@@ -1,0 +1,407 @@
+// https://civilization.fandom.com/wiki/List_of_civics_in_Civ4
+// TODO: Add Upkeep/Maintenance
+
+[
+    {
+        "name": "Government",
+        "era": "Ancient era",
+        "policies": [
+            {
+                "name": "Depotism",
+                "uniques": [
+                    "Only available <after discovering [Monarchy]>",
+					"Remove [Hereditary Rule]",
+					"Remove [Police State]",
+					"Remove [Universal Sufferage]",
+					"Remove [Representation]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Hereditary Rule",
+                "uniques": [
+                    "Only available <after discovering [Monarchy]>",
+					"[+1 Happiness] [in your cities] <with a garrison>", // +1 Happiness in city per military unit stationed in the city
+					"Remove [Depotism]",
+					"Remove [Police State]",
+					"Remove [Universal Sufferage]",
+					"Remove [Representation]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Representation",
+                "uniques": [
+                    "Only available <after discovering [Constitution]>",
+					"[+3 Science] from every [Scientist]",
+					"[+3 Happiness] <in cities with at least [6] [Population]>", // +3 Happiness (Civ4) in the 4-6 biggest cities
+					"Remove [Depotism]",
+					"Remove [Hereditary Rule]",
+					"Remove [Police State]",
+					"Remove [Universal Sufferage]"
+				],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Police State",
+                "uniques": [
+                    "Only available <after discovering [Fascism]>",
+					"[+25]% Production when constructing [Military] units [in your cities]", // +25% military unit production
+					"[+12]% [Happiness] [in your cities] <when at war>", // -50% war weariness
+					"Remove [Depotism]",
+					"Remove [Hereditary Rule]",
+					"Remove [Universal Sufferage]",
+					"Remove [Representation]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Universal Sufferage",
+                "uniques": [
+                    "Only available <after discovering [Democracy]>",
+					"[+1 Production] from [Cottage] tiles [in your cities]", // 1 Hammer from Towns
+					// Can spend Coins to hurry Hammer
+					"Remove [Depotism]",
+					"Remove [Hereditary Rule]",
+					"Remove [Representation]",
+					"Remove [Police State]",
+					"Remove [Representation]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+			{
+				"name": "Government Complete",
+				"uniques": []
+			}
+        ]
+    },
+    {
+        "name": "Legal",
+        "era": "Ancient era",
+        "policies": [
+            {
+                "name": "Barbarism",
+                "uniques": [
+					"Remove [Vassalage]",
+					"Remove [Bureaucracy]",
+					"Remove [Nationhood]",
+					"Remove [Free Speech]"
+				],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Vassalage",
+                "uniques": [
+                    "Only available <after discovering [Feudalism]>",
+					"New [Military] units start with [2] Experience [in your cities]",
+					// Some additional free units
+					"Remove [Barbarism]",
+					"Remove [Bureaucracy]",
+					"Remove [Nationhood]",
+					"Remove [Free Speech]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Bureaucracy",
+                "uniques": [
+                    "Only available <after discovering [Civil Service]>",
+					"[+50]% [Gold] [in capital]",
+					"[+50]% [Production] [in capital]",
+					"Remove [Barbarism]",
+					"Remove [Vassalage]",
+					"Remove [Nationhood]",
+					"Remove [Free Speech]"
+				],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Nationhood",
+                "uniques": [
+                    "Only available <after discovering [Nationalism]>",
+					"[+2 Happiness] from every [Barracks]",
+					"Remove [Barbarism]",
+					"Remove [Vassalage]",
+					"Remove [Bureaucracy]",
+					"Remove [Free Speech]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Free Speech",
+                "uniques": [
+                    "Only available <after discovering [Liberalism]>",
+					"[+100]% [Culture] [in your cities]",
+					"[+2 Gold] from [Cottage] tiles [in your cities]",
+					"Remove [Barbarism]",
+					"Remove [Vassalage]",
+					"Remove [Bureaucracy]",
+					"Remove [Nationhood]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+			{
+				"name": "Legal Complete",
+				"uniques": []
+			}
+        ]
+    },
+    {
+        "name": "Labor",
+        "era": "Ancient era",
+        "policies": [
+            {
+                "name": "Tribalism",
+                "uniques": [
+					"Remove [Slavery]",
+					"Remove [Serfdom]",
+					"Remove [Caste System]",
+					"Remove [Emancipation]"
+				],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Slavery",
+                "uniques": [
+                    "Only available <after discovering [Bronze Working]>",
+					"[-10]% maintenance costs",
+					// Can hurry production while sacrificing city population
+					"Remove [Tribalism]",
+					"Remove [Serfdom]",
+					"Remove [Caste System]",
+					"Remove [Emancipation]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Serfdom",
+                "uniques": [
+                    "Only available <after discovering [Feudalism]>",
+					"[-50]% construction time for [All] improvements",
+					"Remove [Tribalism]",
+					"Remove [Slavery]",
+					"Remove [Caste System]",
+					"Remove [Emancipation]"
+				],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Caste System",
+                "uniques": [
+                    "Only available <after discovering [Code of Laws]>",
+					// Unlimited number of artists/merchants/scientists
+					"[+1 Production] from [Workshop] tiles [in your cities]",
+					"Remove [Tribalism]",
+					"Remove [Slavery]",
+					"Remove [Serfdom]",
+					"Remove [Emancipation]"
+                ],
+                "row":2,
+                "column": 2
+            },
+            {
+                "name": "Emancipation",
+                "uniques": [
+                    "Only available <after discovering [Democracy]>",
+					// TODO: Unhappiness in civilizations without emancipation
+					"[+1 Happiness] [in your cities]",
+					"[-1 Happiness] [in enemy cities]",
+
+					// Doubled speed of Cottages, Hamlets and Villages growth
+					"[-50]% construction time for [Cottage] improvements",
+					//"[-50]% construction time for [Hamlet] improvements",
+					//"[-50]% construction time for [Village] improvements",
+					//"[-50]% construction time for [Town] improvements",
+
+					"Remove [Tribalism]",
+					"Remove [Slavery]",
+					"Remove [Serfdom]",
+					"Remove [Caste System]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+			{
+				"name": "Labor Complete",
+				"uniques": []
+			}
+        ]
+    },
+    {
+        "name": "Economy",
+        "era": "Ancient era",
+        "policies": [
+            {
+                "name": "Decentralization",
+                "uniques": [
+					"Remove [Mercantilism]",
+					"Remove [Free Market]",
+					"Remove [State Property]",
+					"Remove [Environmentalism]"
+				],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Mercantilism",
+                "uniques": [
+                    "Only available <after discovering [Banking]>",
+					"[+1 Gold] [in your cities]", // +1 free Specialist in every city
+					// No foreign trade routes except to vassals
+					// Foreign corporations have no effect
+					"Remove [Decentralization]",
+					"Remove [Free Market]",
+					"Remove [State Property]",
+					"Remove [Environmentalism]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Free Market",
+                "uniques": [
+                    "Only available <after discovering [Economics]>",
+					"[+1 Gold] from each Trade Route", // 1 trade route in every city
+					// -25% maintenance costs from corporations (BTS)
+					"Remove [Decentralization]",
+					"Remove [Mercantilism]",
+					"Remove [State Property]",
+					"Remove [Environmentalism]"
+				],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "State Property",
+                "uniques": [
+                    "Only available <after discovering [Communism]>",
+					// No maintenance costs from distance to palace
+					"[+1 Production] from [Workshop] tiles [in your cities]",
+					"[+1 Production] from [Watermill] tiles [in your cities]",
+					"[+10]% [Production] [in your cities]",
+					// All corporations have no effect (BTS)
+					"Remove [Decentralization]",
+					"Remove [Mercantilism]",
+					"Remove [Free Market]",
+					"Remove [Environmentalism]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Environmentalism",
+                "uniques": [
+                    "Only available <after discovering [Medicine]>",
+					"Provides [6] [Health]",// in your cities
+					//"[+2 Health] [in your cities] <after discovering [Public Transportation]>", // BTS
+					"[+1 Happiness] from [Forest] tiles [in your cities]",
+					"[+1 Happiness] from [Jungle] tiles [in your cities]",
+					"[+2 Gold] from [Windmill] tiles [in your cities]",
+					"[+2 Gold] from [Forest Preserve] tiles [in your cities]",
+					// +25% maintenance costs from corporations (BTS)
+					"Remove [Decentralization]",
+					"Remove [Mercantilism]",
+					"Remove [Free Market]",
+					"Remove [State Property]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+			{
+				"name": "Economy Complete",
+				"uniques": []
+			}
+        ]
+    },
+    {
+        "name": "Religion",
+        "era": "Ancient era",
+        "policies": [
+            {
+                "name": "Paganism",
+                "uniques": [
+					"Remove [Organized Religion]",
+					"Remove [Theocracy]",
+					"Remove [Pacifism]",
+					"Remove [Free Religion]"
+				],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Organized Religion",
+                "uniques": [
+                    "Only available <after discovering [Monotheism]>",
+					"[+25]% [Production] <in cities following our religion>",
+					// Can build Missionary without Monastery
+					"Remove [Paganism]",
+					"Remove [Theocracy]",
+					"Remove [Pacifism]",
+					"Remove [Free Religion]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Theocracy",
+                "uniques": [
+                    "Only available <after discovering [Theology]>",
+					"New [Military] units start with [2] Experience [in cities following our religion]",
+					// No non-state religion spreads
+					"Remove [Paganism]",
+					"Remove [Organized Religion]",
+					"Remove [Pacifism]",
+					"Remove [Free Religion]"
+				],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Pacifism",
+                "uniques": [
+                    "Only available <after discovering [Philosophy]>",
+					"[+100]% Great Person generation [in cities following our religion]",
+					// TODO: +1 Coins support cost per military unit
+					"Remove [Paganism]",
+					"Remove [Organized Religion]",
+					"Remove [Theocracy]",
+					"Remove [Free Religion]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Free Religion",
+                "uniques": [
+					"Only available <before founding a religion>", // No state religion
+                    "Only available <after discovering [Liberalism]>",
+					// +1 Happiness per every religion in city
+					"[+10]% [Science] [in your cities]",
+					"Remove [Paganism]",
+					"Remove [Organized Religion]",
+					"Remove [Theocracy]",
+					"Remove [Pacifism]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+			{
+				"name": "Religion Complete",
+				"uniques": []
+			}
+        ]
+    }
+]
