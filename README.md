@@ -34,6 +34,35 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 #### Policies
 
 - [Fist](https://thenounproject.com/icon/fist-4850268/) by Sergiu GC for Despotism
+- [Queen](https://thenounproject.com/icon/queen-6741374/) by Vectorstall for Hereditary Rule
+- [Manager](https://thenounproject.com/icon/manager-305963/) for Representation
+- [Police](https://thenounproject.com/icon/police-6885005/) for Police State
+- [Vote](https://thenounproject.com/icon/vote-4045417/) by SBTS for Universal Suffrage
+- [Laugh](https://thenounproject.com/icon/laugh-1391896/) by Deemak Daksina for Barbarism
+- [Greeting](https://thenounproject.com/icon/greeting-1231357/) by Martin Markstein for Vassalage
+- [Speech](https://thenounproject.com/icon/speech-16988/) by Juan Pablo Bravo for Bereaucracy
+- [Flaglet](https://thenounproject.com/icon/flaglet-5253087/) by Muhammad Ikraam for Nationhood
+- [Congregate](https://thenounproject.com/icon/congregate-3904885/) by Miguel C Balandrano for Free Speech
+- [Native Tribe](https://thenounproject.com/icon/native-tribe-2741474/) by Gan Knoon Lay for Tribalism
+- [Slavery](https://thenounproject.com/icon/slavery-6567062/) by Lars Meiertoberens
+- [Man holding rake](https://thenounproject.com/icon/man-holding-rake-1930605/) by Gan Khoon Lay for Serfdom
+- [Baby](https://thenounproject.com/icon/baby-6996109/) by Humam for Caste System
+- [Liberation](https://thenounproject.com/icon/liberation-6991837/) by gravisio for Emancipation
+- [Save Water](https://thenounproject.com/icon/save-water-7116194/) by HideMaru for Decentralization
+- [Harbor](https://thenounproject.com/icon/harbor-7230954/) by Isyana Bam for Mercantilism
+- [World Money](https://thenounproject.com/icon/money-world-4311189/) by Adrien Coquet for Free Market
+- [Deed](https://thenounproject.com/icon/deed-144730/) by Creative Stall for State Property
+- [Ecologist](https://thenounproject.com/icon/ecologist-3261621/) by Vector Point for Environmentalism
+- [Triquetra](https://thenounproject.com/icon/triquetra-6869784/) by Leonardo Henrique Martini for Paganism
+- [Priest](https://thenounproject.com/icon/priest-2532144/) by WiStudio for Organized Religion
+- [Praying](https://thenounproject.com/icon/praying-458075/) by Cristiano Zoucas for Theocracy
+- [Hand Shake](https://thenounproject.com/icon/hand-shake-5141232/) by AHMAD SIDIK for Pacifism
+- [workshop](https://thenounproject.com/icon/worship-29775/) by Lance Weisser for Free Religion
+- [Government](https://thenounproject.com/icon/government-2129596/) by Tomas Knopp for Government
+- [Legal](https://thenounproject.com/icon/legal-7222235/) by Kmg Design for Legal
+- [Labor](https://thenounproject.com/icon/labor-7229005/) by Risa Yustissa
+- [Money](https://thenounproject.com/icon/money-3134074/) by Rainbow Designs for Money
+- [Angel](https://thenounproject.com/icon/angel-2925166/) by b farias for Religion
 
 #### Units
 
