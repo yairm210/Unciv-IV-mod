@@ -1,8 +1,4 @@
 // https://civilization.fandom.com/wiki/Resource_(Civ4)
-
-// TODO:
-// - Add Technology-specific improvements... +1 food with Irrigation/Biology. Buildings: +1 Health with Granary
-
 [
 	{
 		"name": "Clam",
@@ -12,7 +8,6 @@
 		"improvement": "Fishing Boats",
         "uniques": [
 			"Provides [+1] [Health] <in [Fishing Boats] tiles>"
-			// TODO: +1 with Harbor
 		],
 		"improvementStats": {"food": 2 },
 	},
