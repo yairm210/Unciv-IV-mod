@@ -5,7 +5,7 @@ A Civ IV mod for Unciv
 
 ## Credits
 
-All images are from The Noun Project, Creative Commons, unless otherwise specified
+All images are from The Noun Project, Creative Commons, unless otherwise specified. [Preview image](https://www.steamgriddb.com/grid/209041) image from Gray Mess.
 
 #### Buildings
 
