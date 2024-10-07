@@ -210,7 +210,7 @@
 		"techRequired": "Machinery",
 		"uniques":[
 			"Must be next to [River]",
-			// +1 Food with the State Property civic
+			// TODO: +1 Food with the State Property civic
 			"[+1 Production] <after discovering [Replaceable Parts]>",
 			"[+2 Gold] <after discovering [Electricity]>",
 			"Pillaging this improvement yields approximately [+5 Gold]"
