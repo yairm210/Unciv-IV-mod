@@ -19,6 +19,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Red Cross](https://thenounproject.com/icon/red-cross-2392034/) by Jordan Alfarishy
 - [Theater](https://thenounproject.com/icon/theater-3402158/) by Melvin Salas for Broadway
 - [power plant with coal](https://thenounproject.com/icon/power-plant-with-coal-2403687/) by Verry for Coal Plant
+- [Supermarket](https://thenounproject.com/icon/supermarket-6441161/) by parnowowo for Supermarket
 
 #### Improvements
 
