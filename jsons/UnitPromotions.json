@@ -8,14 +8,6 @@
 		"unitTypes": ["Siege"]
 	},
 	{
-		"name": "Ace",
-		"prerequisites": ["Combat III"],
-		"uniques": [
-			"Damage taken from interception reduced by [+50]%" // +25% Evasion Chance
-		],
-		"unitTypes": ["Helicopter", "Fighter", "Bomber"]
-	},
-	{
 		"name": "Ambush",
 		"prerequisites": ["Combat II"],
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
@@ -252,17 +244,6 @@
 		"unitTypes": ["Scout","Archery","Gunpowder", "Sword"]
 	},
 	{
-		"name": "Interception I",
-		"uniques": ["[+10]% chance to intercept air attacks"],
-		"unitTypes": ["Fighter", "Helicopter", "Bomber", "Ranged Gunpowder"]
-	},
-	{
-		"name": "Interception II",
-		"prerequisites": ["Interception I"],
-		"uniques": ["[+20]% chance to intercept air attacks"],
-		"unitTypes": ["Fighter", "Helicopter", "Bomber", "Ranged Gunpowder"]
-	},
-	{
 		"name": "March",
 		"prerequisites": ["Combat III", "Medic I"],
 		"uniques": ["May heal outside of friendly territory"],
@@ -309,22 +290,6 @@
 		"unitTypes": ["Mounted", "Gunpowder", "Ranged Gunpowder", "Armored", "Helicopter", "Fighter", "Bomber", "Helicopter"]
 	},
 	{
-		"name": "Range I",
-		"prerequisites": ["Combat II"],
-		"uniques": [
-			"[+1] Range"
-		],
-		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
-	},
-	{
-		"name": "Range II",
-		"prerequisites": ["Range I"],
-		"uniques": [
-			"[+1] Range"
-		],
-		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
-	},
-	{
 		"name": "Sentry",
 		"prerequisites": ["Combat III", "Flanking I"],
 		"uniques": ["[+1] Sight"],
@@ -352,17 +317,6 @@
 			"[+30]% Strength <when fighting in [Forest] tiles> <when defending>",
 			"Double movement in [Jungle]",
 			"Double movement in [Forest]"
-		],
-		"unitTypes": ["Scout", "Sword", "Gunpowder"]
-	},
-	{
-		"name": "Woodsman III",
-		"prerequisites": ["Woodsman II"],
-		"uniques": [
-			// TODO: +2 first strikes
-			"[+50]% Strength <when fighting in [Jungle] tiles> <when attacking>",
-			"[+50]% Strength <when fighting in [Forest] tiles> <when attacking>",
-			"All adjacent units heal [+1] HP when healing" // Heals units in the same tile extra 15%/turn
 		],
 		"unitTypes": ["Scout", "Sword", "Gunpowder"]
 	},

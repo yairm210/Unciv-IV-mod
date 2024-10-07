@@ -381,7 +381,7 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Only available <after discovering [Flight]>",
-			//"Only available <after discovering [Advanced Flight]>", (BTS)
+			// TODO: "Only available <after discovering [Advanced Flight]> <if [Civ IV Beyond the Sword] is enabled>",
 			"Withdraws before melee combat <with [25]% chance>",
 			"[+100]% Strength <vs [Armored] units>",
 			"[+20]% to Flank Attack bonuses <vs [Siege] units>",
@@ -411,7 +411,7 @@
 		"attackSound": "nonmetalhit"
 	},
 
-	// Trireme (BTS)
+	// Trireme (Warlords)
 	// {
 	// 	"name": "Trireme",
 	// 	"unitType": "Melee Water",
@@ -699,7 +699,7 @@
 	},
 
 	// {
-	// 	"name": "Trebuchet", // BTS
+	// 	"name": "Trebuchet", // Warlords
 	// 	"unitType": "Siege",
 	// 	"movement": 2,
 	// 	"strength": 12,
@@ -743,7 +743,7 @@
 		"cost": 150,
 		"requiredTech": "Artillery",
 		"uniques": [
-			// "Can upgrade to [Mobile Artillery]", (BTS)
+			// TODO: "Can upgrade to [Mobile Artillery] <if [Civ IV Beyond the Sword] is enabled>",
 			"No defensive terrain bonus",
 			// Causes collateral damage
 			// Causes a maximum of 85% damage to enemy
@@ -1243,8 +1243,8 @@
 		"requiredResource": "Copper",
 		"uniques": [
 			"Consumes [1] [Iron]",
-			// "[+50]% Strength <vs [Sword] units> <when defending>", // BTS
-			// "[+100]% Strength <vs [Chariot] units> <when defending>", // BTS
+			"[+50]% Strength <vs [Sword] units> <when defending> <if [Civ IV Beyond the Sword] is enabled> ",
+			"[+100]% Strength <vs [Chariot] units> <when defending> <if [Civ IV Beyond the Sword] is enabled> ",
 			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
 			"[+100]% Strength <vs [Mounted] units>"
 		],

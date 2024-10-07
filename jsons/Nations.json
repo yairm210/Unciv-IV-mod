@@ -244,18 +244,6 @@
 		"Bilbao", "San Sebastian", "Granada", "Mérida", "Huelva", "Ibiza", "Las Palmas", "Tenerife"],
 
 		"favoredReligion": "Christianity"
-	},
-	{
-		"name": "Sumeria",
-		"leaderName": "Gilgamesh",
-
-		"outerColor": [76,0,153],
-		"innerColor": [255,128,0],
-		"uniques": ["Starts with [Agriculture]", "Starts with [The Wheel]"],
-		"cities": ["Uruk", "Eridu", "Kish", "Lagash", "Ur", "Nibru", "Bad-Tibira", "Zimbir", "Shuruppak", "Umma", "Larsa", "Isin",
-		"Girsu", "Adab", "Zabalam", "Akshak", "Larak", "Kisiga", "Nina", "Dilbat", "Kutu", "Marad", "Enegi", "Abu Salabikh",
-		"Ki-an", "Pazurish-Dagan", "Dabrum", "Kissura", "Kutallu", "Nagsu", "Kesh", "Aratta", "Der", "Hamazi", "Apisada",
-		"Jemdet Nasr", "Ubaid"]
 	}
 	// {
 	// 	"name": "Zulu", // Introduced in Warlords
