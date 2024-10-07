@@ -403,20 +403,6 @@
 		"requiredTech": "Medicine"
 	},
 
-	// {
-	// 	"name": "Industrial Park", // BTS
-	// 	"cost": 200,
-	// 	"production": 2, // +1 free Engineer
-	// 	"specialistSlots": {"Engineer": 2},
-    //     "uniques": [
-	// 		"Provides [-2] [Health] <in this city>",
-	// 		"Provides [-1] [Health] <in this city> <with [Coal]>",
-	// 		"Provides [-1] [Health] <in this city> <with [Oil]>"
-	// 	],
-	// 	"requiredTech": "Industrialism",
-	// 	"requiredBuilding": "Factory"
-	// },
-
 	{
 		"name": "Levee",
 		"cost": 180,
@@ -441,17 +427,6 @@
 		],
 		"requiredTech": "Fission"
 	},
-
-	// {
-	// 	"name": "Public Transportation", (BTS)
-	// 	"cost": 150,
-    //     "uniques": [
-    //         "Provides [2] [Power] <in this city> <after discovering [Environmentalism]>",
-    //         "Provides [1] [Health] <in this city>",
-    //         "Provides [1] [Health] <in this city> <with [Oil]>"
-	// 	],
-	// 	"requiredTech": "Combustion"
-	// },
 
 	// Modern era
 
@@ -1128,13 +1103,10 @@
 		"name": "Scotland Yard",
 		"cost": 500,
 		"isNationalWonder": true,
-		"greatPersonPoints": {"Great Scientist": 1}, // BTS: Removed
+		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": [
-			"Hidden when espionage is disabled"
-			// 100% Espionage (BTS)
-			// "[+100]% spy effectiveness [in all cities]" // BTS
+			"[+100]% spy effectiveness [in all cities] <if [Civ IV Beyond the Sword] is enabled>"
 		],
 		"requiredTech": "Communism"
-	},
-
+	}
 ]

@@ -411,19 +411,6 @@
 		"attackSound": "nonmetalhit"
 	},
 
-	// Trireme (Warlords)
-	// {
-	// 	"name": "Trireme",
-	// 	"unitType": "Melee Water",
-	// 	"movement": 4,
-	// 	"strength": 11,
-	// 	"cost": 50,
-	// 	"requiredTech": "Sailing",
-	// 	"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Galley] units>"],
-	// 	"upgradesTo": "Frigate",
-	// 	"attackSound": "nonmetalhit"
-	// },
-
 	{
 		"name": "Caravel",
 		"unitType": "Melee Water",
@@ -697,19 +684,6 @@
 		],
 		"attackSound": "throw"
 	},
-
-	// {
-	// 	"name": "Trebuchet", // Warlords
-	// 	"unitType": "Siege",
-	// 	"movement": 2,
-	// 	"strength": 12,
-	// 	"rangedStrength": 14,
-	// 	"cost": 800,
-	// 	"requiredTech": "Engineering",
-	// 	"upgradesTo": "Cannon",
-	// 	"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
-	// 	"attackSound": "throw"
-	// },
 
 	{
 		"name": "Cannon",
@@ -1243,8 +1217,8 @@
 		"requiredResource": "Copper",
 		"uniques": [
 			"Consumes [1] [Iron]",
-			"[+50]% Strength <vs [Sword] units> <when defending> <if [Civ IV Beyond the Sword] is enabled> ",
-			"[+100]% Strength <vs [Chariot] units> <when defending> <if [Civ IV Beyond the Sword] is enabled> ",
+			"[+50]% Strength <vs [Sword] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
+			"[+100]% Strength <vs [Chariot] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
 			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
 			"[+100]% Strength <vs [Mounted] units>"
 		],
