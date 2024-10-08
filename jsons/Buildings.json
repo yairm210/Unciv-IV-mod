@@ -34,7 +34,10 @@
 	{
 		"name": "Lighthouse",
 		"cost": 60,
-		"uniques": ["Only available <in [Coastal] cities>", "[+1 Food] from [Water] tiles [in this city]" ],
+		"uniques": [
+			"Only available <in [Coastal] cities>",
+			"[+1 Food] from [Water] tiles [in this city]"
+		],
 		"requiredTech": "Sailing"
 	},
 
@@ -270,17 +273,6 @@
 	// Renaissance era
 
 	{
-		"name": "Customs House",
-		"requiredBuilding": "Harbor",
-		"cost": 180,
-		"uniques": [
-			"[+1 Gold] from each Trade Route", // +100% commerce from intercontinental foreign trade routes
-			"Only available <in [Coastal] cities>"
-		],
-		"requiredTech": "Economics"
-	},
-
-	{
 		"name": "Jail",
 		"cost": 120,
 		"specialistSlots": {"Spy": 2},
@@ -395,16 +387,6 @@
 			"[Wounded] Units adjacent to this city heal [2] HP per turn when healing" // Units in city heal extra 10 hp/turn
 		],
 		"requiredTech": "Medicine"
-	},
-
-	{
-		"name": "Levee",
-		"cost": 180,
-		"uniques": [
-			"Must be on [River]",
-			"[+1 Production] from [River] tiles [in this city]"
-		],
-		"requiredTech": "Steam Power"
 	},
 
 	{
