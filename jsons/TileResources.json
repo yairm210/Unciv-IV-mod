@@ -9,7 +9,7 @@
         "uniques": [
 			"Provides [+1] [Health] <in [Fishing Boats] tiles>"
 		],
-		"improvementStats": {"food": 2 },
+		"improvementStats": {"food": 2 }
 	},
 	{
 		"name": "Crab",
@@ -18,7 +18,7 @@
 		"food": 1,
 		"improvement": "Fishing Boats",
         "uniques": ["Provides [+1] [Health] <in [Fishing Boats] tiles>"],
-		"improvementStats": {"food": 2 },
+		"improvementStats": {"food": 2 }
 	},
     {
         "name": "Fish",
@@ -27,7 +27,7 @@
         "food": 1,
         "improvement": "Fishing Boats",
         "uniques": ["Provides [+1] [Health] <in [Fishing Boats] tiles>"],
-        "improvementStats": {"food": 2 },
+        "improvementStats": {"food": 2 }
     },
     {
         "name": "Wheat",
@@ -36,7 +36,7 @@
         "food": 1,
         "improvement": "Farm",
         "uniques": ["Provides [+1] [Health] <in [Farm] tiles>"],
-        "improvementStats": {"food": 2 },
+        "improvementStats": {"food": 2 }
     },
     {
         "name": "Rice",
@@ -45,7 +45,7 @@
         "food": 1,
         "improvement": "Farm",
         "uniques": ["Provides [+1] [Health] <in [Farm] tiles>"],
-        "improvementStats": {"food": 1 },
+        "improvementStats": {"food": 1 }
     },
     {
         "name": "Corn",
@@ -54,7 +54,7 @@
         "food": 1,
         "improvement": "Farm",
         "uniques": ["Provides [+1] [Health] <in [Farm] tiles>"],
-        "improvementStats": {"food": 2 },
+        "improvementStats": {"food": 2 }
     },
 
 	{
@@ -64,7 +64,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert"],
 		"production": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 2, "gold":1},
+		"improvementStats": {"production": 2, "gold": 1}
 	},
 	{
 		"name": "Copper",
@@ -73,7 +73,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1},
+		"improvementStats": {"production": 1}
 	},
 	{
 		"name": "Iron",
@@ -97,7 +97,7 @@
 		"name": "Oil",
 		"resourceType": "Strategic",
 		"revealedBy": "Scientific Method",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill", "Coast", "Ocean"],
 		"production": 1,
 		"improvement": "Oil Well",
 		"improvementStats": {"production": 2, "gold": 1}

@@ -79,7 +79,9 @@
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Fishing",
+		"culture": 1, // Hack to allow automation
 		"uniques": [
+			"[-1 Culture]",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+5 Gold]"
 		],
@@ -141,9 +143,11 @@
 	{
 		"name": "Offshore Platform",
 		"terrainsCanBeBuiltOn": ["Water"],
-		"production": 2,
+		"production": 2, // Hack to enable automation
 		"turnsToBuild": 4,
 		"uniques": [
+			"Can only be built on [Oil] tiles",
+			"[-2 Production]",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -218,7 +222,7 @@
 	},
 	{
 		"name": "Oil Well", // "Well" in Civ 4
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 10,
 		"techRequired": "Combustion",
 		"uniques": [
@@ -232,7 +236,9 @@
 		"name": "Whaling Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Optics",
+		"food": 5,
 		"uniques": [
+			"[-5 Food]",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+5 Gold]"
 		]
