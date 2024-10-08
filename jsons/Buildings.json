@@ -6,7 +6,6 @@
 		"name": "Barracks",
 		"cost": 50,
 		"uniques": [
-			// "Double production speed with Aggressive"
 			"New [Land] units start with [3] Experience [in this city]"
 		]
 	},
@@ -65,7 +64,6 @@
 		"specialistSlots": {"Priest": 1},
 		"cost": 80,
 		"uniques": [
-			// Double production speed with Spiritual
 			"Hidden when religion is disabled"
 		],
 		"requiredTech": "Priesthood"
@@ -318,9 +316,6 @@
 		"cost": 200,
 		"culture": 3,
 		"percentStatBonus": {"science": 25},
-		"uniques": [
-			// TODO: "[-50]% production cost <with [Philosophical]>" https://civilization.fandom.com/wiki/Philosophical_(Civ4)
-		],
 		"requiredTech": "Education",
 		"requiredBuilding": "Library"
 	},
@@ -373,7 +368,6 @@
 			"New [Ranged Water] units start with [4] Experience [in this city]",
 			"New [Submarine] units start with [4] Experience [in this city]",
             "Only available <in [Coastal] cities>"
-			// TODO: (Double production speed with Aggressive)
 		],
 		"requiredTech": "Steel"
 	},
@@ -452,7 +446,6 @@
 		"specialistSlots": {"Artist": 2},
 		"happiness": 1, // +1 Happiness per 10% Culture rate
         "uniques": [
-			// +1 Happiness for Charismatic leaders
 			"[+1 Happiness] <with [Hit Singles]>",
 			"[+1 Happiness] <with [Hit Musicals]>",
 			"[+1 Happiness] <with [Hit Movies]>"
