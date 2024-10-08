@@ -304,19 +304,20 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "uniques": ["Unpillagable", "Unbuildable"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
-    }
+    },
 
 	// Great Person improvements
 	{
-		"name": "Academy", // TODO: Academy should be a building, but how do we get Great Sciencist to build buildings?
+		"name": "Academy Building",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 4,
-		"science": 4, // TODO: "[+50]% [Science]"
+		"culture": 1,
 		"uniques": [
 			"Great Improvement",
             "Will not be replaced by automated units",
-			"Pillaging this improvement yields approximately [+10 Gold]",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Does not need removal of [All]",
+			"Will not be displayed in Civilopedia",
+			"Gain a free [Academy] [in this city]"
 		]
 	},
 	{
@@ -330,7 +331,8 @@
             "Will not be replaced by automated units",
 			"Unpillagable",
 			"Excluded from map editor",
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"Tile provides yield without assigned population"
 		]
 	},
 	{
@@ -344,7 +346,8 @@
             "Will not be replaced by automated units",
 			"Unpillagable",
 			"Excluded from map editor",
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"Tile provides yield without assigned population"
 		]
 	},
 	{
@@ -358,7 +361,8 @@
             "Will not be replaced by automated units",
 			"Unpillagable",
 			"Excluded from map editor",
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"Tile provides yield without assigned population"
 		]
 	},
 	{
@@ -372,7 +376,8 @@
             "Will not be replaced by automated units",
 			"Unpillagable",
 			"Excluded from map editor",
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"Tile provides yield without assigned population"
 		]
 	},
 	{
@@ -386,9 +391,23 @@
             "Will not be replaced by automated units",
 			"Unpillagable",
 			"Excluded from map editor",
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"Tile provides yield without assigned population"
 		]
-	}
+	},
+	{
+		"name": "Great General Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Gives a defensive bonus of [+10]%" // TODO: "New [Military] units start with [2] Experience [in this city]"
+		]
+	},
 
 	// Removals
 	// Any improvement that starts with 'Remove ' is automatically changed into

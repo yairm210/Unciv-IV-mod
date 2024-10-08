@@ -10,10 +10,10 @@
                 "name": "Despotism",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"Remove [Hereditary Rule]",
-					"Remove [Police State]",
-					"Remove [Universal Suffrage]",
-					"Remove [Representation]"
+					"Remove [Hereditary Rule] and refund [100]% of its cost",
+					"Remove [Police State] and refund [100]% of its cost",
+					"Remove [Universal Suffrage] and refund [100]% of its cost",
+					"Remove [Representation] and refund [100]% of its cost"
                 ],
                 "row": 1,
                 "column": 1
@@ -24,10 +24,10 @@
 					"Comment [Low Upkeep]",
 					"[+1 Happiness] [in your cities] <with a garrison>", // +1 Happiness in city per military unit stationed in the city
                     "Only available <after discovering [Monarchy]>",
-					"Remove [Despotism]",
-					"Remove [Police State]",
-					"Remove [Universal Suffrage]",
-					"Remove [Representation]"
+					"Remove [Despotism] and refund [100]% of its cost",
+					"Remove [Police State] and refund [100]% of its cost",
+					"Remove [Universal Suffrage] and refund [100]% of its cost",
+					"Remove [Representation] and refund [100]% of its cost"
                 ],
                 "row": 1,
                 "column": 3
@@ -39,10 +39,10 @@
 					"[+3 Science] from every [Scientist]",
 					"[+3 Happiness] <in cities with at least [6] [Population]>", // +3 Happiness (Civ4) in the 4-6 biggest cities
                     "Only available <after discovering [Constitution]>",
-					"Remove [Despotism]",
-					"Remove [Hereditary Rule]",
-					"Remove [Police State]",
-					"Remove [Universal Suffrage]"
+					"Remove [Despotism] and refund [100]% of its cost",
+					"Remove [Hereditary Rule] and refund [100]% of its cost",
+					"Remove [Police State] and refund [100]% of its cost",
+					"Remove [Universal Suffrage] and refund [100]% of its cost"
 				],
                 "row": 1,
                 "column": 5
@@ -54,10 +54,10 @@
 					"[+25]% Production when constructing [Military] units [in your cities]", // +25% military unit production
 					"[+12]% [Happiness] [in your cities] <when at war>", // -50% war weariness
                     "Only available <after discovering [Fascism]>",
-					"Remove [Despotism]",
-					"Remove [Hereditary Rule]",
-					"Remove [Universal Suffrage]",
-					"Remove [Representation]"
+					"Remove [Despotism] and refund [100]% of its cost",
+					"Remove [Hereditary Rule] and refund [100]% of its cost",
+					"Remove [Universal Suffrage] and refund [100]% of its cost",
+					"Remove [Representation] and refund [100]% of its cost"
                 ],
                 "row": 2,
                 "column": 2
@@ -69,11 +69,11 @@
 					"[+1 Production] from [Town] tiles [in your cities]",
 					// Can spend Coins to hurry Hammer
                     "Only available <after discovering [Democracy]>",
-					"Remove [Despotism]",
-					"Remove [Hereditary Rule]",
-					"Remove [Representation]",
-					"Remove [Police State]",
-					"Remove [Representation]"
+					"Remove [Despotism] and refund [100]% of its cost",
+					"Remove [Hereditary Rule] and refund [100]% of its cost",
+					"Remove [Representation] and refund [100]% of its cost",
+					"Remove [Police State] and refund [100]% of its cost",
+					"Remove [Representation] and refund [100]% of its cost"
                 ],
                 "row": 2,
                 "column": 4
@@ -94,10 +94,10 @@
                 "name": "Barbarism",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"Remove [Vassalage]",
-					"Remove [Bureaucracy]",
-					"Remove [Nationhood]",
-					"Remove [Free Speech]"
+					"Remove [Vassalage] and refund [100]% of its cost",
+					"Remove [Bureaucracy] and refund [100]% of its cost",
+					"Remove [Nationhood] and refund [100]% of its cost",
+					"Remove [Free Speech] and refund [100]% of its cost"
 				],
                 "row": 1,
                 "column": 1
@@ -109,10 +109,10 @@
 					"New [Military] units start with [2] Experience [in your cities]",
 					// Some additional free units
                     "Only available <after discovering [Feudalism]>",
-					"Remove [Barbarism]",
-					"Remove [Bureaucracy]",
-					"Remove [Nationhood]",
-					"Remove [Free Speech]"
+					"Remove [Barbarism] and refund [100]% of its cost",
+					"Remove [Bureaucracy] and refund [100]% of its cost",
+					"Remove [Nationhood] and refund [100]% of its cost",
+					"Remove [Free Speech] and refund [100]% of its cost"
                 ],
                 "row": 1,
                 "column": 3
@@ -124,10 +124,10 @@
 					"[+50]% [Gold] [in capital]",
 					"[+50]% [Production] [in capital]",
                     "Only available <after discovering [Civil Service]>",
-					"Remove [Barbarism]",
-					"Remove [Vassalage]",
-					"Remove [Nationhood]",
-					"Remove [Free Speech]"
+					"Remove [Barbarism] and refund [100]% of its cost",
+					"Remove [Vassalage] and refund [100]% of its cost",
+					"Remove [Nationhood] and refund [100]% of its cost",
+					"Remove [Free Speech] and refund [100]% of its cost"
 				],
                 "row": 1,
                 "column": 5
@@ -138,10 +138,10 @@
 					"Comment [No Upkeep]",
 					"[+2 Happiness] from every [Barracks]",
                     "Only available <after discovering [Nationalism]>",
-					"Remove [Barbarism]",
-					"Remove [Vassalage]",
-					"Remove [Bureaucracy]",
-					"Remove [Free Speech]"
+					"Remove [Barbarism] and refund [100]% of its cost",
+					"Remove [Vassalage] and refund [100]% of its cost",
+					"Remove [Bureaucracy] and refund [100]% of its cost",
+					"Remove [Free Speech] and refund [100]% of its cost"
                 ],
                 "row": 2,
                 "column": 2
@@ -153,10 +153,10 @@
 					"[+100]% [Culture] [in your cities]",
 					"[+2 Gold] from [Cottage] tiles [in your cities]",
                     "Only available <after discovering [Liberalism]>",
-					"Remove [Barbarism]",
-					"Remove [Vassalage]",
-					"Remove [Bureaucracy]",
-					"Remove [Nationhood]"
+					"Remove [Barbarism] and refund [100]% of its cost",
+					"Remove [Vassalage] and refund [100]% of its cost",
+					"Remove [Bureaucracy] and refund [100]% of its cost",
+					"Remove [Nationhood] and refund [100]% of its cost"
                 ],
                 "row": 2,
                 "column": 4
@@ -177,10 +177,10 @@
                 "name": "Tribalism",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"Remove [Slavery]",
-					"Remove [Serfdom]",
-					"Remove [Caste System]",
-					"Remove [Emancipation]"
+					"Remove [Slavery] and refund [100]% of its cost",
+					"Remove [Serfdom] and refund [100]% of its cost",
+					"Remove [Caste System] and refund [100]% of its cost",
+					"Remove [Emancipation] and refund [100]% of its cost"
 				],
                 "row": 1,
                 "column": 1
@@ -192,10 +192,10 @@
 					"[-10]% maintenance costs",
 					// Can hurry production while sacrificing city population
                     "Only available <after discovering [Bronze Working]>",
-					"Remove [Tribalism]",
-					"Remove [Serfdom]",
-					"Remove [Caste System]",
-					"Remove [Emancipation]"
+					"Remove [Tribalism] and refund [100]% of its cost",
+					"Remove [Serfdom] and refund [100]% of its cost",
+					"Remove [Caste System] and refund [100]% of its cost",
+					"Remove [Emancipation] and refund [100]% of its cost"
                 ],
                 "row": 1,
                 "column": 3
@@ -206,10 +206,10 @@
 					"Comment [Low Upkeep]",
 					"[-50]% construction time for [All] improvements",
                     "Only available <after discovering [Feudalism]>",
-					"Remove [Tribalism]",
-					"Remove [Slavery]",
-					"Remove [Caste System]",
-					"Remove [Emancipation]"
+					"Remove [Tribalism] and refund [100]% of its cost",
+					"Remove [Slavery] and refund [100]% of its cost",
+					"Remove [Caste System] and refund [100]% of its cost",
+					"Remove [Emancipation] and refund [100]% of its cost"
 				],
                 "row": 1,
                 "column": 5
@@ -221,10 +221,10 @@
 					// Unlimited number of artists/merchants/scientists
 					"[+1 Production] from [Workshop] tiles [in your cities]",
                     "Only available <after discovering [Code of Laws]>",
-					"Remove [Tribalism]",
-					"Remove [Slavery]",
-					"Remove [Serfdom]",
-					"Remove [Emancipation]"
+					"Remove [Tribalism] and refund [100]% of its cost",
+					"Remove [Slavery] and refund [100]% of its cost",
+					"Remove [Serfdom] and refund [100]% of its cost",
+					"Remove [Emancipation] and refund [100]% of its cost"
                 ],
                 "row":2,
                 "column": 2
@@ -244,10 +244,10 @@
 					//"[-50]% construction time for [Town] improvements",
                     "Only available <after discovering [Democracy]>",
 
-					"Remove [Tribalism]",
-					"Remove [Slavery]",
-					"Remove [Serfdom]",
-					"Remove [Caste System]"
+					"Remove [Tribalism] and refund [100]% of its cost",
+					"Remove [Slavery] and refund [100]% of its cost",
+					"Remove [Serfdom] and refund [100]% of its cost",
+					"Remove [Caste System] and refund [100]% of its cost"
                 ],
                 "row": 2,
                 "column": 4
@@ -268,10 +268,10 @@
                 "name": "Decentralization",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"Remove [Mercantilism]",
-					"Remove [Free Market]",
-					"Remove [State Property]",
-					"Remove [Environmentalism]"
+					"Remove [Mercantilism] and refund [100]% of its cost",
+					"Remove [Free Market] and refund [100]% of its cost",
+					"Remove [State Property] and refund [100]% of its cost",
+					"Remove [Environmentalism] and refund [100]% of its cost"
 				],
                 "row": 1,
                 "column": 1
@@ -284,10 +284,10 @@
 					// No foreign trade routes except to vassals
 					// Foreign corporations have no effect
                     "Only available <after discovering [Banking]>",
-					"Remove [Decentralization]",
-					"Remove [Free Market]",
-					"Remove [State Property]",
-					"Remove [Environmentalism]"
+					"Remove [Decentralization] and refund [100]% of its cost",
+					"Remove [Free Market] and refund [100]% of its cost",
+					"Remove [State Property] and refund [100]% of its cost",
+					"Remove [Environmentalism] and refund [100]% of its cost"
                 ],
                 "row": 1,
                 "column": 3
@@ -299,10 +299,10 @@
 					"[+1 Gold] from each Trade Route", // 1 trade route in every city
 					// -25% maintenance costs from corporations (BTS)
                     "Only available <after discovering [Economics]>",
-					"Remove [Decentralization]",
-					"Remove [Mercantilism]",
-					"Remove [State Property]",
-					"Remove [Environmentalism]"
+					"Remove [Decentralization] and refund [100]% of its cost",
+					"Remove [Mercantilism] and refund [100]% of its cost",
+					"Remove [State Property] and refund [100]% of its cost",
+					"Remove [Environmentalism] and refund [100]% of its cost"
 				],
                 "row": 1,
                 "column": 5
@@ -317,10 +317,10 @@
 					"[+10]% [Production] [in your cities]",
 					// All corporations have no effect (BTS)
                     "Only available <after discovering [Communism]>",
-					"Remove [Decentralization]",
-					"Remove [Mercantilism]",
-					"Remove [Free Market]",
-					"Remove [Environmentalism]"
+					"Remove [Decentralization] and refund [100]% of its cost",
+					"Remove [Mercantilism] and refund [100]% of its cost",
+					"Remove [Free Market] and refund [100]% of its cost",
+					"Remove [Environmentalism] and refund [100]% of its cost"
                 ],
                 "row": 2,
                 "column": 2
@@ -337,10 +337,10 @@
 					"[+2 Gold] from [Forest Preserve] tiles [in your cities]",
 					// +25% maintenance costs from corporations (BTS)
                     "Only available <after discovering [Medicine]>",
-					"Remove [Decentralization]",
-					"Remove [Mercantilism]",
-					"Remove [Free Market]",
-					"Remove [State Property]"
+					"Remove [Decentralization] and refund [100]% of its cost",
+					"Remove [Mercantilism] and refund [100]% of its cost",
+					"Remove [Free Market] and refund [100]% of its cost",
+					"Remove [State Property] and refund [100]% of its cost"
                 ],
                 "row": 2,
                 "column": 4
@@ -361,10 +361,10 @@
                 "name": "Paganism",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"Remove [Organized Religion]",
-					"Remove [Theocracy]",
-					"Remove [Pacifism]",
-					"Remove [Free Religion]"
+					"Remove [Organized Religion] and refund [100]% of its cost",
+					"Remove [Theocracy] and refund [100]% of its cost",
+					"Remove [Pacifism] and refund [100]% of its cost",
+					"Remove [Free Religion] and refund [100]% of its cost"
 				],
                 "row": 1,
                 "column": 1
@@ -375,10 +375,10 @@
 					"[+25]% [Production] <in cities following our religion>",
 					// Can build Missionary without Monastery
                     "Only available <after discovering [Monotheism]>",
-					"Remove [Paganism]",
-					"Remove [Theocracy]",
-					"Remove [Pacifism]",
-					"Remove [Free Religion]"
+					"Remove [Paganism] and refund [100]% of its cost",
+					"Remove [Theocracy] and refund [100]% of its cost",
+					"Remove [Pacifism] and refund [100]% of its cost",
+					"Remove [Free Religion] and refund [100]% of its cost"
                 ],
                 "row": 1,
                 "column": 3
@@ -389,10 +389,10 @@
 					"New [Military] units start with [2] Experience [in cities following our religion]",
 					// No non-state religion spreads
                     "Only available <after discovering [Theology]>",
-					"Remove [Paganism]",
-					"Remove [Organized Religion]",
-					"Remove [Pacifism]",
-					"Remove [Free Religion]"
+					"Remove [Paganism] and refund [100]% of its cost",
+					"Remove [Organized Religion] and refund [100]% of its cost",
+					"Remove [Pacifism] and refund [100]% of its cost",
+					"Remove [Free Religion] and refund [100]% of its cost"
 				],
                 "row": 1,
                 "column": 5
@@ -403,10 +403,10 @@
 					"[+100]% Great Person generation [in cities following our religion]",
 					// TODO: +1 Coins support cost per military unit
                     "Only available <after discovering [Philosophy]>",
-					"Remove [Paganism]",
-					"Remove [Organized Religion]",
-					"Remove [Theocracy]",
-					"Remove [Free Religion]"
+					"Remove [Paganism] and refund [100]% of its cost",
+					"Remove [Organized Religion] and refund [100]% of its cost",
+					"Remove [Theocracy] and refund [100]% of its cost",
+					"Remove [Free Religion] and refund [100]% of its cost"
                 ],
                 "row": 2,
                 "column": 2
@@ -418,10 +418,10 @@
 					"Only available <before founding a religion>", // No state religion
                     "Only available <after discovering [Liberalism]>",
 					// +1 Happiness per every religion in city
-					"Remove [Paganism]",
-					"Remove [Organized Religion]",
-					"Remove [Theocracy]",
-					"Remove [Pacifism]"
+					"Remove [Paganism] and refund [100]% of its cost",
+					"Remove [Organized Religion] and refund [100]% of its cost",
+					"Remove [Theocracy] and refund [100]% of its cost",
+					"Remove [Pacifism] and refund [100]% of its cost"
                 ],
                 "row": 2,
                 "column": 4

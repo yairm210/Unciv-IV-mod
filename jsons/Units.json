@@ -926,6 +926,7 @@
 			"Unbuildable",
 			"Uncapturable",
 			"Cannot be purchased",
+			"Cannot attack",
 			"Great Person - [Culture]",
 			"Gain [4000] [Culture] <by consuming this unit>",
 			"Can instantly construct a [Great Artist Specialist] improvement <by consuming this unit>"
@@ -940,6 +941,7 @@
 			"Unbuildable",
 			"Uncapturable",
 			"Cannot be purchased",
+			"Cannot attack",
 			"Great Person - [Production]",
 			"Can speed up the construction of a wonder",
 			"Can instantly construct a [Great Engineer Specialist] improvement <by consuming this unit>"
@@ -954,6 +956,7 @@
 			"Uncapturable",
 			"Cannot be purchased",
 			"Great Person - [Gold]",
+			"Cannot attack",
 			"May enter foreign tiles without open borders",
             "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Great Merchant Specialist] improvement <by consuming this unit>"
@@ -968,6 +971,7 @@
 			"May found a religion",
 			"Uncapturable",
 			"Cannot be purchased",
+			"Cannot attack",
 			"Great Person - [Faith]",
 			"Hidden when religion is disabled",
 			"Can instantly construct a [Great Prophet Specialist] improvement <by consuming this unit>"
@@ -982,9 +986,9 @@
 			"Uncapturable",
 			"Cannot be purchased",
 			"Great Person - [Science]",
+			"Cannot attack",
 			"Can hurry technology research",
-			// "Gain a free [Great Scientist Specialist] [in this city] <by consuming this unit>",
-            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Can instantly construct a [Academy Building] improvement <by consuming this unit>",
 			"Can instantly construct a [Great Scientist Specialist] improvement <by consuming this unit>"
         ]
     },
@@ -998,11 +1002,33 @@
 			"Uncapturable",
 			"Only available <if [Civ IV Warlords] is enabled>",
 			"Cannot be purchased",
-			"Great Person - [War]"
+			"Cannot attack",
+			"Great Person - [War]",
+			"Can instantly construct a [Great General Specialist] improvement <by consuming this unit> <if [Civ IV Warlords] is enabled>"
 			// Can be attached to a unit, which...
 			// - enables unique promotions for that unit
 			// - allows that unit free upgrades
 			// - gives 20 experience points to all units on the tile (The experience points are split evenly between all the units in the stack.)
+		]
+    },
+
+    {
+        "name": "Great Spy", // While Great Spy is BTS, we add it here for integrations.
+        "unitType": "Civilian",
+        "movement": 2,
+        "uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"Only available <if [Civ IV Beyond the Sword] is enabled>",
+			"Cannot be purchased",
+			"May enter foreign tiles without open borders",
+			"Great Person - [Espionage]",
+			"Invisible to others",
+			"Can see invisible [Spy] units",
+			"Can see invisible [Great Spy] units",
+			"Cannot attack",
+			"Can instantly construct a [Great Spy Specialist] improvement <by consuming this unit> <if [Civ IV Beyond the Sword] is enabled>"
+			// Can infiltrate another civilization's city (+3000 espionage points)
 		]
     },
 

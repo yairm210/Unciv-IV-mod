@@ -283,63 +283,103 @@
 	{
 		"name": "Hit Musicals", // Only provided by Broadway wonder
 		"resourceType": "Luxury",
-		"revealedBy": "Electricity"
+		"revealedBy": "Electricity",
+		"uniques": [
+			"Excluded from map editor"
+		]
 	},
 	{
 		"name": "Hit Singles", // Only provided by Rock 'n' Roll wonder
 		"resourceType": "Luxury",
-		"revealedBy": "Radio"
+		"revealedBy": "Radio",
+		"uniques": [
+			"Excluded from map editor"
+		]
 	},
 	{
 		"name": "Hit Movies", // Only provided by Hollywood wonder
 		"resourceType": "Luxury",
-		"revealedBy": "Mass Media"
+		"revealedBy": "Mass Media",
+		"uniques": [
+			"Excluded from map editor"
+		]
 	},
 
     // City-level resources
     {
         "name": "Health",
         "resourceType": "Bonus",
-        "uniques": ["City-level resource"]
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		]
     },
     {
         "name": "Power",
         "resourceType": "Bonus",
-        "uniques": ["City-level resource"]
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		]
     },
     {
         "name": "Great Artist Specialist",
         "resourceType": "Bonus",
-        "uniques": ["City-level resource"],
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
 		"gold": 3,
 		"culture": 12
     },
     {
         "name": "Great Engineer Specialist",
         "resourceType": "Bonus",
-        "uniques": ["City-level resource"],
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
 		"production": 3,
 		"science": 3
     },
     {
         "name": "Great Merchant Specialist",
         "resourceType": "Bonus",
-        "uniques": ["City-level resource"],
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
 		"food": 1,
 		"gold": 6
     },
     {
         "name": "Great Prophet Specialist",
         "resourceType": "Bonus",
-        "uniques": ["City-level resource"],
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
 		"production": 2,
 		"gold": 5
     },
     {
         "name": "Great Scientist Specialist",
         "resourceType": "Bonus",
-        "uniques": ["City-level resource"],
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
 		"production": 1,
 		"science": 6
+    },
+    {
+        "name": "Great Spy Specialist",
+        "resourceType": "Bonus",
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
+		"espionage": 12, // TODO: Espionage is not a Unciv stat.
+		"science": 3
     }
 ]

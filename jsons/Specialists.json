@@ -39,7 +39,7 @@
 		"name":"Spy",
 		"espianage": 4,
 		"science": 1,
-		//"greatPersonPoints": {"Great Spy": 3}, // (BTS)
+		"greatPersonPoints": {"Great Spy": 3}, // (BTS)
 		"color": [255,255,255],
 		"unique": [
 			"Hidden when espionage is disabled"

@@ -1101,5 +1101,20 @@
 			"[+100]% spy effectiveness [in all cities] <if [Civ IV Beyond the Sword] is enabled>"
 		],
 		"requiredTech": "Communism"
+	},
+
+	{
+		"name": "Academy",
+		// See Academy Building tile improvement, and Great Scientist
+		"cost": 50,
+		"percentStatBonus": {"science": 50},
+		"culture": 3,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be hurried",
+			"Cannot be purchased",
+			"Unsellable"
+		],
+		"requiredTech": "Physics"
 	}
 ]
