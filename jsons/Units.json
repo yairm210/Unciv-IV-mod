@@ -485,7 +485,8 @@
 			"Can carry [4] [Land] units",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Uranium]",
-			"Can upgrade to [Destroyer]"
+			"Can upgrade to [Destroyer]",
+			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "metalhit"
 	},
@@ -501,7 +502,8 @@
 			"Can see invisible [Submarine] units",
 			"[30]% chance to intercept air attacks",
 			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]",
+			"Consumes [1] [Uranium]",,
+			"Never appears as a Barbarian unit",
 			"[+25]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-16%/turn)
 		],
 		"attackSound": "shipguns"
@@ -517,7 +519,8 @@
 		"uniques": [
 			// Causes collateral damage
 			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]",
+			"Consumes [1] [Uranium]",,
+			"Never appears as a Barbarian unit",
 			"[+40]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-20%/turn)
 		],
 		"attackSound": "metalhit"
@@ -533,7 +536,8 @@
 		"uniques": [
 			"Can carry [3] [Fighter] units",
 			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]"
+			"Consumes [1] [Uranium]",
+			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "metalhit"
 	},
@@ -553,7 +557,8 @@
 			"Can see invisible [Submarine] units",
 			"May enter foreign tiles without open borders",
 			// Can move through impassible terrain
-			"Withdraws before melee combat <with [50]% chance>"
+			"Withdraws before melee combat <with [50]% chance>",
+			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "metalhit"
 	},
@@ -575,7 +580,8 @@
 			"Can upgrade to [Jet Fighter]",
 			"[100]% chance to intercept air attacks",
 			"Can see over obstacles",
-			"Destroys tile improvements when attacking"
+			"Destroys tile improvements when attacking",
+			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun"
 	},
@@ -593,6 +599,7 @@
 		"uniques": [
 			"Can upgrade to [Stealth Bomber]",
 			"Only available <after discovering [Radio]>",
+			"Never appears as a Barbarian unit",
 			// Causes collateral damage
 			"[-50]% Strength <vs [Water] units>", // -50% vs. Naval Units
 			"Destroys tile improvements when attacking",  // Can destroy tile improvements
@@ -616,6 +623,7 @@
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Oil]",
 			"[+25]% Strength when performing Air Sweep",
+			"Never appears as a Barbarian unit",
 			"[100]% chance to intercept air attacks",
 			"Destroys tile improvements when attacking",
 			"[+32]% Strength <vs cities> <when attacking>" // bomb city defenses (-16%/turn)
@@ -639,6 +647,7 @@
 			"Damage taken from interception reduced by [50]%", // Can evade interception (50% chance)
 			"[-50]% Strength <vs [Water] units>",
 			"Destroys tile improvements when attacking",
+			"Never appears as a Barbarian unit",
 			"[40]% Strength <vs cities> <when attacking>" // bombard city defenses (-20% turn)
 		],
 		"attackSound": "bombing"
@@ -658,6 +667,7 @@
 		"uniques": [
 			"Only available <after discovering [Robotics]>",
 			"Nuclear weapon of Strength [2]",
+			"Never appears as a Barbarian unit",
 			"Only available <if [Manhattan Project] is constructed by anybody>",
 			"Blast radius [12]"
 		],
@@ -799,7 +809,8 @@
 		"uniques": [
 			// Better results from huts
 			"Cannot attack",
-			"Ignores terrain cost"
+			"Ignores terrain cost",
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Guerrilla I", "Woodsman I"],
 		"attackSound": "nonmetalhit"
@@ -871,6 +882,7 @@
 			"Can instantly construct a [Fishing Boats] improvement <by consuming this unit>",
 			"Can instantly construct a [Offshore Platform] improvement <by consuming this unit> <after discovering [Plastics]>",
 			"Can instantly construct a [Whaling Boats] improvement <by consuming this unit> <after discovering [Optics]>",
+			"Never appears as a Barbarian unit",
 			"Cannot attack",
 			"Cannot enter ocean tiles <before discovering [Astronomy]>"
 		]
@@ -892,6 +904,7 @@
 			"Invisible to others",
 			"Can see invisible [Spy] units",
 			"May enter foreign tiles without open borders",
+			"Never appears as a Barbarian unit",
 			"Cannot attack"
 			// Espionage
 		]
@@ -904,6 +917,7 @@
 		"cost": 40,
 		"uniques": [
 			"Only available <after founding a religion>",
+			"Never appears as a Barbarian unit",
 			"Only available <if [Monastery] is constructed>",
             "Can Spread Religion <for [2] movement> <[2] times> <after which this unit is consumed>",
             "May enter foreign tiles without open borders",
@@ -929,6 +943,7 @@
 			"Cannot attack",
 			"Great Person - [Culture]",
 			"Gain [4000] [Culture] <by consuming this unit>",
+			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great Artist Specialist] improvement <by consuming this unit>"
 			// instantly ends resistance in a city
 		],
@@ -944,6 +959,7 @@
 			"Cannot attack",
 			"Great Person - [Production]",
 			"Can speed up the construction of a wonder",
+			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great Engineer Specialist] improvement <by consuming this unit>"
 		]
     },
@@ -959,6 +975,7 @@
 			"Cannot attack",
 			"May enter foreign tiles without open borders",
             "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great Merchant Specialist] improvement <by consuming this unit>"
 		]
     },
@@ -974,6 +991,7 @@
 			"Cannot attack",
 			"Great Person - [Faith]",
 			"Hidden when religion is disabled",
+			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great Prophet Specialist] improvement <by consuming this unit>"
 		]
     },
@@ -989,6 +1007,7 @@
 			"Cannot attack",
 			"Can hurry technology research",
             "Can instantly construct a [Academy Building] improvement <by consuming this unit>",
+			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great Scientist Specialist] improvement <by consuming this unit>"
         ]
     },
@@ -1004,6 +1023,7 @@
 			"Cannot be purchased",
 			"Cannot attack",
 			"Great Person - [War]",
+			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great General Specialist] improvement <by consuming this unit> <if [Civ IV Warlords] is enabled>"
 			// Can be attached to a unit, which...
 			// - enables unique promotions for that unit
@@ -1027,6 +1047,7 @@
 			"Can see invisible [Spy] units",
 			"Can see invisible [Great Spy] units",
 			"Cannot attack",
+			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great Spy Specialist] improvement <by consuming this unit> <if [Civ IV Beyond the Sword] is enabled>"
 			// Can infiltrate another civilization's city (+3000 espionage points)
 		]
@@ -1041,6 +1062,7 @@
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
 			"Spaceship part", "Cannot be purchased",
+			"Never appears as a Barbarian unit",
 			"Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [5] per Civilization"
 		],
 		"requiredTech": "Composites"
@@ -1051,6 +1073,7 @@
 		"cost": 1000,
 		"uniques": [
 			"[-50]% production cost <with [Copper]>",
+			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
 		],
 		"requiredTech": "Fiber Optics"
@@ -1061,6 +1084,7 @@
 		"cost": 2000,
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
+			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
 		],
 		"requiredTech": "Satellites" // and Robotics
@@ -1070,6 +1094,7 @@
 		"unitType": "Civilian",
 		"cost": 1600,
 		"uniques": [
+			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [2] per Civilization"
 		],
 		"requiredTech": "Fusion"
@@ -1080,6 +1105,7 @@
 		"cost": 1000,
 		"uniques": [
 			"[-50]% production cost <with [Copper]>",
+			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
 		],
 		"requiredTech": "Ecology"
@@ -1089,6 +1115,7 @@
 		"unitType": "Civilian",
 		"cost": 1200,
 		"uniques": [
+			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
 		],
 		"requiredTech": "Genetics"
@@ -1099,6 +1126,7 @@
 		"cost": 1200,
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
+			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [5] per Civilization"
 		],
 		"requiredTech": "Satellites"
@@ -1119,6 +1147,7 @@
 			// TODO: 1-2 first strikes
 			"[+50]% Strength <vs [Machine Gun] units> <when attacking>",
 			"[+50]% Strength <vs [Artillery] units> <when attacking>",
+			"Never appears as a Barbarian unit",
 			"Only available <after discovering [Rifling]>"
 		],
 		"promotions": ["Amphibious", "March"],
