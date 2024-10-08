@@ -306,7 +306,7 @@
 			// Immune to first strikes
 			"No defensive terrain bonus",
 			"Withdraws before melee combat <with [20]% chance>",
-			"[+50]% Strength <vs [Siege] units> <when attacking>" // Catapult, Trebuchet
+			"[+50]% Strength <vs [Siege] units> <when attacking>", // Catapult, Trebuchet
 			"[+20]% to Flank Attack bonuses <vs [Siege] units>" // Flank attack vs Catapults/Trebuchets
 		],
 		"attackSound": "horse"
@@ -405,7 +405,7 @@
 		"requiredTech": "Sailing",
 		"uniques": [
 			"Can upgrade to [Galleon]",
-			"Can carry [2] [Land] units"
+			"Can carry [2] [Land] units",
 			"Cannot enter ocean tiles"
 		],
 		"attackSound": "nonmetalhit"
@@ -502,7 +502,7 @@
 			"Can see invisible [Submarine] units",
 			"[30]% chance to intercept air attacks",
 			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]",,
+			"Consumes [1] [Uranium]",
 			"Never appears as a Barbarian unit",
 			"[+25]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-16%/turn)
 		],
@@ -519,7 +519,7 @@
 		"uniques": [
 			// Causes collateral damage
 			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]",,
+			"Consumes [1] [Uranium]",
 			"Never appears as a Barbarian unit",
 			"[+40]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-20%/turn)
 		],

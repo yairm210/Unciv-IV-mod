@@ -36,16 +36,11 @@
 		// War Weariness
 		"[-25]% [Happiness] [in your cities] <when at war>",
 
-		// Initial Policies/Civics
-		"Adopt [Government] <once>",
-		"Adopt [Legal] <once>",
-		"Adopt [Labor] <once>",
-		"Adopt [Economy] <once>",
-		"Adopt [Religion] <once>",
-		"Adopt [Despotism] <once>",
-		"Adopt [Barbarism] <once>",
-		"Adopt [Tribalism] <once>",
-		"Adopt [Decentralization] <once>",
-		"Adopt [Paganism] <once>"
+		// Adopt all Civic Branches/Policies
+		"Adopt [Government]",
+		"Adopt [Legal]",
+		"Adopt [Labor]",
+		"Adopt [Economy]",
+		"Adopt [Religion]"
     ]
 }
