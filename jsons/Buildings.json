@@ -57,6 +57,7 @@
 		"requiredTech": "Mysticism",
 		"uniques": ["Obsolete with [Astronomy]"]
 	},
+
 	{
 		"name": "Temple",
 		"culture": 1,
@@ -650,7 +651,7 @@
 		"cost": 400,
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
-			"[+50]% Great Person generation [in all cities]",
+			"[+50]% Great Person generation [in your cities]",
 			"[-50]% production cost <with [Marble]>",
 			"Obsolete with [Scientific Method]"
 		],

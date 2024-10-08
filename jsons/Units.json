@@ -853,6 +853,7 @@
 		"movement": 2,
 		"cost": 60,
 		"uniques": [
+			"Cannot attack",
 			"Can build [Land] improvements on tiles",
 			// Scrub fallout from tiles
 			// +25% production speed with Expansive leaders
@@ -986,7 +987,24 @@
             "Can instantly construct a [Academy] improvement <by consuming this unit>",
 			"Can instantly construct a [Great Scientist Specialist] improvement <by consuming this unit>"
         ]
-    }
+    },
+
+    {
+        "name": "Great General", // While Great General is Warlords, we add it here for integrations.
+        "unitType": "Civilian",
+        "movement": 2,
+        "uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"Only available <if [Civ IV Warlords] is enabled>",
+			"Cannot be purchased",
+			"Great Person - [War]"
+			// Can be attached to a unit, which...
+			// - enables unique promotions for that unit
+			// - allows that unit free upgrades
+			// - gives 20 experience points to all units on the tile (The experience points are split evenly between all the units in the stack.)
+		]
+    },
 
 	// Spaceship
 	// https://civilization.fandom.com/wiki/Spaceship_(Civ4)

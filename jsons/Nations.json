@@ -1,11 +1,29 @@
+// https://civilization.fandom.com/wiki/Civilizations_(Civ4)
+
 [
 	{
 		"name": "America",
 		"leaderName": "George Washington",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the American people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [0,0,255],
 		"innerColor": [255,255,255],
-		"uniques": ["Starts with [Agriculture]", "Starts with [Fishing]"],
+		"uniques": [
+			"Starts with [Agriculture]", "Starts with [Fishing]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Charismatic]",
+			"[+1 Happiness]",
+			"[+25]% XP gained from combat",
+			"[+1 Happiness] from every [Monument]",
+			"[+1 Happiness] from every [Broadcast Tower]"
+		],
 		"cities": ["Washington", "New York", "Boston", "Philadelphia", "Atlanta", "Chicago", "Seattle", "San Francisco", "Los Angeles",
 		"Houston", "Portlnd", "St Louis", "Miami", "Buffalo", "Detroit", "New Orleans", "Baltimore", "Denver", "Cincinnati", "Dallas",
 		"Memphis", "Cleveland", "Kansas City", "San Diego", "Richmond", "Las Vegas", "Phoenix", "Albuquerque", "Minneapolis", "Pittsburgh",
@@ -19,9 +37,22 @@
 		"name": "Arabia",
 		"leaderName": "Saladin",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Arabian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [139,214,59],
 		"innerColor": [33,48,176],
-		"uniques": ["Starts with [Mysticism]", "Starts with [The Wheel]"],
+		"uniques": [
+			"Starts with [Mysticism]",
+			"Starts with [The Wheel]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]",
+
+			"Comment [Philosophical]",
+			"[+100]% Great Person generation [in your cities]",
+			"[+100]% Production when constructing [University] buildings [in your cities]"
+		],
 		"cities": ["Mecca", "Medina", "Damascus", "Baghdad", "Najran", "Kufah", "Basra", "Khurasan", "Anjar", "Fustat", "Aden",
 		"Yamama", "Muscat", "Mansura", "Bukhara", "Fez", "Shiraz", "Merw", "Balkh", "Mosul", "Aydab", "Bayr Ras", "Suhar", "Taif",
 		"Hama", "Tabuk", "Sanaa", "Shihr"],
@@ -32,9 +63,24 @@
 		"name": "Aztec",
 		"leaderName": "Montezuma II",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Aztec people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [0,102,0],
 		"innerColor": [255,255,0],
-		"uniques": ["Starts with [Hunting]", "Starts with [Mysticism]"],
+		"uniques": [
+			"Starts with [Hunting]",
+			"Starts with [Mysticism]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]",
+
+			"Comment [Aggressive]",
+			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
+			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
+			"[+100]% Production when constructing [Drydock] buildings [in your cities]"
+		],
 		"cities": ["Tenochtitlan", "Teotihuacan", "Tlatelolco", "Texcoco", "Tlaxcala", "Calixtlahuaca", "Xochicalco", "Tlacopan",
 			   "Atzcapotzalco", "Tzintzuntzan", "Malinalco", "Tula", "Tamuin", "Teayo", "Cempoala", "Chalco", "Tlalmanalco",
 			   "Ixtapaluca", "Huexotla", "Tepexpan", "Tepetlaoxtoc", "Chiconautla", "Zitlaltepec", "Coyotepec", "Tequixquiac",
@@ -45,9 +91,28 @@
 		"name": "China",
 		"leaderName": "Mao Zedong",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Chinese people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [204,0,102],
 		"innerColor": [255,255,153],
-		"uniques": ["Starts with [Agriculture]", "Starts with [Mining]"],
+		"uniques": [
+			"Starts with [Agriculture]",
+			"Starts with [Mining]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Protective]",
+			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [City Garrison I] promotion",
+			"[+100]% Production when constructing [Walls] buildings [in your cities]",
+			"[+100]% Production when constructing [Castle] buildings [in your cities]"
+		],
 		"cities": ["Beijing", "Shanghai", "Guangzhou", "Nanjing", "Xian", "Chengdu", "Hangzhou", "Tianjin", "Macau", "Shangdong",
 			   "Kaifeng", "Ningbo", "Baoding", "Yangzhou", "Haerbin", "Chongqing", "Loyang", "Kunming", "Taipei", "Shenyang",
 			   "Taiyuan", "Tainan", "Dalian", "Lijiang", "Wuxi", "Suzhou", "Maoming", "Shaoguan", "Yangjiang", "Heyuan",
@@ -60,9 +125,22 @@
 		"name": "Egypt",
 		"leaderName": "Ramesses II",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Egyptian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [255,255,0],
 		"innerColor": [0,0,204],
-		"uniques": ["Starts with [Agriculture]", "Starts with [The Wheel]"],
+		"uniques": [
+			"Starts with [Agriculture]",
+			"Starts with [The Wheel]",
+
+			"Comment [Industrious]",
+			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
+			"[+100]% Production when constructing [Forge] buildings [in your cities]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]"
+		],
 		"cities": ["Thebes", "Memphis", "Heliopolis", "Elephantine", "Alexandria", "Piramesses", "Giza", "Byblos", "Akhetaten",
 		"Hieraconpolis", "Abydos", "Asyut", "Avaris", "Lisht", "Buto", "Edfu", "Pithom", "Busiris", "Kahun", "Athribis", "Mendes",
 		"Elashmunein", "Tanis", "Bubastis", "Tihs", "ryx", "Sebennytus", "Akhmin", "Karnak", "Luxor", "Elkab", "Armant", "Balat",
@@ -73,9 +151,22 @@
 		"name": "England",
 		"leaderName": "Elizabeth",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the English people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [255,0,0],
 		"innerColor": [255,255,255],
-		"uniques": ["Starts with [Fishing]", "Starts with [Mining]"],
+		"uniques": [
+			"Starts with [Fishing]",
+			"Starts with [Mining]",
+
+			"Comment [Financial]",
+			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
+			"[+100]% Production when constructing [Bank] buildings [in your cities]",
+
+			"Comment [Philosophical]",
+			"[+100]% Great Person generation [in your cities]",
+			"[+100]% Production when constructing [University] buildings [in your cities]"
+		],
 		"cities": ["London", "York", "Nottingham", "Hastings", "Canterbury", "Coventry", "Warwick", "Newcastle", "Oxford",
 		"Liverpool", "Dover", "Brighton", "Norwich", "Leeds", "Reading", "Birmingham", "Richmond", "Exeter", "Cambridge",
 		"Gloucester", "Manchester", "Bristol", "Leicester", "Carlisle", "Ipswich", "Porsmouth", "Berwick", "Bath", "Mumbles",
@@ -87,9 +178,26 @@
 		"name": "France",
 		"leaderName": "Napoleon",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the French people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [0,0,204],
 		"innerColor": [255,255,0],
-		"uniques": ["Starts with [Agriculture]", "Starts with [The Wheel]"],
+		"uniques": [
+			"Starts with [Agriculture]",
+			"Starts with [The Wheel]",
+
+			"Comment [Organized]",
+			"[+1 Gold] [in your cities]", // TODO: Civic upkeep reduced by 50 %
+			"[+100]% Production when constructing [Lighthouse] buildings [in your cities]",
+			"[+100]% Production when constructing [Factory] buildings [in your cities]",
+			"[+100]% Production when constructing [Courthouse] buildings [in your cities]",
+
+			"Comment [Charismatic]",
+			"[+1 Happiness]",
+			"[+25]% XP gained from combat",
+			"[+1 Happiness] from every [Monument]",
+			"[+1 Happiness] from every [Broadcast Tower]"
+		],
 		"cities": ["Paris", "Orleans", "Lyons", "Rheims", "Tours", "Marseilles", "Chartres", "Avignon", "Bensacon", "Rouen",
 		"Grenoble", "Dijon", "Amiens", "Cherbourg", "Poitiers", "Toulouse", "Bayonne", "Strasbourg", "Brest", "Bordeaux", "Rennes",
 		"Nice", "St. Etienne", "Nantes", "Reims", "Le Mans", "Montpellier", "Limoges", "Nancy", "Lille", "Caen", "Toulon", "Le Havre",
@@ -101,9 +209,24 @@
 		"name": "Germany",
 		"leaderName": "Otto von Bismarck",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the German people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [128,128,128],
 		"innerColor": [0,0,0],
-		"uniques": ["Starts with [Hunting]", "Starts with [Mining]"],
+		"uniques": [
+			"Starts with [Hunting]",
+			"Starts with [Mining]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Industrious]",
+			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
+			"[+100]% Production when constructing [Forge] buildings [in your cities]"
+		],
 		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Essen", "Dortmund", "Stuttgart", "Dusseldorf", "Bremen",
 		"Hannover", "Duisburg", "Leipzig", "Nuremberg", "Dresden", "Bonn", "Bochum", "Magdeburg", "Bielefeld", "Mannheim", "Karlsruhe",
 		"Gelsenkirchen", "Wiesbaden", "Munster", "Rostock", "Augsburg", "Chemnitz", "Aachen", "Braunschweig", "Halle", "Monchengladbach",
@@ -115,9 +238,24 @@
 		"name": "Greece",
 		"leaderName": "Alexander",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Greek people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [0,128,255],
 		"innerColor": [255,255,255],
-		"uniques": ["Starts with [Fishing]", "Starts with [Hunting]"],
+		"uniques": [
+			"Starts with [Fishing]",
+			"Starts with [Hunting]",
+
+			"Comment [Aggressive]",
+			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
+			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
+			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
+
+			"Comment [Philosophical]",
+			"[+100]% Great Person generation [in your cities]",
+			"[+100]% Production when constructing [University] buildings [in your cities]"
+		],
 		"cities": ["Athens", "Sparta", "Corinth", "Thebes", "Argos", "Knossos", "Mycenae", "Pharsalos", "Ephesus", "Halicarnassus",
 		"Rhodes", "Eretria", "Pergamon", "Milteos", "Megara", "Phocaea", "Sicyon", "Tiryns", "Samos", "Mytilene", "Chios", "Paros",
 		"Tegea", "Elis", "Syracuse", "Herakleia", "Gortyn", "Chalkis", "Pylos", "Pella", "Naxos", "Smyrna", "Larissa", "Apollonia",
@@ -127,9 +265,22 @@
 		"name": "Inca",
 		"leaderName": "Huayna Capac",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Incan people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [255,255,0],
 		"innerColor": [255,0,0],
-		"uniques": ["Starts with [Agriculture]", "Starts with [Mysticism]"],
+		"uniques": [
+			"Starts with [Agriculture]",
+			"Starts with [Mysticism]",
+
+			"Comment [Financial]",
+			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
+			"[+100]% Production when constructing [Bank] buildings [in your cities]",
+
+			"Comment [Industrious]",
+			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
+			"[+100]% Production when constructing [Forge] buildings [in your cities]"
+		],
 		"cities": ["Cuzco", "Tiwanaku", "Machu Pichu", "Ollantaytambo", "Corihuayrachina", "Huamanga", "Vilcas", "Vilcabamba", "Vitcos",
 		"Andahuaylas", "Ica", "Arequipa", "Nasca", "Atico", "Juli", "Chuito", "Chuqulapo", "Huanucopampa", "Tamboccocha", "Huaras",
 		"Riobamba", "Caxamalca", "Sausa", "Tambocolorado", "Huaca", "Tumbes", "Chan Chan", "Sipan", "Pachacamap", "Llactapata", "Pisac",
@@ -139,9 +290,22 @@
 		"name": "India",
 		"leaderName": "Gandhi",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Indian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [201,110,232],
 		"innerColor": [255,255,255],
-		"uniques": ["Starts with [Mysticism]", "Starts with [Mining]"],
+		"uniques": [
+			"Starts with [Mysticism]",
+			"Starts with [Mining]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]",
+
+			"Comment [Philosophical]",
+			"[+100]% Great Person generation [in your cities]",
+			"[+100]% Production when constructing [University] buildings [in your cities]"
+		],
 		"cities": ["Delhi", "Bombay", "Madras", "Bangalore", "Calcutta", "Lahore", "Karachi", "Kolhapur", "Jaipur", "Hyderabad",
 		"Bengal", "Chittagong", "Punjab", "Dacca", "Indus", "Pune", "Lucknow", "Varanasi", "Bhopal", "Rajshahi", "Rangoon",
 		"Mandalay", "Peshawar", "Darjeeling", "Cochin", "Cuttack", "Goa", "Calicut", "Rawalpindi", "Quetta", "Howrah",
@@ -155,9 +319,28 @@
 		"name": "Japan",
 		"leaderName": "Tokugawa Ieyasu",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Japanese people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
-		"uniques": ["Starts with [Fishing]", "Starts with [The Wheel]"],
+		"uniques": [
+			"Starts with [Fishing]",
+			"Starts with [The Wheel]",
+
+			"Comment [Aggressive]",
+			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
+			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
+			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
+
+			"Comment [Protective]",
+			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [City Garrison I] promotion",
+			"[+100]% Production when constructing [Walls] buildings [in your cities]",
+			"[+100]% Production when constructing [Castle] buildings [in your cities]"
+		],
 		"cities": ["Kyoto", "Osaka", "Tokyo", "Satsuma", "Kagoshima", "Nara", "Nagoya", "Izumo", "Nagasaki", "Yokohama",
 		"Shimonoseki", "Matsuyama", "Sapporo", "Hakodate", "Ise", "Toyama", "Fukushima", "Suo", "Bizen", "Echizen", "Izumi",
 		"Omi", "Echigo", "Kozuke", "Sado", "Kobe", "Nagano", "Hiroshima", "Takayama", "Akita", "Fukuoka", "Aomori", "Kamakuro",
@@ -169,9 +352,22 @@
 		"name": "Mali",
 		"leaderName": "Mansa Musa",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Mali people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [196,164,28],
 		"innerColor": [27,20,9],
-		"uniques": ["Starts with [Mining]", "Starts with [The Wheel]"],
+		"uniques": [
+			"Starts with [Mining]",
+			"Starts with [The Wheel]",
+
+			"Comment [Financial]",
+			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
+			"[+100]% Production when constructing [Bank] buildings [in your cities]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]"
+		],
 		"cities": ["Timbuktu", "Djenne", "Kumbi Saleh", "Gao", "Walata", "Niani", "Awdaghost", "Tadmekka", "Tekedda", "Awlil",
 		"Wadan", "Agades", "Teodeni", "Taghaza", "Katsina", "Kano", "Zaria", "Bilma", "Ngazargamu", "Kangaba", "Dia", "Tiraqqa",
 		"Awkar", "Kukiya", "Takrur", "Arawan", "Sya", "Taoudenni", "Bambouk", "Kirina"],
@@ -182,9 +378,24 @@
 		"name": "Mongolia",
 		"leaderName": "Genkhis Khan",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Mongolian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [121,82,3],
 		"innerColor": [228,188,8],
-		"uniques": ["Starts with [Hunting]", "Starts with [The Wheel]"],
+		"uniques": [
+			"Starts with [Hunting]",
+			"Starts with [The Wheel]",
+
+			"Comment [Aggressive]",
+			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
+			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
+			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
+
+			"Comment [Imperialistic]",
+			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
+			"[+100]% Production when constructing [Settler] units [in your cities]"
+		],
 		"cities": ["Karakorum", "Beshbalik", "Turfan", "Ning-hsia", "Old Sarai", "New Sarai", "Samarqand", "Tabriz", "Tiflis",
 		"Otrar", "Sanchu", "Kazan", "Almarikh", "Ulaanbaatar", "Hovd", "Darhan", "Dalandzadgad", "Mandalgovi", "Choybalsan",
 		"Erdenet", "Tsetserleg", "Baruun-Urt", "Ereen", "Batshireet", "Choyr", "Ulaangom", "Tosontsengel", "Atlay", "Uliastay",
@@ -194,9 +405,24 @@
 		"name": "Persia",
 		"leaderName": "Cyrus II",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Persian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [0,204,204],
 		"innerColor": [0,0,0],
-		"uniques": ["Starts with [Agriculture]", "Starts with [Hunting]"],
+		"uniques": [
+			"Starts with [Agriculture]",
+			"Starts with [Hunting]",
+
+			"Comment [Imperialistic]",
+			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
+			"[+100]% Production when constructing [Settler] units [in your cities]",
+
+			"Comment [Charismatic]",
+			"[+1 Happiness]",
+			"[+25]% XP gained from combat",
+			"[+1 Happiness] from every [Monument]",
+			"[+1 Happiness] from every [Broadcast Tower]"
+		],
 		"cities": ["Persepolis", "Pasargadae", "Susa", "Ecbatana", "Arbela", "Tarsus", "Gordium", "Bactra", "Sardis", "Ergili",
 		"Dariushkabir", "Ghulaman", "Zohak", "Istakhr", "Jinjan", "Borazjan", "Herat", "Dakyanus", "Bampur", "Turengtepe", "Rey",
 		"Shiraz", "Tushpa", "Hasanlu", "Gabae", "Merv", "Behistun", "Kandahar", "Altintepe", "Bunyan", "Charsadda", "Dura Europos",
@@ -207,9 +433,22 @@
 		"name": "Rome",
 		"leaderName": "Augustus Caesar",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Roman people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [102,0,51],
 		"innerColor": [255,255,0],
-		"uniques": ["Starts with [Fishing]", "Starts with [Mining]"],
+		"uniques": [
+			"Starts with [Fishing]",
+			"Starts with [Mining]",
+
+			"Comment [Industrious]",
+			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
+			"[+100]% Production when constructing [Forge] buildings [in your cities]",
+
+			"Comment [Imperialistic]",
+			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
+			"[+100]% Production when constructing [Settler] units [in your cities]"
+		],
 		"cities": ["Rome", "Antium", "Cumae", "Neapolis", "Pisae", "Ravenna", "Arretium", "Mediolanum", "Arpinum", "Circei",
 		"Setia", "Satricum", "Ardea", "Ostia", "Velitrae", "Viroconium", "Tarentum", "Brundisium", "Caesaraugusta", "Caesarea",
 		"Palmyra", "Signia", "Aquileia", "Clusium", "Sutrium", "Cremona", "Placentia", "Hispalis", "Nicomedia", "Artaxata",
@@ -221,9 +460,24 @@
 		"name": "Russia",
 		"leaderName": "Peter",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Russian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [255,0,0],
 		"innerColor": [255,255,0],
-		"uniques": ["Starts with [Hunting]", "Starts with [Mining]"],
+		"uniques": [
+			"Starts with [Hunting]",
+			"Starts with [Mining]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Philosophical]",
+			"[+100]% Great Person generation [in your cities]",
+			"[+100]% Production when constructing [University] buildings [in your cities]"
+		],
 		"cities": ["Moskow", "St. Petersburg", "Novgorod", "Rostov", "Yaroslavi", "Yekaterinburg", "Yakutsk", "Vladivostok",
 		"Smolensk", "Orenburg", "Krasnoyarsk", "Khabarovsk", "Bryansk", "Tver", "Novosibirsk", "Magadan", "Murmansk", "Irkutsk",
 		"Chita", "Samara", "Arkhangel'sk", "Chelyabinsk", "Tobol'sk", "Vologda", "Omsk", "Astrakhan", "Kursk", "Saratov", "Tula",
@@ -235,9 +489,24 @@
 		"name": "Spain",
 		"leaderName": "Isabella",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Spanish people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [236,174,143],
 		"innerColor": [123,22,19],
-		"uniques": ["Starts with [Fishing]", "Starts with [Mysticism]"],
+		"uniques": [
+			"Starts with [Fishing]",
+			"Starts with [Mysticism]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]"
+		],
 		"cities": ["Madrid", "Barcelona", "Seville", "Cordoba", "Toledo", "Santiago", "Salamanca", "Murcia", "Valencia", "Zaragoza",
 		"Pamplona", "Vitoria", "Santander", "Asturias", "Jaen", "Logrono", "Valladolid", "Palma", "Teruel", "Almeria", "Leon",
 		"Zamora", "Mida", "Lugo", "Alicante", "Cadiz", "Elche", "Alcorcon", "Burgos", "Vigo", "Badajoz", "La Coruna", "Oviedo",
