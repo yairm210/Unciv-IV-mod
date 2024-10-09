@@ -305,6 +305,13 @@ ResourceIcons/Great Scientist Specialist
   orig: 200, 200
   offset: 0, 0
   index: -1
+ResourceIcons/Great Spy Specialist
+  rotate: false
+  xy: 4, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 ResourceIcons/Health
   rotate: false
   xy: 1044, 1044

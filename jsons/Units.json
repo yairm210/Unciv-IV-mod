@@ -210,7 +210,7 @@
 	},
 
 	{
-		"name": "SAM Infantry",
+		"name": "SAM Infantry", // TODO: Icon
 		"unitType": "Gunpowder",
 		"interceptRange": 2,
 		"strength": 18,
@@ -356,7 +356,7 @@
 		"requiredTech": "Military Tradition",
 		"requiredResource": "Horses",
 		"uniques": [
-			"Can upgrade to [Gunship]",
+			"Can upgrade to [Helicopter Gunship]",
 			"Only available <after discovering [Rifling]>",
 			"Only available <after discovering [Horseback Riding]>",
 			"No defensive terrain bonus",
@@ -372,7 +372,7 @@
 	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
-		"name": "Gunship",
+		"name": "Helicopter Gunship", // "Gunship in Civ 4
 		"unitType": "Helicopter",
 		"strength": 24,
 		"movement": 4,
@@ -428,7 +428,7 @@
 	},
 
 	{
-		"name": "Galleon",
+		"name": "Galleon", // TODO: Icon
 		"unitType": "Melee Water",
 		"strength": 4,
 		"movement": 4,
@@ -475,7 +475,7 @@
 	},
 
 	{
-		"name": "Transport",
+		"name": "Transport", // TODO: Icon
 		"unitType": "Melee Water",
 		"strength": 16,
 		"movement": 5,
@@ -655,7 +655,7 @@
 
 	// Missles
 	{
-		"name": "ICBM",
+		"name": "ICBM", // TODO: Icon
 		"unitType": "Missle",
 		"strength": 300,
 		"movement": 1,
@@ -668,7 +668,7 @@
 			"Only available <after discovering [Robotics]>",
 			"Nuclear weapon of Strength [2]",
 			"Never appears as a Barbarian unit",
-			"Only available <if [Manhattan Project] is constructed by anybody>",
+			"Only available <if [The Manhattan Project] is constructed by anybody>",
 			"Blast radius [12]"
 		],
 		"attackSound": "bombing"
@@ -1032,7 +1032,7 @@
 		]
     },
 
-    {
+    { // TODO: Icon
         "name": "Great Spy", // While Great Spy is BTS, we add it here for integrations.
         "unitType": "Civilian",
         "movement": 2,
@@ -1056,7 +1056,7 @@
 	// Spaceship
 	// https://civilization.fandom.com/wiki/Spaceship_(Civ4)
 	{
-		"name": "SS Casing",
+		"name": "SS Casing", // TODO: Icon
 		"unitType": "Civilian",
 		"cost": 1200,
 		"uniques": [
@@ -1079,7 +1079,7 @@
 		"requiredTech": "Fiber Optics"
 	},
 	{
-		"name": "SS Docking Bay",
+		"name": "SS Docking Bay", // TODO: Icon
 		"unitType": "Civilian",
 		"cost": 2000,
 		"uniques": [
@@ -1100,7 +1100,7 @@
 		"requiredTech": "Fusion"
 	},
 	{
-		"name": "SS Life Support",
+		"name": "SS Life Support", // TODO: Icon
 		"unitType": "Civilian",
 		"cost": 1000,
 		"uniques": [
@@ -1121,7 +1121,7 @@
 		"requiredTech": "Genetics"
 	},
 	{
-		"name": "SS Thrusters",
+		"name": "SS Thrusters", // TODO: Icon
 		"unitType": "Civilian",
 		"cost": 1200,
 		"uniques": [
@@ -1136,7 +1136,7 @@
 	// https://civilization.fandom.com/wiki/List_of_units_in_Civ4#Replacements
 
 	{
-		"name": "Navy SEAL",
+		"name": "Navy SEAL", // TODO: Icon
 		"replaces": "Marine",
 		"uniqueTo": "America",
 		"unitType": "Gunpowder",
@@ -1193,7 +1193,7 @@
 	},
 
 	{
-		"name": "Cho-Ko-Nu",
+		"name": "Cho-Ko-Nu", // TODO: Icon
 		"replaces": "Crossbowman",
 		"uniqueTo": "China",
 		"unitType": "Archery",
@@ -1232,7 +1232,7 @@
 	},
 
 	{
-		"name": "Redcoat",
+		"name": "Redcoat", // TODO: Icon
 		"replaces": "Rifleman",
 		"uniqueTo": "England",
 		"unitType": "Gunpowder",
@@ -1279,7 +1279,7 @@
 	},
 
 	{
-		"name": "Phalanx",
+		"name": "Phalanx", // TODO: Icon
 		"replaces": "Spearman",
 		"uniqueTo": "Greece",
 		"unitType": "Sword",
@@ -1299,7 +1299,7 @@
 	},
 
 	{
-		"name": "Quechua",
+		"name": "Quechua", // TODO: Icon
 		"replaces": "Warrior",
 		"uniqueTo": "Inca",
 		"unitType": "Sword",
@@ -1315,7 +1315,7 @@
 	},
 
 	{
-		"name": "Fast Worker",
+		"name": "Fast Worker", // TODO: Icon
 		"replaces": "Worker",
 		"uniqueTo": "India",
 		"unitType": "Civilian",
@@ -1389,7 +1389,7 @@
 	},
 
 	{
-		"name": "Immortal",
+		"name": "Immortal", // TODO: Icon
 		"unitType": "Mounted",
 		"replaces": "Chariot",
 		"uniqueTo": "Persia",
@@ -1409,7 +1409,7 @@
 	},
 
 	{
-		"name": "Praetorian",
+		"name": "Praetorian", // TODO: Icon
 		"unitType": "Sword",
 		"replaces": "Swordsman",
 		"uniqueTo": "Rome",
@@ -1430,10 +1430,10 @@
 		"strength": 15,
 		"movement": 2,
 		"cost": 120,
-		"upgradesTo": "Gunship",
 		"requiredTech": "Military Tradition",
 		"requiredResource": "Horses",
 		"uniques": [
+			"Can upgrade to [Helicopter Gunship]",
 			"Only available <after discovering [Rifling]>",
 			"Only available <after discovering [Horseback Riding]>",
 			"No defensive terrain bonus",

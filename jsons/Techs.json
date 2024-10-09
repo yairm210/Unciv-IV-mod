@@ -497,9 +497,6 @@
 				"cost": 1800,
 				"row": 13,
 				"prerequisites": ["Engineering", "Gunpowder"],
-				"uniques": [
-					"[+1 Production] from every [Workshop]"
-				],
 				"quote": "'Chemistry means the difference between poverty and starvation and the abundant life.' - Robert Brent"
 			}
 		]
@@ -511,7 +508,7 @@
 			{
 				"name": "Steam Power",
 				"cost": 3200,
-				"row": 4,
+				"row": 6,
 				"prerequisites": ["Chemistry", "Replaceable Parts"],
 				"quote": "'You would make a ship sail against the winds and currents by lighting a bonfire under her deck? I have no time for such nonsense.' - Napoleon on Robert Fulton's steamship"
 			},
@@ -546,7 +543,7 @@
 				"name": "Communism",
 				"cost": 5000,
 				"row": 1,
-				"prerequisites": ["Scientific Method"]
+				"prerequisites": ["Scientific Method"],
 				"quote": "'When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist.' - Dom Helder Camara"
 			},
 			{
@@ -561,9 +558,6 @@
 				"cost": 3600,
 				"row": 7,
 				"prerequisites": ["Chemistry", "Scientific Method"],
-				"uniques": [
-					"[+1 Production] from every [Farm]"
-				],
 				"quote": "'It is not the strongest of the species that survive but the one most responsive to change.' - Charles Darwin"
 			},
 			{
@@ -676,7 +670,9 @@
 				"cost": 6000,
 				"row": 3,
 				"prerequisites": ["Radio", "Rocketry", "Flight"],
-				"uniques": ["Reveals the entire map"],
+				"uniques": [
+					"Reveals the entire map"
+				],
 				"quote": "'Beep...Beep...Beep...Beep...' - Sputnik I"
 			},
 			{
@@ -732,7 +728,9 @@
 				"cost": 7000,
 				"row": 6,
 				"prerequisites": ["Medicine"],
-				"uniques": ["[+3 Food] [in all cities]"],
+				"uniques": [
+					"Provides [3] [Health]" // +3 Health to all cities
+				],
 				"quote": "'Soon it will be a sin for parents to have a child that carries the heavy burden of genetic disease.' - Bob Edwards"
 			},
 			{
@@ -775,8 +773,8 @@
 				"prerequisites": ["Stealth", "Genetics"],
 				"uniques": [
 					"Can be continually researched",
-					"[+1 Food] [in all cities]",
-					"[+1 Happiness] [in capital]"
+					"[+1 Food] [in your cities]",
+					"[+1 Happiness] [in your cities]"
 				],
 				"quote": "'The future will be better tomorrow.' - Dan Quayle"
 			}

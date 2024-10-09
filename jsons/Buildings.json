@@ -273,10 +273,11 @@
 	// Renaissance era
 
 	{
-		"name": "Jail",
+		"name": "Jail", // TODO: Missing Icon
 		"cost": 120,
 		"specialistSlots": {"Spy": 2},
 		"uniques": [
+			"Hidden when espionage is disabled",
 			"[+7]% [Happiness] [in this city] <when at war>" // -25% war weariness
 			// +4 Espionage (BtS)
 			// +50% Espionage (BtS)
@@ -293,12 +294,13 @@
 	},
 
 	{
-		"name": "Security Bureau",
+		"name": "Security Bureau", // TODO: Missing Icon
 		"cost": 220,
 		"espianage": 8,
 		"specialistSlots": {"Spy": 2},
 		"uniques": [
-			"[-50]% enemy spy effectiveness [in this city]"
+			"[-50]% enemy spy effectiveness [in this city]",
+			"Hidden when espionage is disabled"
 		],
 		"requiredTech": "Democracy"
 	},
@@ -326,7 +328,7 @@
 	},
 
 	{
-		"name": "Bunker",
+		"name": "Bunker", // TODO: Missing Icon
 		"cost": 100,
 		"requiredTech": "Electricity",
 		"uniques": [
@@ -349,7 +351,7 @@
 	},
 
 	{
-		"name": "Drydock",
+		"name": "Drydock", // TODO: Missing Icon
 		"cost": 120,
 		"uniques": [
             "Provides [-1] [Health] <in this city>",
@@ -407,7 +409,7 @@
 	// Modern era
 
 	{
-		"name": "Airport",
+		"name": "Airport", // TODO: Missing Icon
 		"cost": 250,
         "uniques": [
 			// +1 trade route
@@ -528,7 +530,7 @@
 	},
 
 	{
-		"name": "Pyramids",
+		"name": "The Pyramids", // "Pyramids" in Civ 4
 		"culture": 6,
         "cost": 500,
 		"isWonder": true,
@@ -541,7 +543,7 @@
 	},
 
 	{
-		"name": "Great Lighthouse",
+		"name": "The Great Lighthouse",
 		"culture": 6,
         "cost": 200,
 		"isWonder": true,
@@ -644,6 +646,7 @@
 		"uniques":[
 			"[+1 Production] from every [Priest]",
 			"Obsolete with [Computers]",
+			"Hidden when religion is disabled",
 			"[-50]% production cost <with [Marble]>"
 		],
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
@@ -768,13 +771,12 @@
 		"name": "Kremlin",
 		"cost": 800,
 		"isWonder": true,
-		// "greatPersonPoints": {"Great Spy": 2}, (BTS)
+		"greatPersonPoints": {"Great Spy": 2},
 		"uniques": [
 			"[-50]% production cost <with [Stone]>",
 			"Hidden when espionage is disabled",
 			"Obsolete with [Fiber Optics]"
 			// -33% hurry production cost when using Universal Suffrage or Slavery
-			// Can turn 2 citizens into Spies
 		],
 		"specialistSlots": {"Spy": 2},
 		"requiredTech": "Communism"
@@ -833,7 +835,7 @@
 	},
 
 	{
-		"name": "Three Gorges Dam",
+		"name": "Three Gorges Dam", // TODO: Missing Icon
 		"cost": 1750,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
@@ -900,7 +902,7 @@
 	},
 
 	{
-		"name": "Globe Theatre",
+		"name": "Globe Theatre", // TODO: Missing Icon
 		"isNationalWonder": true,
 		"culture": 6,
 		"cost": 300,
@@ -985,7 +987,7 @@
 	},
 
 	{
-		"name": "West Point",
+		"name": "West Point", // TODO: Missing Icon
 		"cost": 800,
 		// BTS: "greatPersonPoints": {"Great Spy": 1},
 		"isNationalWonder": true,
@@ -1014,7 +1016,7 @@
 	},
 
 	{
-		"name": "Mt. Rushmore",
+		"name": "Mt. Rushmore", // TODO: Missing Icon
 		"cost": 500,
 		"culture": 4,
 		"greatPersonPoints": {"Great Artist": 1},
@@ -1043,7 +1045,7 @@
 	// World Projects
 
 	{
-		"name": "The Manhattan Project",
+		"name": "Manhattan Project", // "The Manhattan Project" in Civ 4
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": [
@@ -1075,7 +1077,7 @@
 	},
 
 	{
-		"name": "Scotland Yard",
+		"name": "Scotland Yard", // TODO: Missing Icon
 		"cost": 500,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -1086,7 +1088,7 @@
 	},
 
 	{
-		"name": "Academy",
+		"name": "Academy", // TODO: Missing Icon
 		// See Academy Building tile improvement, and Great Scientist
 		"cost": 50,
 		"percentStatBonus": {"science": 50},

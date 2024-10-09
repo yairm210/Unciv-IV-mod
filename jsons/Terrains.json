@@ -1,3 +1,5 @@
+// TODO: Add Peak
+
 [
 	// Base terrains
 	{
@@ -12,10 +14,12 @@
 		"name": "Coast",
 		"type": "Water",
 		"food": 1,
-        "gold": 1,
+        "gold": 2,
 		"movementCost": 1,
 		"RGB": [70, 138, 216],
-		"uniques": ["[+2] to Fertility for Map Generation",
+		"defenceBonus": 0.1,
+		"uniques": [
+			"[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -26,6 +30,7 @@
 		"movementCost": 1,
 		"RGB": [0, 163, 0],
         "uniques": [
+			// TODO: +1 Coin adjacent to river
 			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
             "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
@@ -53,7 +58,9 @@
 		"production": 1,
 		"movementCost": 1,
 		"RGB": [153, 180, 51],
-		"uniques": ["Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+		"uniques": [
+			// TODO: +1 Coin adjacent to river
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
             "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
             "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
             "Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
@@ -81,7 +88,8 @@
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"RGB": [124, 62, 57],
-		"uniques": ["Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+		"uniques": [
+			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
             "Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
             "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
             "Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
@@ -97,9 +105,9 @@
 		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
-		"defenceBonus": -0.1,
 		"RGB": [230, 172, 0],
-		"uniques": ["Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+		"uniques": [
+			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
             "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
             "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
@@ -116,6 +124,7 @@
 		"food": 2,
 		"gold": 2,
 		"RGB": [0, 171, 169],
+		"defenceBonus": 0.1,
 		"uniques": [
 			"Fresh water",
 			"Considered [Food] when determining start locations",
@@ -142,7 +151,7 @@
 		"rough": true
 	},
 	{
-		"name": "Mountain",
+		"name": "Mountain", // "Peak" in Civ 4
 		"type": "Land",
 		"impassable": true,
 		"defenceBonus": 0.25,
@@ -206,7 +215,7 @@
 	{
 		"name": "Jungle",
 		"type": "TerrainFeature",
-		"food": 2,
+		"food": -1,
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
@@ -214,6 +223,8 @@
 		"occursOn": ["Plains","Grassland"],
 		"rough": true,
 		"uniques": [
+			// Negates +1 Coin (Civ4) from rivers except with Forest Preserve
+			// +0.25 Unhealthiness (Civ4) in nearby cities
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
@@ -235,8 +246,8 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": [
-			"Doesn't generate naturally"
-			// -0.50 Health in nearby cities
+			"Doesn't generate naturally",
+			// "Provides [-0.5] [Health]" // TODO: +0.50 Unhealthiness in nearby cities
 		],
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
@@ -247,10 +258,9 @@
 		"name": "Oasis",
 		"type": "TerrainFeature",
 		"food": 3,
-		"gold": 1,
+		"gold": 2,
 		"movementCost": 2,
 		"unbuildable": true,
-		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
 		"uniques": [
 			"Fresh water",
@@ -268,9 +278,13 @@
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
-		"uniques": ["Always Fertility [5] for Map Generation",
-					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations"]
+		"uniques": [
+			// TODO: must be next to river, which will necessarily provide +1 Gold
+			// TODO: +0.40 Unhealthiness in nearby cities
+			"Always Fertility [5] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		]
 	},
 	{
 		"name": "Ice",
@@ -279,9 +293,10 @@
 		"overrideStats": true,
 		"occursOn": ["Ocean", "Coast"],
 		"uniques": [
-			// "[+50]% construction time for [All] improvements"
+			// TODO: "[+50]% construction time for [All] improvements"
 			"Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
 			"[-1] to Fertility for Map Generation",
+			"Rough terrain",
 			"Considered [Undesirable] when determining start locations"
 		]
 	},
