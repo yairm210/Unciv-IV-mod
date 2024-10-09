@@ -457,9 +457,8 @@
                 "name": "Free Religion",
                 "uniques": [
 					"[+10]% [Science] [in your cities]",
-					"Only available <before founding a religion>", // No state religion
-                    "Only available <after discovering [Liberalism]>",
-					// +1 Happiness per every religion in city
+					"Only available <after discovering [Liberalism]> <before founding a religion>", // No state religion
+					// TODO: +1 Happiness per every religion in city
 
 					"Remove [Paganism] and refund [100]% of its cost <hidden from users>",
 					"Remove [Organized Religion] and refund [100]% of its cost <hidden from users>",
