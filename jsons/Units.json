@@ -10,7 +10,7 @@
 	{
 		"name": "Warrior",
 		"unitType": "Sword",
-		"movement": 2,
+		"movement": 1,
 		"strength": 2,
 		"cost": 15,
 		"uniques": [
@@ -135,8 +135,8 @@
 	{
 		"name": "Crossbowman",
 		"unitType": "Archery",
-		"movement": 1,
 		"strength": 6,
+		"movement": 1,
 		"cost": 60,
 		"requiredTech": "Machinery",
 		"requiredResource": "Iron",
@@ -400,7 +400,7 @@
 		"name": "Galley",
 		"unitType": "Melee Water",
 		"strength": 2,
-		"movement": 3,
+		"movement": 2,
 		"cost": 50,
 		"requiredTech": "Sailing",
 		"uniques": [
