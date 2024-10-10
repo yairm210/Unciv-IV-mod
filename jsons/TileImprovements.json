@@ -21,7 +21,8 @@
         "uniques": [
  			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
-		"techRequired": "Pottery"
+		"techRequired": "Pottery",
+		"shortcutKey": "T"
 	},
 
 	{
@@ -33,7 +34,8 @@
 			"Can only be built on [Cottage] tiles",
  			"Pillaging this improvement yields approximately [+15 Gold]"
 		],
-		"techRequired": "Pottery"
+		"techRequired": "Pottery",
+		"shortcutKey": "T"
 	},
 
 	{
@@ -45,7 +47,8 @@
 			"Can only be built on [Hamlet] tiles",
  			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
-		"techRequired": "Pottery"
+		"techRequired": "Pottery",
+		"shortcutKey": "T"
 	},
 
 	{
@@ -57,7 +60,8 @@
 			"Can only be built on [Village] tiles",
  			"Pillaging this improvement yields approximately [+25 Gold]"
 		],
-		"techRequired": "Pottery"
+		"techRequired": "Pottery",
+		"shortcutKey": "T"
 	},
 
 	{
@@ -96,7 +100,6 @@
 		"techRequired": "Scientific Method",
 		"uniques": [
 			"[+1 Gold] for each adjacent [River]"
-			// TODO: +2 Coin (Civ4) with the Environmentalism civic
 		],
 		"shortcutKey": "L"
 	},
@@ -214,7 +217,6 @@
 		"techRequired": "Machinery",
 		"uniques":[
 			"Must be next to [River]",
-			// TODO: +1 Food with the State Property civic
 			"[+1 Production] <after discovering [Replaceable Parts]>",
 			"[+2 Gold] <after discovering [Electricity]>",
 			"Pillaging this improvement yields approximately [+5 Gold]"
@@ -251,7 +253,6 @@
 		"turnsToBuild": 5,
 		"techRequired": "Machinery",
 		"uniques":[
-			// TODO: +2 Coin with the Environmentalism civic
 			"[+1 Production] <after discovering [Replaceable Parts]>",
 			"[+1 Gold] <after discovering [Electricity]>",
 			"Pillaging this improvement yields approximately [+5 Gold]"
@@ -274,12 +275,11 @@
 		"production": 1,
 		"turnsToBuild": 6,
 		"uniques": [
-			// TODO: +1 Food with the State Property civic
-			// TODO: +1 Hammer with the Caste System civic
 			"[+1 Production] <after discovering [Guilds]>",
 			"[+1 Production] <after discovering [Chemistry]>",
 			"Pillaging this improvement yields approximately [+5 Gold]"
 		],
+		"shortcutKey": "K",
 		"techRequired": "Metal Casting"
 	},
 
@@ -294,6 +294,7 @@
 			"Unbuildable",
 			"Excluded from map editor"
 		],
+		// "shortcutKey": "B", // The default in Unciv is C, so we will leave it as is.
         "civilopediaText": [
             {"text":"Marks the center of a city"},
             {"text":"Appearance changes with the technological era of the owning civilization"}

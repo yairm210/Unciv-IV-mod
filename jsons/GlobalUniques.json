@@ -29,6 +29,21 @@
         "Provides [-1] [Health] <in cities with at least [23] [Population]>",
         "Provides [-1] [Health] <in cities with at least [24] [Population]>",
         "Provides [-1] [Health] <in cities with at least [25] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [26] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [27] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [28] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [29] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [30] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [31] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [32] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [33] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [34] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [35] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [36] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [37] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [38] [Population]>",
+        "Provides [-1] [Health] <in cities with at least [39] [Population]>",
+		"Provides [-1] [Health] <in cities with at least [40] [Population]>",
 
         // Speed Adjustments
         "[+25]% Production when constructing [All] units [in all cities] <on [Marathon] game speed>",
@@ -41,6 +56,9 @@
 		"Adopt [Legal]",
 		"Adopt [Labor]",
 		"Adopt [Economy]",
-		"Adopt [Religion]"
+		"Adopt [Religion]",
+
+		// Religion
+		"[+5 Culture, +5 Faith] [in capital] <after founding a Pantheon>"
     ]
 }

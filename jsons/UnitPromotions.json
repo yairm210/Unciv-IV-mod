@@ -182,7 +182,7 @@
 	{
 		"name": "Drill I",
 		"uniques": [
-			"[+10]% to Flank Attack bonuses" // +1 first strike chance
+			"[+10]% to Flank Attack bonuses" // TODO: +1 first strike chance
 		],
 		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder"]
 	},

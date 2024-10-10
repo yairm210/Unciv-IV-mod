@@ -86,7 +86,7 @@
 				"cost": 80,
 				"prerequisites": ["Mysticism"],
 				"uniques": [
-					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
 				"quote": "'Meditation brings wisdom, lack of wisdom leaves ignorance, know well what leads you forward and what holds you back.' - Buddha"
 			},
@@ -96,7 +96,7 @@
 				"cost": 100,
 				"prerequisites": ["Mysticism"],
 				"uniques": [
-					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
 				"quote": "'Not at all similar are the race of the immortal gods and the race of men who walk upon the Earth.' - Homer"
 			},
@@ -133,7 +133,7 @@
 				"cost": 120,
 				"prerequisites": ["Polytheism"],
 				"uniques": [
-					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
 				"quote": "'I am the Lord thy God. Thou shalt have no other gods before me.' - The Bible, Exodus"
 			},
@@ -260,7 +260,7 @@
 			{
 				"name": "Drama",
 				"cost": 300,
-				"row": 1,
+				"row": 4,
 				"prerequisites": ["Alphabet"],
 				"quote": "'All the world's a stage, And all the men and women merely players: They have their exits and their entrances; And one man in his time plays many parts.' - William Shakespeare"
 			},
@@ -313,7 +313,7 @@
 				"row": 4,
 				"prerequisites": ["Code of Laws", "Drama"],
 				"uniques": [
-					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
 				"quote": "'I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.' - Aristotle"
 			},
@@ -323,7 +323,7 @@
 				"row": 5,
 				"prerequisites": ["Code of Laws", "Feudalism"],
 				"uniques": [
-					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
 				"quote": "'The bureaucracy is expanding to meet the needs of the expanding breaucracy.' - Oscar Wilde"
 			},
@@ -333,7 +333,7 @@
 				"row": 7,
 				"prerequisites": ["Writing"],
 				"uniques": [
-					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
 				"quote": "'Two cities have been formed by two loves: the earthly by the love of self, the heavenly by the love of God.'- St. Augustine"
 			},
@@ -356,7 +356,7 @@
 				"row": 1,
 				"prerequisites": ["Theology", "Monarchy"],
 				"uniques": [
-					//"Free [Great Prophet] appears <if no other Civilization has researched this>"
+					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
 				"quote": "'I am the state.' - Louis XIV"
 			},
@@ -487,7 +487,7 @@
 			{
 				"name": "Corporation",
 				"cost": 1600,
-				"row": 7,
+				"row": 4,
 				"prerequisites": ["Economics", "Constitution"]
 				//"quote": "'Astronomy compels the soul to look upwards and leads us from this world to another.'- Plato"
 			},
@@ -534,7 +534,7 @@
 			{
 				"name": "Assembly Line",
 				"cost": 5000,
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Steam Power", "Nationalism", "Economics"],
 				"quote": "'People can have the Model T in any color - so long as it's black.' - Henry Ford"
 			},
@@ -630,7 +630,7 @@
 			{
 				"name": "Industrialism",
 				"cost": 6500,
-				"row": 5,
+				"row": 2,
 				"prerequisites": ["Electricity", "Assembly Line"],
 				"quote": "'There is one rule for the industrialist and that is: Make the best quality of goods possible at the lowest cost possible, paying the highest wages possible.' - Henry Ford"
 			},
@@ -684,7 +684,7 @@
 			{
 				"name": "Computers",
 				"cost": 6500,
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Radio"],
 				"quote": "'Never trust a computer you can't throw out the window.' - Steve Wozniak"
 			},
@@ -718,7 +718,7 @@
 			{
 				"name": "Ecology",
 				"cost": 5500,
-				"row": 1,
+				"row": 8,
 				"prerequisites": ["Biology", "Plastics", "Fission"], // Plastics OR Fission
 				"quote": "'We do not inherit the earth from our ancestors, we borrow it from our children' - Native American proverb"
 			},
@@ -761,7 +761,7 @@
 			{
 				"name": "Fusion",
 				"cost": 8000,
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Fission" ,"Fiber Optics"],
 				"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' - Arthur C. Clarke"
 			},

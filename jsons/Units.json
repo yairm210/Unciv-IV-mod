@@ -546,7 +546,7 @@
 		],
 		"attackSound": "metalhit"
 	},
-	
+
 	{
 		"name": "Destroyer",
 		"unitType": "Melee Water",
@@ -977,6 +977,7 @@
             "Can Spread Religion <by consuming this unit>",
             "May enter foreign tiles without open borders",
 			"[-1] Sight",
+			"Uncapturable",
 			"Religious Unit",
 			"Hidden when religion is disabled",
 			"Cannot attack"
@@ -1221,6 +1222,7 @@
 			// Immune to first strikes
 			"Can upgrade to [Cuirassier] <if [Civ IV Beyond the Sword] is enabled>",
 			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit",
 			"Withdraws before melee combat <with [15]% chance>",
 			"[+20]% to Flank Attack bonuses <vs [Siege] units>", // Flank attack versus Catapults and Trebuchets
 			"Only available <after discovering [Horseback Riding]>",
@@ -1240,6 +1242,7 @@
 		"cost": 35,
 		"uniques": [
 			"Can upgrade to [Maceman]",
+			"Never appears as a Barbarian unit",
 			"[+10]% Strength <vs cities> <when attacking>",
 			"Only available <after discovering [Archery]>"
 		],
@@ -1258,6 +1261,7 @@
 		"uniques": [
 			"Can upgrade to [Rifleman]",
 			"Can upgrade to [Grenadier]",
+			"Never appears as a Barbarian unit",
 			// 2 first strikes
 			// Causes collateral damage
 			"[+50]% Strength <vs [Sword] units>",
@@ -1279,6 +1283,7 @@
 			"Can upgrade to [Horse Archer]",
 			// Immune to first strike
 			// Causes collateral damage
+			"Never appears as a Barbarian unit",
 			"No defensive terrain bonus",
 			"Withdraws before melee combat <with [10]% chance>",
 			"[+100]% Strength <vs [Axeman] units>"
@@ -1297,6 +1302,7 @@
 		"cost": 110,
 		"uniques": [
 			"Can upgrade to [Infantry]",
+			"Never appears as a Barbarian unit",
 			"Withdraws before melee combat <with [10]% chance>",
 			"[+25]% Strength <vs [Mounted] units>",
 			"[+25]% Strength <vs [Gunpowder] units>"
@@ -1313,7 +1319,8 @@
 		"movement": 2,
 		"cost": 80,
 		"uniques": [
-			"Can upgrade to [Rifleman]"
+			"Can upgrade to [Rifleman]",
+			"Never appears as a Barbarian unit",
 		],
 		"requiredTech": "Gunpowder"
 	},
@@ -1329,6 +1336,7 @@
 		"uniques": [
 			"Can upgrade to [Modern Armor]",
 			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit",
 			"[+50]% Strength <vs [Armored] units>",
 			"Only available <after discovering [Rifling]>"
 		],
@@ -1348,6 +1356,7 @@
 		"uniques": [
 			"Can upgrade to [Pikeman]",
 			"Consumes [1] [Iron]",
+			"Never appears as a Barbarian unit",
 			"[+50]% Strength <vs [Sword] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
 			"[+100]% Strength <vs [Chariot] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
 			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
@@ -1366,6 +1375,7 @@
 		"cost": 15,
 		"uniques": [
 			"Can upgrade to [Axeman]",
+			"Never appears as a Barbarian unit",
 			"Can upgrade to [Spearman]",
 			"[+25]% Strength <when fighting in [City center] tiles> <when defending>",
 			"[+100]% Strength <vs [Archery] units>"
@@ -1380,7 +1390,8 @@
 		"movement": 3,
 		"cost": 60,
 		"uniques": [
-			"Can build [Land] improvements on tiles"
+			"Can build [Land] improvements on tiles",
+			"Never appears as a Barbarian unit",
 		]
 	},
 
@@ -1396,6 +1407,7 @@
 		"requiredResource": "Iron",
 		"uniques": [
 			"Can upgrade to [Rifleman]",
+			"Never appears as a Barbarian unit",
 			// TODO: 2 first strikes
 			"[+50]% Strength <vs [Melee] units>",
 			"Can upgrade to [Grenadier]",
@@ -1416,6 +1428,7 @@
 		"requiredResource": "Iron",
 		"uniques": [
 			"Can upgrade to [Longbowman]",
+			"Never appears as a Barbarian unit",
 			// TODO: 1-2 first strikes
 			"[+50]% Strength <when fighting in [City center] tiles> <when defending>",
 			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
@@ -1437,6 +1450,7 @@
 			"Can upgrade to [Knight]",
 			// TODO: 1 first strikes
 			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit",
 			"Withdraws before melee combat <with [20]% chance>",
 			"Ignores terrain cost",
 			"[+50]% Strength <vs [Siege] units> <when attacking>",
@@ -1459,6 +1473,7 @@
 		"uniques": [
 			"Can upgrade to [Knight]",
 			"Can upgrade to [Horse Archer]",
+			"Never appears as a Barbarian unit",
 			"[+100]% Strength <vs [Axeman] units>",
 			"Withdraws before melee combat <with [10]% chance>",
 			"[+100]% Strength <vs [Archery] units>"
@@ -1475,7 +1490,8 @@
 		"movement": 1,
 		"cost": 45,
 		"uniques": [
-			"Can upgrade to [Maceman]"
+			"Can upgrade to [Maceman]",
+			"Never appears as a Barbarian unit",
 		],
 		"requiredTech": "Iron Working",
 		"requiredResource": "Iron",
@@ -1494,6 +1510,7 @@
 		"requiredResource": "Horses",
 		"uniques": [
 			"Can upgrade to [Helicopter Gunship]",
+			"Never appears as a Barbarian unit",
 			"Only available <after discovering [Rifling]>",
 			"Only available <after discovering [Horseback Riding]>",
 			"No defensive terrain bonus",
@@ -1520,6 +1537,7 @@
 			"Can upgrade to [Cuirassier] <if [Civ IV Beyond the Sword] is enabled>",
 			"Only available <after discovering [Horseback Riding]>",
 			"Only available <after discovering [Military Tradition]>",
+			"Never appears as a Barbarian unit",
 			"Consumes [1] [Iron]",
 			// Immune to first strike
 			"Withdraws before melee combat <with [15]% chance>",
