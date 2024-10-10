@@ -1,83 +1,27 @@
 [
 
 	// Ancient era
+
 	{
-		"name": "Palace",
-		"isNationalWonder": true,
-		"culture": 2,
-		"gold": 8,
-		"happiness": 1,
-		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"name": "Barracks",
+		"cost": 50,
+		"uniques": [
+			"New [Land] units start with [3] Experience [in this city]"
+		]
 	},
-	{
-		"name": "Monument",
-		"culture": 1,
-		"cost": 30,
-		"requiredTech": "Mysticism",
-		"uniques": ["Obsolete with [Astronomy]"]
-	},
-	{
-		"name": "Stonehenge",
-		"culture": 8,
-        "cost": 120,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Prophet": 2},
-		"requiredTech": "Mysticism",
-		"uniques": ["Obsolete with [Astronomy]", "Gain a free [Monument] [in all cities]"],
-		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
-	},
-	{
-		"name": "Lighthouse",
-		"cost": 60,
-		"uniques": ["Only available <in [Coastal] cities>", "[+1 Food] from [Water] tiles [in this city]" ],
-		"requiredTech": "Sailing"
-	},
+
 	{
 		"name": "Granary",
 		"cost": 60,
-		"uniques": ["[50]% Food is carried over after population increases [in this city]",
+		"uniques": [
+			"[50]% Food is carried over after population increases [in this city]",
             "Provides [1] [Health] <in this city> <with [Corn]>",
             "Provides [1] [Health] <in this city> <with [Rice]>",
             "Provides [1] [Health] <in this city> <with [Wheat]>"
         ],
 		"requiredTech": "Pottery"
 	},
-	{
-		"name": "Monastery",
-		"culture": 2,
-		"percentStatBonus": {"science": 10},
-		"cost": 60,
-		"uniques":["Obsolete with [Scientific Method]"],
-		"requiredTech": "Meditation"
-	},
-	{
-		"name": "Parthenon",
-		"culture": 10,
-		"isWonder": true,
-		"cost": 400,
-		"specialistSlots": {"Artist": 2},
-		"uniques": ["[+50]% Great Person generation [in all cities]", "[-50]% production cost <with [Marble]>", "Obsolete with [Scientific Method]"],
-		"requiredTech": "Polytheism"
-	},
-	{
-		"name": "Temple",
-		"culture": 1,
-		"happiness": 1,
-		"specialistSlots": {"Priest": 1},
-		"cost": 80,
-		"uniques": ["Provides [1] [Cathedral Followers]"],
-		"requiredTech": "Priesthood"
-	},
-	{
-		"name": "The Oracle",
-		"culture": 8,
-		"isWonder": true,
-		"cost": 150,
-		"uniques": ["Free Technology",  "[-50]% production cost <with [Marble]>"],
-		"requiredTech": "Priesthood",
-		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing'  - Socrates"
-	},
+
 	{
 		"name": "Library",
 		"culture":2,
@@ -86,29 +30,54 @@
 		"percentStatBonus": {"science": 25},
 		"requiredTech": "Writing"
 	},
+
 	{
-		"name": "Forge",
-		"cost":120,
-		"specialistSlots": {"Engineer": 1},
-		"percentStatBonus": {"science": 25},
-		"requiredTech": "Metal Casting",
-		"uniques": ["Provides [-1] [Health] <in this city>",
-            "[+1 Happiness] <with [Gold Ore]>", "[+1 Happiness] <with [Silver]>", "[+1 Happiness] <with [Gems]>"]
-	},
-	{
-		"name": "Colossus",
-		"cost":250,
-		"culture": 6,
-		"gold": 5,
-		"greatPersonPoints": {"Great Merchant": 2},
-		"isWonder": true,
-		"uniques": ["Only available <in [Coastal] cities>", "[+1 Gold] from [Water] tiles [in all cities]",
-            "Obsolete with [Astronomy]", "[-50]% production cost <with [Copper]>"],
-		"requiredBuilding": "Forge",
-		"requiredTech": "Metal Casting",
-		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+		"name": "Lighthouse",
+		"cost": 60,
+		"uniques": [
+			"Only available <in [Coastal] cities>",
+			"[+1 Food] from [Water] tiles [in this city]"
+		],
+		"requiredTech": "Sailing"
 	},
 
+	{
+		"name": "Monument",
+		"culture": 1,
+		"cost": 30,
+		"requiredTech": "Mysticism",
+		"uniques": [
+			"Obsolete with [Astronomy]"
+		]
+	},
+
+	{
+		"name": "Temple",
+		"culture": 1,
+		"happiness": 1,
+		"specialistSlots": {"Priest": 1},
+		"cost": 80,
+		"uniques": [
+			"[+20]% Natural religion spread [in this city]",
+			"Only available <after founding a Pantheon> <in cities following our religion>",
+			"Hidden when religion is disabled",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Priesthood"
+	},
+
+	{
+		"name": "Walls",
+		"cost": 50,
+		"requiredTech": "Masonry",
+		"cityStrength": 1,
+		"uniques": [
+			// "+50% defense (except vs. Gunpowder Units)",
+			// "-50% damage from bombard (except from Gunpowder units)",
+			"[-50]% production cost <with [Stone]>",
+			"Obsolete with [Rifling]"
+		]
+	},
 
 	// Classical era
 
@@ -118,18 +87,6 @@
 		"requiredTech": "Mathematics",
         "cost": 100,
         "uniques": ["Provides [+2] [Health] <in this city>", "Only available <after discovering [Masonry]>"]
-	},
-	{
-		"name": "Hanging Gardens",
-		"culture": 6,
-        "cost": 300,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 2},
-		"requiredTech": "Mathematics",
-        "requiredBuilding": "Aqueduct",
-		"uniques":["Provides [1] [Health]", // in all cities
-            "[+1] population [in all cities]", "[-50]% production cost <with [Stone]>"],
-		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
 	},
 	{
 		"name": "Harbor",
@@ -142,22 +99,14 @@
 		"requiredTech": "Compass"
 	},
 	{
-		"name": "The Great Library", // Known as "Great Library" in Civ IV
-		"cost": 350,
-		"culture": 8,
-		"greatPersonPoints": {"Great Scientist": 6},
-		"isWonder": true,
-		"requiredBuilding": "Library",
-		"requiredTech": "Literature",
-		"uniques": ["Obsolete with [Scientific Method]", "[-50]% production cost <with [Marble]>"],
-        "quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
-	},
-	{
 		"name": "National Epic",
 		"cost": 250,
 		"culture": 4,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[+100]% Great Person generation [in this city]", "[-50]% production cost <with [Marble]>"],
+		"uniques": [
+			"[+100]% Great Person generation [in this city]",
+			"[-50]% production cost <with [Marble]>"
+		],
 		"isNationalWonder": true,
 		"requiredBuilding": "Library",
 		"requiredTech": "Literature"
@@ -165,7 +114,7 @@
 	{
 		"name": "Colosseum",
 		"cost": 80,
-		"happiness":1, // Missing: +1 happiness per 20% culture rate, wontfix
+		"happiness": 1, // Missing: +1 happiness per 20% culture rate, wontfix
 		"requiredTech": "Construction"
 	},
 	{
@@ -174,86 +123,51 @@
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"happiness":1,
-		"uniques": ["[+1 Happiness] <with [Furs]>", "[+1 Happiness] <with [Ivory]>",
-			"[+1 Happiness] <with [Silk]>", "[+1 Happiness] <with [Whales]>"],
+		"uniques": [
+			"[+1 Happiness] <with [Furs]>",
+			"[+1 Happiness] <with [Ivory]>",
+			"[+1 Happiness] <with [Silk]>",
+			"[+1 Happiness] <with [Whales]>"
+		],
 		"requiredTech": "Currency"
+	},
+	{
+		"name": "Stable",
+		"cost": 60,
+		"uniques": [
+			"New [Mounted] units start with [2] Experience [in this city]",
+			"Obsolete with [Rifling]"
+		],
+		"requiredTech": "Horseback Riding"
 	},
 	{
 		"name": "Theatre",
 		"cost": 50,
 		"specialistSlots": {"Artist": 2},
 		"culture": 3,
-		"uniques": ["[+1 Happiness] <with [Dyes]>"],
+		"uniques": [
+			// "[+1 Culture] per 10% Culture rate",
+			"[+1 Happiness] <with [Dyes]>"
+		],
 		"requiredTech": "Drama"
 	},
 	{
 		"name": "Courthouse",
 		"cost": 120,
-        // Currently pointless since no buildings have maintenance costs
-		"uniques": ["[-50]% maintenance cost for buildings [in this city]"],
+		"uniques": [
+			"[-50]% maintenance cost for buildings [in this city]"
+		],
+		"specialistSlots": {"Spy": 1},
 		"requiredTech": "Code of Laws"
 	},
 	{
-		"name": "Chichen Itza",
-		"cost": 500,
-		"culture":6,
-		"isWonder": true,
-		"uniques": ["[+25]% City Strength from defensive buildings", "[-50]% production cost <with [Stone]>",
-            "Obsolete with [Rifling]"],
-		"requiredTech": "Code of Laws",
-		"greatPersonPoints": {"Great Prophet": 2},
-        "quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
-	},
-	{
-		"name": "Cathedral",
-		"cost": 300,
-		"requiredBuilding": "Library",
-		"specialistSlots": {"Priest": 2},
-		// This unique uses Resource mechanics to limit 1 cathedral per 3 temples
-		"uniques": ["[+1 Happiness] <with [Incense]>", "Consumes [3] [Cathedral Followers]"],
-		"percentStatBonus": {"culture": 50},
-		"requiredTech": "Music"
-	},
-	{
-		"name": "Sistine Chapel",
-		"cost": 600,
-		"culture": 10,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[+2 Culture] from every specialist [in all cities]", "[-50]% production cost <with [Marble]>"],
-		"requiredTech": "Music",
-		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
-	},
-	{
-		"name": "Angkor Wat",
-		"cost": 500,
-		"culture": 8,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Prophet": 2},
-		"requiredTech": "Philosophy",
-		"specialistSlots": {"Priest": 3},
-		"uniques":["[+1 Production] from every [Priest]", "Obsolete with [Computers]", "[-50]% production cost <with [Marble]>"],
-		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
-	},
-	{
-		"name": "Hagia Sophia",
-		"cost": 550,
-		"culture": 8,
-		"greatPersonPoints": {"Great Engineer": 2},
-		"isWonder": true,
-		"uniques": ["[-33]% construction time for [All] improvements" , "Obsolete with [Steam Power]", "[-50]% production cost <with [Marble]>"],
-		"requiredTech": "Theology",
-		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
-	},
-	{
-		"name": "Versailles",
-		"cost": 800,
-		"culture": 10,
-		"greatPersonPoints": {"Great Merchant": 2},
-		"isNationalWonder": true,
-		"uniques": ["[-25]% maintenance cost for buildings [in all cities]", "[-50]% production cost <with [Marble]>"],
-		"requiredTech": "Divine Right"
-//		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+		"name": "Forge",
+		"cost":120,
+		"specialistSlots": {"Engineer": 1},
+		"percentStatBonus": {"production": 25},
+		"requiredTech": "Metal Casting",
+		"uniques": ["Provides [-1] [Health] <in this city>",
+            "[+1 Happiness] <with [Gold Ore]>", "[+1 Happiness] <with [Silver]>", "[+1 Happiness] <with [Gems]>"]
 	},
 	{
 		"name": "University of Sankore",
@@ -266,138 +180,6 @@
 //		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
 	{
-		"name": "Grocer",
-		"cost": 150,
-		"specialistSlots": {"Merchant": 2},
-		"percentStatBonus": {"gold": 25},
-		"uniques": [
-            "Provides [1] [Health] <in this city> <with [Sugar]>",
-            "Provides [1] [Health] <in this city> <with [Bananas]>",
-            "Provides [1] [Health] <in this city> <with [Spices]>",
-            "Provides [1] [Health] <in this city> <with [Wine]>",
-		],
-		"requiredTech": "Guilds"
-	},
-	{
-		"name": "Hermitage",
-		"cost": 300,
-		"percentStatBonus": {"culture": 100},
-		"greatPersonPoints": {"Great Artist": 1},
-		"isNationalWonder": true,
-        "uniques": ["[-50]% production cost <with [Marble]>"],
-		"requiredTech": "Nationalism"
-	},
-	{
-		"name": "Taj Mahal",
-		"cost": 700,
-		"culture": 10,
-		"greatPersonPoints": {"Great Artist": 2},
-		"isWonder": true,
-		"uniques": ["Empire enters golden age","[-50]% production cost <with [Marble]>"],
-		"requiredTech": "Nationalism",
-		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
-	},
-	{
-		"name": "University",
-		"culture": 3,
-		"cost": 200,
-		"requiredBuilding": "Library",
-		"percentStatBonus": {"science": 25},
-		"requiredTech": "Education"
-	},
-	{
-		"name": "Oxford University",
-		"cost": 400,
-		"requiredBuilding": "University",
-		"percentStatBonus": {"science": 100},
-		"culture": 4,
-        "specialistSlots": {"Scientist": 2},
-		"greatPersonPoints": {"Great Scientist": 1},
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [University] is constructed in at least [6] of [All] cities>", "[-50]% production cost <with [Stone]>"],
-		"requiredTech": "Education"
-	},
-	{
-		"name": "Bank",
-		"cost": 200,
-		"percentStatBonus": {"gold": 50},
-		"requiredTech": "Banking"
-	},
-	{
-		"name": "Customs House",
-		"requiredBuilding": "Harbor",
-		"cost": 180,
-		"gold": 2,
-		"uniques": ["Only available <in [Coastal] cities>"],
-		"requiredTech": "Economics"
-	},
-	{
-		"name": "Statue of Liberty",
-		"culture": 6,
-        "cost": 1500,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": ["[+1 Production] from every specialist [in all cities]"], // Civ IV has "+1 free specialist in all same-continental cities" - we don't have free specialists
-		"requiredTech": "Democracy",
-		"requiredBuilding": "Forge",
-		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
-	},
-	{
-		"name": "Observatory",
-		"cost": 150,
-		"specialistSlots": {"Scientist": 1},
-		"percentStatBonus": {"science": 25},
-		"requiredTech": "Astronomy"
-	},
-	{
-		"name": "Cathedral",
-		"cost": 300,
-		"requiredBuilding": "Library",
-		"specialistSlots": {"Priest": 2},
-		// This unique uses Resource mechanics to limit 1 cathedral per 3 temples
-		"uniques": ["[+1 Happiness] <with [Incense]>", "Consumes [3] [Cathedral Followers]"],
-		"percentStatBonus": {"culture": 50},
-		"requiredTech": "Music"
-	},
-	{
-		"name": "Ironworks",
-		"cost": 700,
-		"food": -2,
-		"requiredBuilding": "Forge",
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isNationalWonder": true,
-		"specialistSlots": {"Engineer": 3},
-		"uniques": ["Provides [-2] [Health] <in this city>", "Only available <if [Forge] is constructed in at least [6] of [All] cities>",
-			"[+50]% [Production] [in this city] <with [Iron]>", "[+50]% [Production] [in this city] <with [Coal]>" ],
-		"requiredTech": "Steel"
-	},
-	{
-		"name": "Levee",
-		"cost": 180,
-		"uniques": ["Must be on [River]", "[+1 Production] from [River] tiles [in this city]"],
-		"requiredTech": "Steam Power"
-	},
-	{
-		"name": "Factory",
-		"cost": 250,
-		"percentStatBonus": {"production": 25},
-		"specialistSlots": {"Engineer": 2},
-        "uniques": ["Provides [-1] [Health] <in this city>", "[+25]% [Production] [in this city] <with [Power]>"],
-		"requiredTech": "Assembly Line"
-	},
-	{
-		"name": "Coal Plant",
-		"cost": 150,
-		"requiredBuilding": "Factory",
-		"requiredResource": "Coal",
-		"uniques": [
-            "Power Plant",
-            "Provides [-4] [Health] <in this city> <with [Coal]>",
-            "Provides [1] [Power] <in this city> <with [Coal]>",
-            "Only available <in cities without a [Power Plant]>"],
-		"requiredTech": "Assembly Line"
-	},
-	{
 		"name": "Pentagon",
 		"cost": 1250,
 		"isWonder": true,
@@ -405,22 +187,6 @@
 		"uniques": ["New [Military] units start with [15] Experience [in all cities]"],
 		"requiredTech": "Assembly Line",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
-	},
-	{
-		"name": "Broadway",
-		"cost": 800,
-		"happiness": 1,
-		"isWonder": true,
-		"percentStatBonus": {"culture": 50},
-		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["Provides [5] [Hit Musicals]"],
-		"requiredTech": "Electricity"
-	},
-	{
-		"name": "Hospital",
-		"cost": 200,
-        "uniques": ["Provides [3] [Health] <in this city>"], // Units in city heal extra 10 hp/turn
-		"requiredTech": "Medicine"
 	},
 	{
 		"name": "Red Cross",
@@ -434,18 +200,6 @@
 		"requiredTech": "Medicine"
 	},
 	{
-		"name": "Nuclear Plant",
-		"cost": 250,
-		"requiredBuilding": "Factory",
-		"requiredResource": "Uranium",
-        "uniques": [
-            "Power Plant",
-            "Provides [-2] [Health] <in this city> <with [Uranium]>",
-            "Provides [1] [Power] <in this city> <with [Uranium]>",
-            "Only available <in cities without a [Power Plant]>"],
-		"requiredTech": "Nuclear Fission"
-	},
-	{
 		"name": "Eiffel Tower",
 		"culture": 6,
         "cost": 1250,
@@ -456,16 +210,264 @@
 		"requiredTech": "Radio",
 		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
 	},
+
+	// Medieval era
+
 	{
-		"name": "Rock 'n' Roll",
-		"cost": 800,
-		"happiness": 1,
-		"isWonder": true,
-		"percentStatBonus": {"culture": 50},
-		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["Provides [5] [Hit Singles]"],
-		"requiredTech": "Radio"
+		"name": "Bank",
+		"cost": 200,
+		"percentStatBonus": {"gold": 50},
+		"requiredTech": "Banking"
 	},
+	{
+		"name": "Castle",
+		"cost": 100,
+		"culture": 1,
+		"cityStrength": 1,
+		"requiredTech": "Engineering",
+		"requiredBuilding": "Walls",
+		"uniques": [
+			// "+1 trade route",
+			// "+50% defense"
+			"[-50]% production cost <with [Stone]>",
+			"Obsolete with [Economics]"
+		]
+	},
+	{
+		"name": "Cathedral",
+		"cost": 300,
+		"percentStatBonus": {"culture": 50},
+		"specialistSlots": {"Priest": 2},
+		// TODO: Cathedrals are limited to 1 cathedral per 3 Temples
+		"requiredBuilding": "Temple",
+		"uniques": [
+			"[+20]% Natural religion spread [in this city]",
+			"Only available <after founding a Pantheon> <in cities following our religion>",
+			"Hidden when religion is disabled",
+			"[+1 Happiness] <with [Incense]>",
+			"[+2 Happiness] [in this city] <in cities following our religion>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Music"
+	},
+
+	{
+		"name": "Grocer",
+		"cost": 150,
+		"specialistSlots": {"Merchant": 2},
+		"percentStatBonus": {"gold": 25},
+		"uniques": [
+            "Provides [1] [Health] <in this city> <with [Sugar]>",
+            "Provides [1] [Health] <in this city> <with [Bananas]>",
+            "Provides [1] [Health] <in this city> <with [Spices]>",
+            "Provides [1] [Health] <in this city> <with [Wine]>",
+		],
+		"requiredTech": "Guilds"
+	},
+
+	// Renaissance era
+
+	{
+		"name": "Jail",
+		"cost": 120,
+		"specialistSlots": {"Spy": 2},
+		"uniques": [
+			"Hidden when espionage is disabled",
+			"[+7]% [Happiness] [in this city] <when at war>" // -25% war weariness
+			// +4 Espionage (BtS)
+			// +50% Espionage (BtS)
+		],
+		"requiredTech": "Economics"
+	},
+
+	{
+		"name": "Observatory",
+		"cost": 150,
+		"percentStatBonus": {"science": 25},
+		"specialistSlots": {"Scientist": 1},
+		"requiredTech": "Astronomy"
+	},
+
+	{
+		"name": "Security Bureau",
+		"cost": 220,
+		"espianage": 8,
+		"specialistSlots": {"Spy": 2},
+		"uniques": [
+			"[-50]% enemy spy effectiveness [in this city]",
+			"Hidden when espionage is disabled"
+		],
+		"requiredTech": "Democracy"
+	},
+
+	{
+		"name": "University",
+		"cost": 200,
+		"culture": 3,
+		"percentStatBonus": {"science": 25},
+		"requiredTech": "Education",
+		"requiredBuilding": "Library"
+	},
+
+	// Industrial
+
+	{
+		"name": "Bomb Shelter",
+		"cost": 100,
+		"requiredTech": "Electricity",
+		"uniques": [
+			"Population loss from nuclear attacks [-50]% [in this city]",
+			"Damage to garrison from nuclear attacks [-50]% [in this city]",
+			"Only available <if [Manhattan Project] is constructed by anybody>"
+		]
+	},
+
+	{
+		"name": "Bunker",
+		"cost": 100,
+		"requiredTech": "Electricity",
+		"uniques": [
+			"[+50]% City Strength from defensive buildings <vs [Air] units> <when defending>" // -50% damage from air units
+		]
+	},
+
+	{
+		"name": "Coal Plant",
+		"cost": 150,
+		"requiredBuilding": "Factory",
+		"requiredResource": "Coal",
+		"uniques": [
+            "Power Plant",
+            "Provides [-4] [Health] <in this city> <with [Coal]>",
+            "Provides [1] [Power] <in this city> <with [Coal]>",
+            "Only available <in cities without a [Power Plant]>"
+		],
+		"requiredTech": "Assembly Line"
+	},
+
+	{
+		"name": "Drydock",
+		"cost": 120,
+		"uniques": [
+            "Provides [-1] [Health] <in this city>",
+            "[+50]% Production when constructing [Melee Water] units [in this city]",
+            "[+50]% Production when constructing [Ranged Water] units [in this city]",
+            "[+50]% Production when constructing [Submarine] units [in this city]",
+			"New [Melee Water] units start with [4] Experience [in this city]",
+			"New [Ranged Water] units start with [4] Experience [in this city]",
+			"New [Submarine] units start with [4] Experience [in this city]",
+            "Only available <in [Coastal] cities>"
+		],
+		"requiredTech": "Steel"
+	},
+
+	{
+		"name": "Factory",
+		"cost": 250,
+		"percentStatBonus": {"production": 25},
+		"specialistSlots": {"Engineer": 2},
+        "uniques": [
+			"Provides [-1] [Health] <in this city>",
+			"Provides [-2] [Health] <in this city> <with [Oil]>",
+			"Provides [-2] [Health] <in this city> <with [Coal]>",
+			"[+25]% [Production] [in this city]",
+			"[+25]% [Production] [in this city] <with [Power]>"
+		],
+		"requiredTech": "Assembly Line"
+	},
+
+	{
+		"name": "Hospital",
+		"cost": 200,
+        "uniques": [
+			"Provides [3] [Health] <in this city>",
+			"[Wounded] Units adjacent to this city heal [2] HP per turn when healing" // Units in city heal extra 10 hp/turn
+		],
+		"requiredTech": "Medicine"
+	},
+
+	{
+		"name": "Nuclear Plant",
+		"cost": 250,
+		"requiredBuilding": "Factory",
+		"requiredResource": "Uranium",
+        "uniques": [
+            "Power Plant",
+            "Provides [-2] [Health] <in this city> <with [Uranium]>",
+            "Provides [1] [Power] <in this city> <with [Uranium]>",
+            "Only available <in cities without a [Power Plant]>",
+			"Population loss from nuclear attacks [+20]% [in this city]" // Small chance of nuclear meltdown
+		],
+		"requiredTech": "Fission"
+	},
+
+	// Modern era
+
+	{
+		"name": "Airport",
+		"cost": 250,
+        "uniques": [
+			// +1 trade route
+			// +4 air unit capacity
+			// Can airlift 1 land unit per turn
+            "Provides [-1] [Health] <in this city>",
+			"New [Fighter] units start with [3] Experience [in this city]",
+			"New [Bomber] units start with [3] Experience [in this city]",
+			"New [Helicopter] units start with [3] Experience [in this city]"
+		],
+		"requiredTech": "Flight"
+	},
+
+	{
+		"name": "Broadcast Tower",
+		"cost": 175,
+		"percentStatBonus": {"culture": 50},
+		"specialistSlots": {"Artist": 2},
+		"happiness": 1, // +1 Happiness per 10% Culture rate
+        "uniques": [
+			"[+1 Happiness] <with [Hit Singles]>",
+			"[+1 Happiness] <with [Hit Musicals]>",
+			"[+1 Happiness] <with [Hit Movies]>"
+		],
+		"requiredTech": "Mass Media"
+	},
+
+	{
+		"name": "Hydro Plant",
+		"cost": 200,
+		"requiredBuilding": "Factory",
+        "uniques": [
+            "Must be on [River]",
+            "Power Plant",
+            "Provides [-2] [Health] <in this city>",
+            "Provides [1] [Power] <in this city>",
+            "Only available <in cities without a [Power Plant]>"
+		],
+		"requiredTech": "Plastics"
+	},
+
+	{
+		"name": "Laboratory",
+		"cost": 250,
+		"specialistSlots": {"Scientist": 1},
+		"percentStatBonus": {"science": 25},
+        "uniques": [
+            "Provides [-1] [Health] <in this city>",
+			"[+50]% Production when constructing [spaceship part] buildings [in this city]"
+        ],
+		"requiredTech": "Computers", // Superconductors (BTS)
+		"requiredBuilding": "Observatory"
+	},
+
+	{
+		"name": "Recycling Center",
+		"cost": 300,
+        "uniques": [
+            "Provides [2] [Health] <in this city>" // TODO: No Health damage from buildings
+        ],
+		"requiredTech": "Ecology"
+	},
+
 	{
 		"name": "Supermarket",
 		"cost": 150,
@@ -477,29 +479,355 @@
             "Provides [1] [Health] <in this city> <with [Pig]>"
 		],
         "requiredBuilding": "Grocer",
-		"requiredTech": "Guilds"
+		"requiredTech": "Refrigeration"
 	},
+
+	// Religious buildings
+
 	{
-		"name": "Hydro Plant",
-		"cost": 200,
-		"requiredBuilding": "Factory",
+		"name": "Monastery",
+        "cost": 60,
+		"culture": 2,
+		"percentStatBonus": {"science": 10},
+		"requiredTech": "Meditation",
 		"uniques": [
-            "Must be on [River]",
-            "Power Plant",
-            "Provides [-2] [Health] <in this city> <with [Uranium]>",
-            "Provides [1] [Power] <in this city> <with [Uranium]>",
-            "Only available <in cities without a [Power Plant]>"
-        ],
-		"requiredTech": "Plastics"
+			"[+20]% Natural religion spread [in this city]",
+			"Only available <after founding a Pantheon> <in cities following our religion>",
+			"Obsolete with [Scientific Method]",
+			"Hidden when religion is disabled",
+			"Destroyed when the city is captured"
+		]
 	},
+
 	{
-		"name": "Broadcast Tower",
-		"cost": 175,
-		"percentStatBonus": {"culture": 50},
-		"specialistSlots": {"Artist": 2},
-		"uniques": ["[+1 Happiness] <with [Hit Singles]>", "[+1 Happiness] <with [Hit Musicals]>", "[+1 Happiness] <with [Hit Movies]>"],
-		"requiredTech": "Plastics"
+		"name": "Religious Shrine",
+		"culture": 4,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"uniques": [
+			"[+40]% Natural religion spread [in this city]",
+			"Unbuildable",
+			"Only available <after founding a Pantheon>",
+			"Cannot be purchased",
+			"[+1 Gold] [in your cities] <in cities following our religion>",
+			"Hidden when religion is disabled",
+			"Destroyed when the city is captured",
+			"Unsellable"
+		]
 	},
+
+	// Wonders
+
+	{
+		"name": "Stonehenge",
+		"culture": 8,
+        "cost": 120,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Prophet": 2},
+		"requiredTech": "Mysticism",
+		"uniques": [
+			"Obsolete with [Astronomy]",
+			"Gain a free [Monument] [in all cities]"
+		],
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
+
+	{
+		"name": "The Oracle",
+		"culture": 8,
+		"isWonder": true,
+		"cost": 150,
+		"uniques": [
+			"Free Technology",
+			"[-50]% production cost <with [Marble]>"
+		],
+		"requiredTech": "Priesthood",
+		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing'  - Socrates"
+	},
+
+	{
+		"name": "The Pyramids", // "Pyramids" in Civ 4
+		"culture": 6,
+        "cost": 500,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": [
+			// TODO: Have The Pyramids enable all government civics
+		],
+		"requiredTech": "Masonry",
+		"quote": "'From the heights of these pyramids, forty centries look down on us.' - Napoleon Bonaparte"
+	},
+
+	{
+		"name": "The Great Lighthouse",
+		"culture": 6,
+        "cost": 200,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"uniques": [
+			// +2 trade routes TradeRoute4 in all coastal cities
+			"Obsolete with [Corporation]",
+			"Only available <in [Coastal] cities>"
+		],
+		"requiredTech": "Masonry",
+		"requiredBuilding": "Lighthouse"
+	},
+
+	{
+		"name": "Chichen Itza",
+		"cost": 500,
+		"culture": 6,
+		"isWonder": true,
+		"uniques": [
+			"[+25]% City Strength from defensive buildings",
+			"[-50]% production cost <with [Stone]>",
+            "Obsolete with [Rifling]"
+		],
+		"requiredTech": "Code of Laws",
+		"greatPersonPoints": {"Great Prophet": 2},
+        "quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
+	},
+
+	{
+		"name": "Colossus",
+		"cost": 250,
+		"culture": 6,
+		"gold": 5,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": [
+			"Only available <in [Coastal] cities>",
+			"[+1 Gold] from [Water] tiles [in all cities]",
+            "Obsolete with [Astronomy]",
+			"[-50]% production cost <with [Copper]>"
+		],
+		"requiredBuilding": "Forge",
+		"requiredTech": "Metal Casting",
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
+
+	{
+		"name": "The Great Library", // Known as "Great Library" in Civ IV
+		"cost": 350,
+		"culture": 8,
+		"greatPersonPoints": {"Great Scientist": 8}, // 2 Great Scientist Points + 2 Free Scientists
+		"isWonder": true,
+		"requiredBuilding": "Library",
+		"requiredTech": "Literature",
+		"uniques": [
+			"Obsolete with [Scientific Method]",
+			"[-50]% production cost <with [Marble]>"
+		],
+        "quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	},
+
+	{
+		"name": "Hanging Gardens",
+		"culture": 6,
+        "cost": 300,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Mathematics",
+        "requiredBuilding": "Aqueduct",
+		"uniques":[
+			"Provides [1] [Health]", // in all cities
+            "[+1] population [in all cities]",
+			"[-50]% production cost <with [Stone]>"
+		],
+		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
+	},
+
+	{
+		"name": "Parthenon",
+		"culture": 10,
+		"isWonder": true,
+		"cost": 400,
+		"specialistSlots": {"Artist": 2},
+		"uniques": [
+			"[+50]% Great Person generation [in your cities]",
+			"[-50]% production cost <with [Marble]>",
+			"Obsolete with [Scientific Method]"
+		],
+		"requiredTech": "Polytheism"
+	},
+
+	{
+		"name": "Angkor Wat",
+		"cost": 500,
+		"culture": 8,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Prophet": 2},
+		"requiredTech": "Philosophy",
+		"specialistSlots": {"Priest": 3},
+		"uniques":[
+			"[+1 Production] from every [Priest]",
+			"Obsolete with [Computers]",
+			"Hidden when religion is disabled",
+			"[-50]% production cost <with [Marble]>"
+		],
+		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
+	},
+
+	{
+		"name": "Hagia Sophia",
+		"cost": 550,
+		"culture": 8,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"isWonder": true,
+		"uniques": [
+			"[-33]% construction time for [All] improvements",
+			"Obsolete with [Steam Power]",
+			"[-50]% production cost <with [Marble]>"
+		],
+		"requiredTech": "Theology",
+		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+
+	{
+		"name": "Notre Dame",
+		"cost": 550,
+		"culture": 10,
+		"greatPersonPoints": {"Great Artist": 2},
+		"isWonder": true,
+		"uniques": [
+			"[+2 Happiness] [in all cities]", // TODO: same-continental cities
+			"[-50]% production cost <with [Stone]>"
+		],
+		"requiredTech": "Engineering"
+		//"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+
+	{
+		"name": "Sistine Chapel",
+		"cost": 600,
+		"culture": 10,
+		"greatPersonPoints": {"Great Artist": 2},
+		"isWonder": true,
+		"uniques": [
+			// TODO: Sinstine Chapel gives +5 Culture from all state Religion buildings (BTS)
+			"[+2 Culture] from every specialist [in all cities]",
+			"[-50]% production cost <with [Marble]>"
+		],
+		"requiredTech": "Theology", // BTS: Music
+		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+	},
+
+	{
+		"name": "Spiral Minaret",
+		"cost": 550,
+		"culture": 8,
+		"greatPersonPoints": {"Great Prophet": 2},
+		"isWonder": true,
+		"uniques": [
+			"[+2 Gold] from all [Temple] buildings",
+			"[+2 Gold] from all [Cathedral] buildings",
+			"[+2 Gold] from all [Monastery] buildings",
+			"[+2 Gold] from all [Religious Shrine] buildings",
+			"Hidden when religion is disabled",
+			"[-50]% production cost <with [Stone]>"
+		],
+		"requiredTech": "Divine Right"
+		//"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+
+	{
+		"name": "Versailles",
+		"cost": 800,
+		"culture": 10,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isNationalWonder": true,
+		"uniques": [
+			"[-25]% maintenance cost for buildings [in all cities]",
+			"[-50]% production cost <with [Marble]>"
+		],
+		"requiredTech": "Divine Right"
+		//"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+
+	{
+		"name": "Statue of Liberty",
+		"culture": 6,
+        "cost": 1500,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"uniques": [
+			"[+1 Production] from every specialist [in all cities]",
+			"[-50]% production cost <with [Copper]>"
+			// Civ IV has "+1 free specialist in all same-continental cities" - we don't have free specialists
+		],
+		"requiredTech": "Democracy",
+		"requiredBuilding": "Forge",
+		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
+	},
+
+	{
+		"name": "Taj Mahal",
+		"cost": 700,
+		"culture": 10,
+		"greatPersonPoints": {"Great Artist": 2},
+		"isWonder": true,
+		"uniques": [
+			"Empire enters golden age",
+			"[-50]% production cost <with [Marble]>"
+		],
+		"requiredTech": "Nationalism",
+		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
+	},
+
+	{
+		"name": "Broadway",
+		"cost": 800,
+		"happiness": 1,
+		"isWonder": true,
+		"percentStatBonus": {"culture": 50},
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": [
+			"Provides [5] [Hit Musicals]"
+		],
+		"requiredTech": "Electricity"
+	},
+
+	{
+		"name": "Kremlin",
+		"cost": 800,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Spy": 2},
+		"uniques": [
+			"[-50]% production cost <with [Stone]>",
+			"Hidden when espionage is disabled",
+			"Obsolete with [Fiber Optics]"
+			// -33% hurry production cost when using Universal Suffrage or Slavery
+		],
+		"specialistSlots": {"Spy": 2},
+		"requiredTech": "Communism"
+	},
+
+	{
+		"name": "Pentagon",
+		"cost": 1250,
+		"isWonder": true,
+		// BTS: "greatPersonPoints": {"Great Spy": 2},
+		"uniques": [
+			"New [Military] units start with [2] Experience [in all cities]"
+		],
+		"requiredTech": "Assembly Line"
+	},
+
+	{
+		"name": "Eiffel Tower",
+		"culture": 6,
+        "cost": 1250,
+		"requiredBuilding": "Forge",
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": [
+			"Gain a free [Broadcast Tower] [in all cities]",
+			"[-50]% production cost <with [Iron]>"
+		],
+		"requiredTech": "Radio",
+		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
+	},
+
 	{
 		"name": "Hollywood",
 		"cost": 1000,
@@ -507,17 +835,290 @@
 		"isWonder": true,
 		"percentStatBonus": {"culture": 50},
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["Provides [5] [Hit Movies]"],
+		"uniques": [
+			"Provides [5] [Hit Movies]"
+		],
 		"requiredTech": "Mass Media"
 	},
+
 	{
-		"name": "Laboratory",
+		"name": "Rock 'n' Roll",
+		"cost": 800,
+		"happiness": 1,
+		"isWonder": true,
+		"percentStatBonus": {"culture": 50},
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": [
+			"Provides [5] [Hit Singles]"
+		],
+		"requiredTech": "Radio"
+	},
+
+	{
+		"name": "Three Gorges Dam",
+		"cost": 1750,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": [
+			"Must be on [River]",
+            "Provides [-2] [Health] <in this city>",
+            "Provides [3] [Power]" // TODO: Provides power to all cities on the same continent
+		],
+		"requiredTech": "Plastics"
+	},
+
+	{
+		"name": "United Nations",
+		"cost": 1000,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"requiredTech": "Mass Media"
+	},
+
+	{
+		"name": "The Space Elevator",
+		"cost": 1000,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"uniques": [
+			"[-50]% production cost <with [Aluminum]>",
+			"Hidden when [Space Race] Victory is disabled",
+			"[+50]% Production when constructing [Spaceship part] buildings [in all cities]"
+			// latitude of <= 30º in the city constructing it
+		],
+		"requiredTech": "Satellites"
+	},
+
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"culture": 2,
+		"gold": 8,
+		"happiness": 1,
+		"cost": 1,
+		"cityStrength": 2,
+		"uniques": [
+			// Reduces maintenance CommerceRed4 in nearby cities
+			// BTS: +4 Espionage
+			"Indicates the capital city",
+			"Moves to new capital when capital changes"
+		]
+	},
+
+	{
+		"name": "Forbidden Palace",
+		"isNationalWonder": true,
+		"culture": 4,
+		"cost": 200,
+		"requiredBuilding": "Courthouse",
+		"uniques": [
+			"[-20]% maintenance cost for buildings [in all cities]", // in nearby cities
+			// BTS: +1 Great Spy
+			// Requires at least 8 cities
+			"Only available <if [Courthouse] is constructed in at least [6] of [All] cities>"
+		],
+		"requiredTech": "Code of Laws"
+	},
+
+	{
+		"name": "Globe Theatre",
+		"isNationalWonder": true,
+		"culture": 6,
+		"cost": 300,
+		"requiredBuilding": "Theatre",
+		"greatPersonPoints": {"Great Artist": 1},
+		"specialistSlots": {"Artist": 3},
+		"uniques": [
+			"[+2 Happiness] [in this city]", // No Anger in this city.
+			"Only available <if [Theatre] is constructed in at least [6] of [All] cities>"
+		],
+		"requiredTech": "Drama"
+	},
+
+	{
+		"name": "Heroic Epic",
+		"isNationalWonder": true,
+		"cost": 200,
+		"requiredBuilding": "Barracks",
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": [
+			"[-50]% production cost <with [Marble]>",
+			"[+100]% Production when constructing [Military] units [in this city]"
+			// requires control of a unit of Level 4 Experience at some point
+		],
+		"requiredTech": "Literature"
+	},
+
+	{
+		"name": "National Epic",
+		"isNationalWonder": true,
 		"cost": 250,
-		"specialistSlots": {"Scientist": 1},
-		"percentStatBonus": {"science": 25},
+		"culture": 4,
+		"requiredBuilding": "Library",
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": [
+			"[-50]% production cost <with [Marble]>",
+			"[+100]% Great Person generation [in this city]"
+		],
+		"requiredTech": "Literature"
+	},
+
+	{
+		"name": "Hermitage",
+		"cost": 300,
+		"percentStatBonus": {"culture": 100},
+		"greatPersonPoints": {"Great Artist": 1},
+		"isNationalWonder": true,
         "uniques": [
-            "Provides [-1] [Health] <in this city>"
-        ],
-		"requiredTech": "Superconductors"
+			"[-50]% production cost <with [Marble]>"
+		],
+		"requiredTech": "Nationalism"
+	},
+
+	{
+		"name": "Oxford University",
+		"cost": 400,
+		"requiredBuilding": "University",
+		"percentStatBonus": {"science": 100},
+		"culture": 4,
+        "specialistSlots": {"Scientist": 3},
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [University] is constructed in at least [6] of [All] cities>",
+			"[-50]% production cost <with [Stone]>"
+		],
+		"requiredTech": "Education"
+	},
+
+	{
+		"name": "Wall Street",
+		"cost": 600,
+		"requiredBuilding": "Bank",
+		"percentStatBonus": {"gold": 100},
+        "specialistSlots": {"Merchant": 3},
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [Bank] is constructed in at least [6] of [All] cities>"
+		],
+		"requiredTech": "Corporation"
+	},
+
+	{
+		"name": "West Point",
+		"cost": 800,
+		// BTS: "greatPersonPoints": {"Great Spy": 1},
+		"isNationalWonder": true,
+		"uniques": [
+			"[-50]% production cost <with [Stone]>",
+			"New [Military] units start with [4] Experience [in this cities]"
+		],
+		"requiredTech": "Military Tradition"
+	},
+
+	{
+		"name": "Ironworks",
+		"cost": 700,
+		"food": -2,
+		"requiredBuilding": "Forge",
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isNationalWonder": true,
+		"specialistSlots": {"Engineer": 3},
+		"uniques": [
+			"Provides [-2] [Health] <in this city>",
+			"Only available <if [Forge] is constructed in at least [6] of [All] cities>",
+			"[+50]% [Production] [in this city] <with [Iron]>",
+			"[+50]% [Production] [in this city] <with [Coal]>"
+		],
+		"requiredTech": "Steel"
+	},
+
+	{
+		"name": "Mt. Rushmore",
+		"cost": 500,
+		"culture": 4,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isNationalWonder": true,
+		"uniques": [
+			"[-50]% production cost <with [Stone]>",
+			"[+7]% [Happiness] [in all cities] <when at war>" // -25% War Anger (Civ4) in all cities
+		],
+		"requiredTech": "Fascism"
+	},
+
+	{
+		"name": "Red Cross",
+		"cost": 600,
+		"culture": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isNationalWonder": true,
+		"requiredBuilding": "Hospital",
+		"uniques": [
+			"Only available <if [Hospital] is constructed in at least [6] of [All] cities>",
+			"All newly-trained [Military] units [in this city] receive the [Medic I] promotion"
+		],
+		"requiredTech": "Medicine"
+	},
+
+	// World Projects
+
+	{
+		"name": "Manhattan Project", // "The Manhattan Project" in Civ 4
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": [
+			"[-50]% production cost <with [Uranium]>",
+			"Triggers a global alert upon completion",
+			"Cannot be hurried",
+			"Cannot be purchased",
+			"Enables nuclear weapon"
+			// It can be countered by passing the "No Nukes" resolution at the United Nations.
+		],
+		"requiredTech": "Fission"
+	},
+
+	// National Projects
+
+	{
+		"name": "Apollo Program",
+		"cost": 1600,
+		"isNationalWonder": true,
+		"uniques": [
+			"[-50]% production cost <with [Aluminum]>",
+			"Hidden when [Space Race] Victory is disabled",
+			"Triggers a global alert upon completion",
+			"Enables construction of Spaceship parts",
+			"Cannot be hurried",
+			"Cannot be purchased"
+		],
+		"requiredTech": "Rocketry"
+	},
+
+	{
+		"name": "Scotland Yard",
+		"cost": 500,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": [
+			"[+100]% spy effectiveness [in all cities] <if [Civ IV Beyond the Sword] is enabled>"
+		],
+		"requiredTech": "Communism"
+	},
+
+	{
+		"name": "Academy",
+		// See Academy Building tile improvement, and Great Scientist
+		"cost": 50,
+		"percentStatBonus": {"science": 50},
+		"culture": 3,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be hurried",
+			"Cannot be purchased",
+			"Unsellable"
+		],
+		"requiredTech": "Physics"
 	}
 ]

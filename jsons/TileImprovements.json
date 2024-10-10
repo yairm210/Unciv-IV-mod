@@ -1,152 +1,300 @@
 [
 	{
-		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"techRequired": "Fishing",
+		"name": "Camp",
+		"turnsToBuild": 4,
+        "uniques": [
+			"Can only be built to improve a resource",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+ 			"Pillaging this improvement yields approximately [+5 Gold]"
+		],
+		"techRequired": "Hunting",
+		"shortcutKey": "C"
 	},
+
+	// TODO: Have Cottage/Hamlet/Village/Town auto-upgrade rather than requiring a Worker.
 	{
-		"name": "Road",
-		"turnsToBuild": 2,
-		"techRequired": "The Wheel",
-        "terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Can be built outside your borders"]
+		"name": "Cottage",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+		"gold": 1,
+        "uniques": [
+ 			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"techRequired": "Pottery",
+		"shortcutKey": "T"
 	},
+
 	{
-		"name": "Railroad",
-		"turnsToBuild": 3,
-		"techRequired": "Railroads",
-        "terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Can be built outside your borders"]
+		"name": "Hamlet",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+		"gold": 2,
+        "uniques": [
+			"Can only be built on [Cottage] tiles",
+ 			"Pillaging this improvement yields approximately [+15 Gold]"
+		],
+		"techRequired": "Pottery",
+		"shortcutKey": "T"
 	},
+
 	{
-		"name": "Remove Road",
-		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"name": "Village",
+		"turnsToBuild": 10,
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+		"gold": 3,
+        "uniques": [
+			"Can only be built on [Hamlet] tiles",
+ 			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"techRequired": "Pottery",
+		"shortcutKey": "T"
 	},
+
+	{
+		"name": "Town",
+		"turnsToBuild": 20,
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+		"gold": 4,
+        "uniques": [
+			"Can only be built on [Village] tiles",
+ 			"Pillaging this improvement yields approximately [+25 Gold]"
+		],
+		"techRequired": "Pottery",
+		"shortcutKey": "T"
+	},
+
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert", "Flood plains"],
 		"food": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 5,
 		"techRequired": "Agriculture",
-		"uniques":["[+1 Food] <after discovering [Biology]>"]
+		"uniques":[
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles", // +1 with irrigation
+			"[+1 Food] <after discovering [Biology]>",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		],
+		"shortcutKey": "F"
 	},
+
 	{
-		"name": "Camp",
-		"turnsToBuild": 7,
-        "uniques": ["Can only be built to improve a resource"],
-		"techRequired": "Hunting",
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"techRequired": "Fishing",
+		"food": 1, // Hack to allow automation
+		"uniques": [
+			"[-1 Culture]",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		],
+		"shortcutKey": "F"
 	},
+
 	{
-		"name": "Pasture",
+		"name": "Forest Preserve",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"happiness": 1,
 		"turnsToBuild": 8,
-        "uniques": ["Can only be built to improve a resource"],
-		"techRequired": "Animal Husbandry",
+		"techRequired": "Scientific Method",
+		"uniques": [
+			"[+1 Gold] for each adjacent [River]"
+		],
+		"shortcutKey": "L"
 	},
-	{
-		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 2,
-		"turnsToBuild": 7,
-		"uniques": ["[+1 Production] <in [Railroad] tiles>"],
-		"techRequired": "Mining",
-	},
-	{
-		"name": "Quarry",
-		"turnsToBuild": 8,
-        "uniques": ["Can only be built to improve a resource", "[+1 Production] <in [Railroad] tiles>"],
-		"techRequired": "Masonry",
-	},
-	{
-		"name":"Workshop",
-        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
-		"food":-1,
-		"production":1,
-		"turnsToBuild":7,
-		"uniques": ["[+1 Production] <after discovering [Guilds]>", "[+1 Production] <after discovering [Chemistry]>"]
-	},
+
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"turnsToBuild": 10,
 		"techRequired": "Mathematics",
-		"uniques": ["Gives a defensive bonus of [25]%", "Can be built outside your borders"]
+		"uniques": [
+			"Gives a defensive bonus of [25]%",
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "O"
+	},
+
+	{
+		"name": "Lumbermill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Replaceable Parts",
+		"uniques": [
+			"[+1 Production] <in [Railroad] tiles>",
+			"Pillaging this improvement yields approximately [+5 Gold]",
+			"[+1 Gold] for each adjacent [River]" // +1 Coin if next to a river
+		],
+		"shortcutKey": "L"
+	},
+
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 2,
+		"turnsToBuild": 4,
+		"uniques": [
+			"[+1 Production] <in [Railroad] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"techRequired": "Mining",
+		"shortcutKey": "M"
+	},
+
+	{
+		"name": "Offshore Platform",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"production": 2, // Hack to enable automation
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can only be built on [Oil] tiles",
+			"[-2 Production]",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"techRequired": "Plastics",
+		"shortcutKey": "P"
 	},
 	{
-		"name": "Winery",
-		"turnsToBuild": 8,
-        "uniques": ["Can only be built to improve a resource"],
-		"techRequired": "Monarchy",
+		"name": "Pasture",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+        "uniques": [
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		],
+		"techRequired": "Animal Husbandry",
+		"shortcutKey": "P"
 	},
 	{
 		"name": "Plantation",
-		"turnsToBuild": 6,
-        "uniques": ["Can only be built to improve a resource"],
+		"turnsToBuild": 5,
+        "uniques": [
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		],
 		"techRequired": "Calendar",
+		"shortcutKey": "P"
 	},
 	{
-		"name": "Windmill",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"food": 1,
-		"gold":1,
-		"turnsToBuild": 7,
-		"techRequired": "Machinery",
-		"uniques":["[+1 Production] <after discovering [Replaceable Parts]>" , "[+1 Gold] <after discovering [Electricity]>" ]
+		"name": "Quarry",
+		"turnsToBuild": 6,
+        "uniques": [
+			"Can only be built to improve a resource",
+			"[+1 Production] <in [Railroad] tiles>",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		],
+		"techRequired": "Masonry",
+		"shortcutKey": "Q"
+	},
+	{
+		"name": "Road",
+        "terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 2,
+		"techRequired": "The Wheel",
+		"uniques": [
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "R"
+	},
+	{
+		"name": "Railroad",
+        "terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 3,
+		"techRequired": "Railroad",
+		"uniques": [
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "R"
 	},
 	{
 		"name": "Watermill",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
 		"food": 1,
-		"gold":1,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
-		"uniques":["Must be next to [River]", "[+1 Production] <after discovering [Replaceable Parts]>", "[+2 Gold] <after discovering [Electricity]>"]
+		"uniques":[
+			"Must be next to [River]",
+			"[+1 Production] <after discovering [Replaceable Parts]>",
+			"[+2 Gold] <after discovering [Electricity]>",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		]
+	},
+	{
+		"name": "Oil Well", // "Well" in Civ 4
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 10,
+		"techRequired": "Combustion",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Cannot be built on [Coast] tiles <before discovering [Plastics]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "W"
 	},
 	{
 		"name": "Whaling Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Optics",
+		"food": 5,
+		"uniques": [
+			"[-5 Food]",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		]
 	},
 	{
-		"name": "Lumbermill",
-		"terrainsCanBeBuiltOn": ["Forest"],
+		"name": "Windmill",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"gold": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Machinery",
+		"uniques":[
+			"[+1 Production] <after discovering [Replaceable Parts]>",
+			"[+1 Gold] <after discovering [Electricity]>",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		]
+	},
+	{
+		"name": "Winery",
+        "terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 5,
+        "uniques": [
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"techRequired": "Monarchy"
+	},
+	{
+		"name": "Workshop",
+        "terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert"],
+		"food": -1,
 		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Replaceable Parts",
-		"uniques": ["[+1 Production] <in [Railroad] tiles>"],
-		"shortcutKey": "L"
-	},
-	{
-		"name": "Oil Well",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"turnsToBuild": 9,
-		"techRequired": "Combustion",
-		"uniques": ["Cannot be built on [Coast] tiles <before discovering [Plastics]>"],
-		"shortcutKey": "W"
-	},
-	{
-		"name": "Forest Preserve",
-		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
-		"happiness": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Scientific Method",
-		"uniques": ["[+1 Gold] for each adjacent [River]"],
-		"shortcutKey": "L"
+		"turnsToBuild": 6,
+		"uniques": [
+			"[+1 Production] <after discovering [Guilds]>",
+			"[+1 Production] <after discovering [Chemistry]>",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		],
+		"shortcutKey": "K",
+		"techRequired": "Metal Casting"
 	},
 
-	{
-		"name": "Remove Jungle",
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": ["Jungle"],
-		"techRequired": "Iron Working",
-		"uniques": ["Can be built outside your borders"]
-	},
-
-
+	// Special Markers
     {
         "name": "City center",
         "terrainsCanBeBuiltOn": ["Land"],
-        "uniques": ["Unpillagable", "Irremovable", "Unbuildable"],
+        "uniques": [
+			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
+			"Unpillagable",
+			"Irremovable",
+			"Unbuildable",
+			"Excluded from map editor"
+		],
+		// "shortcutKey": "B", // The default in Unciv is C, so we will leave it as is.
         "civilopediaText": [
             {"text":"Marks the center of a city"},
             {"text":"Appearance changes with the technological era of the owning civilization"}
@@ -157,5 +305,182 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "uniques": ["Unpillagable", "Unbuildable"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
-    }
+    },
+
+	// Great Person improvements
+	{
+		"name": "Academy Building",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"uniques": [
+			"Great Improvement",
+            "Will not be replaced by automated units",
+			"Excluded from map editor",
+			"Does not need removal of [All]",
+			"Will not be displayed in Civilopedia",
+			"Gain a free [Academy] [in this city]"
+		]
+	},
+	{
+		"name": "Great Artist Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 12,
+		"gold": 3,
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Irremovable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Tile provides yield without assigned population"
+		]
+	},
+	{
+		"name": "Great Engineer Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 3,
+		"science": 3,
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Irremovable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Tile provides yield without assigned population"
+		]
+	},
+	{
+		"name": "Great Merchant Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 6,
+		"food": 1,
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Irremovable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Tile provides yield without assigned population"
+		]
+	},
+	{
+		"name": "Great Prophet Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 5,
+		"production": 2,
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Irremovable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Tile provides yield without assigned population"
+		]
+	},
+
+	{
+		"name": "Great Scientist Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 6,
+		"production": 1,
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Irremovable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Tile provides yield without assigned population"
+		]
+	},
+
+	{
+		"name": "Great General Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Irremovable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Gives a defensive bonus of [+10]%" // TODO: "New [Military] units start with [2] Experience [in this city]"
+		]
+	},
+
+	{
+		"name": "Religious Shrine",
+		// See Religious Shrine building
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1, // Hack to allow automation
+		"uniques": [
+			"[-1 Culture]",
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Irremovable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Gain a free [Religious Shrine] [in capital]"
+		]
+	},
+
+	// Removals
+	// Any improvement that starts with 'Remove ' is automatically changed into
+	// the improvement that removes the terrainfeature after it.
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"techRequired": "Bronze Working",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X",
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"techRequired": "Bronze Working",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 2,
+		// Has no tech requirements as it can always be built
+		"uniques": [
+			"Can be built outside your borders",
+			"Excluded from map editor"
+		],
+		"shortcutKey": "X"
+	},
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"techRequired": "The Wheel"
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"techRequired": "Railroad"
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "."
+	}
 ]

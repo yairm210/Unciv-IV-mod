@@ -7,6 +7,28 @@
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
+        "name": "Space Race",
+        "victoryScreenHeader": "Complete all the spaceship parts\nto win!",
+        "requiredSpaceshipParts": [
+            "SS Casing", "SS Cockpit", "SS Docking Bay", "SS Engine", "SS Life Support", "SS Stasis Chamber", "SS Thrusters"
+        ],
+        "milestones": [
+			"Build [Apollo Program]", "Add all [spaceship parts] in capital"
+		],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+	{
+        "name": "Diplomatic",
+        "victoryScreenHeader": "Build the UN and be voted\nworld leader.",
+        "milestones": [
+			"Anyone should build [United Nations]",
+			"Win diplomatic vote"
+		],
+        "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
         "name": "Time",
         "hiddenInVictoryScreen": true,
         "milestones": ["Have highest score after max turns"],

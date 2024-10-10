@@ -1,3 +1,4 @@
+// https://civilization.fandom.com/wiki/Resource_(Civ4)
 [
 	{
 		"name": "Clam",
@@ -5,8 +6,10 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-        "uniques": ["Provides [+1] [Health] <in [Fishing Boats] tiles>"],
-		"improvementStats": {"food": 2 },
+        "uniques": [
+			"Provides [+1] [Health] <in [Fishing Boats] tiles>"
+		],
+		"improvementStats": {"food": 2 }
 	},
 	{
 		"name": "Crab",
@@ -15,7 +18,7 @@
 		"food": 1,
 		"improvement": "Fishing Boats",
         "uniques": ["Provides [+1] [Health] <in [Fishing Boats] tiles>"],
-		"improvementStats": {"food": 2 },
+		"improvementStats": {"food": 2 }
 	},
     {
         "name": "Fish",
@@ -24,7 +27,7 @@
         "food": 1,
         "improvement": "Fishing Boats",
         "uniques": ["Provides [+1] [Health] <in [Fishing Boats] tiles>"],
-        "improvementStats": {"food": 2 },
+        "improvementStats": {"food": 2 }
     },
     {
         "name": "Wheat",
@@ -33,7 +36,7 @@
         "food": 1,
         "improvement": "Farm",
         "uniques": ["Provides [+1] [Health] <in [Farm] tiles>"],
-        "improvementStats": {"food": 2 },
+        "improvementStats": {"food": 2 }
     },
     {
         "name": "Rice",
@@ -42,7 +45,7 @@
         "food": 1,
         "improvement": "Farm",
         "uniques": ["Provides [+1] [Health] <in [Farm] tiles>"],
-        "improvementStats": {"food": 1 },
+        "improvementStats": {"food": 1 }
     },
     {
         "name": "Corn",
@@ -51,7 +54,7 @@
         "food": 1,
         "improvement": "Farm",
         "uniques": ["Provides [+1] [Health] <in [Farm] tiles>"],
-        "improvementStats": {"food": 2 },
+        "improvementStats": {"food": 2 }
     },
 
 	{
@@ -61,7 +64,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert"],
 		"production": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 2, "gold":1},
+		"improvementStats": {"production": 2, "gold": 1}
 	},
 	{
 		"name": "Copper",
@@ -70,7 +73,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1},
+		"improvementStats": {"production": 1}
 	},
 	{
 		"name": "Iron",
@@ -94,7 +97,7 @@
 		"name": "Oil",
 		"resourceType": "Strategic",
 		"revealedBy": "Scientific Method",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill", "Coast", "Ocean"],
 		"production": 1,
 		"improvement": "Oil Well",
 		"improvementStats": {"production": 2, "gold": 1}
@@ -171,6 +174,7 @@
         "terrainsCanBeFoundOn": ["Jungle"],
         "food": 1,
         "improvement": "Plantation",
+        "uniques": ["Provides [+1] [Health] <in [Plantation] tiles>"],
         "improvementStats": {"food": 2}
     },
     {
@@ -179,6 +183,7 @@
         "terrainsCanBeFoundOn": ["Grassland", "Plains"],
         "food": 1,
         "improvement": "Pasture",
+        "uniques": ["Provides [+1] [Health] <in [Pasture] tiles>"],
         "improvementStats": {"food": 1, "production": 2}
     },
     {
@@ -187,6 +192,7 @@
         "terrainsCanBeFoundOn": ["Grassland", "Plains"],
         "food": 1,
         "improvement": "Pasture",
+        "uniques": ["Provides [+1] [Health] <in [Pasture] tiles>"],
         "improvementStats": {"food": 2}
     },
     {
@@ -195,6 +201,7 @@
         "terrainsCanBeFoundOn": ["Grassland", "Hill"],
         "food": 1,
         "improvement": "Pasture",
+        "uniques": ["Provides [+1] [Health] <in [Pasture] tiles>"],
         "improvementStats": {"food": 2, "gold": 1}
     },
     {
@@ -203,6 +210,7 @@
         "terrainsCanBeFoundOn": ["Tundra", "Plains"],
         "food": 1,
         "improvement": "Camp",
+        "uniques": ["Provides [+1] [Health] <in [Camp] tiles>"],
         "improvementStats": {"food": 2}
     },
 	{
@@ -211,7 +219,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 5}
+		"improvementStats": {"gold": 5, "happiness": 1}
 	},
 	{
 		"name": "Dyes",
@@ -219,7 +227,7 @@
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 4}
+		"improvementStats": {"gold": 4, "happiness": 1}
 	},
 	{
 		"name": "Spices",
@@ -227,15 +235,15 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 2, "food":1}
+		"improvementStats": {"gold": 2, "food":1, "happiness": 1}
 	},
 	{
 		"name": "Sugar",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Grassland","Marsh"],
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Grassland"],
 		"food": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1, "food":1}
+		"improvementStats": {"gold": 1, "food":1, "happiness": 1}
 	},
 	{
 		"name": "Silk",
@@ -243,7 +251,7 @@
 		"terrainsCanBeFoundOn": ["Forest"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 3}
+		"improvementStats": {"gold": 3, "happiness": 1}
 	},
 	{
 		"name": "Ivory",
@@ -252,7 +260,7 @@
 		"production": 1,
 		"improvement": "Camp",
 		"uniques": ["Obsolete with [Industrialism]"],
-		"improvementStats": {"production":1, "gold": 1}
+		"improvementStats": {"production":1, "gold": 1, "happiness": 1}
 	},
 	{
 		"name": "Furs",
@@ -261,7 +269,7 @@
 		"gold": 1,
 		"uniques": ["Obsolete with [Plastics]"],
 		"improvement": "Camp",
-		"improvementStats": {"gold": 3}
+		"improvementStats": {"gold": 3, "happiness": 1}
 	},
 	{
 		"name": "Whales",
@@ -270,38 +278,108 @@
 		"food": 1,
 		"uniques": ["Obsolete with [Combustion]"],
 		"improvement": "Whaling Boats",
-		"improvementStats": {"gold": 2, "production":1}
+		"improvementStats": {"gold": 2, "production":1, "happiness": 1}
 	},
-	{ // Only provided by Broadway wonder
-		"name": "Hit Musicals",
+	{
+		"name": "Hit Musicals", // Only provided by Broadway wonder
 		"resourceType": "Luxury",
+		"revealedBy": "Electricity",
+		"uniques": [
+			"Excluded from map editor"
+		]
 	},
-	{ // Only provided by Rock 'n' Roll wonder
-		"name": "Hit Singles",
+	{
+		"name": "Hit Singles", // Only provided by Rock 'n' Roll wonder
 		"resourceType": "Luxury",
+		"revealedBy": "Radio",
+		"uniques": [
+			"Excluded from map editor"
+		]
 	},
-	{ // Only provided by Hollywood wonder
-		"name": "Hit Movies",
+	{
+		"name": "Hit Movies", // Only provided by Hollywood wonder
 		"resourceType": "Luxury",
+		"revealedBy": "Mass Media",
+		"uniques": [
+			"Excluded from map editor"
+		]
 	},
 
     // City-level resources
     {
         "name": "Health",
         "resourceType": "Bonus",
-        "uniques": ["City-level resource"]
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		]
     },
     {
         "name": "Power",
         "resourceType": "Bonus",
-        "uniques": ["City-level resource"]
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		]
     },
-
-	// Used as tokens to limit cathedrals
-	{
-		"name": "Cathedral Followers",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": [],
-		"uniques": ["Will not be displayed in Civilopedia"]
-	}
+    {
+        "name": "Great Artist Specialist",
+        "resourceType": "Bonus",
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
+		"gold": 3,
+		"culture": 12
+    },
+    {
+        "name": "Great Engineer Specialist",
+        "resourceType": "Bonus",
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
+		"production": 3,
+		"science": 3
+    },
+    {
+        "name": "Great Merchant Specialist",
+        "resourceType": "Bonus",
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
+		"food": 1,
+		"gold": 6
+    },
+    {
+        "name": "Great Prophet Specialist",
+        "resourceType": "Bonus",
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
+		"production": 2,
+		"gold": 5
+    },
+    {
+        "name": "Great Scientist Specialist",
+        "resourceType": "Bonus",
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
+		"production": 1,
+		"science": 6
+    },
+    {
+        "name": "Great Spy Specialist",
+        "resourceType": "Bonus",
+        "uniques": [
+			"City-level resource",
+			"Excluded from map editor"
+		],
+		"espionage": 12, // TODO: Espionage is not a Unciv stat.
+		"science": 3
+    }
 ]

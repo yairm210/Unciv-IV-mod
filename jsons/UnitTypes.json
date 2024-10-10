@@ -50,19 +50,37 @@
   {
     "name": "Submarine",
     "movementType": "Water",
-    "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+    "uniques": ["Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
   },
   {
     "name": "Fighter",
-    "movementType": "Air"
+    "movementType": "Air",
+	"uniques": [
+		//"Aircraft",
+		"[+4] Sight",
+		"Can see over obstacles",
+		"Can perform Air Sweep"
+	]
   },
   {
     "name": "Bomber",
-    "movementType": "Air"
+    "movementType": "Air",
+	"uniques": [
+		//"Aircraft"
+	]
   },
   {
     "name": "Helicopter",
     "movementType": "Land",
     "uniques": ["Can pass through impassable tiles"]
+  },
+  {
+	"name": "Missle",
+	"movementType": "Air",
+	"uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+  },
+  {
+	"name": "Animal",
+	"movementType": "Land"
   }
 ]

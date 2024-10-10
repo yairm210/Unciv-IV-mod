@@ -13,12 +13,28 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Palace Of Versailles](https://thenounproject.com/icon/palace-of-versailles-2322278/) by Phạm Thanh Lộc from NounProject.com for Versailles
 - [Grocery store](https://thenounproject.com/icon/grocery-store-4116484/) by IcoLabs for Grocer
 - [Levees](https://thenounproject.com/icon/levees-2381597/) by coloripop for Levee
-- [Customs declaration](https://thenounproject.com/icon/customs-declaration-2002091/) by dDara for Customs House
+- [Government Building](https://thenounproject.com/icon/government-building-3779751/) by Bartama Graphic for Customs House
 - [Hollywood](https://thenounproject.com/icon/hollywood-4281633/) by Lars Meiertoberens
 - [Electric Guitar](https://thenounproject.com/icon/electric-guitar-1029522/) by Pedro Santos for Rock 'n' Roll
 - [Red Cross](https://thenounproject.com/icon/red-cross-2392034/) by Jordan Alfarishy
 - [Theater](https://thenounproject.com/icon/theater-3402158/) by Melvin Salas for Broadway
 - [power plant with coal](https://thenounproject.com/icon/power-plant-with-coal-2403687/) by Verry for Coal Plant
+- [Supermarket](https://thenounproject.com/icon/supermarket-6441161/) by parnowowo for Supermarket
+- [Police](https://thenounproject.com/icon/police-7253740/) by Edy Subiyanto for Jail
+- [Building Security](https://thenounproject.com/icon/building-security-1265138/) by Optimus Prime for Security Bureau
+- [Bunker](https://thenounproject.com/icon/bunker-4991310/) by Muhammad Atiq
+- [Dam](https://thenounproject.com/icon/dam-6895261/) by Siti Nurhayati for Drydock
+- [Airport](https://thenounproject.com/icon/airport-5053344/) by Kevin
+- [Minaret](https://thenounproject.com/icon/minaret-6723549/) by Trimanggolo Mulyo for Spiral Minaret
+- [Dam](https://thenounproject.com/icon/dam-5133225/) by Dio Sugiharto for Three Gorges Dam
+- [Earth](https://thenounproject.com/icon/earth-7074085/) by kukuh amaliawan for The Space Elevator
+- [Globe Theatre](https://thenounproject.com/icon/globe-theatre-5286089/) by Lia Thompson
+- [Stock Exchange](https://thenounproject.com/icon/stock-exchange-4573376/) by Dominik Mann for Wall Street
+- [Statue](https://thenounproject.com/icon/statue-3243817/) by Vectors Point for West Point
+- [Mount Rushmore](https://thenounproject.com/icon/mount-rushmore-3263592/) by Symbolon for Mt. Rushmore
+- [Police Helmet](https://thenounproject.com/icon/police-helmet-4781/) for Scotland Yard
+- [Academy](https://thenounproject.com/icon/academy-3890710/) By Kevin
+- [Gate](https://thenounproject.com/icon/gate-6325375/) by ainul muttagin for Religious Shrine
 
 #### Improvements
 
@@ -26,10 +42,56 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Oil Well](https://thenounproject.com/icon/oil-well-2052285/) by Vectors Market
 - [Forest](https://thenounproject.com/icon/forest-1335311/) by Aom Am for Forest Preserve
 
+#### Nations
+
+- [Star](https://thenounproject.com/icon/star-1088688/) by Darrin Loeliger for America
+- [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567331/) by Singlar for Mali
+
+#### Policies
+
+- [Fist](https://thenounproject.com/icon/fist-4850268/) by Sergiu GC for Despotism
+- [Queen](https://thenounproject.com/icon/queen-6741374/) by Vectorstall for Hereditary Rule
+- [Manager](https://thenounproject.com/icon/manager-305963/) for Representation
+- [Police](https://thenounproject.com/icon/police-6885005/) for Police State
+- [Vote](https://thenounproject.com/icon/vote-4045417/) by SBTS for Universal Suffrage
+- [Laugh](https://thenounproject.com/icon/laugh-1391896/) by Deemak Daksina for Barbarism
+- [Greeting](https://thenounproject.com/icon/greeting-1231357/) by Martin Markstein for Vassalage
+- [Speech](https://thenounproject.com/icon/speech-16988/) by Juan Pablo Bravo for Bereaucracy
+- [Flaglet](https://thenounproject.com/icon/flaglet-5253087/) by Muhammad Ikraam for Nationhood
+- [Congregate](https://thenounproject.com/icon/congregate-3904885/) by Miguel C Balandrano for Free Speech
+- [Native Tribe](https://thenounproject.com/icon/native-tribe-2741474/) by Gan Knoon Lay for Tribalism
+- [Slavery](https://thenounproject.com/icon/slavery-6567062/) by Lars Meiertoberens
+- [Man holding rake](https://thenounproject.com/icon/man-holding-rake-1930605/) by Gan Khoon Lay for Serfdom
+- [Baby](https://thenounproject.com/icon/baby-6996109/) by Humam for Caste System
+- [Liberation](https://thenounproject.com/icon/liberation-6991837/) by gravisio for Emancipation
+- [Save Water](https://thenounproject.com/icon/save-water-7116194/) by HideMaru for Decentralization
+- [Harbor](https://thenounproject.com/icon/harbor-7230954/) by Isyana Bam for Mercantilism
+- [World Money](https://thenounproject.com/icon/money-world-4311189/) by Adrien Coquet for Free Market
+- [Deed](https://thenounproject.com/icon/deed-144730/) by Creative Stall for State Property
+- [Ecologist](https://thenounproject.com/icon/ecologist-3261621/) by Vector Point for Environmentalism
+- [Triquetra](https://thenounproject.com/icon/triquetra-6869784/) by Leonardo Henrique Martini for Paganism
+- [Priest](https://thenounproject.com/icon/priest-2532144/) by WiStudio for Organized Religion
+- [Praying](https://thenounproject.com/icon/praying-458075/) by Cristiano Zoucas for Theocracy
+- [Hand Shake](https://thenounproject.com/icon/hand-shake-5141232/) by AHMAD SIDIK for Pacifism
+- [workshop](https://thenounproject.com/icon/worship-29775/) by Lance Weisser for Free Religion
+- [Government](https://thenounproject.com/icon/government-2129596/) by Tomas Knopp for Government
+- [Legal](https://thenounproject.com/icon/legal-7222235/) by Kmg Design for Legal
+- [Labor](https://thenounproject.com/icon/labor-7229005/) by Risa Yustissa
+- [Money](https://thenounproject.com/icon/money-3134074/) by Rainbow Designs for Money
+- [Angel](https://thenounproject.com/icon/angel-2925166/) by b farias for Religion
+
 #### Units
 
 - [Grenade](https://thenounproject.com/icon/grenade-1082454/) by Viktor Korobkov for Grenadier
 - [Airship](https://thenounproject.com/icon/airship-1696860/) by Deemak Daksina
+- [Army](https://thenounproject.com/icon/army-4782867/) by ratacon studio for SAM Infantry
+- [Galleon](https://thenounproject.com/icon/galleon-ship-3890873/) by Kevin
+- [Transport Ship](https://thenounproject.com/icon/transport-ship-1474559/) by Peter van Driel for Transport
+- [Spy](https://thenounproject.com/icon/spy-6823184/) by Siswantoro for Great Spy
+- [Marine](https://thenounproject.com/icon/marine-3048391/) by Eucalyp for Navy SEAL
+- [brick hammer](https://thenounproject.com/icon/brick-hammer-3147245/) by Vector Points for Fast Worker
+- [spartan helmet](https://thenounproject.com/icon/spartan-helmet-4588854/) for Phalanx
+- [Staff](https://thenounproject.com/icon/staff-3653184/) by Benjamin Jackson for Quechua
 
 #### Technologies
 
@@ -65,7 +127,18 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 
 ## Resources
 
+- [Cow](https://thenounproject.com/icon/cow-7234416/) by Kim Sun Young
 - [Pig](https://thenounproject.com/icon/pig-1021476/) by Bakunetsu Kaito
 - [Health](https://thenounproject.com/icon/health-1035603/) by Sean Maldjean
 - [Corn](https://thenounproject.com/icon/corn-1608785/) by Marco Livoski
 - [Rice](https://thenounproject.com/icon/rice-102154/) by Mourad Mokrane
+- [Health](https://thenounproject.com/icon/health-72938/) by Percy Batalier
+- [Movie](https://thenounproject.com/icon/movie-7103438/) by Debi Alpa Nugraha for Hit Movie
+- [Record](https://thenounproject.com/icon/record-119043/) by Ryan Spiering for Hit Single
+- [laughing mask](https://thenounproject.com/icon/laughing-mask-7233313/) by krisna arga muria for Hit Musical
+- [Rice](https://thenounproject.com/icon/rice-6096366/) by erifqizeicon
+- [small house](https://thenounproject.com/icon/small-house-5829947/) by Misru for Cottage
+- [small house](https://thenounproject.com/icon/small-house-5826677/) by Astima for Hamlet
+- [houses](https://thenounproject.com/icon/houses-3313083/) by Vector Point for Village
+- [Lightning Bolt](https://thenounproject.com/icon/lightning-bolt-258503/) by shashank singh for Power
+- [Town](https://thenounproject.com/icon/town-6621680/) by Imron Sadewo

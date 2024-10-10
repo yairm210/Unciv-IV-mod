@@ -2,6 +2,8 @@
     // Source: the fandom, so take these with a grain of salt
     // I also did some testing in the official version, but by far not all
 
+    // TODO: Fill in the startingObsoleteWonders fields.
+
     {
         "name": "Ancient era",
         "researchAgreementCost": 150,
@@ -12,13 +14,14 @@
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "startPercent": 0,
+        "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
     },
     {
         "name": "Classical era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
-        "startingWorkerCount": 0,
+        "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 2,
         "startingMilitaryUnit": "Spearman",
         "startingGold": 10,
@@ -26,6 +29,7 @@
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "startPercent": 10,
+        "citySound": "cityClassical",
         "iconRGB": [233, 31, 99]
     },
     {
@@ -37,11 +41,12 @@
         "startingMilitaryUnit": "Spearman",
         "startingGold": 25,
         "startingCulture": 200,
-        "settlerPopulation": 1,
+        "settlerPopulation": 2,
         "settlerBuildings": ["Monument"],
-        "startingObsoleteWonders": [],
+        "startingObsoleteWonders": ["The Oracle", "The Pyramids"],
         "baseUnitBuyCost": 200,
         "startPercent": 25,
+        "citySound": "cityMedieval",
         "iconRGB": [157, 39, 176]
     },
     {
@@ -51,13 +56,14 @@
         "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 3,
         "startingMilitaryUnit": "Pikeman",
-        "startingGold": 50,
+        "startingGold": 25,
         "startingCulture": 300,
         "settlerPopulation": 2,
         "settlerBuildings": ["Temple","Monument","Granary","Lighthouse", "Aqueduct"],
-        "startingObsoleteWonders": [],
+        "startingObsoleteWonders": ["Stonehenge", "The Oracle", "The Pyramids"],
         "baseUnitBuyCost": 300,
         "startPercent": 37,
+        "citySound": "cityRenaissance",
         "iconRGB": [104, 58, 183]
     },
     {
@@ -65,15 +71,16 @@
         "researchAgreementCost": 300,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
-        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnitCount": 3,
         "startingMilitaryUnit": "Musketman",
         "startingGold": 100,
         "startingCulture": 400,
         "settlerPopulation": 3,
         "settlerBuildings": ["Monument","Granary","Lighthouse","Market","Temple","Library", "Aqueduct"],
-        "startingObsoleteWonders": [],
+        "startingObsoleteWonders": ["Stonehenge", "The Oracle", "The Pyramids"],
         "baseUnitBuyCost": 400,
         "startPercent": 50,
+        "citySound": "cityIndustrial",
         "iconRGB": [63, 81, 182]
     },
     {
@@ -81,15 +88,16 @@
         "researchAgreementCost": 350,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
-        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnitCount": 4,
         "startingMilitaryUnit": "Rifleman",
         "startingGold": 200,
         "startingCulture": 500,
         "settlerPopulation": 3,
-        "settlerBuildings": ["Monument","Granary","Lighthouse","Market","Temple","Library", "Aqueduct", "Forge", "Bank"],
-        "startingObsoleteWonders": [],
+        "settlerBuildings": ["Monument","Granary","Lighthouse","Market","Temple","Library", "Aqueduct", "Forge", "Bank", "Jail"],
+        "startingObsoleteWonders": ["Stonehenge", "The Oracle", "The Pyramids"],
         "baseUnitBuyCost": 600,
         "startPercent": 65,
+        "citySound": "cityModern",
         "iconRGB": [33, 150, 243],
     },
     {
@@ -101,11 +109,12 @@
         "startingMilitaryUnit": "Marine",
         "startingGold": 400,
         "startingCulture": 600,
-        "settlerPopulation": 5,
-        "settlerBuildings": ["Monument","Granary","Lighthouse","Market","Temple","Library", "Aqueduct","Forge", "Bank"],
-        "startingObsoleteWonders": [],
+        "settlerPopulation": 4,
+        "settlerBuildings": ["Monument","Granary","Lighthouse","Market","Temple","Library", "Aqueduct","Forge", "Bank", "Jail"],
+        "startingObsoleteWonders": ["Stonehenge", "The Oracle", "The Pyramids"],
         "baseUnitBuyCost": 600,
         "startPercent": 65,
+        "citySound": "cityAtomic",
         "iconRGB": [76, 176, 81]
     }
 ]
