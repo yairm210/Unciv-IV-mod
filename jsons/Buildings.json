@@ -273,7 +273,7 @@
 	// Renaissance era
 
 	{
-		"name": "Jail", // TODO: Missing Icon
+		"name": "Jail",
 		"cost": 120,
 		"specialistSlots": {"Spy": 2},
 		"uniques": [
@@ -294,7 +294,7 @@
 	},
 
 	{
-		"name": "Security Bureau", // TODO: Missing Icon
+		"name": "Security Bureau",
 		"cost": 220,
 		"espianage": 8,
 		"specialistSlots": {"Spy": 2},
@@ -328,7 +328,7 @@
 	},
 
 	{
-		"name": "Bunker", // TODO: Missing Icon
+		"name": "Bunker",
 		"cost": 100,
 		"requiredTech": "Electricity",
 		"uniques": [
@@ -351,7 +351,7 @@
 	},
 
 	{
-		"name": "Drydock", // TODO: Missing Icon
+		"name": "Drydock",
 		"cost": 120,
 		"uniques": [
             "Provides [-1] [Health] <in this city>",
@@ -409,7 +409,7 @@
 	// Modern era
 
 	{
-		"name": "Airport", // TODO: Missing Icon
+		"name": "Airport",
 		"cost": 250,
         "uniques": [
 			// +1 trade route
@@ -835,7 +835,7 @@
 	},
 
 	{
-		"name": "Three Gorges Dam", // TODO: Missing Icon
+		"name": "Three Gorges Dam",
 		"cost": 1750,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
@@ -902,7 +902,7 @@
 	},
 
 	{
-		"name": "Globe Theatre", // TODO: Missing Icon
+		"name": "Globe Theatre",
 		"isNationalWonder": true,
 		"culture": 6,
 		"cost": 300,
@@ -987,7 +987,7 @@
 	},
 
 	{
-		"name": "West Point", // TODO: Missing Icon
+		"name": "West Point",
 		"cost": 800,
 		// BTS: "greatPersonPoints": {"Great Spy": 1},
 		"isNationalWonder": true,
@@ -1016,7 +1016,7 @@
 	},
 
 	{
-		"name": "Mt. Rushmore", // TODO: Missing Icon
+		"name": "Mt. Rushmore",
 		"cost": 500,
 		"culture": 4,
 		"greatPersonPoints": {"Great Artist": 1},
@@ -1077,7 +1077,7 @@
 	},
 
 	{
-		"name": "Scotland Yard", // TODO: Missing Icon
+		"name": "Scotland Yard",
 		"cost": 500,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -1088,7 +1088,7 @@
 	},
 
 	{
-		"name": "Academy", // TODO: Missing Icon
+		"name": "Academy",
 		// See Academy Building tile improvement, and Great Scientist
 		"cost": 50,
 		"percentStatBonus": {"science": 50},

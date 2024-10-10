@@ -79,7 +79,7 @@
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Fishing",
-		"culture": 1, // Hack to allow automation
+		"food": 1, // Hack to allow automation
 		"uniques": [
 			"[-1 Culture]",
 			"Can only be built to improve a resource",

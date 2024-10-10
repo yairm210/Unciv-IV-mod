@@ -1,8 +1,8 @@
 // https://civilization.fandom.com/wiki/List_of_units_in_Civ4
 
-// TODO:
-// - Check the "upgradesTo"... "Can upgrade to [Grenadier]"
-// - Check the "attackSound" for each unit
+// TODO: Check the "attackSound" for each unit
+// TODO: Implement first strike cases
+// TODO: Implement Flank Cases
 
 [
 	// Melee
@@ -10,8 +10,8 @@
 	{
 		"name": "Warrior",
 		"unitType": "Sword",
-		"movement": 1,
 		"strength": 2,
+		"movement": 1,
 		"cost": 15,
 		"uniques": [
 			"Can upgrade to [Spearman]",
@@ -27,9 +27,9 @@
 		"movement": 1,
 		"cost": 35,
 		"requiredTech": "Hunting",
-		"upgradesTo": "Pikeman",
 		"requiredResource": "Copper",
 		"uniques": [
+			"Can upgrade to [Pikeman]",
 			"Consumes [1] [Iron]",
 			"[+100]% Strength <vs [Mounted] units>"
 		],
@@ -42,14 +42,15 @@
 		"movement": 1,
 		"cost": 35,
 		"requiredTech": "Bronze Working",
-		"upgradesTo": "Maceman",
 		"requiredResource": "Copper",
 		"uniques": [
+			"Can upgrade to [Maceman]",
 			"Consumes [1] [Iron]",
 			"[+50]% Strength <vs [Melee] units>"
 		],
 		"attackSound": "metalhit"
 	},
+
 	{
 		"name": "Swordsman",
 		"unitType": "Sword",
@@ -57,13 +58,14 @@
 		"movement": 1,
 		"cost": 40,
 		"requiredTech": "Iron Working",
-		"upgradesTo": "Maceman",
 		"requiredResource": "Iron",
 		"uniques": [
+			"Can upgrade to [Maceman]",
 			"[+10]% Strength <vs cities> <when attacking>"
 		],
 		"attackSound": "metalhit"
 	},
+
 	{
 		"name": "Pikeman",
 		"unitType": "Sword",
@@ -71,12 +73,12 @@
 		"movement": 1,
 		"cost": 60,
 		"requiredTech": "Engineering",
+		"requiredResource": "Iron",
 		"uniques": [
 			"Can upgrade to [Rifleman]",
 			"Can upgrade to [Grenadier]",
 			"[+100]% Strength <vs [Mounted] units>"
 		],
-		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
 
@@ -89,6 +91,7 @@
 		"requiredTech": "Civil Service",
 		"requiredResource": "Iron",
 		"uniques": [
+			"Only available <after discovering [Machinery]>",
 			"Consumes [1] [Copper]",
 			"[+50]% Strength <vs [Melee] units>",
 			"Can upgrade to [Grenadier]",
@@ -98,6 +101,7 @@
 	},
 
 	// Archery
+
 	{
 		"name": "Archer",
 		"unitType": "Archery",
@@ -105,14 +109,14 @@
 		"movement": 1,
 		"cost": 25,
 		"rangedStrength": 3,
+		"requiredTech": "Archery",
 		"uniques": [
-			// TODO: +1 First Strike
-			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
+			// +1 First Strike
 			"[+50]% Strength <when fighting in [City center] tiles> <when defending>",
+			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
 			"Can upgrade to [Longbowman]",
 			"Can upgrade to [Crossbowman]"
 		],
-		"requiredTech": "Archery",
 		"attackSound": "arrow"
 	},
 	{
@@ -120,11 +124,11 @@
 		"unitType": "Archery",
 		"strength": 6,
 		"movement": 1,
-		"rangedStrength": 18,
-		"cost": 120,
+		"rangedStrength": 6,
+		"cost": 50,
 		"requiredTech": "Feudalism",
-		"upgradesTo": "Rifleman",
 		"uniques": [
+			"Can upgrade to [Rifleman]",
 			"Only available <after discovering [Archery]>",
 			// +1 First Strike
 			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
@@ -138,13 +142,15 @@
 		"strength": 6,
 		"movement": 1,
 		"cost": 60,
+		"rangedStrength": 6,
 		"requiredTech": "Machinery",
 		"requiredResource": "Iron",
 		"uniques": [
-			// 1 First Strike
-			"[+50]% Strength <vs [Melee] units>",
+			"Only available <after discovering [Archery]>",
+			"Can upgrade to [Rifleman]",
 			"Can upgrade to [Grenadier]",
-			"Can upgrade to [Rifleman]"
+			// 1 First Strike
+			"[+50]% Strength <vs [Melee] units>"
 		],
 		"attackSound": "arrow"
 	},
@@ -170,13 +176,14 @@
 		"cost": 100,
 		"requiredTech": "Chemistry",
 		"uniques": [
-			"Only available <after discovering [Military Tradition]>",
+			// TODO: Have Grenadier require Military Sciecnce in BTS "Only available <after discovering [Military Science]>"
 			"[+50]% Strength <vs [Rifleman] units> <when attacking>",
 			"Can upgrade to [Machine Gun]",
 			"Can upgrade to [Infantry]"
 		],
 		"attackSound": "shot"
 	},
+
 	{
 		"name": "Rifleman",
 		"unitType": "Gunpowder",
@@ -190,6 +197,7 @@
 		],
 		"attackSound": "shot"
 	},
+
 	{
 		"name": "Machine Gun",
 		"unitType": "Siege",
@@ -204,13 +212,14 @@
 			"[+50]% Strength <vs [Gunpowder] units>",
 			// Immune to collateral damage from Siege
 			"[20]% chance to intercept air attacks",
-			"Can upgrade to [SAM Infantry]"
+			"Can upgrade to [SAM Infantry]",
+			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun"
 	},
 
 	{
-		"name": "SAM Infantry", // TODO: Icon
+		"name": "SAM Infantry",
 		"unitType": "Gunpowder",
 		"interceptRange": 2,
 		"strength": 18,
@@ -218,7 +227,7 @@
 		"cost": 150,
 		"requiredTech": "Rocketry",
 		"uniques": [
-			// "Can upgrade to [Mobile SAM]", (BTS)
+			// TODO: SAM Infantry "Can upgrade to [Mobile SAM]", (BTS)
 			"[40]% chance to intercept air attacks",
 			"[+75]% Strength <vs [Helicopter] units>",
 			"Never appears as a Barbarian unit"
@@ -234,6 +243,7 @@
 		"cost": 140,
 		"requiredTech": "Assembly Line",
 		"uniques": [
+			"Only available <after discovering [Rifling]>",
 			"[+25]% Strength <vs [Gunpowder] units>",
 			"Can upgrade to [Mechanized Infantry]",
 			"Can upgrade to [SAM Infantry]"
@@ -293,12 +303,14 @@
 		],
 		"attackSound": "horse"
 	},
+
 	{
 		"name": "Horse Archer",
 		"unitType": "Archery",
 		"strength": 6,
 		"movement": 2,
 		"cost": 50,
+		"requiredResource": "Horses",
 		"requiredTech": "Horseback Riding",
 		"uniques": [
 			"Only available <after discovering [Archery]>",
@@ -306,7 +318,7 @@
 			// Immune to first strikes
 			"No defensive terrain bonus",
 			"Withdraws before melee combat <with [20]% chance>",
-			"[+50]% Strength <vs [Siege] units> <when attacking>", // Catapult, Trebuchet
+			"[+50]% Strength <vs [Siege] units> <when attacking>",
 			"[+20]% to Flank Attack bonuses <vs [Siege] units>" // Flank attack vs Catapults/Trebuchets
 		],
 		"attackSound": "horse"
@@ -319,6 +331,7 @@
 		"movement": 1,
 		"cost": 60,
 		"requiredTech": "Construction",
+		"requiredResource": "Ivory",
 		"uniques": [
 			"Only available <after discovering [Horseback Riding]>",
 			// "Can upgrade to [Cuirassier]", (BTS)
@@ -335,13 +348,37 @@
 		"movement": 2,
 		"cost": 90,
 		"requiredTech": "Guilds",
-		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": [
+			"Can upgrade to [Cavalry]",
+			"Can upgrade to [Cuirassier] <if [Civ IV Beyond the Sword] is enabled>",
 			"Consumes [1] [Iron]",
 			// Immune to first strikes
 			"No defensive terrain bonus",
-			"[+100]% to Flank Attack bonuses <vs [Siege] units>",
+			"[+50]% to Flank Attack bonuses <vs [Siege] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "horse"
+	},
+
+	{
+		"name": "Cuirassier",
+		"unitType": "Mounted",
+		"strength": 12,
+		"movement": 2,
+		"cost": 100,
+		"requiredTech": "Gunpowder",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can upgrade to [Cavalry]",
+			"Only available <after discovering [Military Tradition]>",
+			"Only available <after discovering [Horseback Riding]>",
+			"Consumes [1] [Iron]",
+			// Immune to first strikes
+			"Withdraws before melee combat <with [15]% chance>",
+			"No defensive terrain bonus",
+			"[+20]% to Flank Attack bonuses <vs [Siege] units>",
+			"Only available <if [Civ IV Beyond the Sword] is enabled>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "horse"
@@ -362,6 +399,7 @@
 			"No defensive terrain bonus",
 			"Withdraws before melee combat <with [30]% chance>",
 			"[+50]% Strength <vs [Cannon] units> <when attacking>",
+			"[+20]% to Flank Attack bonuses <vs [Siege] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "horse"
@@ -412,6 +450,24 @@
 	},
 
 	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 2,
+		"strength": 2,
+		"cost": 50,
+		"requiredTech": "Metal Casting",
+		"uniques": [
+			"Only available <if [Civ IV Warlords] is enabled>",
+			"Only available <after discovering [Sailing]>",
+			"Cannot enter ocean tiles",
+			"[+50]% Strength <vs [Galley] units>",
+			"Can upgrade to [Frigate]",
+			"Can upgrade to [Caravel]"
+		],
+		"attackSound": "nonmetalhit"
+	},
+
+	{
 		"name": "Caravel",
 		"unitType": "Melee Water",
 		"strength": 3,
@@ -428,7 +484,7 @@
 	},
 
 	{
-		"name": "Galleon", // TODO: Icon
+		"name": "Galleon",
 		"unitType": "Melee Water",
 		"strength": 4,
 		"movement": 4,
@@ -475,7 +531,7 @@
 	},
 
 	{
-		"name": "Transport", // TODO: Icon
+		"name": "Transport",
 		"unitType": "Melee Water",
 		"strength": 16,
 		"movement": 5,
@@ -490,6 +546,7 @@
 		],
 		"attackSound": "metalhit"
 	},
+	
 	{
 		"name": "Destroyer",
 		"unitType": "Melee Water",
@@ -655,7 +712,7 @@
 
 	// Missles
 	{
-		"name": "ICBM", // TODO: Icon
+		"name": "Nuclear Missile", // "ICBM" in Civ 4
 		"unitType": "Missle",
 		"strength": 300,
 		"movement": 1,
@@ -853,7 +910,6 @@
 			"Requires at least [2] population",
 			"Excess Food converted to Production when under construction",
 			"Founds a new city <by consuming this unit>"
-			// TODO: +50% production speed for Imperialistic leaders
 		],
 		"hurryCostModifier": 20
 	},
@@ -867,7 +923,6 @@
 			"Cannot attack",
 			"Can build [Land] improvements on tiles",
 			// Scrub fallout from tiles
-			// +25% production speed with Expansive leaders
 			"Automation is a primary action"
 		],
 		"hurryCostModifier": 20
@@ -895,18 +950,18 @@
 		"cost": 80, // BTS: 40
 		"requiredTech": "Communism",
 		"promotions": [
-			// "Commando" (BTS)
+			// TODO: Have Spies start with "Commando" in (BTS)
 			"Sentry"
 		],
 		"uniques": [
-			"Only available <if [Scotland Yard] is constructed> <in this city>", // Vanilla: Spies may be built only in a city with the Scotland Yard national wonder.
+			"Only available <if [Scotland Yard] is constructed> <in this city>",
 			"Only available <after discovering [Alphabet]>",
 			"Invisible to others",
 			"Can see invisible [Spy] units",
 			"May enter foreign tiles without open borders",
 			"Never appears as a Barbarian unit",
 			"Cannot attack"
-			// Espionage
+			// TODO: Have Spies conduct Espionage missions
 		]
 	},
 
@@ -918,8 +973,8 @@
 		"uniques": [
 			"Only available <after founding a religion>",
 			"Never appears as a Barbarian unit",
-			"Only available <if [Monastery] is constructed>",
-            "Can Spread Religion <for [2] movement> <[2] times> <after which this unit is consumed>",
+			"Only available <if [Monastery] is constructed> <in this city>",
+            "Can Spread Religion <by consuming this unit>",
             "May enter foreign tiles without open borders",
 			"[-1] Sight",
 			"Religious Unit",
@@ -942,10 +997,9 @@
 			"Cannot be purchased",
 			"Cannot attack",
 			"Great Person - [Culture]",
-			"Gain [4000] [Culture] <by consuming this unit>",
+			"Gain [4000] [Culture] <by consuming this unit>", // Instantly ends resistance in a city
 			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great Artist Specialist] improvement <by consuming this unit>"
-			// instantly ends resistance in a city
 		],
     },
     {
@@ -1025,6 +1079,7 @@
 			"Great Person - [War]",
 			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great General Specialist] improvement <by consuming this unit> <if [Civ IV Warlords] is enabled>"
+			// TODO: Implement Great General Promotion action
 			// Can be attached to a unit, which...
 			// - enables unique promotions for that unit
 			// - allows that unit free upgrades
@@ -1032,7 +1087,7 @@
 		]
     },
 
-    { // TODO: Icon
+    {
         "name": "Great Spy", // While Great Spy is BTS, we add it here for integrations.
         "unitType": "Civilian",
         "movement": 2,
@@ -1045,7 +1100,6 @@
 			"Great Person - [Espionage]",
 			"Invisible to others",
 			"Can see invisible [Spy] units",
-			"Can see invisible [Great Spy] units",
 			"Cannot attack",
 			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great Spy Specialist] improvement <by consuming this unit> <if [Civ IV Beyond the Sword] is enabled>"
@@ -1056,7 +1110,7 @@
 	// Spaceship
 	// https://civilization.fandom.com/wiki/Spaceship_(Civ4)
 	{
-		"name": "SS Casing", // TODO: Icon
+		"name": "SS Casing", // TODO: Add SS Casing Icon
 		"unitType": "Civilian",
 		"cost": 1200,
 		"uniques": [
@@ -1079,15 +1133,16 @@
 		"requiredTech": "Fiber Optics"
 	},
 	{
-		"name": "SS Docking Bay", // TODO: Icon
+		"name": "SS Docking Bay", // TODO: Add SS Docking Bay Icon
 		"unitType": "Civilian",
 		"cost": 2000,
 		"uniques": [
+			"Only available <after discovering [Robotics]>",
 			"[-50]% production cost <with [Aluminum]>",
 			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
 		],
-		"requiredTech": "Satellites" // and Robotics
+		"requiredTech": "Satellites"
 	},
 	{
 		"name": "SS Engine",
@@ -1100,7 +1155,7 @@
 		"requiredTech": "Fusion"
 	},
 	{
-		"name": "SS Life Support", // TODO: Icon
+		"name": "SS Life Support", // TODO: Add SS Life Support Icon
 		"unitType": "Civilian",
 		"cost": 1000,
 		"uniques": [
@@ -1121,7 +1176,7 @@
 		"requiredTech": "Genetics"
 	},
 	{
-		"name": "SS Thrusters", // TODO: Icon
+		"name": "SS Thrusters", // TODO: Add SS Thrusters Icon
 		"unitType": "Civilian",
 		"cost": 1200,
 		"uniques": [
@@ -1136,7 +1191,7 @@
 	// https://civilization.fandom.com/wiki/List_of_units_in_Civ4#Replacements
 
 	{
-		"name": "Navy SEAL", // TODO: Icon
+		"name": "Navy SEAL",
 		"replaces": "Marine",
 		"uniqueTo": "America",
 		"unitType": "Gunpowder",
@@ -1162,9 +1217,9 @@
 		"strength": 10,
 		"movement": 2,
 		"cost": 90,
-		// "upgradesTo": "Cuirassier", // BTS
 		"uniques": [
-			// TODO: Immune to first strikes
+			// Immune to first strikes
+			"Can upgrade to [Cuirassier] <if [Civ IV Beyond the Sword] is enabled>",
 			"No defensive terrain bonus",
 			"Withdraws before melee combat <with [15]% chance>",
 			"[+20]% to Flank Attack bonuses <vs [Siege] units>", // Flank attack versus Catapults and Trebuchets
@@ -1183,8 +1238,8 @@
 		"strength": 5,
 		"movement": 1,
 		"cost": 35,
-		"upgradesTo": "Maceman",
 		"uniques": [
+			"Can upgrade to [Maceman]",
 			"[+10]% Strength <vs cities> <when attacking>",
 			"Only available <after discovering [Archery]>"
 		],
@@ -1193,15 +1248,16 @@
 	},
 
 	{
-		"name": "Cho-Ko-Nu", // TODO: Icon
+		"name": "Cho-Ko-Nu", // TODO: Add Cho-Ko-Nu Icon
 		"replaces": "Crossbowman",
 		"uniqueTo": "China",
 		"unitType": "Archery",
 		"strength": 6,
 		"movement": 1,
 		"cost": 60,
-		"upgradesTo": "Rifleman", // or Grenadier
 		"uniques": [
+			"Can upgrade to [Rifleman]",
+			"Can upgrade to [Grenadier]",
 			// 2 first strikes
 			// Causes collateral damage
 			"[+50]% Strength <vs [Sword] units>",
@@ -1219,8 +1275,8 @@
 		"strength": 5,
 		"movement": 2,
 		"cost": 30,
-		"upgradesTo": "Horse Archer", // or Knight
 		"uniques": [
+			"Can upgrade to [Horse Archer]",
 			// Immune to first strike
 			// Causes collateral damage
 			"No defensive terrain bonus",
@@ -1232,15 +1288,15 @@
 	},
 
 	{
-		"name": "Redcoat", // TODO: Icon
+		"name": "Redcoat", // TODO: Add Redcoat Icon
 		"replaces": "Rifleman",
 		"uniqueTo": "England",
 		"unitType": "Gunpowder",
 		"strength": 14,
 		"movement": 1,
 		"cost": 110,
-		"upgradesTo": "Infantry",
 		"uniques": [
+			"Can upgrade to [Infantry]",
 			"Withdraws before melee combat <with [10]% chance>",
 			"[+25]% Strength <vs [Mounted] units>",
 			"[+25]% Strength <vs [Gunpowder] units>"
@@ -1256,7 +1312,9 @@
 		"strength": 9,
 		"movement": 2,
 		"cost": 80,
-		"upgradesTo": "Rifleman",
+		"uniques": [
+			"Can upgrade to [Rifleman]"
+		],
 		"requiredTech": "Gunpowder"
 	},
 
@@ -1268,8 +1326,8 @@
 		"strength": 28,
 		"movement": 2,
 		"cost": 180,
-		"upgradesTo": "Modern Armor",
 		"uniques": [
+			"Can upgrade to [Modern Armor]",
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Armored] units>",
 			"Only available <after discovering [Rifling]>"
@@ -1279,16 +1337,16 @@
 	},
 
 	{
-		"name": "Phalanx", // TODO: Icon
+		"name": "Phalanx",
 		"replaces": "Spearman",
 		"uniqueTo": "Greece",
 		"unitType": "Sword",
 		"strength": 5,
 		"movement": 1,
 		"cost": 35,
-		"upgradesTo": "Pikeman",
 		"requiredResource": "Copper",
 		"uniques": [
+			"Can upgrade to [Pikeman]",
 			"Consumes [1] [Iron]",
 			"[+50]% Strength <vs [Sword] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
 			"[+100]% Strength <vs [Chariot] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
@@ -1299,7 +1357,7 @@
 	},
 
 	{
-		"name": "Quechua", // TODO: Icon
+		"name": "Quechua", // TODO: Add Quechua Icon
 		"replaces": "Warrior",
 		"uniqueTo": "Inca",
 		"unitType": "Sword",
@@ -1315,7 +1373,7 @@
 	},
 
 	{
-		"name": "Fast Worker", // TODO: Icon
+		"name": "Fast Worker",
 		"replaces": "Worker",
 		"uniqueTo": "India",
 		"unitType": "Civilian",
@@ -1334,10 +1392,10 @@
 		"strength": 18,
 		"movement": 1,
 		"cost": 70,
-		"upgradesTo": "Rifleman",
 		"requiredTech": "Civil Service",
 		"requiredResource": "Iron",
 		"uniques": [
+			"Can upgrade to [Rifleman]",
 			// TODO: 2 first strikes
 			"[+50]% Strength <vs [Melee] units>",
 			"Can upgrade to [Grenadier]",
@@ -1354,10 +1412,10 @@
 		"strength": 4,
 		"movement": 1,
 		"cost": 25,
-		"upgradesTo": "Longbowman",
 		"requiredTech": "Archery",
 		"requiredResource": "Iron",
 		"uniques": [
+			"Can upgrade to [Longbowman]",
 			// TODO: 1-2 first strikes
 			"[+50]% Strength <when fighting in [City center] tiles> <when defending>",
 			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
@@ -1374,9 +1432,9 @@
 		"strength": 6,
 		"movement": 2,
 		"cost": 50,
-		"upgradesTo": "Knight",
 		"requiredTech": "Horseback Riding",
 		"uniques": [
+			"Can upgrade to [Knight]",
 			// TODO: 1 first strikes
 			"No defensive terrain bonus",
 			"Withdraws before melee combat <with [20]% chance>",
@@ -1389,17 +1447,17 @@
 	},
 
 	{
-		"name": "Immortal", // TODO: Icon
+		"name": "Immortal", // TODO: Add Immortal Icon
 		"unitType": "Mounted",
 		"replaces": "Chariot",
 		"uniqueTo": "Persia",
 		"strength": 4,
 		"movement": 2,
 		"cost": 30,
-		"upgradesTo": "Knight",
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
 		"uniques": [
+			"Can upgrade to [Knight]",
 			"Can upgrade to [Horse Archer]",
 			"[+100]% Strength <vs [Axeman] units>",
 			"Withdraws before melee combat <with [10]% chance>",
@@ -1409,14 +1467,16 @@
 	},
 
 	{
-		"name": "Praetorian", // TODO: Icon
+		"name": "Praetorian", // TODO: Add Praetorian Icon
 		"unitType": "Sword",
 		"replaces": "Swordsman",
 		"uniqueTo": "Rome",
 		"strength": 8,
 		"movement": 1,
 		"cost": 45,
-		"upgradesTo": "Maceman",
+		"uniques": [
+			"Can upgrade to [Maceman]"
+		],
 		"requiredTech": "Iron Working",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
@@ -1449,27 +1509,79 @@
 		"name": "Conquistador",
 		"unitType": "Mounted",
 		"uniqueTo": "Spain",
-		"replaces": "Knight", // BTS: Cuirassier
+		"replaces": "Knight",
 		"strength": 12,
 		"movement": 2,
 		"cost": 100,
-		"upgradesTo": "Cavalry",
 		"requiredTech": "Gunpowder",
 		"requiredResource": "Horses",
 		"uniques": [
+			"Can upgrade to [Cavalry]",
+			"Can upgrade to [Cuirassier] <if [Civ IV Beyond the Sword] is enabled>",
 			"Only available <after discovering [Horseback Riding]>",
 			"Only available <after discovering [Military Tradition]>",
 			"Consumes [1] [Iron]",
-			// TODO: Immune to first strike
+			// Immune to first strike
 			"Withdraws before melee combat <with [15]% chance>",
 			"[+50]% to Flank Attack bonuses <vs [Siege] units>", // Can flank attack Cannons, Trebuchets, and Catapults
 			"[+50]% Strength <vs [Sword] units>"
 		],
 		"attackSound": "metalhit"
-	}
+	},
 
-
-	// TODO: Animals (First Barbarians)
+	// TODO: Add Animals (First Barbarians)
 	// https://civilization.fandom.com/wiki/Animal_(Civ4)
+	/*
+	{
+		"name": "Bear", // TODO: Add Bear Icon
+		"unitType": "Animal",
+		"uniqueTo": "Barbarians",
+		"movement": 1,
+		"strength": 3,
+		"uniques": [
+			"No defensive terrain bonus"
+		],
+		"obsoleteTech": "Horseback Riding",
+		"attackSound": "nonmetalhit"
+	},
 
+	{
+		"name": "Lion", // TODO: Add Lion Icon
+		"unitType": "Animal",
+		"uniqueTo": "Barbarians",
+		"movement": 1,
+		"strength": 2,
+		"uniques": [
+			"No defensive terrain bonus"
+		],
+		"obsoleteTech": "Horseback Riding",
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Panther", // TODO: Add Panther Icon
+		"unitType": "Animal",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 2,
+		"uniques": [
+			"No defensive terrain bonus"
+		],
+		"obsoleteTech": "Horseback Riding",
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Wolf", // TODO: Add Wolf Icon
+		"unitType": "Animal",
+		"uniqueTo": "Barbarians",
+		"movement": 1,
+		"strength": 2,
+		"uniques": [
+			"No defensive terrain bonus"
+		],
+		"obsoleteTech": "Horseback Riding",
+		"attackSound": "nonmetalhit"
+	}
+	*/
 ]

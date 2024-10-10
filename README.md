@@ -13,13 +13,27 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Palace Of Versailles](https://thenounproject.com/icon/palace-of-versailles-2322278/) by Phạm Thanh Lộc from NounProject.com for Versailles
 - [Grocery store](https://thenounproject.com/icon/grocery-store-4116484/) by IcoLabs for Grocer
 - [Levees](https://thenounproject.com/icon/levees-2381597/) by coloripop for Levee
-- [Customs declaration](https://thenounproject.com/icon/customs-declaration-2002091/) by dDara for Customs House
+- [Government Building](https://thenounproject.com/icon/government-building-3779751/) by Bartama Graphic for Customs House
 - [Hollywood](https://thenounproject.com/icon/hollywood-4281633/) by Lars Meiertoberens
 - [Electric Guitar](https://thenounproject.com/icon/electric-guitar-1029522/) by Pedro Santos for Rock 'n' Roll
 - [Red Cross](https://thenounproject.com/icon/red-cross-2392034/) by Jordan Alfarishy
 - [Theater](https://thenounproject.com/icon/theater-3402158/) by Melvin Salas for Broadway
 - [power plant with coal](https://thenounproject.com/icon/power-plant-with-coal-2403687/) by Verry for Coal Plant
 - [Supermarket](https://thenounproject.com/icon/supermarket-6441161/) by parnowowo for Supermarket
+- [Police](https://thenounproject.com/icon/police-7253740/) by Edy Subiyanto for Jail
+- [Building Security](https://thenounproject.com/icon/building-security-1265138/) by Optimus Prime for Security Bureau
+- [Bunker](https://thenounproject.com/icon/bunker-4991310/) by Muhammad Atiq
+- [Dam](https://thenounproject.com/icon/dam-6895261/) by Siti Nurhayati for Drydock
+- [Airport](https://thenounproject.com/icon/airport-5053344/) by Kevin
+- [Minaret](https://thenounproject.com/icon/minaret-6723549/) by Trimanggolo Mulyo for Spiral Minaret
+- [Dam](https://thenounproject.com/icon/dam-5133225/) by Dio Sugiharto for Three Gorges Dam
+- [Earth](https://thenounproject.com/icon/earth-7074085/) by kukuh amaliawan for The Space Elevator
+- [Globe Theatre](https://thenounproject.com/icon/globe-theatre-5286089/) by Lia Thompson
+- [Stock Exchange](https://thenounproject.com/icon/stock-exchange-4573376/) by Dominik Mann for Wall Street
+- [Statue](https://thenounproject.com/icon/statue-3243817/) by Vectors Point for West Point
+- [Mount Rushmore](https://thenounproject.com/icon/mount-rushmore-3263592/) by Symbolon for Mt. Rushmore
+- [Police Helmet](https://thenounproject.com/icon/police-helmet-4781/) for Scotland Yard
+- [Academy](https://thenounproject.com/icon/academy-3890710/) By Kevin
 
 #### Improvements
 
@@ -29,6 +43,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 
 #### Nations
 
+- [Star](https://thenounproject.com/icon/star-1088688/) by Darrin Loeliger for America
 - [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567331/) by Singlar for Mali
 
 #### Policies
@@ -68,6 +83,13 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 
 - [Grenade](https://thenounproject.com/icon/grenade-1082454/) by Viktor Korobkov for Grenadier
 - [Airship](https://thenounproject.com/icon/airship-1696860/) by Deemak Daksina
+- [Army](https://thenounproject.com/icon/army-4782867/) by ratacon studio for SAM Infantry
+- [Galleon](https://thenounproject.com/icon/galleon-ship-3890873/) by Kevin
+- [Transport Ship](https://thenounproject.com/icon/transport-ship-1474559/) by Peter van Driel for Transport
+- [Spy](https://thenounproject.com/icon/spy-6823184/) by Siswantoro for Great Spy
+- [Marine](https://thenounproject.com/icon/marine-3048391/) by Eucalyp for Navy SEAL
+- [brick hammer](https://thenounproject.com/icon/brick-hammer-3147245/) by Vector Points for Fast Worker
+- [spartan helmet](https://thenounproject.com/icon/spartan-helmet-4588854/) for Phalanx
 
 #### Technologies
 
@@ -103,11 +125,11 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 
 ## Resources
 
+- [Cow](https://thenounproject.com/icon/cow-7234416/) by Kim Sun Young
 - [Pig](https://thenounproject.com/icon/pig-1021476/) by Bakunetsu Kaito
 - [Health](https://thenounproject.com/icon/health-1035603/) by Sean Maldjean
 - [Corn](https://thenounproject.com/icon/corn-1608785/) by Marco Livoski
 - [Rice](https://thenounproject.com/icon/rice-102154/) by Mourad Mokrane
-- [Corn](https://thenounproject.com/icon/corn-7271881/) by Rafi Al Hakim
 - [Health](https://thenounproject.com/icon/health-72938/) by Percy Batalier
 - [Movie](https://thenounproject.com/icon/movie-7103438/) by Debi Alpa Nugraha for Hit Movie
 - [Record](https://thenounproject.com/icon/record-119043/) by Ryan Spiering for Hit Single
