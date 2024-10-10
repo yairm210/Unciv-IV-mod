@@ -13,6 +13,7 @@
                 "name": "Despotism",
                 "uniques": [
 					"Comment [Low Upkeep]",
+					"[-1 Gold] per [3] population [in your cities]",
 
 					"Remove [Hereditary Rule] <hidden from users>",
 					"Remove [Police State] <hidden from users>",
@@ -26,13 +27,17 @@
                 "name": "Hereditary Rule",
                 "uniques": [
 					"Comment [Low Upkeep]",
+					"[-1 Gold] per [3] population [in your cities]",
 					"[+1 Happiness] [in your cities] <with a garrison>", // +1 Happiness in city per military unit stationed in the city
                     "Only available <after discovering [Monarchy]>",
 
 					"Remove [Despotism] <hidden from users>",
 					"Remove [Police State] <hidden from users>",
 					"Remove [Universal Suffrage] <hidden from users>",
-					"Remove [Representation] <hidden from users>"
+					"Remove [Representation] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 1,
                 "column": 3
@@ -41,6 +46,7 @@
                 "name": "Representation",
                 "uniques": [
 					"Comment [Medium Upkeep]",
+					"[-2 Gold] per [3] population [in your cities]",
 					"[+3 Science] from every [Scientist]",
 					"[+3 Happiness] <in cities with at least [6] [Population]>", // +3 Happiness (Civ4) in the 4-6 biggest cities
                     "Only available <after discovering [Constitution]>",
@@ -57,6 +63,7 @@
                 "name": "Police State",
                 "uniques": [
 					"Comment [High Upkeep]",
+					"[-3 Gold] per [3] population [in your cities]",
 					"[+25]% Production when constructing [Military] units [in your cities]", // +25% military unit production
 					"[+12]% [Happiness] [in your cities] <when at war>", // -50% war weariness
                     "Only available <after discovering [Fascism]>",
@@ -73,6 +80,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
 					"Comment [Medium Upkeep]",
+					"[-2 Gold] per [3] population [in your cities]",
 					"[+1 Production] from [Town] tiles [in your cities]",
 					// Can spend Coins to hurry Hammer
                     "Only available <after discovering [Democracy]>",
@@ -106,6 +114,7 @@
                 "name": "Barbarism",
                 "uniques": [
 					"Comment [Low Upkeep]",
+					"[-1 Gold] per [3] population [in your cities]",
 
 					"Remove [Vassalage] <hidden from users>",
 					"Remove [Bureaucracy] <hidden from users>",
@@ -119,6 +128,8 @@
                 "name": "Vassalage",
                 "uniques": [
 					"Comment [High Upkeep]",
+					"[-3 Gold] per [3] population [in your cities]",
+
 					"New [Military] units start with [2] Experience [in your cities]",
 					// Some additional free units
                     "Only available <after discovering [Feudalism]>",
@@ -135,6 +146,8 @@
                 "name": "Bureaucracy",
                 "uniques": [
 					"Comment [High Upkeep]",
+					"[-3 Gold] per [3] population [in your cities]",
+
 					"[+50]% [Gold] [in capital]",
 					"[+50]% [Production] [in capital]",
                     "Only available <after discovering [Civil Service]>",
@@ -151,6 +164,7 @@
                 "name": "Nationhood",
                 "uniques": [
 					"Comment [No Upkeep]",
+
 					"[+2 Happiness] from every [Barracks]",
                     "Only available <after discovering [Nationalism]>",
 
@@ -166,6 +180,8 @@
                 "name": "Free Speech",
                 "uniques": [
 					"Comment [Low Upkeep]",
+					"[-1 Gold] per [3] population [in your cities]",
+
 					"[+100]% [Culture] [in your cities]",
 					"[+2 Gold] from [Cottage] tiles [in your cities]",
                     "Only available <after discovering [Liberalism]>",
@@ -198,6 +214,7 @@
                 "name": "Tribalism",
                 "uniques": [
 					"Comment [Low Upkeep]",
+					"[-1 Gold] per [3] population [in your cities]",
 
 					"Remove [Slavery] <hidden from users>",
 					"Remove [Serfdom] <hidden from users>",
@@ -211,6 +228,7 @@
                 "name": "Slavery",
                 "uniques": [
 					"Comment [Medium Upkeep]",
+					"[-2 Gold] per [3] population [in your cities]",
 					"[-10]% maintenance costs",
 					// Can hurry production while sacrificing city population
                     "Only available <after discovering [Bronze Working]>",
@@ -227,6 +245,7 @@
                 "name": "Serfdom",
                 "uniques": [
 					"Comment [Low Upkeep]",
+					"[-1 Gold] per [3] population [in your cities]",
 					"[-50]% construction time for [All] improvements",
                     "Only available <after discovering [Feudalism]>",
 
@@ -242,6 +261,7 @@
                 "name": "Caste System",
                 "uniques": [
 					"Comment [Medium Upkeep]",
+					"[-2 Gold] per [3] population [in your cities]",
 					// Unlimited number of artists/merchants/scientists
 					"[+1 Production] from [Workshop] tiles [in your cities]",
                     "Only available <after discovering [Code of Laws]>",
@@ -258,15 +278,17 @@
                 "name": "Emancipation",
                 "uniques": [
 					"Comment [Low Upkeep]",
+					"[-1 Gold] per [3] population [in your cities]",
 					// TODO: Unhappiness in civilizations without emancipation
 					"[+1 Happiness] [in your cities]",
 					"[-1 Happiness] [in enemy cities]",
 
 					// Doubled speed of Cottages, Hamlets and Villages growth
 					"[-50]% construction time for [Cottage] improvements",
-					//"[-50]% construction time for [Hamlet] improvements",
-					//"[-50]% construction time for [Village] improvements",
-					//"[-50]% construction time for [Town] improvements",
+					"[-50]% construction time for [Hamlet] improvements",
+					"[-50]% construction time for [Village] improvements",
+					"[-50]% construction time for [Town] improvements",
+
                     "Only available <after discovering [Democracy]>",
 
 					"Remove [Tribalism] <hidden from users>",
@@ -297,6 +319,7 @@
                 "name": "Decentralization",
                 "uniques": [
 					"Comment [Low Upkeep]",
+					"[-1 Gold] per [3] population [in your cities]",
 
 					"Remove [Mercantilism] <hidden from users>",
 					"Remove [Free Market] <hidden from users>",
@@ -310,7 +333,9 @@
                 "name": "Mercantilism",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[+1 Gold] [in your cities]", // +1 free Specialist in every city
+					"[-2 Gold] per [3] population [in your cities]",
+
+					"[+1 Gold] [in your cities]", // TODO: Add Mercantilism +1 free Specialist in every city
 					// No foreign trade routes except to vassals
 					// Foreign corporations have no effect
                     "Only available <after discovering [Banking]>",
@@ -327,6 +352,8 @@
                 "name": "Free Market",
                 "uniques": [
 					"Comment [Medium Upkeep]",
+					"[-2 Gold] per [3] population [in your cities]",
+
 					"[+1 Gold] from each Trade Route", // 1 trade route in every city
 					// -25% maintenance costs from corporations (BTS)
                     "Only available <after discovering [Economics]>",
@@ -343,6 +370,8 @@
                 "name": "State Property",
                 "uniques": [
 					"Comment [Low Upkeep]",
+					"[-1 Gold] per [3] population [in your cities]",
+
 					"[-5]% maintenance costs", // No maintenance costs from distance to palace
 					"[+1 Food] from [Workshop] tiles [in your cities]",
 					"[+1 Food] from [Watermill] tiles [in your cities]",
@@ -362,6 +391,8 @@
                 "name": "Environmentalism",
                 "uniques": [
 					"Comment [Medium Upkeep]",
+					"[-2 Gold] per [3] population [in your cities]",
+
 					"Provides [6] [Health]",// in your cities
 					// TODO: "[+2 Health] [in your cities] <after discovering [Public Transportation]>", // BTS
 					"[+1 Happiness] from [Forest] tiles [in your cities]",
@@ -399,6 +430,7 @@
                 "name": "Paganism",
                 "uniques": [
 					"Comment [Low Upkeep]",
+					"[-1 Gold] per [3] population [in your cities]",
 
 					"Remove [Organized Religion] <hidden from users>",
 					"Remove [Theocracy] <hidden from users>",
@@ -411,8 +443,11 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
+					"Comment [High Upkeep]",
+					"[-3 Gold] per [3] population [in your cities]",
+
 					"[+25]% [Production] <in cities following our religion>",
-					// Can build Missionary without Monastery
+					// TODO: Organized Religion allows building Missionary without Monastery
                     "Only available <after discovering [Monotheism]>",
 
 					"Remove [Paganism] <hidden from users>",
@@ -426,6 +461,9 @@
             {
                 "name": "Theocracy",
                 "uniques": [
+					"Comment [Medium Upkeep]",
+					"[-2 Gold] per [3] population [in your cities]",
+
 					"New [Military] units start with [2] Experience [in cities following our religion]",
 					// No non-state religion spreads
                     "Only available <after discovering [Theology]>",
@@ -441,6 +479,8 @@
             {
                 "name": "Pacifism",
                 "uniques": [
+					"Comment [No Upkeep]",
+
 					"[+100]% Great Person generation [in cities following our religion]",
 					// TODO: +1 Coins support cost per military unit
                     "Only available <after discovering [Philosophy]>",
@@ -456,13 +496,17 @@
             {
                 "name": "Free Religion",
                 "uniques": [
+					"Comment [Low Upkeep]",
+					"[-1 Gold] per [3] population [in your cities]",
+
 					"[+10]% [Science] [in your cities]",
-					"Only available <after discovering [Liberalism]> <before founding a religion>", // No state religion
-					// TODO: +1 Happiness per every religion in city
+					"Only available <after discovering [Liberalism]> <before founding a Pantheon>", // No state religion
+					"[+1 Happiness] [in your cities] <in cities with a major religion>", // +1 Happiness per every religion in city
 
 					"Remove [Paganism] <hidden from users>",
 					"Remove [Organized Religion] <hidden from users>",
-					"Remove [Theocracy] <hidden from users>",
+					"Remove [Theocracy] <hidden from users>",					// TODO: +1 Happiness per every religion in city
+
 					"Remove [Pacifism] <hidden from users>"
                 ],
                 "row": 2,

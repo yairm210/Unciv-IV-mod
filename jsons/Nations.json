@@ -29,9 +29,7 @@
 		"Memphis", "Cleveland", "Kansas City", "San Diego", "Richmond", "Las Vegas", "Phoenix", "Albuquerque", "Minneapolis", "Pittsburgh",
 		"Oakland", "Tampa Bay", "Orlando", "Tacoma", "Santa Fe", "Olympia", "Hunt Valley", "Springfield", "Palo Alto", "Centralia", "Spokane",
 		"Jacksonville", "Savannah", "Charleston", "San Antonio", "Omaha", "Birmingham", "Honolulu", "Anchorage", "Sacramento", "Salt Lake City",
-		"Reno", "Boise", "Milwaukee", "Santa Cruz", "Monterey", "Santa Monica", "Little Rock", "Columbus", "Le Bam"],
-
-		"favoredReligion": "Christianity"
+		"Reno", "Boise", "Milwaukee", "Santa Cruz", "Monterey", "Santa Monica", "Little Rock", "Columbus", "Le Bam"]
 	},
 	{
 		"name": "Arabia",
@@ -55,9 +53,7 @@
 		],
 		"cities": ["Mecca", "Medina", "Damascus", "Baghdad", "Najran", "Kufah", "Basra", "Khurasan", "Anjar", "Fustat", "Aden",
 		"Yamama", "Muscat", "Mansura", "Bukhara", "Fez", "Shiraz", "Merw", "Balkh", "Mosul", "Aydab", "Bayr Ras", "Suhar", "Taif",
-		"Hama", "Tabuk", "Sanaa", "Shihr"],
-
-		"favoredReligion": "Islam"
+		"Hama", "Tabuk", "Sanaa", "Shihr"]
 	},
 	{
 		"name": "Aztec",
@@ -117,9 +113,7 @@
 			   "Kaifeng", "Ningbo", "Baoding", "Yangzhou", "Haerbin", "Chongqing", "Loyang", "Kunming", "Taipei", "Shenyang",
 			   "Taiyuan", "Tainan", "Dalian", "Lijiang", "Wuxi", "Suzhou", "Maoming", "Shaoguan", "Yangjiang", "Heyuan",
 			   "Liaoning", "Hubei", "Gansu", "Huangshi", "Yichang", "Yingtan", "Xinyu", "Xinzheng", "Handan", "Dunhuang",
-			   "Goayu", "Nantong", "Weifang", "Xikang"],
-
-			   "favoredReligion": "Taoism"
+			   "Goayu", "Nantong", "Weifang", "Xikang"]
 	},
 	{
 		"name": "Egypt",
@@ -170,9 +164,7 @@
 		"cities": ["London", "York", "Nottingham", "Hastings", "Canterbury", "Coventry", "Warwick", "Newcastle", "Oxford",
 		"Liverpool", "Dover", "Brighton", "Norwich", "Leeds", "Reading", "Birmingham", "Richmond", "Exeter", "Cambridge",
 		"Gloucester", "Manchester", "Bristol", "Leicester", "Carlisle", "Ipswich", "Porsmouth", "Berwick", "Bath", "Mumbles",
-		"Southampton", "Sheffield", "Salisbury", "Colchester", "Plymouth", "Lancaster", "Winchester", "Blackpool", "Hull"],
-
-		"favoredReligion": "Christianity"
+		"Southampton", "Sheffield", "Salisbury", "Colchester", "Plymouth", "Lancaster", "Winchester", "Blackpool", "Hull"]
 	},
 	{
 		"name": "France",
@@ -201,9 +193,7 @@
 		"cities": ["Paris", "Orleans", "Lyons", "Rheims", "Tours", "Marseilles", "Chartres", "Avignon", "Bensacon", "Rouen",
 		"Grenoble", "Dijon", "Amiens", "Cherbourg", "Poitiers", "Toulouse", "Bayonne", "Strasbourg", "Brest", "Bordeaux", "Rennes",
 		"Nice", "St. Etienne", "Nantes", "Reims", "Le Mans", "Montpellier", "Limoges", "Nancy", "Lille", "Caen", "Toulon", "Le Havre",
-		"Lourdes", "Cannes", "Aix-en-Province", "La Rochelle", "Bourges", "Calais"],
-
-		"favoredReligion": "Christianity"
+		"Lourdes", "Cannes", "Aix-en-Province", "La Rochelle", "Bourges", "Calais"]
 	},
 	{
 		"name": "Germany",
@@ -230,9 +220,7 @@
 		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Essen", "Dortmund", "Stuttgart", "Dusseldorf", "Bremen",
 		"Hannover", "Duisburg", "Leipzig", "Nuremberg", "Dresden", "Bonn", "Bochum", "Magdeburg", "Bielefeld", "Mannheim", "Karlsruhe",
 		"Gelsenkirchen", "Wiesbaden", "Munster", "Rostock", "Augsburg", "Chemnitz", "Aachen", "Braunschweig", "Halle", "Monchengladbach",
-		"Kiel", "Lubeck", "Freiburg", "Heidelberg", "Kassel", "Mainz", "Saarbrucken", "Potsdam", "Leverkusen", "Oldenburg", "Neuss", "Trier"],
-
-		"favoredReligion": "Christianity"
+		"Kiel", "Lubeck", "Freiburg", "Heidelberg", "Kassel", "Mainz", "Saarbrucken", "Potsdam", "Leverkusen", "Oldenburg", "Neuss", "Trier"]
 	},
 	{
 		"name": "Greece",
@@ -311,9 +299,7 @@
 		"Mandalay", "Peshawar", "Darjeeling", "Cochin", "Cuttack", "Goa", "Calicut", "Rawalpindi", "Quetta", "Howrah",
 		"Triverapatnam", "Dakpathar", "Thanjavur", "Jaunpur", "Kodaikanal", "Vrindavan", "Guwahati", "Bhalukpong", "Sonepur",
 		"Vaishali", "Rewalsar", "Kurukshetra", "Subarnapur", "Wadhvan", "Narkanda", "Dhanaulti", "Chitradurga", "Srikakulam",
-		"Vijayaweda", "Banswara"],
-
-		"favoredReligion": "Buddhism"
+		"Vijayaweda", "Banswara"]
 	},
 	{
 		"name": "Japan",
@@ -344,9 +330,7 @@
 		"cities": ["Kyoto", "Osaka", "Tokyo", "Satsuma", "Kagoshima", "Nara", "Nagoya", "Izumo", "Nagasaki", "Yokohama",
 		"Shimonoseki", "Matsuyama", "Sapporo", "Hakodate", "Ise", "Toyama", "Fukushima", "Suo", "Bizen", "Echizen", "Izumi",
 		"Omi", "Echigo", "Kozuke", "Sado", "Kobe", "Nagano", "Hiroshima", "Takayama", "Akita", "Fukuoka", "Aomori", "Kamakuro",
-		"Kochi", "Naha"],
-
-		"favoredReligion": "Buddhism"
+		"Kochi", "Naha"]
 	},
 	{
 		"name": "Mali",
@@ -370,9 +354,7 @@
 		],
 		"cities": ["Timbuktu", "Djenne", "Kumbi Saleh", "Gao", "Walata", "Niani", "Awdaghost", "Tadmekka", "Tekedda", "Awlil",
 		"Wadan", "Agades", "Teodeni", "Taghaza", "Katsina", "Kano", "Zaria", "Bilma", "Ngazargamu", "Kangaba", "Dia", "Tiraqqa",
-		"Awkar", "Kukiya", "Takrur", "Arawan", "Sya", "Taoudenni", "Bambouk", "Kirina"],
-
-		"favoredReligion": "Islam"
+		"Awkar", "Kukiya", "Takrur", "Arawan", "Sya", "Taoudenni", "Bambouk", "Kirina"]
 	},
 	{
 		"name": "Mongolia",
@@ -481,9 +463,7 @@
 		"cities": ["Moskow", "St. Petersburg", "Novgorod", "Rostov", "Yaroslavi", "Yekaterinburg", "Yakutsk", "Vladivostok",
 		"Smolensk", "Orenburg", "Krasnoyarsk", "Khabarovsk", "Bryansk", "Tver", "Novosibirsk", "Magadan", "Murmansk", "Irkutsk",
 		"Chita", "Samara", "Arkhangel'sk", "Chelyabinsk", "Tobol'sk", "Vologda", "Omsk", "Astrakhan", "Kursk", "Saratov", "Tula",
-		"Vladimir", "Perm", "Voronezh", "Pskov", "Starayarussa", "Kostoma", "Nizhiynovgorod", "Sudzal", "Magnitogorsk"],
-
-		"favoredReligion": "Christianity"
+		"Vladimir", "Perm", "Voronezh", "Pskov", "Starayarussa", "Kostoma", "Nizhiynovgorod", "Sudzal", "Magnitogorsk"]
 	},
 	{
 		"name": "Spain",
@@ -510,8 +490,6 @@
 		"cities": ["Madrid", "Barcelona", "Seville", "Cordoba", "Toledo", "Santiago", "Salamanca", "Murcia", "Valencia", "Zaragoza",
 		"Pamplona", "Vitoria", "Santander", "Asturias", "Jaen", "Logrono", "Valladolid", "Palma", "Teruel", "Almeria", "Leon",
 		"Zamora", "Mida", "Lugo", "Alicante", "Cadiz", "Elche", "Alcorcon", "Burgos", "Vigo", "Badajoz", "La Coruna", "Oviedo",
-		"Bilbao", "San Sebastian", "Granada", "Mérida", "Huelva", "Ibiza", "Las Palmas", "Tenerife"],
-
-		"favoredReligion": "Christianity"
+		"Bilbao", "San Sebastian", "Granada", "Mérida", "Huelva", "Ibiza", "Las Palmas", "Tenerife"]
 	}
 ]

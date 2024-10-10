@@ -971,16 +971,19 @@
 		"movement": 2,
 		"cost": 40,
 		"uniques": [
-			"Only available <after founding a religion>",
+			"Only available <after founding a Pantheon>",
 			"Never appears as a Barbarian unit",
+			// TODO: Organized Religion allows Missionaries without a Monastery
 			"Only available <if [Monastery] is constructed> <in this city>",
-            "Can Spread Religion <by consuming this unit>",
-            "May enter foreign tiles without open borders",
-			"[-1] Sight",
+			// TODO: Missionary cannot spread Pantheon?
+            //"Can Spread Religion <by consuming this unit>",
+            "Can Spread Religion <for [1] movement> <[1] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders",
 			"Uncapturable",
 			"Religious Unit",
 			"Hidden when religion is disabled",
-			"Cannot attack"
+			"Cannot attack",
+			"Limited to [3] per Civilization" // Limited to 3 per religion
 		],
 		"requiredTech": "Meditation",
 		"religiousStrength": 1000
@@ -1040,13 +1043,15 @@
         "movement": 2,
         "uniques": [
 			"Unbuildable",
-			"May found a religion",
 			"Uncapturable",
 			"Cannot be purchased",
 			"Cannot attack",
 			"Great Person - [Faith]",
+			// TODO: In Civ 4 can you purchase Great Prophets?
+			//"Can be purchased for [200] [Faith] [in your cities] <after founding a Pantheon> <in cities following our religion>",
 			"Hidden when religion is disabled",
 			"Never appears as a Barbarian unit",
+			"Can instantly construct a [Religious Shrine] improvement <by consuming this unit> <if [Religious Shrine] is not constructed>",
 			"Can instantly construct a [Great Prophet Specialist] improvement <by consuming this unit>"
 		]
     },
@@ -1366,7 +1371,7 @@
 	},
 
 	{
-		"name": "Quechua", // TODO: Add Quechua Icon
+		"name": "Quechua",
 		"replaces": "Warrior",
 		"uniqueTo": "Inca",
 		"unitType": "Sword",

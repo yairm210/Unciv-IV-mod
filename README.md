@@ -34,6 +34,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Mount Rushmore](https://thenounproject.com/icon/mount-rushmore-3263592/) by Symbolon for Mt. Rushmore
 - [Police Helmet](https://thenounproject.com/icon/police-helmet-4781/) for Scotland Yard
 - [Academy](https://thenounproject.com/icon/academy-3890710/) By Kevin
+- [Gate](https://thenounproject.com/icon/gate-6325375/) by ainul muttagin for Religious Shrine
 
 #### Improvements
 
@@ -90,6 +91,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Marine](https://thenounproject.com/icon/marine-3048391/) by Eucalyp for Navy SEAL
 - [brick hammer](https://thenounproject.com/icon/brick-hammer-3147245/) by Vector Points for Fast Worker
 - [spartan helmet](https://thenounproject.com/icon/spartan-helmet-4588854/) for Phalanx
+- [Staff](https://thenounproject.com/icon/staff-3653184/) by Benjamin Jackson for Quechua
 
 #### Technologies
 

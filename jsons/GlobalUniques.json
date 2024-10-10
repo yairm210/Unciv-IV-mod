@@ -1,9 +1,15 @@
 {
     "name": "Global uniques",
     "uniques": [
-        "[-1 Food] per [1] population [in all cities] <when below [0] [Health]>",
-        "Provides [5] [Health]", // Baseline
+		// TODO: Is Population Health correct? https://civilization.fandom.com/wiki/Population_(Civ4)
+        //"[-1 Food] per [1] population [in all cities] <when below [0] [Health]>",
 
+		// TODO: Each point of pop eats 2 Food Food per turn, or 3 Food Food each for unhealthy pop.
+        "[-2 Food] per [1] population [in all cities] <when above [0] [Health]>",
+        "[-3 Food] per [1] population [in all cities] <when below [0] [Health]>",
+
+		// Each point of pop adds to a city's Unhealthiness (Civ4) Unhealthiness.
+        "Provides [5] [Health]", // Baseline
         "Provides [-1] [Health] <in cities with at least [1] [Population]>",
         "Provides [-1] [Health] <in cities with at least [2] [Population]>",
         "Provides [-1] [Health] <in cities with at least [3] [Population]>",
@@ -45,10 +51,13 @@
         "Provides [-1] [Health] <in cities with at least [39] [Population]>",
 		"Provides [-1] [Health] <in cities with at least [40] [Population]>",
 
+		// TODO: A city cannot draft if below 6-8 population.
+		// TODO: A city cannot whip if the whip would kill more than half its population.
+
         // Speed Adjustments
         "[+25]% Production when constructing [All] units [in all cities] <on [Marathon] game speed>",
 
-		// War Weariness
+		// TODO: War Weariness
 		"[-25]% [Happiness] [in your cities] <when at war>",
 
 		// Adopt all Civic Branches/Policies
@@ -58,7 +67,7 @@
 		"Adopt [Economy]",
 		"Adopt [Religion]",
 
-		// Religion
+		// Religion (Holy City)
 		"[+5 Culture, +5 Faith] [in capital] <after founding a Pantheon>"
     ]
 }

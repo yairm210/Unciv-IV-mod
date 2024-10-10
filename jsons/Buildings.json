@@ -42,22 +42,13 @@
 	},
 
 	{
-		"name": "Monastery", // TODO: Replace Monastery with religion specific?
-		"culture": 2,
-		"percentStatBonus": {"science": 10},
-		"cost": 60,
-		"uniques":[
-			"Obsolete with [Scientific Method]"
-		],
-		"requiredTech": "Meditation"
-	},
-
-	{
 		"name": "Monument",
 		"culture": 1,
 		"cost": 30,
 		"requiredTech": "Mysticism",
-		"uniques": ["Obsolete with [Astronomy]"]
+		"uniques": [
+			"Obsolete with [Astronomy]"
+		]
 	},
 
 	{
@@ -67,7 +58,10 @@
 		"specialistSlots": {"Priest": 1},
 		"cost": 80,
 		"uniques": [
-			"Hidden when religion is disabled"
+			"[+20]% Natural religion spread [in this city]",
+			"Only available <after founding a Pantheon> <in cities following our religion>",
+			"Hidden when religion is disabled",
+			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Priesthood"
 	},
@@ -242,17 +236,18 @@
 	{
 		"name": "Cathedral",
 		"cost": 300,
+		"percentStatBonus": {"culture": 50},
 		"specialistSlots": {"Priest": 2},
-		// This unique uses Resource mechanics to limit 1 cathedral per 3 temples
+		// TODO: Cathedrals are limited to 1 cathedral per 3 Temples
+		"requiredBuilding": "Temple",
 		"uniques": [
-			"Only available <after founding a religion>",
+			"[+20]% Natural religion spread [in this city]",
+			"Only available <after founding a Pantheon> <in cities following our religion>",
 			"Hidden when religion is disabled",
 			"[+1 Happiness] <with [Incense]>",
-			"[-50]% production cost <with [Copper]>",
-			"[-50]% production cost <with [Marble]>",
-			"[-50]% production cost <with [Stone]>"
+			"[+2 Happiness] [in this city] <in cities following our religion>",
+			"Destroyed when the city is captured"
 		],
-		"percentStatBonus": {"culture": 50},
 		"requiredTech": "Music"
 	},
 
@@ -496,15 +491,30 @@
 		"percentStatBonus": {"science": 10},
 		"requiredTech": "Meditation",
 		"uniques": [
-			"Only available <after founding a religion>",
 			"[+20]% Natural religion spread [in this city]",
+			"Only available <after founding a Pantheon> <in cities following our religion>",
 			"Obsolete with [Scientific Method]",
 			"Hidden when religion is disabled",
 			"Destroyed when the city is captured"
 		]
 	},
 
-	// TODO: Add Religious Shrines https://civilization.fandom.com/wiki/Religious_shrine_(Civ4)
+	{
+		"name": "Religious Shrine",
+		"culture": 4,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"uniques": [
+			"[+40]% Natural religion spread [in this city]",
+			"Unbuildable",
+			"Only available <after founding a Pantheon>",
+			"Cannot be purchased",
+			"[+1 Gold] [in your cities] <in cities following our religion>",
+			"Hidden when religion is disabled",
+			"Destroyed when the city is captured",
+			"Unsellable"
+		]
+	},
 
 	// Wonders
 
@@ -515,7 +525,10 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Prophet": 2},
 		"requiredTech": "Mysticism",
-		"uniques": ["Obsolete with [Astronomy]", "Gain a free [Monument] [in all cities]"],
+		"uniques": [
+			"Obsolete with [Astronomy]",
+			"Gain a free [Monument] [in all cities]"
+		],
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
 
@@ -524,7 +537,10 @@
 		"culture": 8,
 		"isWonder": true,
 		"cost": 150,
-		"uniques": ["Free Technology",  "[-50]% production cost <with [Marble]>"],
+		"uniques": [
+			"Free Technology",
+			"[-50]% production cost <with [Marble]>"
+		],
 		"requiredTech": "Priesthood",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing'  - Socrates"
 	},
@@ -536,7 +552,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": [
-			// Enables all government civics
+			// TODO: Have The Pyramids enable all government civics
 		],
 		"requiredTech": "Masonry",
 		"quote": "'From the heights of these pyramids, forty centries look down on us.' - Napoleon Bonaparte"
@@ -560,7 +576,7 @@
 	{
 		"name": "Chichen Itza",
 		"cost": 500,
-		"culture":6,
+		"culture": 6,
 		"isWonder": true,
 		"uniques": [
 			"[+25]% City Strength from defensive buildings",
@@ -677,7 +693,7 @@
 			"[+2 Happiness] [in all cities]", // TODO: same-continental cities
 			"[-50]% production cost <with [Stone]>"
 		],
-		"requiredTech": "Engineering",
+		"requiredTech": "Engineering"
 		//"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
 
@@ -688,7 +704,7 @@
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
 		"uniques": [
-			// BTS: +5 Culture from all state Religion buildings
+			// TODO: Sinstine Chapel gives +5 Culture from all state Religion buildings (BTS)
 			"[+2 Culture] from every specialist [in all cities]",
 			"[-50]% production cost <with [Marble]>"
 		],
@@ -703,7 +719,11 @@
 		"greatPersonPoints": {"Great Prophet": 2},
 		"isWonder": true,
 		"uniques": [
-			"[+2 Gold] from all [Religion] buildings",
+			"[+2 Gold] from all [Temple] buildings",
+			"[+2 Gold] from all [Cathedral] buildings",
+			"[+2 Gold] from all [Monastery] buildings",
+			"[+2 Gold] from all [Religious Shrine] buildings",
+			"Hidden when religion is disabled",
 			"[-50]% production cost <with [Stone]>"
 		],
 		"requiredTech": "Divine Right"

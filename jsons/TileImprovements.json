@@ -331,6 +331,7 @@
 			"Does not need removal of [All]",
             "Will not be replaced by automated units",
 			"Unpillagable",
+			"Irremovable",
 			"Excluded from map editor",
 			"Will not be displayed in Civilopedia",
 			"Tile provides yield without assigned population"
@@ -346,6 +347,7 @@
 			"Does not need removal of [All]",
             "Will not be replaced by automated units",
 			"Unpillagable",
+			"Irremovable",
 			"Excluded from map editor",
 			"Will not be displayed in Civilopedia",
 			"Tile provides yield without assigned population"
@@ -361,6 +363,7 @@
 			"Does not need removal of [All]",
             "Will not be replaced by automated units",
 			"Unpillagable",
+			"Irremovable",
 			"Excluded from map editor",
 			"Will not be displayed in Civilopedia",
 			"Tile provides yield without assigned population"
@@ -376,11 +379,13 @@
 			"Does not need removal of [All]",
             "Will not be replaced by automated units",
 			"Unpillagable",
+			"Irremovable",
 			"Excluded from map editor",
 			"Will not be displayed in Civilopedia",
 			"Tile provides yield without assigned population"
 		]
 	},
+
 	{
 		"name": "Great Scientist Specialist",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -391,11 +396,13 @@
 			"Does not need removal of [All]",
             "Will not be replaced by automated units",
 			"Unpillagable",
+			"Irremovable",
 			"Excluded from map editor",
 			"Will not be displayed in Civilopedia",
 			"Tile provides yield without assigned population"
 		]
 	},
+
 	{
 		"name": "Great General Specialist",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -404,9 +411,28 @@
 			"Does not need removal of [All]",
             "Will not be replaced by automated units",
 			"Unpillagable",
+			"Irremovable",
 			"Excluded from map editor",
 			"Will not be displayed in Civilopedia",
 			"Gives a defensive bonus of [+10]%" // TODO: "New [Military] units start with [2] Experience [in this city]"
+		]
+	},
+
+	{
+		"name": "Religious Shrine",
+		// See Religious Shrine building
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1, // Hack to allow automation
+		"uniques": [
+			"[-1 Culture]",
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Irremovable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Gain a free [Religious Shrine] [in capital]"
 		]
 	},
 
